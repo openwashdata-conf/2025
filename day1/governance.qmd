@@ -1,379 +1,446 @@
 ---
 title: "Governance"
-subtitle: "Shaping the Future of openwashdata"
-format:
+format: 
   revealjs:
-    theme: default
     slide-number: true
-    navigation-mode: linear
-    controls: true
-    progress: true
+    theme: simple
+    chalkboard: true
+    preview-links: true
 ---
 
-## Session Overview {.smaller}
+# Introduction
 
-**Time:** 14:00-15:00  
-**Format:** Interactive discussion with presentations
+## Starting point
 
-Today we'll explore governance models for open research software communities, drawing from best practices and adapting them to openwashdata's needs.
+> A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding and rough consensus of the problem being solved and work that needs to be done.
+>
+> — [Lorin Hochstein](https://twitter.com/norootcause/status/1441828577314369544)
 
-::: {.fragment}
-> "A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding"
-:::
+> In this house we call them "project managers".
+>
+> — [Greg Wilson](https://twitter.com/gvwilson/status/1442467916012822535)
 
 ---
 
-## Why Governance Matters
+## Research software
 
-:::: {.columns}
+- Software is created and run to answer a question
+- Papers, theses, and other reports are the product
+- The software is "just" a tool
+- Shades into projects that produce software for other researchers to use
 
-::: {.column width="50%"}
-**Without Good Governance:**
+---
+
+## You
+
+- Degree(s) in some research domain
+- Little or no formal training in software development
+- In a team of 1–12 people
+- Timelines of weeks to months
+
+![XKCD Dependency cartoon](./images/dependency.png){width="40%"}
+
+---
+
+## Me
+
+- Don't remember much statistics…
+- …but I've built a lot of complicated software…
+- …and I've been lucky enough to hang out with some very smart people
+
+<div align="center">
+  <p>
+    <img src="./images/beautiful-code.png" alt="Beautiful Code cover" />
+    <img src="./images/aosa1.png" alt="AOSA vol 1 cover" />
+    <img src="./images/aosa2.png" alt="AOSA vol 2 cover" />
+  </p>
+</div>
+
+---
+
+## Where we've been, where we're going
+
+<table>
+  <tr>
+    <th>Then</th>
+    <th>Now</th>
+    <th>Next</th>
+  </tr>
+  <tr>
+    <td>Dropbox</td>
+    <td>Git repository</td>
+    <td>Branching workflow</td>
+  </tr>
+  <tr>
+    <td>"Just do it"</td>
+    <td>Slack /<br/> mailing list</td>
+    <td>Martha's Rules</td>
+  </tr>
+  <tr>
+    <td>Interactive analysis</td>
+    <td>A big pile of scripts</td>
+    <td>Build tools /<br/> CI</td>
+  </tr>
+  <tr>
+    <td>Word /<br/> Google Docs</td>
+    <td>Notebooks /<br/> LaTeX</td>
+    <td>Site builder</td>
+  </tr>
+  <tr>
+    <td>"It doesn't crash"</td>
+    <td>"Are there any NAs?"</td>
+    <td>Assertions /<br/> unit tests</td>
+  </tr>
+  <tr>
+    <td>"Um, hi?"</td>
+    <td>README +<br/> LICENSE</td>
+    <td>CONTRIBUTING +<br/> CoC</td>
+  </tr>
+</table>
+
+---
+
+## Acknowledgments
+
+- Original workshop: Daniel Standage and Greg Wilson
+- [*Producing Open Source Software*](https://producingoss.com): Karl Fogel
+- *[Research Software Engineering with Python](https://merely-useful.tech/py-rse/)*: Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, and Greg Wilson
+- And everyone cited in [the bibliography](../bibliography/)
+
+![Cover of 'Research Software Engineering with Python'](./images/py-rse-cover.png){width="30%"}
+
+---
+
+## How is your project currently run? {.exercise}
+
+1. Who uses your software?
+1. How do they find it?
+1. Who decides what will happen next?
+1. How is that communicated?
+1. Who can make what kinds of changes?
+1. What happens automatically?
+1. How are newcomers brought on board?
+
+# Governance
+
+## What problems are we trying to solve?
 
 - Low productivity
-- Opaque decision-making
-- Unclear leadership
-- Frustration and conflicts
-- Difficulty scaling
-:::
-
-::: {.column width="50%"}
-**With Good Governance:**
-
-- Clear processes
-- Transparent decisions
-- Defined roles
-- Sustainable growth
-- Community trust
-:::
-
-::::
+  - "Oh no: not another meeting…"
+- Opaque decision making
+  - "Did we decide that?"
+  - "It's not what you know, it's who you know."
 
 ---
 
-## Governance Evolution Stages
+## The good news
 
-::: {.incremental}
-1. **Early Stage** (1-3 people)
-   - "Just do it" approach
-   - Minimal formal process
-   - Direct communication
+- You don't have to invent this yourself
+- <https://www.askamanager.org/>
 
-2. **Growing Stage** (4-8 people)
-   - Need for coordination
-   - Emerging documentation
-   - Basic collaboration tools
-
-3. **Mature Stage** (9+ people)
-   - Formal decision-making
-   - Comprehensive documentation
-   - Structured contribution process
-:::
+![Ask a Manager logo](./images/askamanager.png)
 
 ---
 
-## Where is openwashdata Today?
+## Governance models
 
-::: {.columns}
-
-::: {.column width="50%"}
-**Current State:**
-- Growing community
-- Multiple contributors
-- Various projects
-- Informal coordination
-:::
-
-::: {.column width="50%"}
-**Next Steps:**
-- Define governance model
-- Document processes
-- Clarify roles
-- Establish standards
-:::
-
-::::
-
-::: {.fragment}
-### Reflection Exercise (5 min)
-Think about: Where do you see openwashdata in this evolution?
-:::
+- <https://communityrule.info/> describes [lots of options](./images/gov-booklet-MASTER.pdf)
+- [Benevolent dictator](g#benevolent-dictator) (often the project founder)
+  - Common in young projects
+  - Brittle (founder can move on)
+  - Usually leads to emergence of unofficial (i.e., unaccountable) leaders
+- Elected representation
+  - Explicit rules for suffrage
+- Consensus-based
+  - If most people agree on most things most of the time
 
 ---
 
-## Common Governance Models
+## sidebar {.sidebar}
 
-::: {.incremental}
-- **Benevolent Dictator**
-  - Single leader makes final decisions
-  - Common in early projects
+## "Hero" programmers
+
+- Brooks advocated a [chief programmer](g#chief-programmer) model in the 1970s [@Brooks1995]
+  - Disparaged since then
+- But 80% of projects on GitHub are [hero projects](g#hero-project) [@Majumder2019]
+  - 5% or less of people responsible for 95% or more of interactions
+  - "Heroes" commit far fewer bugs than other contributors
+- Despite terminology, not a bad model for research projects
+  - [@Petre2014] found that people without domain knowledge couldn't review scientific code effectively
+
+---
+
+## [Martha's Rules](g#marthas-rules)
+
+- Anyone can put forward a proposal by filing it at least 24 hours before a scheduled meeting
+  - One-line summary
+  - Background information
+  - Concrete proposal
+  - Pros and cons
+  - Alternatives
+- At most two pages
+  - Preferably shorter
+
+---
+
+## Establishing a quorum
+
+- A quorum is established if half or more of voting members are present
+- Which means there must be:
+  - A rule about how to become a member
+  - A rule about when and how someone stops being a member
+- The meeting may not discuss or vote on a proposal unless its sponsor (or their delegate) is present.
+
+---
+
+## Presenting a proposal
+
+- The sponsor has 5 minutes to present the proposal
+- Members cast a [sense vote](g#sense-vote): support, neutral, or oppose
+  - If everyone supports or is neutral, go immediately to a binary vote with no further discussion
+  - If a majority is opposed or neutral, send proposal back to sponsor for further work
+- If a minority of members oppose, set a timer for 10 minutes of moderated discussion
+- Then call a final binary vote in which everyone must support or oppose (no neutral votes allowed)
+- If a majority support, the proposal is accepted
+  - Otherwise, it is returned to the sponsor for further work
+
+---
+
+## Roles and responsibilities
+
+<div align="center">
+<table>
+  <tr>
+    <th>Person</th>
+    <th>Roles</th>
+    <td rowspan="2"></td>
+    <th>Role</th>
+    <th>Task</th>
+  </tr>
+  <tr>
+    <td>ghopper</td>
+    <td>admin</td>
+    <td>admin</td>
+    <td>merge PRs</td>
+  </tr>
+  <tr>
+    <td>kjohnson</td>
+    <td>admin, commit</td>
+    <td align="center">×</td>
+    <td>admin</td>
+    <td>assign issues</td>
+  </tr>
+  <tr>
+    <td>aturing</td>
+    <td>commit</td>
+    <td rowspan="2"></td>
+    <td>commit</td>
+    <td>publish posts</td>
+  </tr>
+  <tr>
+    <td>bwk</td>
+    <td>commit</td>
+    <td>commit</td>
+    <td>file issues</td>
+  </tr>
+</table>
+</div>
+
+- Gives you a list of what actually needs to be done
+  - It's always longer than you first expect
+- Tells everyone who to go to for what
+  - Particularly when their first choice is on holiday
+- Helps with succession planning
+  - "We don't have anyone who does that any more…"
+
+---
+
+## Code of Conduct
+
+- Diverse communities need explicit norms
+  - "I didn't realize someone would find that offensive"
+  - Which is sometimes used dishonestly…
+- Adopt a [Code of Conduct](../conduct/) (e.g., [Python](https://www.python.org/psf/conduct/)'s)
+  - Its mere existence is a strong signal about the kind of community you are
+- Don't write one yourself
+  - You won't think of all the edge cases
+  - Using someone else's makes misunderstandings less likely
+- Use the [Contributor Covenant](https://www.contributor-covenant.org/)
+
+---
+
+## Code of Conduct
+
+- A Code of Conduct is only useful if it is enforced
+  - And if there is a clear reporting mechanism that community members trust
+- Be explicit about enforcement mechanisms and consequences
+- Designate an independent third party to handle complaints
+  - Trade off with another project lead
+  - *Do the background reading* [@Aurora2019]
+
+---
+
+## Meetings
+
+- On par with interruptions for "things people wish they could have less of"
+- Unlike interruptions, can be done well
+- As with governance, having rules is the first and biggest step toward efficiency
+
+---
+
+## 1. Does there actually need to be a meeting?
+
+- To *inform*? Only if you are expecting questions
+- To *consult*? Only if people get a vote
+  - Otherwise it's just informing with pretense
+- To *discuss* and *make decisions*? Yes
+  - But only in small groups
+  - Or with well-defined procedural rules
+- To *brainstorm* or *collaborate*?
+  - That's a very different kind of meeting
+
+---
+
+## 2. Create an agenda
+
+- If you don't care enough to make a list, you don't need a meeting
+- Include timings
+- Prioritize
+- Plan to end early
+  - "The most fundamental unit of time is the bladder"
+
+---
+
+## 3. Have clear rules for making decisions
+
+- "The Tyranny of Structurelessness" [@Freeman1972]
+- If you need [Robert's Rules](g#roberts-rules), you need training
+
+---
+
+## 4. Put someone in charge
+
+- The moderator should *not* do most of the talking
+  - Any more than the conductor plays most of the notes
+- Call on specific people in order
+- Allow them one point at a time
+- Keep a backlog
+
+---
+
+## 5. Require politeness
+
+- All the other rules are special cases of this…
+- No technology during in-person meeting
+  - Except for assistive technology or family need
+  - "Please put your devices in politeness mode"
+- No interruptions
+  - Except by moderator
+- No rambling
+- You *do* have a Code of Conduct, right?
+
+---
+
+## 6. Record minutes
+
+- So people who weren't there know what happened
+- So people who were there agree what happened
+- So people can be held accountable at later meetings
+
+---
+
+## 7. Manage "that guy"
+
+:::: {.columns}
+::: {.column width="50%"}
+
+    ![NOAA categorization of disruptive behavior types](./images/noaa-ddb.png){width="100%"}
   
-- **Elected Representatives**
-  - Community elects leaders
-  - Fixed terms and rotation
+:::
+::: {.column width="50%"}
+
+    <ul>
+      <li>The moderator's other job…</li>
+      <li>Three stickies</li>
+      <li>Interruption bingo</li>
+      <li><a href="https://coast.noaa.gov/ddb/">https://coast.noaa.gov/ddb/</a></li>
+    </ul>
   
-- **Consensus-Based**
-  - All members have equal say
-  - Decisions by agreement
-  
-- **Hybrid Models**
-  - Combine elements
-  - Adapt to community needs
 :::
-
----
-
-## Decision-Making: Martha's Rules {.smaller}
-
-A lightweight framework for inclusive decision-making:
-
-1. **Proposal Submission**
-   - Anyone can propose
-   - Written in advance
-   - Clear and specific
-
-2. **Preliminary Vote**
-   - Thumbs up: Agree
-   - Thumbs sideways: Discuss more
-   - Thumbs down: Serious concerns
-
-3. **Discussion & Revision**
-   - Address concerns
-   - Modify proposal
-
-4. **Final Vote**
-   - Clear majority needed
-   - Document decision
-
----
-
-## Key Governance Components
-
-### 1. Roles & Responsibilities
-
-::: {.incremental}
-- **Maintainers**: Technical decisions, code review
-- **Contributors**: Submit data, code, documentation
-- **Stewards**: Community management, outreach
-- **Users**: Feedback, bug reports
-:::
-
-::: {.fragment}
-**Question:** What roles do we need in openwashdata?
-:::
-
----
-
-## Key Governance Components
-
-### 2. Communication Channels
-
-::: {.columns}
-
-::: {.column width="50%"}
-**Internal:**
-- Slack/Discord
-- Regular meetings
-- Email lists
-- GitHub discussions
-:::
-
-::: {.column width="50%"}
-**External:**
-- Website
-- Blog posts
-- Social media
-- Conference talks
-:::
-
 ::::
 
 ---
 
-## Key Governance Components
+## 8. Be an active participant
 
-### 3. Documentation
-
-Essential documents for any open community:
-
-::: {.incremental}
-- **README**: Project overview
-- **CONTRIBUTING**: How to participate
-- **CODE_OF_CONDUCT**: Community standards
-- **LICENSE**: Legal framework
-- **GOVERNANCE**: Decision processes
-:::
+- Decline invitations
+  - *If* you agree to abide by what the meeting decides
+- Read the agenda and material before the meeting
+- Take your own notes
+- Use participants' names
+- Pause before speaking
+- Put down your hand
 
 ---
 
-## Community Standards
+## 9. Life online
 
-### Code of Conduct Essentials
-
-::: {.incremental}
-- **Clear expectations** for behavior
-- **Specific examples** of unacceptable conduct
-- **Enforcement mechanisms** that are fair
-- **Reporting process** that is safe
-- **Consequences** that are proportionate
-:::
-
-::: {.fragment}
-**Remember:** A code without enforcement is just decoration
-:::
+- No mixed-mode meetings
+  - All in person or all online
+- Do not record the meeting without willing consent
+- Review meeting protocol at the start if necessary
+- Take minutes in a shared document
+- Raise hands digitally
+  - `/hand` in the chat is good
+  - `/hand another budget item` is better
 
 ---
 
-## Meeting Management Best Practices
+## 10. Seek truth, not victory
 
-::: {.columns}
-
-::: {.column width="50%"}
-**Before:**
-- Is meeting necessary?
-- Clear agenda
-- Shared in advance
-- Assigned moderator
-:::
-
-::: {.column width="50%"}
-**During:**
-- Start on time
-- Follow agenda
-- Encourage participation
-- Take minutes
-:::
-
-::::
-
-::: {.fragment}
-**After:** Share minutes, action items, deadlines
-:::
+- No social dominance displays
+  - "Well actually…"
+- Don't raise points you don't actually believe in
+  - The devil doesn't need more advocates
+- Don't make excuses for your questions or opinions
+  - "This is probably stupid, but…"
 
 ---
 
-## Interactive Exercise: Governance Assessment {.smaller}
+## sidebar {.sidebar}
 
-**15 minutes - Small Groups**
+## Recommended reading
 
-Discuss and answer:
-
-1. **Who are our users?** How do they find us?
-2. **How do we make decisions** currently?
-3. **What gets in the way** of contributions?
-4. **How do we handle conflicts?**
-5. **How do we welcome newcomers?**
-6. **What could we automate?**
-
-::: {.fragment}
-**Share:** Each group presents one key insight
-:::
+- [@Brookfield2016] has a lot of good ideas for managing discussion
 
 ---
 
-## Proposed Governance Framework
+## exercise {.exercise}
 
-Based on best practices and community needs:
+## Decision making
 
-::: {.incremental}
-1. **Steering Committee** (3-5 members, rotating)
-2. **Working Groups** (data quality, tools, outreach)
-3. **Decision Process** (Martha's Rules for major decisions)
-4. **Documentation** (all five essential documents)
-5. **Regular Reviews** (quarterly governance check-ins)
-:::
+1. What decisions has your project made recently?
+1. Who made them?
+1. Where are they recorded?
 
 ---
 
-## Action Planning
+## exercise {.exercise}
 
-### Immediate Actions (Next 30 days)
+## What roles and responsibilities do you have?
 
-::: {.incremental}
-- Draft CODE_OF_CONDUCT
-- Create CONTRIBUTING guide
-- Define initial roles
-- Set up communication channels
-:::
-
-### Medium-term (3-6 months)
-
-::: {.incremental}
-- Implement decision process
-- Form working groups
-- Regular community calls
-- Document all processes
-:::
+1. List a dozen things people do to keep your project going in Column A.
+1. List people who contribute to the project in Column B.
+1. Draw lines to connect them. What roles can you identify?
 
 ---
 
-## Small Group Discussion (20 min)
+## exercise {.exercise}
 
-Break into groups of 3-4 to discuss:
+## Who decides?
 
-1. **Which governance model** fits openwashdata best?
-2. **What roles** do we need to define first?
-3. **What decisions** need a formal process?
-4. **How do we ensure** inclusive participation?
-
-::: {.fragment}
-**Report Back:** Each group shares top priority
-:::
-
----
-
-## Synthesis & Next Steps
-
-### Key Takeaways
-
-::: {.incremental}
-- Governance enables growth
-- Start simple, evolve as needed
-- Document everything
-- Be inclusive by design
-- Review and adapt regularly
-:::
-
----
-
-## Your Commitment
-
-Before we close, consider:
-
-::: {.incremental}
-- What governance aspect excites you most?
-- Where could you contribute?
-- What concerns do you have?
-- What support do you need?
-:::
-
-::: {.fragment}
-**Share:** One commitment or question with the group
-:::
-
----
-
-## Resources
-
-- [The Turing Way - Guide for Collaboration](https://the-turing-way.netlify.app/collaboration/collaboration.html)
-- [Open Source Guides - Leadership & Governance](https://opensource.guide/leadership-and-governance/)
-- [Apache Software Foundation - How it Works](https://www.apache.org/foundation/how-it-works.html)
-- [Research Software Engineering Handbook](https://alan-turing-institute.github.io/rse-course/)
-
----
-
-## Thank You!
-
-::: {.columns}
-
-::: {.column width="60%"}
-**Let's build a sustainable, inclusive governance model together!**
-
-Questions? Thoughts? Concerns?
-:::
-
-::: {.column width="40%"}
-![](https://raw.githubusercontent.com/larnsce/codebender/main/governance/noaa-ddb.png){width="300px"}
-:::
-
-::::
+1. Who gets a vote in your group?
+1. How are new people added to that pool?
+1. When and how do people lose their votes?
+1. Where and how do other people find out what has been decided and how it affects them?
+1. Where and how can non-voters raise issues?
