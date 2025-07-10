@@ -5,12 +5,12 @@ subtitle: "Preparation for the Claude Code Hackathon"
 
 ::: {.callout-important}
 ## Complete Before the Conference
-Please complete all steps below **before Day 2** of the conference to ensure you can fully participate in the hackathon.
+Please complete all steps below **before Day 2** of the conference to ensure you can fully participate in the hackathon. 
 :::
 
 ## Overview
 
-Day 2 features a hands-on hackathon using Claude Code. To make the most of our time together, please ensure your development environment is properly set up beforehand.
+Day 2 features a hands-on hackathon using Claude Code. The following are setup steps to ensure you can effectively use Claude Code and participate in the hackathon. The steps are listed for MacOS and Windows users, so please follow the instructions for your operating system. The steps for Windows were not tested, so please reach out if you encounter any issues.
 
 ## Required Setup Steps
 
@@ -20,7 +20,8 @@ Claude Code requires a subscription to the Max plan for full functionality.
 
 - Visit [Claude.ai](https://claude.ai)
 - Sign up or log in to your account
-- Subscribe to the Claude Max plan ($100/month) and send me your invoice
+- Subscribe to the Claude Max plan ($100/month) 
+- Send your invoice to Lars
 
 ::: {.callout-tip}
 You can cancel the subscription after the conference if you don't wish to continue using it. You will have access to it for 1 month.
@@ -47,16 +48,6 @@ You'll need to use the terminal/command line during the hackathon.
 2. Once installed, press `Win` key and type "Windows Terminal"
 3. Click to open Windows Terminal
 4. In the terminal, type `echo Terminal works!` and press Enter
-5. If you see "Terminal works!" printed, you're all set
-
-**Alternative: Command Prompt**
-
-If you can't install Windows Terminal:
-
-1. Press `Win + R` to open Run dialog
-2. Type "cmd" and press Enter
-3. You should see a command prompt window
-4. Type `echo Terminal works!` and press Enter
 5. If you see "Terminal works!" printed, you're all set
 :::
 
@@ -104,13 +95,15 @@ Python is required for many data processing tasks.
 Ensure you can access your GitHub account:
 
 1. Go to [github.com](https://github.com)
-2. Log in to your account (or create one if needed)
+2. Log in to your account
 3. Verify you can access your profile and repositories
 4. **Recommended:** Set up [two-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa)
 
 ### 5. Create Local Working Directory
 
-Create a dedicated folder for storing code repositories locally (not in cloud-synced folders).
+Create a dedicated folder for storing code repositories locally (not in cloud-synced folders). The recommended location is in your Documents folder, named `gitrepos`. Use your preferred way of creating directories (Finder, File Explorer, or terminal/command line).
+
+Below are the terminal commands for both macOS and Windows users.
 
 ::: {.panel-tabset}
 ## macOS
@@ -192,21 +185,25 @@ If you encounter any issues during setup:
 ### Common Issues
 
 **Claude Code won't install**
+
 - Ensure you have admin rights on your computer
 - Temporarily disable antivirus during installation
 - Try downloading again with a different browser
 
 **Python command not found**
+
 - Restart your terminal after installation
 - Ensure Python was added to PATH during installation
 - Try `python3` instead of `python` on macOS/Linux
 
 **Can't create gitrepos folder**
+
 - Ensure you have write permissions
 - Try creating in your user home directory
 - Avoid special characters in the path
 
 **GitHub invitation not received**
+
 - Check spam/junk folders
 - Verify your email address with organizers
 - Request a resend if needed

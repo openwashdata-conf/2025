@@ -1,26 +1,32 @@
 ---
 title: "Day 1: Community & Governance"
-date: "July 15, 2025"
+editor_options: 
+  chunk_output_type: console
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
+
+```{r}
+source(here::here("data/get_sheets_tables.R"))
+```
+
+## Pre-requisites
+
+- **Laptop**: Required for shared note-taking, especially in the afternoon sessions.
+- **Google Doc access**: We will take notes in a shared Google Doc. You will receive an email to test if you can access it. If you did not receive an email, please contact the organizers.
+- **Ideas for Hackathon**: Think about potential projects or topics you or somene else could  work on during the hackathon on Day 2.
 
 ## Schedule Overview
 
-| Time | Session | Facilitator |
-|------|---------|-------------|
-| 09:00-09:30 | Arrival & Welcome Coffee | |
-| 09:30-10:00 | [Warm-up Session](warmup.qmd) | Lars |
-| 10:00-10:45 | openwashdata community - past and future | |
-| 10:45-11:00 | *Coffee Break* | |
-| 11:00-12:00 | Data stewardship at BASEflow Malawi | Emmanuel |
-| 12:00-13:00 | *Lunch Break* | |
-| 13:00-13:30 | openwashdata & Open Research Data - GHE position | Liz |
-| 13:30-14:00 | Afternoon Warm-up: Positive Feedback Exercise | |
-| 14:00-15:00 | [Governance Discussion](governance.qmd) | |
-| 15:00-15:15 | *Coffee Break* | |
-| 15:15-16:00 | [Hackathon Ideation](ideation.qmd) | |
-| 16:00-17:00 | [Lean Coffee](lean-coffee.qmd) | |
-
-
+```{r}
+agenda_final |> 
+    filter(day == 1) |> 
+    select(-day) |> 
+    rename_with(~stringr::str_to_title(.x), everything()) |> 
+    knitr::kable()
+```
 
 ## Session Details
 
@@ -33,15 +39,15 @@ The day begins with a warm-up session led by Lars, followed by a reflection on t
 After lunch, Liz will present on the intersection of openwashdata and Open Research Data from the Global Health Engineering perspective. 
 
 The afternoon continues with:
-- **Positive Feedback Exercise** - An energizing warm-up activity to reconnect after lunch
-- **Governance Discussion** - Shaping the future structure and decision-making processes of openwashdata
-- **Hackathon Ideation** - Brainstorming and forming teams for Day 2's hackathon
+- **Positive Gossip Exercise** - An energizing warm-up activity to reconnect after lunch
+- **Governance Discussion** - Reflection on different governance style and how we might shape the future structure and decision-making processes of openwashdata
+- **Hackathon Ideation** - Preparing a long list of ideas for the hackathon on Day 2
 - **Lean Coffee** - An open, democratically-driven discussion on topics that matter most to the community
 
 ## What to Bring
 
 - Laptop for afternoon sessions
 - Note-taking materials
-- Ideas for community governance
+- Ideas for projects for the hackathon
 - Questions about openwashdata's future direction
 
