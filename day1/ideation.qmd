@@ -12,6 +12,8 @@ Prepare for Day 2's hackathon by generating and refining project ideas. This ses
 
 ## Ideation Process
 
+We'll be using a collaborative Google Doc to capture and organize ideas throughout this session.
+
 ### 1. Problem Identification (20 min)
 
 Identify key challenges in the water and sanitation data space:

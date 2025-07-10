@@ -59,7 +59,7 @@
     "href": "day1/index.html",
     "title": "Day 1: Community & Governance",
     "section": "",
-    "text": "Time\nSession\nFacilitator\n\n\n\n\n09:00-09:30\nArrival & Welcome Coffee\n\n\n\n09:30-10:00\nWarm-up Session\nLars\n\n\n10:00-10:45\nopenwashdata community - past and future\n\n\n\n10:45-11:00\nCoffee Break\n\n\n\n11:00-12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n\n\n12:00-13:00\nLunch Break\n\n\n\n13:00-13:30\nopenwashdata & Open Research Data - GHE position\nLiz\n\n\n13:30-17:00\nAfternoon Sessions (Work in Progress)",
+    "text": "Time\nSession\nFacilitator\n\n\n\n\n09:00-09:30\nArrival & Welcome Coffee\n\n\n\n09:30-10:00\nWarm-up Session\nLars\n\n\n10:00-10:45\nopenwashdata community - past and future\n\n\n\n10:45-11:00\nCoffee Break\n\n\n\n11:00-12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n\n\n12:00-13:00\nLunch Break\n\n\n\n13:00-13:30\nopenwashdata & Open Research Data - GHE position\nLiz\n\n\n13:30-14:00\nAfternoon Warm-up: Positive Feedback Exercise\n\n\n\n14:00-15:00\nGovernance Discussion\n\n\n\n15:00-15:15\nCoffee Break\n\n\n\n15:15-16:00\nHackathon Ideation\n\n\n\n16:00-17:00\nLean Coffee",
     "crumbs": [
       "Day 1 - July 15",
       "Overview"
@@ -70,7 +70,7 @@
     "href": "day1/index.html#schedule-overview",
     "title": "Day 1: Community & Governance",
     "section": "",
-    "text": "Time\nSession\nFacilitator\n\n\n\n\n09:00-09:30\nArrival & Welcome Coffee\n\n\n\n09:30-10:00\nWarm-up Session\nLars\n\n\n10:00-10:45\nopenwashdata community - past and future\n\n\n\n10:45-11:00\nCoffee Break\n\n\n\n11:00-12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n\n\n12:00-13:00\nLunch Break\n\n\n\n13:00-13:30\nopenwashdata & Open Research Data - GHE position\nLiz\n\n\n13:30-17:00\nAfternoon Sessions (Work in Progress)",
+    "text": "Time\nSession\nFacilitator\n\n\n\n\n09:00-09:30\nArrival & Welcome Coffee\n\n\n\n09:30-10:00\nWarm-up Session\nLars\n\n\n10:00-10:45\nopenwashdata community - past and future\n\n\n\n10:45-11:00\nCoffee Break\n\n\n\n11:00-12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n\n\n12:00-13:00\nLunch Break\n\n\n\n13:00-13:30\nopenwashdata & Open Research Data - GHE position\nLiz\n\n\n13:30-14:00\nAfternoon Warm-up: Positive Feedback Exercise\n\n\n\n14:00-15:00\nGovernance Discussion\n\n\n\n15:00-15:15\nCoffee Break\n\n\n\n15:15-16:00\nHackathon Ideation\n\n\n\n16:00-17:00\nLean Coffee",
     "crumbs": [
       "Day 1 - July 15",
       "Overview"
@@ -81,7 +81,7 @@
     "href": "day1/index.html#session-details",
     "title": "Day 1: Community & Governance",
     "section": "Session Details",
-    "text": "Session Details\n\nMorning Sessions\nThe day begins with a warm-up session led by Lars, followed by a reflection on the openwashdata community’s journey and future direction. Emmanuel will share insights on data stewardship implementation at BASEflow Malawi.\n\n\nAfternoon Sessions\nAfter lunch, Liz will present on the intersection of openwashdata and Open Research Data from the Global Health Engineering perspective. The afternoon continues with collaborative work sessions that are currently being finalized.",
+    "text": "Session Details\n\nMorning Sessions\nThe day begins with a warm-up session led by Lars, followed by a reflection on the openwashdata community’s journey and future direction. Emmanuel will share insights on data stewardship implementation at BASEflow Malawi.\n\n\nAfternoon Sessions\nAfter lunch, Liz will present on the intersection of openwashdata and Open Research Data from the Global Health Engineering perspective.\nThe afternoon continues with: - Positive Feedback Exercise - An energizing warm-up activity to reconnect after lunch - Governance Discussion - Shaping the future structure and decision-making processes of openwashdata - Hackathon Ideation - Brainstorming and forming teams for Day 2’s hackathon - Lean Coffee - An open, democratically-driven discussion on topics that matter most to the community",
     "crumbs": [
       "Day 1 - July 15",
       "Overview"
@@ -93,17 +93,6 @@
     "title": "Day 1: Community & Governance",
     "section": "What to Bring",
     "text": "What to Bring\n\nLaptop for afternoon sessions\nNote-taking materials\nIdeas for community governance\nQuestions about openwashdata’s future direction",
-    "crumbs": [
-      "Day 1 - July 15",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "day1/index.html#location",
-    "href": "day1/index.html#location",
-    "title": "Day 1: Community & Governance",
-    "section": "Location",
-    "text": "Location\nAll Day 1 sessions will be held at ETH Zurich. Detailed room information will be provided upon arrival.",
     "crumbs": [
       "Day 1 - July 15",
       "Overview"
@@ -125,7 +114,7 @@
     "href": "day1/governance.html#session-overview",
     "title": "Governance Discussion",
     "section": "Session Overview",
-    "text": "Session Overview\nJoin us for an important discussion about the governance structure of the openwashdata community. This session will explore how we can collectively shape decision-making processes and ensure sustainable growth.",
+    "text": "Session Overview\nTime: 14:00-15:00\nFormat: Interactive discussion with presentations\nToday we’ll explore governance models for open research software communities, drawing from best practices and adapting them to openwashdata’s needs.\n\n\n“A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding”",
     "crumbs": [
       "Day 1 - July 15",
       "Governance"
@@ -1050,7 +1039,7 @@
     "href": "day1/ideation.html#ideation-process",
     "title": "Hackathon Ideation",
     "section": "Ideation Process",
-    "text": "Ideation Process\n\n1. Problem Identification (20 min)\nIdentify key challenges in the water and sanitation data space:\n\nData collection gaps\nAnalysis tool needs\nVisualization requirements\nData quality issues\nAccessibility challenges\n\n\n\n2. Solution Brainstorming (30 min)\nGenerate potential solutions using:\n\nIndividual idea generation\nSmall group discussions\nRapid prototyping sketches\nTechnology stack considerations\n\n\n\n3. Project Pitches (30 min)\nQuick presentations of project ideas:\n\n2-minute pitches per idea\nProblem statement\nProposed solution\nRequired skills/team members\nExpected outcomes\n\n\n\n4. Team Formation (20 min)\nSelf-organize into hackathon teams:\n\nMatch skills to project needs\nBalance team sizes (3-5 people)\nDesignate team leads\nExchange contact information",
+    "text": "Ideation Process\nWe’ll be using a collaborative Google Doc to capture and organize ideas throughout this session.\n\n1. Problem Identification (20 min)\nIdentify key challenges in the water and sanitation data space:\n\nData collection gaps\nAnalysis tool needs\nVisualization requirements\nData quality issues\nAccessibility challenges\n\n\n\n2. Solution Brainstorming (30 min)\nGenerate potential solutions using:\n\nIndividual idea generation\nSmall group discussions\nRapid prototyping sketches\nTechnology stack considerations\n\n\n\n3. Project Pitches (30 min)\nQuick presentations of project ideas:\n\n2-minute pitches per idea\nProblem statement\nProposed solution\nRequired skills/team members\nExpected outcomes\n\n\n\n4. Team Formation (20 min)\nSelf-organize into hackathon teams:\n\nMatch skills to project needs\nBalance team sizes (3-5 people)\nDesignate team leads\nExchange contact information",
     "crumbs": [
       "Day 1 - July 15",
       "Ideation for Hackathon"
@@ -1098,6 +1087,204 @@
     "crumbs": [
       "Day 1 - July 15",
       "Ideation for Hackathon"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#why-governance-matters",
+    "href": "day1/governance.html#why-governance-matters",
+    "title": "Governance Discussion",
+    "section": "Why Governance Matters",
+    "text": "Why Governance Matters\n\n\nWithout Good Governance:\n\nLow productivity\nOpaque decision-making\nUnclear leadership\nFrustration and conflicts\nDifficulty scaling\n\n\nWith Good Governance:\n\nClear processes\nTransparent decisions\nDefined roles\nSustainable growth\nCommunity trust",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#governance-evolution-stages",
+    "href": "day1/governance.html#governance-evolution-stages",
+    "title": "Governance Discussion",
+    "section": "Governance Evolution Stages",
+    "text": "Governance Evolution Stages\n\n\nEarly Stage (1-3 people)\n\n“Just do it” approach\nMinimal formal process\nDirect communication\n\nGrowing Stage (4-8 people)\n\nNeed for coordination\nEmerging documentation\nBasic collaboration tools\n\nMature Stage (9+ people)\n\nFormal decision-making\nComprehensive documentation\nStructured contribution process",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#where-is-openwashdata-today",
+    "href": "day1/governance.html#where-is-openwashdata-today",
+    "title": "Governance Discussion",
+    "section": "Where is openwashdata Today?",
+    "text": "Where is openwashdata Today?\n\n\nCurrent State: - Growing community - Multiple contributors - Various projects - Informal coordination\n\nNext Steps: - Define governance model - Document processes - Clarify roles - Establish standards\n\n\n\nReflection Exercise (5 min)\nThink about: Where do you see openwashdata in this evolution?",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#common-governance-models",
+    "href": "day1/governance.html#common-governance-models",
+    "title": "Governance Discussion",
+    "section": "Common Governance Models",
+    "text": "Common Governance Models\n\n\nBenevolent Dictator\n\nSingle leader makes final decisions\nCommon in early projects\n\nElected Representatives\n\nCommunity elects leaders\nFixed terms and rotation\n\nConsensus-Based\n\nAll members have equal say\nDecisions by agreement\n\nHybrid Models\n\nCombine elements\nAdapt to community needs",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#decision-making-marthas-rules",
+    "href": "day1/governance.html#decision-making-marthas-rules",
+    "title": "Governance Discussion",
+    "section": "Decision-Making: Martha’s Rules",
+    "text": "Decision-Making: Martha’s Rules\nA lightweight framework for inclusive decision-making:\n\nProposal Submission\n\nAnyone can propose\nWritten in advance\nClear and specific\n\nPreliminary Vote\n\nThumbs up: Agree\nThumbs sideways: Discuss more\nThumbs down: Serious concerns\n\nDiscussion & Revision\n\nAddress concerns\nModify proposal\n\nFinal Vote\n\nClear majority needed\nDocument decision",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#key-governance-components",
+    "href": "day1/governance.html#key-governance-components",
+    "title": "Governance Discussion",
+    "section": "Key Governance Components",
+    "text": "Key Governance Components\n1. Roles & Responsibilities\n\n\nMaintainers: Technical decisions, code review\nContributors: Submit data, code, documentation\nStewards: Community management, outreach\nUsers: Feedback, bug reports\n\n\n\nQuestion: What roles do we need in openwashdata?",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#key-governance-components-1",
+    "href": "day1/governance.html#key-governance-components-1",
+    "title": "Governance Discussion",
+    "section": "Key Governance Components",
+    "text": "Key Governance Components\n2. Communication Channels\n\n\nInternal: - Slack/Discord - Regular meetings - Email lists - GitHub discussions\n\nExternal: - Website - Blog posts - Social media - Conference talks",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#key-governance-components-2",
+    "href": "day1/governance.html#key-governance-components-2",
+    "title": "Governance Discussion",
+    "section": "Key Governance Components",
+    "text": "Key Governance Components\n3. Documentation\nEssential documents for any open community:\n\n\nREADME: Project overview\nCONTRIBUTING: How to participate\nCODE_OF_CONDUCT: Community standards\nLICENSE: Legal framework\nGOVERNANCE: Decision processes",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#community-standards",
+    "href": "day1/governance.html#community-standards",
+    "title": "Governance Discussion",
+    "section": "Community Standards",
+    "text": "Community Standards\nCode of Conduct Essentials\n\n\nClear expectations for behavior\nSpecific examples of unacceptable conduct\nEnforcement mechanisms that are fair\nReporting process that is safe\nConsequences that are proportionate\n\n\n\nRemember: A code without enforcement is just decoration",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#meeting-management-best-practices",
+    "href": "day1/governance.html#meeting-management-best-practices",
+    "title": "Governance Discussion",
+    "section": "Meeting Management Best Practices",
+    "text": "Meeting Management Best Practices\n\n\nBefore: - Is meeting necessary? - Clear agenda - Shared in advance - Assigned moderator\n\nDuring: - Start on time - Follow agenda - Encourage participation - Take minutes\n\n\nAfter: Share minutes, action items, deadlines",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#interactive-exercise-governance-assessment",
+    "href": "day1/governance.html#interactive-exercise-governance-assessment",
+    "title": "Governance Discussion",
+    "section": "Interactive Exercise: Governance Assessment",
+    "text": "Interactive Exercise: Governance Assessment\n15 minutes - Small Groups\nDiscuss and answer:\n\nWho are our users? How do they find us?\nHow do we make decisions currently?\nWhat gets in the way of contributions?\nHow do we handle conflicts?\nHow do we welcome newcomers?\nWhat could we automate?\n\n\nShare: Each group presents one key insight",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#proposed-governance-framework",
+    "href": "day1/governance.html#proposed-governance-framework",
+    "title": "Governance Discussion",
+    "section": "Proposed Governance Framework",
+    "text": "Proposed Governance Framework\nBased on best practices and community needs:\n\n\nSteering Committee (3-5 members, rotating)\nWorking Groups (data quality, tools, outreach)\nDecision Process (Martha’s Rules for major decisions)\nDocumentation (all five essential documents)\nRegular Reviews (quarterly governance check-ins)",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#action-planning",
+    "href": "day1/governance.html#action-planning",
+    "title": "Governance Discussion",
+    "section": "Action Planning",
+    "text": "Action Planning\nImmediate Actions (Next 30 days)\n\n\nDraft CODE_OF_CONDUCT\nCreate CONTRIBUTING guide\nDefine initial roles\nSet up communication channels\n\n\nMedium-term (3-6 months)\n\n\nImplement decision process\nForm working groups\nRegular community calls\nDocument all processes",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#small-group-discussion-20-min",
+    "href": "day1/governance.html#small-group-discussion-20-min",
+    "title": "Governance Discussion",
+    "section": "Small Group Discussion (20 min)",
+    "text": "Small Group Discussion (20 min)\nBreak into groups of 3-4 to discuss:\n\nWhich governance model fits openwashdata best?\nWhat roles do we need to define first?\nWhat decisions need a formal process?\nHow do we ensure inclusive participation?\n\n\nReport Back: Each group shares top priority",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#synthesis-next-steps",
+    "href": "day1/governance.html#synthesis-next-steps",
+    "title": "Governance Discussion",
+    "section": "Synthesis & Next Steps",
+    "text": "Synthesis & Next Steps\nKey Takeaways\n\n\nGovernance enables growth\nStart simple, evolve as needed\nDocument everything\nBe inclusive by design\nReview and adapt regularly",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#your-commitment",
+    "href": "day1/governance.html#your-commitment",
+    "title": "Governance Discussion",
+    "section": "Your Commitment",
+    "text": "Your Commitment\nBefore we close, consider:\n\n\nWhat governance aspect excites you most?\nWhere could you contribute?\nWhat concerns do you have?\nWhat support do you need?\n\n\n\nShare: One commitment or question with the group",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#resources",
+    "href": "day1/governance.html#resources",
+    "title": "Governance Discussion",
+    "section": "Resources",
+    "text": "Resources\n\nThe Turing Way - Guide for Collaboration\nOpen Source Guides - Leadership & Governance\nApache Software Foundation - How it Works\nResearch Software Engineering Handbook",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#thank-you",
+    "href": "day1/governance.html#thank-you",
+    "title": "Governance Discussion",
+    "section": "Thank You!",
+    "text": "Thank You!\n\n\nLet’s build a sustainable, inclusive governance model together!\nQuestions? Thoughts? Concerns?",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
     ]
   }
 ]
