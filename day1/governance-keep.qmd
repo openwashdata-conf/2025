@@ -1,0 +1,379 @@
+---
+title: "Governance"
+subtitle: "Shaping the Future of openwashdata"
+format:
+  revealjs:
+    theme: default
+    slide-number: true
+    navigation-mode: linear
+    controls: true
+    progress: true
+---
+
+## Session Overview {.smaller}
+
+**Time:** 14:00-15:00  
+**Format:** Interactive discussion with presentations
+
+Today we'll explore governance models for open research software communities, drawing from best practices and adapting them to openwashdata's needs.
+
+::: {.fragment}
+> "A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding"
+:::
+
+---
+
+## Why Governance Matters
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Without Good Governance:**
+
+- Low productivity
+- Opaque decision-making
+- Unclear leadership
+- Frustration and conflicts
+- Difficulty scaling
+:::
+
+::: {.column width="50%"}
+**With Good Governance:**
+
+- Clear processes
+- Transparent decisions
+- Defined roles
+- Sustainable growth
+- Community trust
+:::
+
+::::
+
+---
+
+## Governance Evolution Stages
+
+::: {.incremental}
+1. **Early Stage** (1-3 people)
+   - "Just do it" approach
+   - Minimal formal process
+   - Direct communication
+
+2. **Growing Stage** (4-8 people)
+   - Need for coordination
+   - Emerging documentation
+   - Basic collaboration tools
+
+3. **Mature Stage** (9+ people)
+   - Formal decision-making
+   - Comprehensive documentation
+   - Structured contribution process
+:::
+
+---
+
+## Where is openwashdata Today?
+
+::: {.columns}
+
+::: {.column width="50%"}
+**Current State:**
+- Growing community
+- Multiple contributors
+- Various projects
+- Informal coordination
+:::
+
+::: {.column width="50%"}
+**Next Steps:**
+- Define governance model
+- Document processes
+- Clarify roles
+- Establish standards
+:::
+
+::::
+
+::: {.fragment}
+### Reflection Exercise (5 min)
+Think about: Where do you see openwashdata in this evolution?
+:::
+
+---
+
+## Common Governance Models
+
+::: {.incremental}
+- **Benevolent Dictator**
+  - Single leader makes final decisions
+  - Common in early projects
+  
+- **Elected Representatives**
+  - Community elects leaders
+  - Fixed terms and rotation
+  
+- **Consensus-Based**
+  - All members have equal say
+  - Decisions by agreement
+  
+- **Hybrid Models**
+  - Combine elements
+  - Adapt to community needs
+:::
+
+---
+
+## Decision-Making: Martha's Rules {.smaller}
+
+A lightweight framework for inclusive decision-making:
+
+1. **Proposal Submission**
+   - Anyone can propose
+   - Written in advance
+   - Clear and specific
+
+2. **Preliminary Vote**
+   - Thumbs up: Agree
+   - Thumbs sideways: Discuss more
+   - Thumbs down: Serious concerns
+
+3. **Discussion & Revision**
+   - Address concerns
+   - Modify proposal
+
+4. **Final Vote**
+   - Clear majority needed
+   - Document decision
+
+---
+
+## Key Governance Components
+
+### 1. Roles & Responsibilities
+
+::: {.incremental}
+- **Maintainers**: Technical decisions, code review
+- **Contributors**: Submit data, code, documentation
+- **Stewards**: Community management, outreach
+- **Users**: Feedback, bug reports
+:::
+
+::: {.fragment}
+**Question:** What roles do we need in openwashdata?
+:::
+
+---
+
+## Key Governance Components
+
+### 2. Communication Channels
+
+::: {.columns}
+
+::: {.column width="50%"}
+**Internal:**
+- Slack/Discord
+- Regular meetings
+- Email lists
+- GitHub discussions
+:::
+
+::: {.column width="50%"}
+**External:**
+- Website
+- Blog posts
+- Social media
+- Conference talks
+:::
+
+::::
+
+---
+
+## Key Governance Components
+
+### 3. Documentation
+
+Essential documents for any open community:
+
+::: {.incremental}
+- **README**: Project overview
+- **CONTRIBUTING**: How to participate
+- **CODE_OF_CONDUCT**: Community standards
+- **LICENSE**: Legal framework
+- **GOVERNANCE**: Decision processes
+:::
+
+---
+
+## Community Standards
+
+### Code of Conduct Essentials
+
+::: {.incremental}
+- **Clear expectations** for behavior
+- **Specific examples** of unacceptable conduct
+- **Enforcement mechanisms** that are fair
+- **Reporting process** that is safe
+- **Consequences** that are proportionate
+:::
+
+::: {.fragment}
+**Remember:** A code without enforcement is just decoration
+:::
+
+---
+
+## Meeting Management Best Practices
+
+::: {.columns}
+
+::: {.column width="50%"}
+**Before:**
+- Is meeting necessary?
+- Clear agenda
+- Shared in advance
+- Assigned moderator
+:::
+
+::: {.column width="50%"}
+**During:**
+- Start on time
+- Follow agenda
+- Encourage participation
+- Take minutes
+:::
+
+::::
+
+::: {.fragment}
+**After:** Share minutes, action items, deadlines
+:::
+
+---
+
+## Interactive Exercise: Governance Assessment {.smaller}
+
+**15 minutes - Small Groups**
+
+Discuss and answer:
+
+1. **Who are our users?** How do they find us?
+2. **How do we make decisions** currently?
+3. **What gets in the way** of contributions?
+4. **How do we handle conflicts?**
+5. **How do we welcome newcomers?**
+6. **What could we automate?**
+
+::: {.fragment}
+**Share:** Each group presents one key insight
+:::
+
+---
+
+## Proposed Governance Framework
+
+Based on best practices and community needs:
+
+::: {.incremental}
+1. **Steering Committee** (3-5 members, rotating)
+2. **Working Groups** (data quality, tools, outreach)
+3. **Decision Process** (Martha's Rules for major decisions)
+4. **Documentation** (all five essential documents)
+5. **Regular Reviews** (quarterly governance check-ins)
+:::
+
+---
+
+## Action Planning
+
+### Immediate Actions (Next 30 days)
+
+::: {.incremental}
+- Draft CODE_OF_CONDUCT
+- Create CONTRIBUTING guide
+- Define initial roles
+- Set up communication channels
+:::
+
+### Medium-term (3-6 months)
+
+::: {.incremental}
+- Implement decision process
+- Form working groups
+- Regular community calls
+- Document all processes
+:::
+
+---
+
+## Small Group Discussion (20 min)
+
+Break into groups of 3-4 to discuss:
+
+1. **Which governance model** fits openwashdata best?
+2. **What roles** do we need to define first?
+3. **What decisions** need a formal process?
+4. **How do we ensure** inclusive participation?
+
+::: {.fragment}
+**Report Back:** Each group shares top priority
+:::
+
+---
+
+## Synthesis & Next Steps
+
+### Key Takeaways
+
+::: {.incremental}
+- Governance enables growth
+- Start simple, evolve as needed
+- Document everything
+- Be inclusive by design
+- Review and adapt regularly
+:::
+
+---
+
+## Your Commitment
+
+Before we close, consider:
+
+::: {.incremental}
+- What governance aspect excites you most?
+- Where could you contribute?
+- What concerns do you have?
+- What support do you need?
+:::
+
+::: {.fragment}
+**Share:** One commitment or question with the group
+:::
+
+---
+
+## Resources
+
+- [The Turing Way - Guide for Collaboration](https://the-turing-way.netlify.app/collaboration/collaboration.html)
+- [Open Source Guides - Leadership & Governance](https://opensource.guide/leadership-and-governance/)
+- [Apache Software Foundation - How it Works](https://www.apache.org/foundation/how-it-works.html)
+- [Research Software Engineering Handbook](https://alan-turing-institute.github.io/rse-course/)
+
+---
+
+## Thank You!
+
+::: {.columns}
+
+::: {.column width="60%"}
+**Let's build a sustainable, inclusive governance model together!**
+
+Questions? Thoughts? Concerns?
+:::
+
+::: {.column width="40%"}
+![](https://raw.githubusercontent.com/larnsce/codebender/main/governance/noaa-ddb.png){width="300px"}
+:::
+
+::::
