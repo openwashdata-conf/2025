@@ -1,0 +1,117 @@
+---
+title: "Why Claude Code"
+subtitle: "AI-Assisted Development for openwashdata"
+---
+
+**Time:** 09:30-10:00  
+**Format:** Presentation and demonstration
+
+## Session Overview
+
+Discover how Claude Code can accelerate your development workflow and enable you to build more ambitious projects during today's hackathon.
+
+## What is Claude Code?
+
+Claude Code is an AI-powered development assistant that can:
+
+- Write, debug, and refactor code
+- Explain complex codebases
+- Generate documentation
+- Suggest improvements
+- Help with API integrations
+- Assist with data processing
+
+## Why Use Claude Code for openwashdata?
+
+### 1. Rapid Prototyping
+
+- Quickly generate boilerplate code
+- Implement complex algorithms
+- Create data processing pipelines
+- Build visualization components
+
+### 2. Learning Acceleration
+
+- Understand unfamiliar codebases
+- Learn new programming languages
+- Explore best practices
+- Get instant explanations
+
+### 3. Quality Improvement
+
+- Catch bugs early
+- Improve code structure
+- Ensure consistent style
+- Add comprehensive testing
+
+### 4. Documentation
+
+- Generate clear documentation
+- Create usage examples
+- Write API references
+- Explain complex logic
+
+## Real-World Examples
+
+During this session, we'll demonstrate:
+
+1. **Data Pipeline Creation**
+   - Processing raw water quality data
+   - Validation and cleaning
+   - Format transformation
+
+2. **Visualization Development**
+   - Creating interactive charts
+   - Building dashboards
+   - Responsive design
+
+3. **API Integration**
+   - Connecting to openwashdata APIs
+   - Authentication handling
+   - Error management
+
+## Best Practices
+
+### Effective Prompting
+
+- Be specific about requirements
+- Provide context and examples
+- Iterate on responses
+- Verify generated code
+
+### Working with Claude Code
+
+1. Start with clear problem definition
+2. Break down complex tasks
+3. Review and understand generated code
+4. Test incrementally
+5. Refine based on results
+
+### Limitations to Consider
+
+- Always review generated code
+- Test thoroughly
+- Understand what you're implementing
+- Use for assistance, not replacement
+
+## Hackathon Integration
+
+How to leverage Claude Code today:
+
+- **Planning:** Outline project architecture
+- **Implementation:** Generate code snippets
+- **Debugging:** Identify and fix issues
+- **Documentation:** Create project docs
+- **Learning:** Understand new concepts
+
+## Resources
+
+- [Claude Code Documentation](https://claude.ai/docs)
+- Example prompts for common tasks
+- Code templates for openwashdata
+- Best practices guide
+
+::: {.callout-tip}
+## Pro Tip
+Claude Code works best when you maintain a conversation. Build on previous responses and provide feedback for better results.
+:::

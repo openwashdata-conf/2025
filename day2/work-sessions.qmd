@@ -1,0 +1,214 @@
+---
+title: "Work Sessions"
+subtitle: "Time to Build!"
+---
+
+## Session Schedule
+
+| Session | Time | Focus |
+|---------|------|-------|
+| Work Session 1 | 11:15-12:30 | Setup & Core Development |
+| Work Session 2 | 13:30-15:00 | Feature Implementation |
+| Work Session 3 | 15:00-15:30 | Polish & Documentation |
+
+## Work Session Guidelines
+
+### Effective Collaboration
+
+**Communication:**
+- Regular team check-ins (every 30 min)
+- Share progress and blockers
+- Ask for help early
+- Update shared documents
+
+**Version Control:**
+```bash
+# Commit frequently
+git add .
+git commit -m "Add: [feature description]"
+
+# Push to remote repository
+git push origin main
+
+# Pull teammate changes
+git pull origin main
+```
+
+### Using Claude Code Effectively
+
+**Good prompts for Claude Code:**
+
+1. **Specific Implementation:**
+   > "Create a Python function that validates water quality data against WHO standards. The function should check pH (6.5-8.5), turbidity (<5 NTU), and return validation errors."
+
+2. **Debugging Help:**
+   > "This function throws a KeyError when processing CSV files. Here's the code and error message. How can I fix it?"
+
+3. **Code Improvement:**
+   > "Refactor this data processing code to be more efficient and add error handling for missing values."
+
+4. **Documentation:**
+   > "Generate comprehensive docstrings for these functions and create a usage example for the README."
+
+### Development Workflow
+
+#### Session 1: Foundation (11:15-12:30)
+
+**Goals:**
+- Environment setup complete
+- Core data structures defined
+- Basic functionality working
+- Initial tests passing
+
+**Checklist:**
+- [ ] Dependencies installed
+- [ ] Project structure created
+- [ ] Core modules outlined
+- [ ] Sample data loaded
+- [ ] First function working
+
+#### Session 2: Features (13:30-15:00)
+
+**Goals:**
+- Main features implemented
+- User interface functional
+- Data flow complete
+- Error handling added
+
+**Checklist:**
+- [ ] Key features working
+- [ ] Input/output verified
+- [ ] Basic UI complete
+- [ ] Edge cases handled
+- [ ] Integration tested
+
+#### Session 3: Polish (15:00-15:30)
+
+**Goals:**
+- Documentation complete
+- Demo prepared
+- Code cleaned up
+- Repository organized
+
+**Checklist:**
+- [ ] README updated
+- [ ] Usage examples added
+- [ ] Code commented
+- [ ] Demo script ready
+- [ ] Presentation planned
+
+## Available Resources
+
+### Mentors
+
+Technical mentors are circulating to help with:
+- Architecture decisions
+- Debugging assistance
+- Code reviews
+- Best practices
+- Tool recommendations
+
+### Data Sources
+
+**openwashdata resources:**
+- [API Documentation](https://openwashdata.org/api)
+- [Sample Datasets](https://openwashdata.org/datasets)
+- [Data Schemas](https://openwashdata.org/schemas)
+
+### Quick References
+
+**Python Data Processing:**
+```python
+import pandas as pd
+import numpy as np
+
+# Load data
+df = pd.read_csv('water_quality.csv')
+
+# Basic processing
+df_clean = df.dropna()
+df_filtered = df[df['ph'] > 6.5]
+```
+
+**JavaScript Visualization:**
+```javascript
+// Using Chart.js
+const ctx = document.getElementById('myChart');
+const chart = new Chart(ctx, {
+    type: 'line',
+    data: waterQualityData,
+    options: chartOptions
+});
+```
+
+**Git Commands:**
+```bash
+# Check status
+git status
+
+# Create branch
+git checkout -b feature-name
+
+# Merge changes
+git checkout main
+git merge feature-name
+```
+
+## Common Challenges
+
+### Time Management
+
+- Set mini-deadlines
+- Focus on MVP first
+- Don't over-engineer
+- Leave time for documentation
+
+### Technical Issues
+
+- **Import errors:** Check package installation
+- **API limits:** Use cached/sample data
+- **Merge conflicts:** Communicate before major changes
+- **Performance:** Optimize later, functionality first
+
+### Team Dynamics
+
+- Assign clear ownership
+- Respect different skill levels
+- Share knowledge actively
+- Celebrate small wins
+
+## Progress Tracking
+
+Use this template in your repository:
+
+```markdown
+## Progress Log
+
+### Session 1 (11:15-12:30)
+- [x] Task 1 completed
+- [x] Task 2 completed
+- [ ] Task 3 in progress
+
+### Session 2 (13:30-15:00)
+- [ ] Feature A
+- [ ] Feature B
+
+### Session 3 (15:00-15:30)
+- [ ] Documentation
+- [ ] Demo preparation
+```
+
+## Final Push Checklist
+
+Before the showcase:
+
+1. **Code:** Main functionality working?
+2. **Docs:** README explains project?
+3. **Demo:** Can you show it working?
+4. **Team:** Everyone knows their part?
+5. **Time:** Presentation under 5 minutes?
+
+::: {.callout-tip}
+## Remember
+Done is better than perfect! Focus on demonstrating your core idea.
+:::

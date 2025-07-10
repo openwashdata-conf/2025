@@ -1,0 +1,203 @@
+---
+title: "Day 2 Prerequisites"
+subtitle: "Preparation for the Claude Code Hackathon"
+---
+
+::: {.callout-important}
+## Complete Before the Conference
+Please complete all steps below **before Day 2** of the conference to ensure you can fully participate in the hackathon.
+:::
+
+## Overview
+
+Day 2 features a hands-on hackathon using Claude Code. To make the most of our time together, please ensure your development environment is properly set up beforehand.
+
+## Required Setup Steps
+
+### 1. Get Claude Code Max Plan
+
+Claude Code requires a subscription to the Max plan for full functionality.
+
+- Visit [Claude.ai](https://claude.ai)
+- Sign up or log in to your account
+- Subscribe to the Claude Max plan ($20/month)
+- Download and install Claude Code following the instructions
+
+::: {.callout-tip}
+You can cancel the subscription after the conference if you don't wish to continue using it.
+:::
+
+### 2. Verify Terminal Access
+
+You'll need to use the terminal/command line during the hackathon.
+
+::: {.panel-tabset}
+## macOS
+
+1. Press `Cmd + Space` to open Spotlight
+2. Type "Terminal" and press Enter
+3. You should see a window with a command prompt
+4. Type `echo "Terminal works!"` and press Enter
+5. If you see "Terminal works!" printed, you're all set
+
+## Windows
+
+1. Press `Win + R` to open Run dialog
+2. Type "cmd" and press Enter (or use PowerShell)
+3. You should see a command prompt window
+4. Type `echo Terminal works!` and press Enter
+5. If you see "Terminal works!" printed, you're all set
+
+**Alternative:** Consider installing [Windows Terminal](https://aka.ms/terminal) from the Microsoft Store for a better experience.
+:::
+
+### 3. Install Python
+
+Python is required for many data processing tasks.
+
+::: {.panel-tabset}
+## macOS
+
+1. Check if Python is installed:
+   ```bash
+   python3 --version
+   ```
+
+2. If not installed, install using Homebrew:
+   ```bash
+   # Install Homebrew first if you don't have it
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   
+   # Then install Python
+   brew install python
+   ```
+
+3. Verify installation:
+   ```bash
+   python3 --version
+   pip3 --version
+   ```
+
+## Windows
+
+1. Download Python from [python.org](https://www.python.org/downloads/)
+2. Run the installer
+3. **Important:** Check "Add Python to PATH" during installation
+4. Open a new command prompt and verify:
+   ```cmd
+   python --version
+   pip --version
+   ```
+:::
+
+### 4. GitHub Account Setup
+
+Ensure you can access your GitHub account:
+
+1. Go to [github.com](https://github.com)
+2. Log in to your account (or create one if needed)
+3. Verify you can access your profile and repositories
+4. **Recommended:** Set up [two-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa)
+
+### 5. Create Local Working Directory
+
+Create a dedicated folder for storing code repositories locally (not in cloud-synced folders).
+
+::: {.panel-tabset}
+## macOS
+
+```bash
+# Create the directory
+mkdir -p ~/gitrepos
+
+# Navigate to it
+cd ~/gitrepos
+
+# Verify it exists
+pwd
+```
+
+You should see: `/Users/yourusername/gitrepos`
+
+## Windows
+
+```cmd
+# Create the directory
+mkdir C:\gitrepos
+
+# Navigate to it
+cd C:\gitrepos
+
+# Verify it exists
+cd
+```
+
+You should see: `C:\gitrepos`
+:::
+
+::: {.callout-warning}
+## Important: Avoid Cloud-Synced Folders
+Do **not** create your `gitrepos` folder inside:
+- OneDrive
+- Google Drive
+- Dropbox
+- iCloud Drive
+
+These services can interfere with Git operations.
+:::
+
+### 6. Accept GitHub Organization Invitation
+
+Before the conference, you'll receive an invitation to join the `openwashdata-conf` GitHub organization.
+
+1. Check your email for the invitation
+2. Click the invitation link
+3. Accept the invitation to join the organization
+4. Verify access at: [github.com/openwashdata-conf](https://github.com/openwashdata-conf)
+
+::: {.callout-note}
+If you haven't received an invitation by July 10, please contact the organizing team.
+:::
+
+## Verification Checklist
+
+Before Day 2, ensure you can check all these boxes:
+
+- [ ] Claude Code Max plan active
+- [ ] Terminal/command line accessible
+- [ ] Python installed and working
+- [ ] GitHub account accessible
+- [ ] Local `gitrepos` folder created
+- [ ] Member of `openwashdata-conf` organization
+
+## Need Help?
+
+If you encounter any issues during setup:
+
+1. Check our [troubleshooting guide](#troubleshooting) below
+2. Ask in the conference Slack channel
+3. Email us at [tech-support@openwashdata.org](mailto:tech-support@openwashdata.org)
+
+## Troubleshooting {#troubleshooting}
+
+### Common Issues
+
+**Claude Code won't install**
+- Ensure you have admin rights on your computer
+- Temporarily disable antivirus during installation
+- Try downloading again with a different browser
+
+**Python command not found**
+- Restart your terminal after installation
+- Ensure Python was added to PATH during installation
+- Try `python3` instead of `python` on macOS/Linux
+
+**Can't create gitrepos folder**
+- Ensure you have write permissions
+- Try creating in your user home directory
+- Avoid special characters in the path
+
+**GitHub invitation not received**
+- Check spam/junk folders
+- Verify your email address with organizers
+- Request a resend if needed

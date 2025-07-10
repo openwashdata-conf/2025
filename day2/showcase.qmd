@@ -1,0 +1,184 @@
+---
+title: "Project Showcase"
+subtitle: "Celebrating Your Achievements"
+---
+
+**Time:** 15:30-16:15  
+**Format:** Team presentations
+
+## Showcase Overview
+
+The culmination of our hackathon! Each team presents their project to the community, demonstrating solutions built to address openwashdata challenges.
+
+## Presentation Format
+
+### Time Allocation
+
+**5 minutes per team:**
+- 3 minutes: Demo and explanation
+- 1 minute: Technical approach
+- 1 minute: Q&A and feedback
+
+### Presentation Structure
+
+1. **Problem Statement (30 seconds)**
+   - What challenge did you address?
+   - Why is it important?
+
+2. **Solution Demo (2 minutes)**
+   - Live demonstration preferred
+   - Show key functionality
+   - Highlight user benefits
+
+3. **Technical Approach (1 minute)**
+   - Technologies used
+   - Architecture overview
+   - Key challenges overcome
+
+4. **Next Steps (30 seconds)**
+   - Future development plans
+   - How others can contribute
+   - Repository and documentation
+
+5. **Q&A (1 minute)**
+   - Answer audience questions
+   - Receive feedback
+   - Note suggestions
+
+## Presentation Tips
+
+### Do's
+
+- **Start with impact:** Show what your solution does immediately
+- **Keep it simple:** Focus on core functionality
+- **Be honest:** Share what works and what's still in progress
+- **Show enthusiasm:** Your passion is contagious
+- **Credit team:** Acknowledge all contributors
+
+### Don'ts
+
+- Don't apologize for incomplete features
+- Don't spend time on setup/installation
+- Don't read from slides
+- Don't exceed time limit
+- Don't forget to breathe!
+
+## Demo Best Practices
+
+### Preparation
+
+1. **Test everything:** Run through demo multiple times
+2. **Have backup:** Screenshots/video if live demo fails
+3. **Prepare data:** Use realistic sample data
+4. **Check equipment:** Test projector/screen connection
+5. **Assign roles:** Who presents what?
+
+### During Demo
+
+```markdown
+## Demo Checklist
+- [ ] Start with working state
+- [ ] Explain what you're showing
+- [ ] Go slowly - audience needs time
+- [ ] Highlight key features
+- [ ] Show actual output/results
+```
+
+### Technical Setup
+
+- Close unnecessary applications
+- Increase font size for visibility
+- Have terminal/browser ready
+- Disable notifications
+- Use presentation mode if available
+
+## Evaluation Criteria
+
+While this isn't a competition, we celebrate:
+
+1. **Innovation:** Creative approach to problems
+2. **Impact:** Potential benefit to community
+3. **Technical Merit:** Code quality and architecture
+4. **Collaboration:** Teamwork and knowledge sharing
+5. **Documentation:** Clear explanation and future usability
+
+## Showcase Participation
+
+### As a Presenter
+
+- Be proud of your work
+- Welcome feedback gracefully
+- Network with interested parties
+- Share repository links
+- Follow up on suggestions
+
+### As an Audience Member
+
+- Give full attention to presenters
+- Ask constructive questions
+- Offer positive feedback
+- Note projects to explore later
+- Connect with interesting teams
+
+## Post-Showcase
+
+### Immediate Actions
+
+1. **Share Resources:**
+   - Post repository links in Slack
+   - Share presentation materials
+   - Document feedback received
+
+2. **Connect:**
+   - Exchange contacts with interested parties
+   - Discuss collaboration opportunities
+   - Plan follow-up meetings
+
+3. **Celebrate:**
+   - Acknowledge team effort
+   - Reflect on learning
+   - Enjoy the achievement
+
+### Follow-up Actions
+
+**Within 1 week:**
+- Update repository with showcase feedback
+- Create issues for suggested improvements
+- Write blog post about experience
+- Thank mentors and organizers
+
+**Ongoing:**
+- Continue development if motivated
+- Contribute to other teams' projects
+- Share at local meetups
+- Integrate into openwashdata ecosystem
+
+## Recognition
+
+All participants receive:
+
+- Certificate of participation
+- Project featured on openwashdata blog
+- Repository in community showcase
+- Invitation to present at future events
+
+## Example Presentation Script
+
+> "Hi, we're Team [Name], and we built [Project] to solve [Problem].
+> 
+> Here's how it works: [Demo key feature]
+> 
+> We used [Technologies] because [Reasoning].
+> 
+> The biggest challenge was [Challenge] which we solved by [Solution].
+> 
+> Next, we plan to [Future plans].
+> 
+> You can find our code at [Repository URL]. We welcome contributions!
+> 
+> Questions?"
+
+::: {.callout-note}
+## Remember
+Every project is valuable! Whether it's a simple script or complex application, you've contributed to the openwashdata mission.
+:::

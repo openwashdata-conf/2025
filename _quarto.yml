@@ -1,0 +1,73 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "openwashdata Conference 2025"
+  description: "Annual conference bringing together the openwashdata community to share knowledge, collaborate on projects, and advance open water and sanitation data."
+  site-url: https://openwashdata-conf.github.io/2025/
+  repo-url: https://github.com/openwashdata-conf/2025
+  page-navigation: true
+  page-footer:
+    left: "Copyright 2025, openwashdata"
+    right:
+      - text: "Built with Quarto"
+        href: https://quarto.org
+  sidebar:
+    style: "docked"
+    background: "#f8f9fa"
+    search: true
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - section: "Prerequisites (Day 2)"
+        contents:
+          - text: "Hackathon Preparation"
+            href: prerequisites/index.qmd
+      - section: "Day 1 - July 15"
+        contents:
+          - text: "Overview"
+            href: day1/index.qmd
+          - text: "Warm-up Session"
+            href: day1/warmup.qmd
+          - text: "Governance"
+            href: day1/governance.qmd
+          - text: "Ideation for Hackathon"
+            href: day1/ideation.qmd
+          - text: "Lean Coffee"
+            href: day1/lean-coffee.qmd
+      - section: "Day 2 - July 16"
+        contents:
+          - text: "Overview"
+            href: day2/index.qmd
+          - text: "Why Claude Code"
+            href: day2/why-claude.qmd
+          - text: "Setup Check"
+            href: day2/setup-check.qmd
+          - text: "Ideation"
+            href: day2/ideation.qmd
+          - text: "Work Sessions"
+            href: day2/work-sessions.qmd
+          - text: "Showcase"
+            href: day2/showcase.qmd
+      - section: "Day 3 - July 17"
+        contents:
+          - text: "Social Day"
+            href: day3/index.qmd
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    link-external-icon: true
+    link-external-newwindow: true
+    code-copy: true
+
+execute:
+  freeze: auto
+
+editor: source

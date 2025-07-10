@@ -1,0 +1,38 @@
+---
+title: "Day 1: Community & Governance"
+date: "July 15, 2025"
+---
+
+## Schedule Overview
+
+| Time | Session | Facilitator |
+|------|---------|-------------|
+| 09:00-09:30 | Arrival & Welcome Coffee | |
+| 09:30-10:00 | [Warm-up Session](warmup.qmd) | Lars |
+| 10:00-10:45 | openwashdata community - past and future | |
+| 10:45-11:00 | *Coffee Break* | |
+| 11:00-12:00 | Data stewardship at BASEflow Malawi | Emmanuel |
+| 12:00-13:00 | *Lunch Break* | |
+| 13:00-13:30 | openwashdata & Open Research Data - GHE position | Liz |
+| 13:30-17:00 | Afternoon Sessions (Work in Progress) | |
+
+## Session Details
+
+### Morning Sessions
+
+The day begins with a warm-up session led by Lars, followed by a reflection on the openwashdata community's journey and future direction. Emmanuel will share insights on data stewardship implementation at BASEflow Malawi.
+
+### Afternoon Sessions
+
+After lunch, Liz will present on the intersection of openwashdata and Open Research Data from the Global Health Engineering perspective. The afternoon continues with collaborative work sessions that are currently being finalized.
+
+## What to Bring
+
+- Laptop for afternoon sessions
+- Note-taking materials
+- Ideas for community governance
+- Questions about openwashdata's future direction
+
+## Location
+
+All Day 1 sessions will be held at ETH Zurich. Detailed room information will be provided upon arrival.

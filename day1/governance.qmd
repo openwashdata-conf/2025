@@ -1,0 +1,62 @@
+---
+title: "Governance Discussion"
+subtitle: "Shaping the Future of openwashdata"
+---
+
+**Time:** TBD (Afternoon session)  
+**Format:** Interactive discussion
+
+## Session Overview
+
+Join us for an important discussion about the governance structure of the openwashdata community. This session will explore how we can collectively shape decision-making processes and ensure sustainable growth.
+
+## Key Topics
+
+### Community Structure
+
+- Current governance model review
+- Roles and responsibilities within the community
+- Decision-making processes
+- Communication channels and transparency
+
+### Sustainability Planning
+
+- Long-term vision for openwashdata
+- Resource allocation and funding models
+- Community growth strategies
+- Partnership development
+
+### Standards and Guidelines
+
+- Data quality standards
+- Contribution guidelines
+- Code of conduct
+- Licensing and data sharing policies
+
+## Expected Outcomes
+
+1. **Governance Framework:** Draft outline of governance structure
+2. **Action Items:** Concrete steps for implementation
+3. **Working Groups:** Formation of specialized teams
+4. **Timeline:** Roadmap for governance improvements
+
+## How to Prepare
+
+- Review current openwashdata documentation
+- Think about governance models from other open communities
+- Consider what aspects of governance are most important to you
+- Prepare questions or suggestions
+
+## Format
+
+The session will include:
+
+- Brief presentation of current state
+- Small group discussions
+- Plenary sharing and synthesis
+- Action planning
+
+::: {.callout-note}
+## Work in Progress
+This session is currently being developed. More details will be added as they become available.
+:::
