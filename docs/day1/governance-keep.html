@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Day 2 Prerequisites – openwashdata Conference 2025</title>
+<title>Governance – openwashdata Conference 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -64,8 +30,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../day1/index.html" rel="next">
-<link href="../index.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -116,7 +80,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../prerequisites/index.html">Prerequisites (Day 2)</a></li><li class="breadcrumb-item"><a href="../prerequisites/index.html">Hackathon Preparation</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      openwashdata Conference 2025
+      </li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -158,7 +124,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../prerequisites/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../prerequisites/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Hackathon Preparation</span></a>
   </div>
 </li>
@@ -225,32 +191,57 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#required-setup-steps" id="toc-required-setup-steps" class="nav-link" data-scroll-target="#required-setup-steps">Required Setup Steps</a>
+  <li><a href="#session-overview" id="toc-session-overview" class="nav-link active" data-scroll-target="#session-overview">Session Overview</a></li>
+  <li><a href="#why-governance-matters" id="toc-why-governance-matters" class="nav-link" data-scroll-target="#why-governance-matters">Why Governance Matters</a></li>
+  <li><a href="#governance-evolution-stages" id="toc-governance-evolution-stages" class="nav-link" data-scroll-target="#governance-evolution-stages">Governance Evolution Stages</a></li>
+  <li><a href="#where-is-openwashdata-today" id="toc-where-is-openwashdata-today" class="nav-link" data-scroll-target="#where-is-openwashdata-today">Where is openwashdata Today?</a>
   <ul class="collapse">
-  <li><a href="#get-claude-code-max-plan" id="toc-get-claude-code-max-plan" class="nav-link" data-scroll-target="#get-claude-code-max-plan">1. Get Claude Code Max Plan</a></li>
-  <li><a href="#verify-terminal-access" id="toc-verify-terminal-access" class="nav-link" data-scroll-target="#verify-terminal-access">2. Verify Terminal Access</a></li>
-  <li><a href="#install-python" id="toc-install-python" class="nav-link" data-scroll-target="#install-python">3. Install Python</a></li>
-  <li><a href="#github-account-setup" id="toc-github-account-setup" class="nav-link" data-scroll-target="#github-account-setup">4. GitHub Account Setup</a></li>
-  <li><a href="#create-local-working-directory" id="toc-create-local-working-directory" class="nav-link" data-scroll-target="#create-local-working-directory">5. Create Local Working Directory</a></li>
-  <li><a href="#accept-github-organization-invitation" id="toc-accept-github-organization-invitation" class="nav-link" data-scroll-target="#accept-github-organization-invitation">6. Accept GitHub Organization Invitation</a></li>
+  <li><a href="#reflection-exercise-5-min" id="toc-reflection-exercise-5-min" class="nav-link" data-scroll-target="#reflection-exercise-5-min">Reflection Exercise (5 min)</a></li>
   </ul></li>
-  <li><a href="#verification-checklist" id="toc-verification-checklist" class="nav-link" data-scroll-target="#verification-checklist">Verification Checklist</a></li>
-  <li><a href="#need-help" id="toc-need-help" class="nav-link" data-scroll-target="#need-help">Need Help?</a></li>
-  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting">Troubleshooting</a>
+  <li><a href="#common-governance-models" id="toc-common-governance-models" class="nav-link" data-scroll-target="#common-governance-models">Common Governance Models</a></li>
+  <li><a href="#decision-making-marthas-rules" id="toc-decision-making-marthas-rules" class="nav-link" data-scroll-target="#decision-making-marthas-rules">Decision-Making: Martha’s Rules</a></li>
+  <li><a href="#key-governance-components" id="toc-key-governance-components" class="nav-link" data-scroll-target="#key-governance-components">Key Governance Components</a>
   <ul class="collapse">
-  <li><a href="#common-issues" id="toc-common-issues" class="nav-link" data-scroll-target="#common-issues">Common Issues</a></li>
+  <li><a href="#roles-responsibilities" id="toc-roles-responsibilities" class="nav-link" data-scroll-target="#roles-responsibilities">1. Roles &amp; Responsibilities</a></li>
   </ul></li>
+  <li><a href="#key-governance-components-1" id="toc-key-governance-components-1" class="nav-link" data-scroll-target="#key-governance-components-1">Key Governance Components</a>
+  <ul class="collapse">
+  <li><a href="#communication-channels" id="toc-communication-channels" class="nav-link" data-scroll-target="#communication-channels">2. Communication Channels</a></li>
+  </ul></li>
+  <li><a href="#key-governance-components-2" id="toc-key-governance-components-2" class="nav-link" data-scroll-target="#key-governance-components-2">Key Governance Components</a>
+  <ul class="collapse">
+  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation">3. Documentation</a></li>
+  </ul></li>
+  <li><a href="#community-standards" id="toc-community-standards" class="nav-link" data-scroll-target="#community-standards">Community Standards</a>
+  <ul class="collapse">
+  <li><a href="#code-of-conduct-essentials" id="toc-code-of-conduct-essentials" class="nav-link" data-scroll-target="#code-of-conduct-essentials">Code of Conduct Essentials</a></li>
+  </ul></li>
+  <li><a href="#meeting-management-best-practices" id="toc-meeting-management-best-practices" class="nav-link" data-scroll-target="#meeting-management-best-practices">Meeting Management Best Practices</a></li>
+  <li><a href="#interactive-exercise-governance-assessment" id="toc-interactive-exercise-governance-assessment" class="nav-link" data-scroll-target="#interactive-exercise-governance-assessment">Interactive Exercise: Governance Assessment</a></li>
+  <li><a href="#proposed-governance-framework" id="toc-proposed-governance-framework" class="nav-link" data-scroll-target="#proposed-governance-framework">Proposed Governance Framework</a></li>
+  <li><a href="#action-planning" id="toc-action-planning" class="nav-link" data-scroll-target="#action-planning">Action Planning</a>
+  <ul class="collapse">
+  <li><a href="#immediate-actions-next-30-days" id="toc-immediate-actions-next-30-days" class="nav-link" data-scroll-target="#immediate-actions-next-30-days">Immediate Actions (Next 30 days)</a></li>
+  <li><a href="#medium-term-3-6-months" id="toc-medium-term-3-6-months" class="nav-link" data-scroll-target="#medium-term-3-6-months">Medium-term (3-6 months)</a></li>
+  </ul></li>
+  <li><a href="#small-group-discussion-20-min" id="toc-small-group-discussion-20-min" class="nav-link" data-scroll-target="#small-group-discussion-20-min">Small Group Discussion (20 min)</a></li>
+  <li><a href="#synthesis-next-steps" id="toc-synthesis-next-steps" class="nav-link" data-scroll-target="#synthesis-next-steps">Synthesis &amp; Next Steps</a>
+  <ul class="collapse">
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  </ul></li>
+  <li><a href="#your-commitment" id="toc-your-commitment" class="nav-link" data-scroll-target="#your-commitment">Your Commitment</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you">Thank You!</a></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="governance-keep.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../prerequisites/index.html">Prerequisites (Day 2)</a></li><li class="breadcrumb-item"><a href="../prerequisites/index.html">Hackathon Preparation</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Day 2 Prerequisites</h1>
-<p class="subtitle lead">Preparation for the Claude Code Hackathon</p>
+<h1 class="title">Governance</h1>
+<p class="subtitle lead">Shaping the Future of openwashdata</p>
 </div>
 
 
@@ -267,242 +258,350 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="session-overview" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="session-overview">Session Overview</h2>
+<p><strong>Time:</strong> 14:00-15:00<br>
+<strong>Format:</strong> Interactive discussion with presentations</p>
+<p>Today we’ll explore governance models for open research software communities, drawing from best practices and adapting them to openwashdata’s needs.</p>
+<div class="fragment">
+<blockquote class="blockquote">
+<p>“A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding”</p>
+</blockquote>
 </div>
-<div class="callout-title-container flex-fill">
-Complete Before the Conference
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Please complete all steps below <strong>before Day 2</strong> of the conference to ensure you can fully participate in the hackathon.</p>
-</div>
-</div>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Day 2 features a hands-on hackathon using Claude Code. The following are setup steps to ensure you can effectively use Claude Code and participate in the hackathon. The steps are listed for MacOS and Windows users, so please follow the instructions for your operating system. The steps for Windows were not tested, so please reach out if you encounter any issues.</p>
+<hr>
 </section>
-<section id="required-setup-steps" class="level2">
-<h2 class="anchored" data-anchor-id="required-setup-steps">Required Setup Steps</h2>
-<section id="get-claude-code-max-plan" class="level3">
-<h3 class="anchored" data-anchor-id="get-claude-code-max-plan">1. Get Claude Code Max Plan</h3>
-<p>Claude Code requires a subscription to the Max plan for full functionality.</p>
+<section id="why-governance-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-governance-matters">Why Governance Matters</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Without Good Governance:</strong></p>
 <ul>
-<li>Visit <a href="https://claude.ai">Claude.ai</a></li>
-<li>Sign up or log in to your account</li>
-<li>Subscribe to the Claude Max plan ($100/month)</li>
-<li>Send your invoice to Lars</li>
+<li>Low productivity</li>
+<li>Opaque decision-making</li>
+<li>Unclear leadership</li>
+<li>Frustration and conflicts</li>
+<li>Difficulty scaling</li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>You can cancel the subscription after the conference if you don’t wish to continue using it. You will have access to it for 1 month.</p>
-</div>
-</div>
-</section>
-<section id="verify-terminal-access" class="level3">
-<h3 class="anchored" data-anchor-id="verify-terminal-access">2. Verify Terminal Access</h3>
-<p>You’ll need to use the terminal/command line during the hackathon.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">macOS</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Windows</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<ol type="1">
-<li>Press <code>Cmd + Space</code> to open Spotlight</li>
-<li>Type “Terminal” and press Enter</li>
-<li>You should see a window with a command prompt</li>
-<li>Type <code>echo "Terminal works!"</code> and press Enter</li>
-<li>If you see “Terminal works!” printed, you’re all set</li>
-</ol>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p><strong>Recommended: Windows Terminal</strong></p>
-<ol type="1">
-<li>Install Windows Terminal from the <a href="https://aka.ms/terminal">Microsoft Store</a></li>
-<li>Once installed, press <code>Win</code> key and type “Windows Terminal”</li>
-<li>Click to open Windows Terminal</li>
-<li>In the terminal, type <code>echo Terminal works!</code> and press Enter</li>
-<li>If you see “Terminal works!” printed, you’re all set</li>
-</ol>
-</div>
-</div>
-</div>
-</section>
-<section id="install-python" class="level3">
-<h3 class="anchored" data-anchor-id="install-python">3. Install Python</h3>
-<p>Python is required for many data processing tasks.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">macOS</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Windows</a></li></ul>
-<div class="tab-content">
-<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
-<ol type="1">
-<li><p>Check if Python is installed:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p>If not installed, install using Homebrew:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install Homebrew first if you don't have it</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">/bin/bash</span> <span class="at">-c</span> <span class="st">"</span><span class="va">$(</span><span class="ex">curl</span> <span class="at">-fsSL</span> https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span class="va">)</span><span class="st">"</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Then install Python</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ex">brew</span> install python</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p>Verify installation:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> <span class="at">--version</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">pip3</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-</ol>
-</div>
-<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
-<ol type="1">
-<li><p>Download Python from <a href="https://www.python.org/downloads/">python.org</a></p></li>
-<li><p>Run the installer</p></li>
-<li><p><strong>Important:</strong> Check “Add Python to PATH” during installation</p></li>
-<li><p>Open a new command prompt and verify:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode cmd code-with-copy"><code class="sourceCode dosbat"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>python -<span class="at">-version</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>pip -<span class="at">-version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-</ol>
-</div>
-</div>
-</div>
-</section>
-<section id="github-account-setup" class="level3">
-<h3 class="anchored" data-anchor-id="github-account-setup">4. GitHub Account Setup</h3>
-<p>Ensure you can access your GitHub account:</p>
-<ol type="1">
-<li>Go to <a href="https://github.com">github.com</a></li>
-<li>Log in to your account</li>
-<li>Verify you can access your profile and repositories</li>
-<li><strong>Recommended:</strong> Set up <a href="https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa">two-factor authentication</a></li>
-</ol>
-</section>
-<section id="create-local-working-directory" class="level3">
-<h3 class="anchored" data-anchor-id="create-local-working-directory">5. Create Local Working Directory</h3>
-<p>Create a dedicated folder for storing code repositories locally (not in cloud-synced folders). The recommended location is in your Documents folder, named <code>gitrepos</code>. Use your preferred way of creating directories (Finder, File Explorer, or terminal/command line).</p>
-<p>Below are the terminal commands for both macOS and Windows users.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">macOS</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Windows</a></li></ul>
-<div class="tab-content">
-<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the directory in Documents</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> ~/Documents/gitrepos</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Navigate to it</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/Documents/gitrepos</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Verify it exists</span></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="bu">pwd</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>You should see: <code>/Users/yourusername/Documents/gitrepos</code></p>
-</div>
-<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
-<div class="sourceCode" id="cb6"><pre class="sourceCode cmd code-with-copy"><code class="sourceCode dosbat"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a># Create the directory in Documents</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="bu">mkdir</span> <span class="pp">%</span><span class="va">USERPROFILE</span><span class="pp">%</span>\Documents\gitrepos</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a># Navigate to it</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> <span class="pp">%</span><span class="va">USERPROFILE</span><span class="pp">%</span>\Documents\gitrepos</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a># Verify it exists</span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>You should see: <code>C:\Users\yourusername\Documents\gitrepos</code></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important: Avoid Cloud-Synced Folders
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Do <strong>not</strong> create your <code>gitrepos</code> folder inside: - OneDrive - Google Drive - Dropbox - iCloud Drive</p>
-<p>These services can interfere with Git operations.</p>
-</div>
-</div>
-</section>
-<section id="accept-github-organization-invitation" class="level3">
-<h3 class="anchored" data-anchor-id="accept-github-organization-invitation">6. Accept GitHub Organization Invitation</h3>
-<p>Before the conference, you’ll receive an invitation to join the <code>openwashdata-conf</code> GitHub organization.</p>
-<ol type="1">
-<li>Check your email for the invitation</li>
-<li>Click the invitation link</li>
-<li>Accept the invitation to join the organization</li>
-<li>Verify access at: <a href="https://github.com/openwashdata-conf">github.com/openwashdata-conf</a></li>
-</ol>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>If you haven’t received an invitation by July 10, please contact the organizing team.</p>
-</div>
-</div>
-</section>
-</section>
-<section id="verification-checklist" class="level2">
-<h2 class="anchored" data-anchor-id="verification-checklist">Verification Checklist</h2>
-<p>Before Day 2, ensure you can check all these boxes:</p>
-<ul class="task-list">
-<li><label><input type="checkbox">Claude Code Max plan active</label></li>
-<li><label><input type="checkbox">Terminal/command line accessible</label></li>
-<li><label><input type="checkbox">Python installed and working</label></li>
-<li><label><input type="checkbox">GitHub account accessible</label></li>
-<li><label><input type="checkbox">Local <code>gitrepos</code> folder created</label></li>
-<li><label><input type="checkbox">Member of <code>openwashdata-conf</code> organization</label></li>
-</ul>
-</section>
-<section id="need-help" class="level2">
-<h2 class="anchored" data-anchor-id="need-help">Need Help?</h2>
-<p>If you encounter any issues during setup:</p>
-<ol type="1">
-<li>Check our <a href="#troubleshooting">troubleshooting guide</a> below</li>
-<li>Ask in the conference Element channel</li>
-<li>Email Lars directly (you have his email address)</li>
-</ol>
-</section>
-<section id="troubleshooting" class="level2">
-<h2 class="anchored" data-anchor-id="troubleshooting">Troubleshooting</h2>
-<section id="common-issues" class="level3">
-<h3 class="anchored" data-anchor-id="common-issues">Common Issues</h3>
-<p><strong>Claude Code won’t install</strong></p>
+</div><div class="column" style="width:50%;">
+<p><strong>With Good Governance:</strong></p>
 <ul>
-<li>Ensure you have admin rights on your computer</li>
-<li>Temporarily disable antivirus during installation</li>
-<li>Try downloading again with a different browser</li>
+<li>Clear processes</li>
+<li>Transparent decisions</li>
+<li>Defined roles</li>
+<li>Sustainable growth</li>
+<li>Community trust</li>
 </ul>
-<p><strong>Python command not found</strong></p>
+</div>
+</div>
+<hr>
+</section>
+<section id="governance-evolution-stages" class="level2">
+<h2 class="anchored" data-anchor-id="governance-evolution-stages">Governance Evolution Stages</h2>
+<div class="incremental">
+<ol class="incremental" type="1">
+<li><strong>Early Stage</strong> (1-3 people)
+<ul class="incremental">
+<li>“Just do it” approach</li>
+<li>Minimal formal process</li>
+<li>Direct communication</li>
+</ul></li>
+<li><strong>Growing Stage</strong> (4-8 people)
+<ul class="incremental">
+<li>Need for coordination</li>
+<li>Emerging documentation</li>
+<li>Basic collaboration tools</li>
+</ul></li>
+<li><strong>Mature Stage</strong> (9+ people)
+<ul class="incremental">
+<li>Formal decision-making</li>
+<li>Comprehensive documentation</li>
+<li>Structured contribution process</li>
+</ul></li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="where-is-openwashdata-today" class="level2">
+<h2 class="anchored" data-anchor-id="where-is-openwashdata-today">Where is openwashdata Today?</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Current State:</strong> - Growing community - Multiple contributors - Various projects - Informal coordination</p>
+</div><div class="column" style="width:50%;">
+<p><strong>Next Steps:</strong> - Define governance model - Document processes - Clarify roles - Establish standards</p>
+</div>
+</div>
+<div class="fragment">
+<section id="reflection-exercise-5-min" class="level3">
+<h3 class="anchored" data-anchor-id="reflection-exercise-5-min">Reflection Exercise (5 min)</h3>
+<p>Think about: Where do you see openwashdata in this evolution?</p>
+</section>
+</div>
+<hr>
+</section>
+<section id="common-governance-models" class="level2">
+<h2 class="anchored" data-anchor-id="common-governance-models">Common Governance Models</h2>
+<div class="incremental">
+<ul class="incremental">
+<li><strong>Benevolent Dictator</strong>
+<ul class="incremental">
+<li>Single leader makes final decisions</li>
+<li>Common in early projects</li>
+</ul></li>
+<li><strong>Elected Representatives</strong>
+<ul class="incremental">
+<li>Community elects leaders</li>
+<li>Fixed terms and rotation</li>
+</ul></li>
+<li><strong>Consensus-Based</strong>
+<ul class="incremental">
+<li>All members have equal say</li>
+<li>Decisions by agreement</li>
+</ul></li>
+<li><strong>Hybrid Models</strong>
+<ul class="incremental">
+<li>Combine elements</li>
+<li>Adapt to community needs</li>
+</ul></li>
+</ul>
+</div>
+<hr>
+</section>
+<section id="decision-making-marthas-rules" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="decision-making-marthas-rules">Decision-Making: Martha’s Rules</h2>
+<p>A lightweight framework for inclusive decision-making:</p>
+<ol type="1">
+<li><strong>Proposal Submission</strong>
 <ul>
-<li>Restart your terminal after installation</li>
-<li>Ensure Python was added to PATH during installation</li>
-<li>Try <code>python3</code> instead of <code>python</code> on macOS/Linux</li>
-</ul>
-<p><strong>Can’t create gitrepos folder</strong></p>
+<li>Anyone can propose</li>
+<li>Written in advance</li>
+<li>Clear and specific</li>
+</ul></li>
+<li><strong>Preliminary Vote</strong>
 <ul>
-<li>Ensure you have write permissions</li>
-<li>Try creating in your user home directory</li>
-<li>Avoid special characters in the path</li>
-</ul>
-<p><strong>GitHub invitation not received</strong></p>
+<li>Thumbs up: Agree</li>
+<li>Thumbs sideways: Discuss more</li>
+<li>Thumbs down: Serious concerns</li>
+</ul></li>
+<li><strong>Discussion &amp; Revision</strong>
 <ul>
-<li>Check spam/junk folders</li>
-<li>Verify your email address with organizers</li>
-<li>Request a resend if needed</li>
+<li>Address concerns</li>
+<li>Modify proposal</li>
+</ul></li>
+<li><strong>Final Vote</strong>
+<ul>
+<li>Clear majority needed</li>
+<li>Document decision</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+<section id="key-governance-components" class="level2">
+<h2 class="anchored" data-anchor-id="key-governance-components">Key Governance Components</h2>
+<section id="roles-responsibilities" class="level3">
+<h3 class="anchored" data-anchor-id="roles-responsibilities">1. Roles &amp; Responsibilities</h3>
+<div class="incremental">
+<ul class="incremental">
+<li><strong>Maintainers</strong>: Technical decisions, code review</li>
+<li><strong>Contributors</strong>: Submit data, code, documentation</li>
+<li><strong>Stewards</strong>: Community management, outreach</li>
+<li><strong>Users</strong>: Feedback, bug reports</li>
 </ul>
+</div>
+<div class="fragment">
+<p><strong>Question:</strong> What roles do we need in openwashdata?</p>
+</div>
+<hr>
+</section>
+</section>
+<section id="key-governance-components-1" class="level2">
+<h2 class="anchored" data-anchor-id="key-governance-components-1">Key Governance Components</h2>
+<section id="communication-channels" class="level3">
+<h3 class="anchored" data-anchor-id="communication-channels">2. Communication Channels</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Internal:</strong> - Slack/Discord - Regular meetings - Email lists - GitHub discussions</p>
+</div><div class="column" style="width:50%;">
+<p><strong>External:</strong> - Website - Blog posts - Social media - Conference talks</p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="key-governance-components-2" class="level2">
+<h2 class="anchored" data-anchor-id="key-governance-components-2">Key Governance Components</h2>
+<section id="documentation" class="level3">
+<h3 class="anchored" data-anchor-id="documentation">3. Documentation</h3>
+<p>Essential documents for any open community:</p>
+<div class="incremental">
+<ul class="incremental">
+<li><strong>README</strong>: Project overview</li>
+<li><strong>CONTRIBUTING</strong>: How to participate</li>
+<li><strong>CODE_OF_CONDUCT</strong>: Community standards</li>
+<li><strong>LICENSE</strong>: Legal framework</li>
+<li><strong>GOVERNANCE</strong>: Decision processes</li>
+</ul>
+</div>
+<hr>
+</section>
+</section>
+<section id="community-standards" class="level2">
+<h2 class="anchored" data-anchor-id="community-standards">Community Standards</h2>
+<section id="code-of-conduct-essentials" class="level3">
+<h3 class="anchored" data-anchor-id="code-of-conduct-essentials">Code of Conduct Essentials</h3>
+<div class="incremental">
+<ul class="incremental">
+<li><strong>Clear expectations</strong> for behavior</li>
+<li><strong>Specific examples</strong> of unacceptable conduct</li>
+<li><strong>Enforcement mechanisms</strong> that are fair</li>
+<li><strong>Reporting process</strong> that is safe</li>
+<li><strong>Consequences</strong> that are proportionate</li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Remember:</strong> A code without enforcement is just decoration</p>
+</div>
+<hr>
+</section>
+</section>
+<section id="meeting-management-best-practices" class="level2">
+<h2 class="anchored" data-anchor-id="meeting-management-best-practices">Meeting Management Best Practices</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Before:</strong> - Is meeting necessary? - Clear agenda - Shared in advance - Assigned moderator</p>
+</div><div class="column" style="width:50%;">
+<p><strong>During:</strong> - Start on time - Follow agenda - Encourage participation - Take minutes</p>
+</div>
+</div>
+<div class="fragment">
+<p><strong>After:</strong> Share minutes, action items, deadlines</p>
+</div>
+<hr>
+</section>
+<section id="interactive-exercise-governance-assessment" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="interactive-exercise-governance-assessment">Interactive Exercise: Governance Assessment</h2>
+<p><strong>15 minutes - Small Groups</strong></p>
+<p>Discuss and answer:</p>
+<ol type="1">
+<li><strong>Who are our users?</strong> How do they find us?</li>
+<li><strong>How do we make decisions</strong> currently?</li>
+<li><strong>What gets in the way</strong> of contributions?</li>
+<li><strong>How do we handle conflicts?</strong></li>
+<li><strong>How do we welcome newcomers?</strong></li>
+<li><strong>What could we automate?</strong></li>
+</ol>
+<div class="fragment">
+<p><strong>Share:</strong> Each group presents one key insight</p>
+</div>
+<hr>
+</section>
+<section id="proposed-governance-framework" class="level2">
+<h2 class="anchored" data-anchor-id="proposed-governance-framework">Proposed Governance Framework</h2>
+<p>Based on best practices and community needs:</p>
+<div class="incremental">
+<ol class="incremental" type="1">
+<li><strong>Steering Committee</strong> (3-5 members, rotating)</li>
+<li><strong>Working Groups</strong> (data quality, tools, outreach)</li>
+<li><strong>Decision Process</strong> (Martha’s Rules for major decisions)</li>
+<li><strong>Documentation</strong> (all five essential documents)</li>
+<li><strong>Regular Reviews</strong> (quarterly governance check-ins)</li>
+</ol>
+</div>
+<hr>
+</section>
+<section id="action-planning" class="level2">
+<h2 class="anchored" data-anchor-id="action-planning">Action Planning</h2>
+<section id="immediate-actions-next-30-days" class="level3">
+<h3 class="anchored" data-anchor-id="immediate-actions-next-30-days">Immediate Actions (Next 30 days)</h3>
+<div class="incremental">
+<ul class="incremental">
+<li>Draft CODE_OF_CONDUCT</li>
+<li>Create CONTRIBUTING guide</li>
+<li>Define initial roles</li>
+<li>Set up communication channels</li>
+</ul>
+</div>
+</section>
+<section id="medium-term-3-6-months" class="level3">
+<h3 class="anchored" data-anchor-id="medium-term-3-6-months">Medium-term (3-6 months)</h3>
+<div class="incremental">
+<ul class="incremental">
+<li>Implement decision process</li>
+<li>Form working groups</li>
+<li>Regular community calls</li>
+<li>Document all processes</li>
+</ul>
+</div>
+<hr>
+</section>
+</section>
+<section id="small-group-discussion-20-min" class="level2">
+<h2 class="anchored" data-anchor-id="small-group-discussion-20-min">Small Group Discussion (20 min)</h2>
+<p>Break into groups of 3-4 to discuss:</p>
+<ol type="1">
+<li><strong>Which governance model</strong> fits openwashdata best?</li>
+<li><strong>What roles</strong> do we need to define first?</li>
+<li><strong>What decisions</strong> need a formal process?</li>
+<li><strong>How do we ensure</strong> inclusive participation?</li>
+</ol>
+<div class="fragment">
+<p><strong>Report Back:</strong> Each group shares top priority</p>
+</div>
+<hr>
+</section>
+<section id="synthesis-next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="synthesis-next-steps">Synthesis &amp; Next Steps</h2>
+<section id="key-takeaways" class="level3">
+<h3 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h3>
+<div class="incremental">
+<ul class="incremental">
+<li>Governance enables growth</li>
+<li>Start simple, evolve as needed</li>
+<li>Document everything</li>
+<li>Be inclusive by design</li>
+<li>Review and adapt regularly</li>
+</ul>
+</div>
+<hr>
+</section>
+</section>
+<section id="your-commitment" class="level2">
+<h2 class="anchored" data-anchor-id="your-commitment">Your Commitment</h2>
+<p>Before we close, consider:</p>
+<div class="incremental">
+<ul class="incremental">
+<li>What governance aspect excites you most?</li>
+<li>Where could you contribute?</li>
+<li>What concerns do you have?</li>
+<li>What support do you need?</li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Share:</strong> One commitment or question with the group</p>
+</div>
+<hr>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<ul>
+<li><a href="https://the-turing-way.netlify.app/collaboration/collaboration.html">The Turing Way - Guide for Collaboration</a></li>
+<li><a href="https://opensource.guide/leadership-and-governance/">Open Source Guides - Leadership &amp; Governance</a></li>
+<li><a href="https://www.apache.org/foundation/how-it-works.html">Apache Software Foundation - How it Works</a></li>
+<li><a href="https://alan-turing-institute.github.io/rse-course/">Research Software Engineering Handbook</a></li>
+</ul>
+<hr>
+</section>
+<section id="thank-you" class="level2">
+<h2 class="anchored" data-anchor-id="thank-you">Thank You!</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><strong>Let’s build a sustainable, inclusive governance model together!</strong></p>
+<p>Questions? Thoughts? Concerns?</p>
+</div><div class="column" style="width:40%;">
+<p><img src="https://raw.githubusercontent.com/larnsce/codebender/main/governance/noaa-ddb.png" class="img-fluid" width="300"></p>
+</div>
+</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -933,18 +1032,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../index.html" class="pagination-link" aria-label="Home">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Home</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../day1/index.html" class="pagination-link" aria-label="Overview">
-        <span class="nav-page-text">Overview</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

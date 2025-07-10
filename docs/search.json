@@ -59,7 +59,7 @@
     "href": "day1/index.html",
     "title": "Day 1: Community & Governance",
     "section": "",
-    "text": "Time\nSession\nFacilitator\n\n\n\n\n09:00-09:30\nArrival & Welcome Coffee\n\n\n\n09:30-10:00\nWarm-up Session\nLars\n\n\n10:00-10:45\nopenwashdata community - past and future\n\n\n\n10:45-11:00\nCoffee Break\n\n\n\n11:00-12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n\n\n12:00-13:00\nLunch Break\n\n\n\n13:00-13:30\nopenwashdata & Open Research Data - GHE position\nLiz\n\n\n13:30-14:00\nAfternoon Warm-up: Positive Feedback Exercise\n\n\n\n14:00-15:00\nGovernance Discussion\n\n\n\n15:00-15:15\nCoffee Break\n\n\n\n15:15-16:00\nHackathon Ideation\n\n\n\n16:00-17:00\nLean Coffee",
+    "text": "Laptop: Required for shared note-taking, especially in the afternoon sessions.\nGoogle Doc access: We will take notes in a shared Google Doc. You will receive an email to test if you can access it. If you did not receive an email, please contact the organizers.\nIdeas for Hackathon: Think about potential projects or topics you or somene else could work on during the hackathon on Day 2.",
     "crumbs": [
       "Day 1 - July 15",
       "Overview"
@@ -69,8 +69,8 @@
     "objectID": "day1/index.html#schedule-overview",
     "href": "day1/index.html#schedule-overview",
     "title": "Day 1: Community & Governance",
-    "section": "",
-    "text": "Time\nSession\nFacilitator\n\n\n\n\n09:00-09:30\nArrival & Welcome Coffee\n\n\n\n09:30-10:00\nWarm-up Session\nLars\n\n\n10:00-10:45\nopenwashdata community - past and future\n\n\n\n10:45-11:00\nCoffee Break\n\n\n\n11:00-12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n\n\n12:00-13:00\nLunch Break\n\n\n\n13:00-13:30\nopenwashdata & Open Research Data - GHE position\nLiz\n\n\n13:30-14:00\nAfternoon Warm-up: Positive Feedback Exercise\n\n\n\n14:00-15:00\nGovernance Discussion\n\n\n\n15:00-15:15\nCoffee Break\n\n\n\n15:15-16:00\nHackathon Ideation\n\n\n\n16:00-17:00\nLean Coffee",
+    "section": "Schedule Overview",
+    "text": "Schedule Overview\n\n\n\n\n\nTime\nTitle\nSpeaker\nAffiliation\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n-\n\n\n09:30 - 10:00\nWarm-up activity\nLars\n-\n\n\n10:00 - 10:45\nopenwashdata community - past and future\nLars\n-\n\n\n10:45 - 11:00\nBreak\n-\n-\n\n\n11:00 - 12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n-\n\n\n12:00 - 13:00\nLunch break\n-\n-\n\n\n13:00 - 13:30\nWarm-up - Positive Gossip\n-\n-\n\n\n13:30 - 14:00\nopenwashdata & Open Research Data - GHE position\nLiz\n-\n\n\n14:00 - 14:15\nBreak\n-\n-\n\n\n14:15 - 15:30\nGovernance\nLars\n-\n\n\n15:30 - 15:45\nBreak\n-\n-\n\n\n15:45 - 16:15\nHackathon Ideation\n-\n-\n\n\n16:15 - 16:30\nClosing\n-\n-",
     "crumbs": [
       "Day 1 - July 15",
       "Overview"
@@ -81,7 +81,7 @@
     "href": "day1/index.html#session-details",
     "title": "Day 1: Community & Governance",
     "section": "Session Details",
-    "text": "Session Details\n\nMorning Sessions\nThe day begins with a warm-up session led by Lars, followed by a reflection on the openwashdata community’s journey and future direction. Emmanuel will share insights on data stewardship implementation at BASEflow Malawi.\n\n\nAfternoon Sessions\nAfter lunch, Liz will present on the intersection of openwashdata and Open Research Data from the Global Health Engineering perspective.\nThe afternoon continues with: - Positive Feedback Exercise - An energizing warm-up activity to reconnect after lunch - Governance Discussion - Shaping the future structure and decision-making processes of openwashdata - Hackathon Ideation - Brainstorming and forming teams for Day 2’s hackathon - Lean Coffee - An open, democratically-driven discussion on topics that matter most to the community",
+    "text": "Session Details\n\nMorning Sessions\nThe day begins with a warm-up session led by Lars, followed by a reflection on the openwashdata community’s journey and future direction. Emmanuel will share insights on data stewardship implementation at BASEflow Malawi.\n\n\nAfternoon Sessions\nAfter lunch, Liz will present on the intersection of openwashdata and Open Research Data from the Global Health Engineering perspective.\nThe afternoon continues with: - Positive Gossip Exercise - An energizing warm-up activity to reconnect after lunch - Governance Discussion - Reflection on different governance style and how we might shape the future structure and decision-making processes of openwashdata - Hackathon Ideation - Preparing a long list of ideas for the hackathon on Day 2 - Lean Coffee - An open, democratically-driven discussion on topics that matter most to the community",
     "crumbs": [
       "Day 1 - July 15",
       "Overview"
@@ -92,7 +92,7 @@
     "href": "day1/index.html#what-to-bring",
     "title": "Day 1: Community & Governance",
     "section": "What to Bring",
-    "text": "What to Bring\n\nLaptop for afternoon sessions\nNote-taking materials\nIdeas for community governance\nQuestions about openwashdata’s future direction",
+    "text": "What to Bring\n\nLaptop for afternoon sessions\nNote-taking materials\nIdeas for projects for the hackathon\nQuestions about openwashdata’s future direction",
     "crumbs": [
       "Day 1 - July 15",
       "Overview"
@@ -101,20 +101,16 @@
   {
     "objectID": "day1/governance.html",
     "href": "day1/governance.html",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "",
-    "text": "Time: TBD (Afternoon session)\nFormat: Interactive discussion",
-    "crumbs": [
-      "Day 1 - July 15",
-      "Governance"
-    ]
+    "text": "A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding and rough consensus of the problem being solved and work that needs to be done.\n— Lorin Hochstein\n\n\nIn this house we call them “project managers”.\n— Greg Wilson\n\n\n\n\n\n\nSoftware is created and run to answer a question\nPapers, theses, and other reports are the product\nThe software is “just” a tool\nShades into projects that produce software for other researchers to use\n\n\n\n\n\n\nDegree(s) in some research domain\nLittle or no formal training in software development\nIn a team of 1–12 people\nTimelines of weeks to months\n\n\n\n\nXKCD Dependency cartoon\n\n\n\n\n\n\n\nDon’t remember much statistics…\n…but I’ve built a lot of complicated software…\n…and I’ve been lucky enough to hang out with some very smart people\n\n\n\n  \n\n\n\n\n\n\n\n\n\nThen\n\n\nNow\n\n\nNext\n\n\n\n\nDropbox\n\n\nGit repository\n\n\nBranching workflow\n\n\n\n\n“Just do it”\n\n\nSlack / mailing list\n\n\nMartha’s Rules\n\n\n\n\nInteractive analysis\n\n\nA big pile of scripts\n\n\nBuild tools / CI\n\n\n\n\nWord / Google Docs\n\n\nNotebooks / LaTeX\n\n\nSite builder\n\n\n\n\n“It doesn’t crash”\n\n\n“Are there any NAs?”\n\n\nAssertions / unit tests\n\n\n\n\n“Um, hi?”\n\n\nREADME + LICENSE\n\n\nCONTRIBUTING + CoC\n\n\n\n\n\n\n\n\nOriginal workshop: Daniel Standage and Greg Wilson\nProducing Open Source Software: Karl Fogel\nResearch Software Engineering with Python: Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, and Greg Wilson\nAnd everyone cited in the bibliography\n\n\n\n\nCover of ‘Research Software Engineering with Python’\n\n\n\n\n\n\n\nWho uses your software?\nHow do they find it?\nWho decides what will happen next?\nHow is that communicated?\nWho can make what kinds of changes?\nWhat happens automatically?\nHow are newcomers brought on board?"
   },
   {
     "objectID": "day1/governance.html#session-overview",
     "href": "day1/governance.html#session-overview",
-    "title": "Governance Discussion",
-    "section": "Session Overview",
-    "text": "Session Overview\nTime: 14:00-15:00\nFormat: Interactive discussion with presentations\nToday we’ll explore governance models for open research software communities, drawing from best practices and adapting them to openwashdata’s needs.\n\n\n“A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding”",
+    "title": "Governance",
+    "section": "",
+    "text": "Time: 14:00-15:00\nFormat: Interactive discussion with presentations\nToday we’ll explore governance models for open research software communities, drawing from best practices and adapting them to openwashdata’s needs.\n\n\n“A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding”",
     "crumbs": [
       "Day 1 - July 15",
       "Governance"
@@ -836,7 +832,7 @@
     "href": "prerequisites/index.html#overview",
     "title": "Day 2 Prerequisites",
     "section": "Overview",
-    "text": "Overview\nDay 2 features a hands-on hackathon using Claude Code. To make the most of our time together, please ensure your development environment is properly set up beforehand.",
+    "text": "Overview\nDay 2 features a hands-on hackathon using Claude Code. The following are setup steps to ensure you can effectively use Claude Code and participate in the hackathon. The steps are listed for MacOS and Windows users, so please follow the instructions for your operating system. The steps for Windows were not tested, so please reach out if you encounter any issues.",
     "crumbs": [
       "Prerequisites (Day 2)",
       "Hackathon Preparation"
@@ -847,7 +843,7 @@
     "href": "prerequisites/index.html#required-setup-steps",
     "title": "Day 2 Prerequisites",
     "section": "Required Setup Steps",
-    "text": "Required Setup Steps\n\n1. Get Claude Code Max Plan\nClaude Code requires a subscription to the Max plan for full functionality.\n\nVisit Claude.ai\nSign up or log in to your account\nSubscribe to the Claude Max plan ($100/month) and send me your invoice\n\n\n\n\n\n\n\nTip\n\n\n\nYou can cancel the subscription after the conference if you don’t wish to continue using it. You will have access to it for 1 month.\n\n\n\n\n2. Verify Terminal Access\nYou’ll need to use the terminal/command line during the hackathon.\n\nmacOSWindows\n\n\n\nPress Cmd + Space to open Spotlight\nType “Terminal” and press Enter\nYou should see a window with a command prompt\nType echo \"Terminal works!\" and press Enter\nIf you see “Terminal works!” printed, you’re all set\n\n\n\nRecommended: Windows Terminal\n\nInstall Windows Terminal from the Microsoft Store\nOnce installed, press Win key and type “Windows Terminal”\nClick to open Windows Terminal\nIn the terminal, type echo Terminal works! and press Enter\nIf you see “Terminal works!” printed, you’re all set\n\nAlternative: Command Prompt\nIf you can’t install Windows Terminal:\n\nPress Win + R to open Run dialog\nType “cmd” and press Enter\nYou should see a command prompt window\nType echo Terminal works! and press Enter\nIf you see “Terminal works!” printed, you’re all set\n\n\n\n\n\n\n3. Install Python\nPython is required for many data processing tasks.\n\nmacOSWindows\n\n\n\nCheck if Python is installed:\npython3 --version\nIf not installed, install using Homebrew:\n# Install Homebrew first if you don't have it\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# Then install Python\nbrew install python\nVerify installation:\npython3 --version\npip3 --version\n\n\n\n\nDownload Python from python.org\nRun the installer\nImportant: Check “Add Python to PATH” during installation\nOpen a new command prompt and verify:\npython --version\npip --version\n\n\n\n\n\n\n4. GitHub Account Setup\nEnsure you can access your GitHub account:\n\nGo to github.com\nLog in to your account (or create one if needed)\nVerify you can access your profile and repositories\nRecommended: Set up two-factor authentication\n\n\n\n5. Create Local Working Directory\nCreate a dedicated folder for storing code repositories locally (not in cloud-synced folders).\n\nmacOSWindows\n\n\n# Create the directory in Documents\nmkdir -p ~/Documents/gitrepos\n\n# Navigate to it\ncd ~/Documents/gitrepos\n\n# Verify it exists\npwd\nYou should see: /Users/yourusername/Documents/gitrepos\n\n\n# Create the directory in Documents\nmkdir %USERPROFILE%\\Documents\\gitrepos\n\n# Navigate to it\ncd %USERPROFILE%\\Documents\\gitrepos\n\n# Verify it exists\ncd\nYou should see: C:\\Users\\yourusername\\Documents\\gitrepos\n\n\n\n\n\n\n\n\n\nImportant: Avoid Cloud-Synced Folders\n\n\n\nDo not create your gitrepos folder inside: - OneDrive - Google Drive - Dropbox - iCloud Drive\nThese services can interfere with Git operations.\n\n\n\n\n6. Accept GitHub Organization Invitation\nBefore the conference, you’ll receive an invitation to join the openwashdata-conf GitHub organization.\n\nCheck your email for the invitation\nClick the invitation link\nAccept the invitation to join the organization\nVerify access at: github.com/openwashdata-conf\n\n\n\n\n\n\n\nNote\n\n\n\nIf you haven’t received an invitation by July 10, please contact the organizing team.",
+    "text": "Required Setup Steps\n\n1. Get Claude Code Max Plan\nClaude Code requires a subscription to the Max plan for full functionality.\n\nVisit Claude.ai\nSign up or log in to your account\nSubscribe to the Claude Max plan ($100/month)\nSend your invoice to Lars\n\n\n\n\n\n\n\nTip\n\n\n\nYou can cancel the subscription after the conference if you don’t wish to continue using it. You will have access to it for 1 month.\n\n\n\n\n2. Verify Terminal Access\nYou’ll need to use the terminal/command line during the hackathon.\n\nmacOSWindows\n\n\n\nPress Cmd + Space to open Spotlight\nType “Terminal” and press Enter\nYou should see a window with a command prompt\nType echo \"Terminal works!\" and press Enter\nIf you see “Terminal works!” printed, you’re all set\n\n\n\nRecommended: Windows Terminal\n\nInstall Windows Terminal from the Microsoft Store\nOnce installed, press Win key and type “Windows Terminal”\nClick to open Windows Terminal\nIn the terminal, type echo Terminal works! and press Enter\nIf you see “Terminal works!” printed, you’re all set\n\n\n\n\n\n\n3. Install Python\nPython is required for many data processing tasks.\n\nmacOSWindows\n\n\n\nCheck if Python is installed:\npython3 --version\nIf not installed, install using Homebrew:\n# Install Homebrew first if you don't have it\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# Then install Python\nbrew install python\nVerify installation:\npython3 --version\npip3 --version\n\n\n\n\nDownload Python from python.org\nRun the installer\nImportant: Check “Add Python to PATH” during installation\nOpen a new command prompt and verify:\npython --version\npip --version\n\n\n\n\n\n\n4. GitHub Account Setup\nEnsure you can access your GitHub account:\n\nGo to github.com\nLog in to your account\nVerify you can access your profile and repositories\nRecommended: Set up two-factor authentication\n\n\n\n5. Create Local Working Directory\nCreate a dedicated folder for storing code repositories locally (not in cloud-synced folders). The recommended location is in your Documents folder, named gitrepos. Use your preferred way of creating directories (Finder, File Explorer, or terminal/command line).\nBelow are the terminal commands for both macOS and Windows users.\n\nmacOSWindows\n\n\n# Create the directory in Documents\nmkdir -p ~/Documents/gitrepos\n\n# Navigate to it\ncd ~/Documents/gitrepos\n\n# Verify it exists\npwd\nYou should see: /Users/yourusername/Documents/gitrepos\n\n\n# Create the directory in Documents\nmkdir %USERPROFILE%\\Documents\\gitrepos\n\n# Navigate to it\ncd %USERPROFILE%\\Documents\\gitrepos\n\n# Verify it exists\ncd\nYou should see: C:\\Users\\yourusername\\Documents\\gitrepos\n\n\n\n\n\n\n\n\n\nImportant: Avoid Cloud-Synced Folders\n\n\n\nDo not create your gitrepos folder inside: - OneDrive - Google Drive - Dropbox - iCloud Drive\nThese services can interfere with Git operations.\n\n\n\n\n6. Accept GitHub Organization Invitation\nBefore the conference, you’ll receive an invitation to join the openwashdata-conf GitHub organization.\n\nCheck your email for the invitation\nClick the invitation link\nAccept the invitation to join the organization\nVerify access at: github.com/openwashdata-conf\n\n\n\n\n\n\n\nNote\n\n\n\nIf you haven’t received an invitation by July 10, please contact the organizing team.",
     "crumbs": [
       "Prerequisites (Day 2)",
       "Hackathon Preparation"
@@ -880,7 +876,7 @@
     "href": "prerequisites/index.html#troubleshooting",
     "title": "Day 2 Prerequisites",
     "section": "Troubleshooting",
-    "text": "Troubleshooting\n\nCommon Issues\nClaude Code won’t install - Ensure you have admin rights on your computer - Temporarily disable antivirus during installation - Try downloading again with a different browser\nPython command not found - Restart your terminal after installation - Ensure Python was added to PATH during installation - Try python3 instead of python on macOS/Linux\nCan’t create gitrepos folder - Ensure you have write permissions - Try creating in your user home directory - Avoid special characters in the path\nGitHub invitation not received - Check spam/junk folders - Verify your email address with organizers - Request a resend if needed",
+    "text": "Troubleshooting\n\nCommon Issues\nClaude Code won’t install\n\nEnsure you have admin rights on your computer\nTemporarily disable antivirus during installation\nTry downloading again with a different browser\n\nPython command not found\n\nRestart your terminal after installation\nEnsure Python was added to PATH during installation\nTry python3 instead of python on macOS/Linux\n\nCan’t create gitrepos folder\n\nEnsure you have write permissions\nTry creating in your user home directory\nAvoid special characters in the path\n\nGitHub invitation not received\n\nCheck spam/junk folders\nVerify your email address with organizers\nRequest a resend if needed",
     "crumbs": [
       "Prerequisites (Day 2)",
       "Hackathon Preparation"
@@ -1092,7 +1088,7 @@
   {
     "objectID": "day1/governance.html#why-governance-matters",
     "href": "day1/governance.html#why-governance-matters",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Why Governance Matters",
     "text": "Why Governance Matters\n\n\nWithout Good Governance:\n\nLow productivity\nOpaque decision-making\nUnclear leadership\nFrustration and conflicts\nDifficulty scaling\n\n\nWith Good Governance:\n\nClear processes\nTransparent decisions\nDefined roles\nSustainable growth\nCommunity trust",
     "crumbs": [
@@ -1103,7 +1099,7 @@
   {
     "objectID": "day1/governance.html#governance-evolution-stages",
     "href": "day1/governance.html#governance-evolution-stages",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Governance Evolution Stages",
     "text": "Governance Evolution Stages\n\n\nEarly Stage (1-3 people)\n\n“Just do it” approach\nMinimal formal process\nDirect communication\n\nGrowing Stage (4-8 people)\n\nNeed for coordination\nEmerging documentation\nBasic collaboration tools\n\nMature Stage (9+ people)\n\nFormal decision-making\nComprehensive documentation\nStructured contribution process",
     "crumbs": [
@@ -1114,9 +1110,9 @@
   {
     "objectID": "day1/governance.html#where-is-openwashdata-today",
     "href": "day1/governance.html#where-is-openwashdata-today",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Where is openwashdata Today?",
-    "text": "Where is openwashdata Today?\n\n\nCurrent State: - Growing community - Multiple contributors - Various projects - Informal coordination\n\nNext Steps: - Define governance model - Document processes - Clarify roles - Establish standards\n\n\n\nReflection Exercise (5 min)\nThink about: Where do you see openwashdata in this evolution?",
+    "text": "Where is openwashdata Today?\n\n\nCurrent State: - Growing community - Multiple contributors - Various projects - Informal coordination\n\nNext Steps: - Define governance model - Document processes - Clarify roles - Establish standards\n\n\n\n\nReflection Exercise (5 min)\nThink about: Where do you see openwashdata in this evolution?",
     "crumbs": [
       "Day 1 - July 15",
       "Governance"
@@ -1125,7 +1121,7 @@
   {
     "objectID": "day1/governance.html#common-governance-models",
     "href": "day1/governance.html#common-governance-models",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Common Governance Models",
     "text": "Common Governance Models\n\n\nBenevolent Dictator\n\nSingle leader makes final decisions\nCommon in early projects\n\nElected Representatives\n\nCommunity elects leaders\nFixed terms and rotation\n\nConsensus-Based\n\nAll members have equal say\nDecisions by agreement\n\nHybrid Models\n\nCombine elements\nAdapt to community needs",
     "crumbs": [
@@ -1136,7 +1132,7 @@
   {
     "objectID": "day1/governance.html#decision-making-marthas-rules",
     "href": "day1/governance.html#decision-making-marthas-rules",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Decision-Making: Martha’s Rules",
     "text": "Decision-Making: Martha’s Rules\nA lightweight framework for inclusive decision-making:\n\nProposal Submission\n\nAnyone can propose\nWritten in advance\nClear and specific\n\nPreliminary Vote\n\nThumbs up: Agree\nThumbs sideways: Discuss more\nThumbs down: Serious concerns\n\nDiscussion & Revision\n\nAddress concerns\nModify proposal\n\nFinal Vote\n\nClear majority needed\nDocument decision",
     "crumbs": [
@@ -1147,9 +1143,9 @@
   {
     "objectID": "day1/governance.html#key-governance-components",
     "href": "day1/governance.html#key-governance-components",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Key Governance Components",
-    "text": "Key Governance Components\n1. Roles & Responsibilities\n\n\nMaintainers: Technical decisions, code review\nContributors: Submit data, code, documentation\nStewards: Community management, outreach\nUsers: Feedback, bug reports\n\n\n\nQuestion: What roles do we need in openwashdata?",
+    "text": "Key Governance Components\n\n1. Roles & Responsibilities\n\n\nMaintainers: Technical decisions, code review\nContributors: Submit data, code, documentation\nStewards: Community management, outreach\nUsers: Feedback, bug reports\n\n\n\nQuestion: What roles do we need in openwashdata?",
     "crumbs": [
       "Day 1 - July 15",
       "Governance"
@@ -1158,9 +1154,9 @@
   {
     "objectID": "day1/governance.html#key-governance-components-1",
     "href": "day1/governance.html#key-governance-components-1",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Key Governance Components",
-    "text": "Key Governance Components\n2. Communication Channels\n\n\nInternal: - Slack/Discord - Regular meetings - Email lists - GitHub discussions\n\nExternal: - Website - Blog posts - Social media - Conference talks",
+    "text": "Key Governance Components\n\n2. Communication Channels\n\n\nInternal: - Slack/Discord - Regular meetings - Email lists - GitHub discussions\n\nExternal: - Website - Blog posts - Social media - Conference talks",
     "crumbs": [
       "Day 1 - July 15",
       "Governance"
@@ -1169,9 +1165,9 @@
   {
     "objectID": "day1/governance.html#key-governance-components-2",
     "href": "day1/governance.html#key-governance-components-2",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Key Governance Components",
-    "text": "Key Governance Components\n3. Documentation\nEssential documents for any open community:\n\n\nREADME: Project overview\nCONTRIBUTING: How to participate\nCODE_OF_CONDUCT: Community standards\nLICENSE: Legal framework\nGOVERNANCE: Decision processes",
+    "text": "Key Governance Components\n\n3. Documentation\nEssential documents for any open community:\n\n\nREADME: Project overview\nCONTRIBUTING: How to participate\nCODE_OF_CONDUCT: Community standards\nLICENSE: Legal framework\nGOVERNANCE: Decision processes",
     "crumbs": [
       "Day 1 - July 15",
       "Governance"
@@ -1180,9 +1176,9 @@
   {
     "objectID": "day1/governance.html#community-standards",
     "href": "day1/governance.html#community-standards",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Community Standards",
-    "text": "Community Standards\nCode of Conduct Essentials\n\n\nClear expectations for behavior\nSpecific examples of unacceptable conduct\nEnforcement mechanisms that are fair\nReporting process that is safe\nConsequences that are proportionate\n\n\n\nRemember: A code without enforcement is just decoration",
+    "text": "Community Standards\n\nCode of Conduct Essentials\n\n\nClear expectations for behavior\nSpecific examples of unacceptable conduct\nEnforcement mechanisms that are fair\nReporting process that is safe\nConsequences that are proportionate\n\n\n\nRemember: A code without enforcement is just decoration",
     "crumbs": [
       "Day 1 - July 15",
       "Governance"
@@ -1191,9 +1187,9 @@
   {
     "objectID": "day1/governance.html#meeting-management-best-practices",
     "href": "day1/governance.html#meeting-management-best-practices",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Meeting Management Best Practices",
-    "text": "Meeting Management Best Practices\n\n\nBefore: - Is meeting necessary? - Clear agenda - Shared in advance - Assigned moderator\n\nDuring: - Start on time - Follow agenda - Encourage participation - Take minutes\n\n\nAfter: Share minutes, action items, deadlines",
+    "text": "Meeting Management Best Practices\n\n\nBefore: - Is meeting necessary? - Clear agenda - Shared in advance - Assigned moderator\n\nDuring: - Start on time - Follow agenda - Encourage participation - Take minutes\n\n\n\nAfter: Share minutes, action items, deadlines",
     "crumbs": [
       "Day 1 - July 15",
       "Governance"
@@ -1202,7 +1198,7 @@
   {
     "objectID": "day1/governance.html#interactive-exercise-governance-assessment",
     "href": "day1/governance.html#interactive-exercise-governance-assessment",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Interactive Exercise: Governance Assessment",
     "text": "Interactive Exercise: Governance Assessment\n15 minutes - Small Groups\nDiscuss and answer:\n\nWho are our users? How do they find us?\nHow do we make decisions currently?\nWhat gets in the way of contributions?\nHow do we handle conflicts?\nHow do we welcome newcomers?\nWhat could we automate?\n\n\nShare: Each group presents one key insight",
     "crumbs": [
@@ -1213,7 +1209,7 @@
   {
     "objectID": "day1/governance.html#proposed-governance-framework",
     "href": "day1/governance.html#proposed-governance-framework",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Proposed Governance Framework",
     "text": "Proposed Governance Framework\nBased on best practices and community needs:\n\n\nSteering Committee (3-5 members, rotating)\nWorking Groups (data quality, tools, outreach)\nDecision Process (Martha’s Rules for major decisions)\nDocumentation (all five essential documents)\nRegular Reviews (quarterly governance check-ins)",
     "crumbs": [
@@ -1224,9 +1220,9 @@
   {
     "objectID": "day1/governance.html#action-planning",
     "href": "day1/governance.html#action-planning",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Action Planning",
-    "text": "Action Planning\nImmediate Actions (Next 30 days)\n\n\nDraft CODE_OF_CONDUCT\nCreate CONTRIBUTING guide\nDefine initial roles\nSet up communication channels\n\n\nMedium-term (3-6 months)\n\n\nImplement decision process\nForm working groups\nRegular community calls\nDocument all processes",
+    "text": "Action Planning\n\nImmediate Actions (Next 30 days)\n\n\nDraft CODE_OF_CONDUCT\nCreate CONTRIBUTING guide\nDefine initial roles\nSet up communication channels\n\n\n\n\nMedium-term (3-6 months)\n\n\nImplement decision process\nForm working groups\nRegular community calls\nDocument all processes",
     "crumbs": [
       "Day 1 - July 15",
       "Governance"
@@ -1235,7 +1231,7 @@
   {
     "objectID": "day1/governance.html#small-group-discussion-20-min",
     "href": "day1/governance.html#small-group-discussion-20-min",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Small Group Discussion (20 min)",
     "text": "Small Group Discussion (20 min)\nBreak into groups of 3-4 to discuss:\n\nWhich governance model fits openwashdata best?\nWhat roles do we need to define first?\nWhat decisions need a formal process?\nHow do we ensure inclusive participation?\n\n\nReport Back: Each group shares top priority",
     "crumbs": [
@@ -1246,9 +1242,9 @@
   {
     "objectID": "day1/governance.html#synthesis-next-steps",
     "href": "day1/governance.html#synthesis-next-steps",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Synthesis & Next Steps",
-    "text": "Synthesis & Next Steps\nKey Takeaways\n\n\nGovernance enables growth\nStart simple, evolve as needed\nDocument everything\nBe inclusive by design\nReview and adapt regularly",
+    "text": "Synthesis & Next Steps\n\nKey Takeaways\n\n\nGovernance enables growth\nStart simple, evolve as needed\nDocument everything\nBe inclusive by design\nReview and adapt regularly",
     "crumbs": [
       "Day 1 - July 15",
       "Governance"
@@ -1257,7 +1253,7 @@
   {
     "objectID": "day1/governance.html#your-commitment",
     "href": "day1/governance.html#your-commitment",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Your Commitment",
     "text": "Your Commitment\nBefore we close, consider:\n\n\nWhat governance aspect excites you most?\nWhere could you contribute?\nWhat concerns do you have?\nWhat support do you need?\n\n\n\nShare: One commitment or question with the group",
     "crumbs": [
@@ -1268,7 +1264,7 @@
   {
     "objectID": "day1/governance.html#resources",
     "href": "day1/governance.html#resources",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Resources",
     "text": "Resources\n\nThe Turing Way - Guide for Collaboration\nOpen Source Guides - Leadership & Governance\nApache Software Foundation - How it Works\nResearch Software Engineering Handbook",
     "crumbs": [
@@ -1279,12 +1275,485 @@
   {
     "objectID": "day1/governance.html#thank-you",
     "href": "day1/governance.html#thank-you",
-    "title": "Governance Discussion",
+    "title": "Governance",
     "section": "Thank You!",
     "text": "Thank You!\n\n\nLet’s build a sustainable, inclusive governance model together!\nQuestions? Thoughts? Concerns?",
     "crumbs": [
       "Day 1 - July 15",
       "Governance"
     ]
+  },
+  {
+    "objectID": "day1/index.html#pre-requisites",
+    "href": "day1/index.html#pre-requisites",
+    "title": "Day 1: Community & Governance",
+    "section": "",
+    "text": "Laptop: Required for shared note-taking, especially in the afternoon sessions.\nGoogle Doc access: We will take notes in a shared Google Doc. You will receive an email to test if you can access it. If you did not receive an email, please contact the organizers.\nIdeas for Hackathon: Think about potential projects or topics you or somene else could work on during the hackathon on Day 2.",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "day1/governance.html#starting-point",
+    "href": "day1/governance.html#starting-point",
+    "title": "Governance",
+    "section": "",
+    "text": "A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding and rough consensus of the problem being solved and work that needs to be done.\n— Lorin Hochstein\n\n\nIn this house we call them “project managers”.\n— Greg Wilson"
+  },
+  {
+    "objectID": "day1/governance.html#research-software",
+    "href": "day1/governance.html#research-software",
+    "title": "Governance",
+    "section": "",
+    "text": "Software is created and run to answer a question\nPapers, theses, and other reports are the product\nThe software is “just” a tool\nShades into projects that produce software for other researchers to use"
+  },
+  {
+    "objectID": "day1/governance.html#you",
+    "href": "day1/governance.html#you",
+    "title": "Governance",
+    "section": "",
+    "text": "Degree(s) in some research domain\nLittle or no formal training in software development\nIn a team of 1–12 people\nTimelines of weeks to months\n\n\n\n\nXKCD Dependency cartoon"
+  },
+  {
+    "objectID": "day1/governance.html#me",
+    "href": "day1/governance.html#me",
+    "title": "Governance",
+    "section": "",
+    "text": "Don’t remember much statistics…\n…but I’ve built a lot of complicated software…\n…and I’ve been lucky enough to hang out with some very smart people"
+  },
+  {
+    "objectID": "day1/governance.html#where-weve-been-where-were-going",
+    "href": "day1/governance.html#where-weve-been-where-were-going",
+    "title": "Governance",
+    "section": "",
+    "text": "Then\n\n\nNow\n\n\nNext\n\n\n\n\nDropbox\n\n\nGit repository\n\n\nBranching workflow\n\n\n\n\n“Just do it”\n\n\nSlack / mailing list\n\n\nMartha’s Rules\n\n\n\n\nInteractive analysis\n\n\nA big pile of scripts\n\n\nBuild tools / CI\n\n\n\n\nWord / Google Docs\n\n\nNotebooks / LaTeX\n\n\nSite builder\n\n\n\n\n“It doesn’t crash”\n\n\n“Are there any NAs?”\n\n\nAssertions / unit tests\n\n\n\n\n“Um, hi?”\n\n\nREADME + LICENSE\n\n\nCONTRIBUTING + CoC"
+  },
+  {
+    "objectID": "day1/governance.html#acknowledgments",
+    "href": "day1/governance.html#acknowledgments",
+    "title": "Governance",
+    "section": "",
+    "text": "Original workshop: Daniel Standage and Greg Wilson\nProducing Open Source Software: Karl Fogel\nResearch Software Engineering with Python: Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, and Greg Wilson\nAnd everyone cited in the bibliography\n\n\n\n\nCover of ‘Research Software Engineering with Python’"
+  },
+  {
+    "objectID": "day1/governance.html#how-is-your-project-currently-run",
+    "href": "day1/governance.html#how-is-your-project-currently-run",
+    "title": "Governance",
+    "section": "",
+    "text": "Who uses your software?\nHow do they find it?\nWho decides what will happen next?\nHow is that communicated?\nWho can make what kinds of changes?\nWhat happens automatically?\nHow are newcomers brought on board?"
+  },
+  {
+    "objectID": "day1/governance.html#what-problems-are-we-trying-to-solve",
+    "href": "day1/governance.html#what-problems-are-we-trying-to-solve",
+    "title": "Governance",
+    "section": "What problems are we trying to solve?",
+    "text": "What problems are we trying to solve?\n\nLow productivity\n\n“Oh no: not another meeting…”\n\nOpaque decision making\n\n“Did we decide that?”\n“It’s not what you know, it’s who you know.”"
+  },
+  {
+    "objectID": "day1/governance.html#the-good-news",
+    "href": "day1/governance.html#the-good-news",
+    "title": "Governance",
+    "section": "The good news",
+    "text": "The good news\n\nYou don’t have to invent this yourself\nhttps://www.askamanager.org/\n\n\n\n\nAsk a Manager logo"
+  },
+  {
+    "objectID": "day1/governance.html#governance-models",
+    "href": "day1/governance.html#governance-models",
+    "title": "Governance",
+    "section": "Governance models",
+    "text": "Governance models\n\nhttps://communityrule.info/ describes lots of options\nBenevolent dictator (often the project founder)\n\nCommon in young projects\nBrittle (founder can move on)\nUsually leads to emergence of unofficial (i.e., unaccountable) leaders\n\nElected representation\n\nExplicit rules for suffrage\n\nConsensus-based\n\nIf most people agree on most things most of the time"
+  },
+  {
+    "objectID": "day1/governance.html#sidebar",
+    "href": "day1/governance.html#sidebar",
+    "title": "Governance",
+    "section": "sidebar",
+    "text": "sidebar"
+  },
+  {
+    "objectID": "day1/governance.html#hero-programmers",
+    "href": "day1/governance.html#hero-programmers",
+    "title": "Governance",
+    "section": "“Hero” programmers",
+    "text": "“Hero” programmers\n\nBrooks advocated a chief programmer model in the 1970s [@Brooks1995]\n\nDisparaged since then\n\nBut 80% of projects on GitHub are hero projects [@Majumder2019]\n\n5% or less of people responsible for 95% or more of interactions\n“Heroes” commit far fewer bugs than other contributors\n\nDespite terminology, not a bad model for research projects\n\n[@Petre2014] found that people without domain knowledge couldn’t review scientific code effectively"
+  },
+  {
+    "objectID": "day1/governance.html#marthas-rules",
+    "href": "day1/governance.html#marthas-rules",
+    "title": "Governance",
+    "section": "Martha’s Rules",
+    "text": "Martha’s Rules\n\nAnyone can put forward a proposal by filing it at least 24 hours before a scheduled meeting\n\nOne-line summary\nBackground information\nConcrete proposal\nPros and cons\nAlternatives\n\nAt most two pages\n\nPreferably shorter"
+  },
+  {
+    "objectID": "day1/governance.html#establishing-a-quorum",
+    "href": "day1/governance.html#establishing-a-quorum",
+    "title": "Governance",
+    "section": "Establishing a quorum",
+    "text": "Establishing a quorum\n\nA quorum is established if half or more of voting members are present\nWhich means there must be:\n\nA rule about how to become a member\nA rule about when and how someone stops being a member\n\nThe meeting may not discuss or vote on a proposal unless its sponsor (or their delegate) is present."
+  },
+  {
+    "objectID": "day1/governance.html#presenting-a-proposal",
+    "href": "day1/governance.html#presenting-a-proposal",
+    "title": "Governance",
+    "section": "Presenting a proposal",
+    "text": "Presenting a proposal\n\nThe sponsor has 5 minutes to present the proposal\nMembers cast a sense vote: support, neutral, or oppose\n\nIf everyone supports or is neutral, go immediately to a binary vote with no further discussion\nIf a majority is opposed or neutral, send proposal back to sponsor for further work\n\nIf a minority of members oppose, set a timer for 10 minutes of moderated discussion\nThen call a final binary vote in which everyone must support or oppose (no neutral votes allowed)\nIf a majority support, the proposal is accepted\n\nOtherwise, it is returned to the sponsor for further work"
+  },
+  {
+    "objectID": "day1/governance.html#roles-and-responsibilities",
+    "href": "day1/governance.html#roles-and-responsibilities",
+    "title": "Governance",
+    "section": "Roles and responsibilities",
+    "text": "Roles and responsibilities\n\n\n\n\nPerson\n\n\nRoles\n\n\n\n\nRole\n\n\nTask\n\n\n\n\nghopper\n\n\nadmin\n\n\nadmin\n\n\nmerge PRs\n\n\n\n\nkjohnson\n\n\nadmin, commit\n\n\n×\n\n\nadmin\n\n\nassign issues\n\n\n\n\naturing\n\n\ncommit\n\n\n\n\ncommit\n\n\npublish posts\n\n\n\n\nbwk\n\n\ncommit\n\n\ncommit\n\n\nfile issues\n\n\n\n\n\nGives you a list of what actually needs to be done\n\nIt’s always longer than you first expect\n\nTells everyone who to go to for what\n\nParticularly when their first choice is on holiday\n\nHelps with succession planning\n\n“We don’t have anyone who does that any more…”"
+  },
+  {
+    "objectID": "day1/governance.html#code-of-conduct",
+    "href": "day1/governance.html#code-of-conduct",
+    "title": "Governance",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\n\nDiverse communities need explicit norms\n\n“I didn’t realize someone would find that offensive”\nWhich is sometimes used dishonestly…\n\nAdopt a Code of Conduct (e.g., Python’s)\n\nIts mere existence is a strong signal about the kind of community you are\n\nDon’t write one yourself\n\nYou won’t think of all the edge cases\nUsing someone else’s makes misunderstandings less likely\n\nUse the Contributor Covenant"
+  },
+  {
+    "objectID": "day1/governance.html#code-of-conduct-1",
+    "href": "day1/governance.html#code-of-conduct-1",
+    "title": "Governance",
+    "section": "Code of Conduct",
+    "text": "Code of Conduct\n\nA Code of Conduct is only useful if it is enforced\n\nAnd if there is a clear reporting mechanism that community members trust\n\nBe explicit about enforcement mechanisms and consequences\nDesignate an independent third party to handle complaints\n\nTrade off with another project lead\nDo the background reading [@Aurora2019]"
+  },
+  {
+    "objectID": "day1/governance.html#meetings",
+    "href": "day1/governance.html#meetings",
+    "title": "Governance",
+    "section": "Meetings",
+    "text": "Meetings\n\nOn par with interruptions for “things people wish they could have less of”\nUnlike interruptions, can be done well\nAs with governance, having rules is the first and biggest step toward efficiency"
+  },
+  {
+    "objectID": "day1/governance.html#does-there-actually-need-to-be-a-meeting",
+    "href": "day1/governance.html#does-there-actually-need-to-be-a-meeting",
+    "title": "Governance",
+    "section": "1. Does there actually need to be a meeting?",
+    "text": "1. Does there actually need to be a meeting?\n\nTo inform? Only if you are expecting questions\nTo consult? Only if people get a vote\n\nOtherwise it’s just informing with pretense\n\nTo discuss and make decisions? Yes\n\nBut only in small groups\nOr with well-defined procedural rules\n\nTo brainstorm or collaborate?\n\nThat’s a very different kind of meeting"
+  },
+  {
+    "objectID": "day1/governance.html#create-an-agenda",
+    "href": "day1/governance.html#create-an-agenda",
+    "title": "Governance",
+    "section": "2. Create an agenda",
+    "text": "2. Create an agenda\n\nIf you don’t care enough to make a list, you don’t need a meeting\nInclude timings\nPrioritize\nPlan to end early\n\n“The most fundamental unit of time is the bladder”"
+  },
+  {
+    "objectID": "day1/governance.html#have-clear-rules-for-making-decisions",
+    "href": "day1/governance.html#have-clear-rules-for-making-decisions",
+    "title": "Governance",
+    "section": "3. Have clear rules for making decisions",
+    "text": "3. Have clear rules for making decisions\n\n“The Tyranny of Structurelessness” [@Freeman1972]\nIf you need Robert’s Rules, you need training"
+  },
+  {
+    "objectID": "day1/governance.html#put-someone-in-charge",
+    "href": "day1/governance.html#put-someone-in-charge",
+    "title": "Governance",
+    "section": "4. Put someone in charge",
+    "text": "4. Put someone in charge\n\nThe moderator should not do most of the talking\n\nAny more than the conductor plays most of the notes\n\nCall on specific people in order\nAllow them one point at a time\nKeep a backlog"
+  },
+  {
+    "objectID": "day1/governance.html#require-politeness",
+    "href": "day1/governance.html#require-politeness",
+    "title": "Governance",
+    "section": "5. Require politeness",
+    "text": "5. Require politeness\n\nAll the other rules are special cases of this…\nNo technology during in-person meeting\n\nExcept for assistive technology or family need\n“Please put your devices in politeness mode”\n\nNo interruptions\n\nExcept by moderator\n\nNo rambling\nYou do have a Code of Conduct, right?"
+  },
+  {
+    "objectID": "day1/governance.html#record-minutes",
+    "href": "day1/governance.html#record-minutes",
+    "title": "Governance",
+    "section": "6. Record minutes",
+    "text": "6. Record minutes\n\nSo people who weren’t there know what happened\nSo people who were there agree what happened\nSo people can be held accountable at later meetings"
+  },
+  {
+    "objectID": "day1/governance.html#manage-that-guy",
+    "href": "day1/governance.html#manage-that-guy",
+    "title": "Governance",
+    "section": "7. Manage “that guy”",
+    "text": "7. Manage “that guy”\n\n\n![NOAA categorization of disruptive behavior types](./images/noaa-ddb.png){width=\"100%\"}\n\n&lt;ul&gt;\n  &lt;li&gt;The moderator's other job…&lt;/li&gt;\n  &lt;li&gt;Three stickies&lt;/li&gt;\n  &lt;li&gt;Interruption bingo&lt;/li&gt;\n  &lt;li&gt;&lt;a href=\"https://coast.noaa.gov/ddb/\"&gt;https://coast.noaa.gov/ddb/&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;"
+  },
+  {
+    "objectID": "day1/governance.html#be-an-active-participant",
+    "href": "day1/governance.html#be-an-active-participant",
+    "title": "Governance",
+    "section": "8. Be an active participant",
+    "text": "8. Be an active participant\n\nDecline invitations\n\nIf you agree to abide by what the meeting decides\n\nRead the agenda and material before the meeting\nTake your own notes\nUse participants’ names\nPause before speaking\nPut down your hand"
+  },
+  {
+    "objectID": "day1/governance.html#life-online",
+    "href": "day1/governance.html#life-online",
+    "title": "Governance",
+    "section": "9. Life online",
+    "text": "9. Life online\n\nNo mixed-mode meetings\n\nAll in person or all online\n\nDo not record the meeting without willing consent\nReview meeting protocol at the start if necessary\nTake minutes in a shared document\nRaise hands digitally\n\n/hand in the chat is good\n/hand another budget item is better"
+  },
+  {
+    "objectID": "day1/governance.html#seek-truth-not-victory",
+    "href": "day1/governance.html#seek-truth-not-victory",
+    "title": "Governance",
+    "section": "10. Seek truth, not victory",
+    "text": "10. Seek truth, not victory\n\nNo social dominance displays\n\n“Well actually…”\n\nDon’t raise points you don’t actually believe in\n\nThe devil doesn’t need more advocates\n\nDon’t make excuses for your questions or opinions\n\n“This is probably stupid, but…”"
+  },
+  {
+    "objectID": "day1/governance.html#sidebar-1",
+    "href": "day1/governance.html#sidebar-1",
+    "title": "Governance",
+    "section": "sidebar",
+    "text": "sidebar"
+  },
+  {
+    "objectID": "day1/governance.html#recommended-reading",
+    "href": "day1/governance.html#recommended-reading",
+    "title": "Governance",
+    "section": "Recommended reading",
+    "text": "Recommended reading\n\n[@Brookfield2016] has a lot of good ideas for managing discussion"
+  },
+  {
+    "objectID": "day1/governance.html#exercise",
+    "href": "day1/governance.html#exercise",
+    "title": "Governance",
+    "section": "exercise",
+    "text": "exercise"
+  },
+  {
+    "objectID": "day1/governance.html#decision-making",
+    "href": "day1/governance.html#decision-making",
+    "title": "Governance",
+    "section": "Decision making",
+    "text": "Decision making\n\nWhat decisions has your project made recently?\nWho made them?\nWhere are they recorded?"
+  },
+  {
+    "objectID": "day1/governance.html#exercise-1",
+    "href": "day1/governance.html#exercise-1",
+    "title": "Governance",
+    "section": "exercise",
+    "text": "exercise"
+  },
+  {
+    "objectID": "day1/governance.html#what-roles-and-responsibilities-do-you-have",
+    "href": "day1/governance.html#what-roles-and-responsibilities-do-you-have",
+    "title": "Governance",
+    "section": "What roles and responsibilities do you have?",
+    "text": "What roles and responsibilities do you have?\n\nList a dozen things people do to keep your project going in Column A.\nList people who contribute to the project in Column B.\nDraw lines to connect them. What roles can you identify?"
+  },
+  {
+    "objectID": "day1/governance.html#exercise-2",
+    "href": "day1/governance.html#exercise-2",
+    "title": "Governance",
+    "section": "exercise",
+    "text": "exercise"
+  },
+  {
+    "objectID": "day1/governance.html#who-decides",
+    "href": "day1/governance.html#who-decides",
+    "title": "Governance",
+    "section": "Who decides?",
+    "text": "Who decides?\n\nWho gets a vote in your group?\nHow are new people added to that pool?\nWhen and how do people lose their votes?\nWhere and how do other people find out what has been decided and how it affects them?\nWhere and how can non-voters raise issues?"
+  },
+  {
+    "objectID": "day1/openwashdata.html",
+    "href": "day1/openwashdata.html",
+    "title": "openwashdata",
+    "section": "",
+    "text": "past and future"
+  },
+  {
+    "objectID": "day1/governance-keep.html",
+    "href": "day1/governance-keep.html",
+    "title": "Governance",
+    "section": "",
+    "text": "Time: 14:00-15:00\nFormat: Interactive discussion with presentations\nToday we’ll explore governance models for open research software communities, drawing from best practices and adapting them to openwashdata’s needs.\n\n\n“A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding”"
+  },
+  {
+    "objectID": "day1/governance-keep.html#session-overview",
+    "href": "day1/governance-keep.html#session-overview",
+    "title": "Governance",
+    "section": "",
+    "text": "Time: 14:00-15:00\nFormat: Interactive discussion with presentations\nToday we’ll explore governance models for open research software communities, drawing from best practices and adapting them to openwashdata’s needs.\n\n\n“A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding”"
+  },
+  {
+    "objectID": "day1/governance-keep.html#why-governance-matters",
+    "href": "day1/governance-keep.html#why-governance-matters",
+    "title": "Governance",
+    "section": "Why Governance Matters",
+    "text": "Why Governance Matters\n\n\nWithout Good Governance:\n\nLow productivity\nOpaque decision-making\nUnclear leadership\nFrustration and conflicts\nDifficulty scaling\n\n\nWith Good Governance:\n\nClear processes\nTransparent decisions\nDefined roles\nSustainable growth\nCommunity trust"
+  },
+  {
+    "objectID": "day1/governance-keep.html#governance-evolution-stages",
+    "href": "day1/governance-keep.html#governance-evolution-stages",
+    "title": "Governance",
+    "section": "Governance Evolution Stages",
+    "text": "Governance Evolution Stages\n\n\nEarly Stage (1-3 people)\n\n“Just do it” approach\nMinimal formal process\nDirect communication\n\nGrowing Stage (4-8 people)\n\nNeed for coordination\nEmerging documentation\nBasic collaboration tools\n\nMature Stage (9+ people)\n\nFormal decision-making\nComprehensive documentation\nStructured contribution process"
+  },
+  {
+    "objectID": "day1/governance-keep.html#where-is-openwashdata-today",
+    "href": "day1/governance-keep.html#where-is-openwashdata-today",
+    "title": "Governance",
+    "section": "Where is openwashdata Today?",
+    "text": "Where is openwashdata Today?\n\n\nCurrent State: - Growing community - Multiple contributors - Various projects - Informal coordination\n\nNext Steps: - Define governance model - Document processes - Clarify roles - Establish standards\n\n\n\n\nReflection Exercise (5 min)\nThink about: Where do you see openwashdata in this evolution?"
+  },
+  {
+    "objectID": "day1/governance-keep.html#common-governance-models",
+    "href": "day1/governance-keep.html#common-governance-models",
+    "title": "Governance",
+    "section": "Common Governance Models",
+    "text": "Common Governance Models\n\n\nBenevolent Dictator\n\nSingle leader makes final decisions\nCommon in early projects\n\nElected Representatives\n\nCommunity elects leaders\nFixed terms and rotation\n\nConsensus-Based\n\nAll members have equal say\nDecisions by agreement\n\nHybrid Models\n\nCombine elements\nAdapt to community needs"
+  },
+  {
+    "objectID": "day1/governance-keep.html#decision-making-marthas-rules",
+    "href": "day1/governance-keep.html#decision-making-marthas-rules",
+    "title": "Governance",
+    "section": "Decision-Making: Martha’s Rules",
+    "text": "Decision-Making: Martha’s Rules\nA lightweight framework for inclusive decision-making:\n\nProposal Submission\n\nAnyone can propose\nWritten in advance\nClear and specific\n\nPreliminary Vote\n\nThumbs up: Agree\nThumbs sideways: Discuss more\nThumbs down: Serious concerns\n\nDiscussion & Revision\n\nAddress concerns\nModify proposal\n\nFinal Vote\n\nClear majority needed\nDocument decision"
+  },
+  {
+    "objectID": "day1/governance-keep.html#key-governance-components",
+    "href": "day1/governance-keep.html#key-governance-components",
+    "title": "Governance",
+    "section": "Key Governance Components",
+    "text": "Key Governance Components\n\n1. Roles & Responsibilities\n\n\nMaintainers: Technical decisions, code review\nContributors: Submit data, code, documentation\nStewards: Community management, outreach\nUsers: Feedback, bug reports\n\n\n\nQuestion: What roles do we need in openwashdata?"
+  },
+  {
+    "objectID": "day1/governance-keep.html#key-governance-components-1",
+    "href": "day1/governance-keep.html#key-governance-components-1",
+    "title": "Governance",
+    "section": "Key Governance Components",
+    "text": "Key Governance Components\n\n2. Communication Channels\n\n\nInternal: - Slack/Discord - Regular meetings - Email lists - GitHub discussions\n\nExternal: - Website - Blog posts - Social media - Conference talks"
+  },
+  {
+    "objectID": "day1/governance-keep.html#key-governance-components-2",
+    "href": "day1/governance-keep.html#key-governance-components-2",
+    "title": "Governance",
+    "section": "Key Governance Components",
+    "text": "Key Governance Components\n\n3. Documentation\nEssential documents for any open community:\n\n\nREADME: Project overview\nCONTRIBUTING: How to participate\nCODE_OF_CONDUCT: Community standards\nLICENSE: Legal framework\nGOVERNANCE: Decision processes"
+  },
+  {
+    "objectID": "day1/governance-keep.html#community-standards",
+    "href": "day1/governance-keep.html#community-standards",
+    "title": "Governance",
+    "section": "Community Standards",
+    "text": "Community Standards\n\nCode of Conduct Essentials\n\n\nClear expectations for behavior\nSpecific examples of unacceptable conduct\nEnforcement mechanisms that are fair\nReporting process that is safe\nConsequences that are proportionate\n\n\n\nRemember: A code without enforcement is just decoration"
+  },
+  {
+    "objectID": "day1/governance-keep.html#meeting-management-best-practices",
+    "href": "day1/governance-keep.html#meeting-management-best-practices",
+    "title": "Governance",
+    "section": "Meeting Management Best Practices",
+    "text": "Meeting Management Best Practices\n\n\nBefore: - Is meeting necessary? - Clear agenda - Shared in advance - Assigned moderator\n\nDuring: - Start on time - Follow agenda - Encourage participation - Take minutes\n\n\n\nAfter: Share minutes, action items, deadlines"
+  },
+  {
+    "objectID": "day1/governance-keep.html#interactive-exercise-governance-assessment",
+    "href": "day1/governance-keep.html#interactive-exercise-governance-assessment",
+    "title": "Governance",
+    "section": "Interactive Exercise: Governance Assessment",
+    "text": "Interactive Exercise: Governance Assessment\n15 minutes - Small Groups\nDiscuss and answer:\n\nWho are our users? How do they find us?\nHow do we make decisions currently?\nWhat gets in the way of contributions?\nHow do we handle conflicts?\nHow do we welcome newcomers?\nWhat could we automate?\n\n\nShare: Each group presents one key insight"
+  },
+  {
+    "objectID": "day1/governance-keep.html#proposed-governance-framework",
+    "href": "day1/governance-keep.html#proposed-governance-framework",
+    "title": "Governance",
+    "section": "Proposed Governance Framework",
+    "text": "Proposed Governance Framework\nBased on best practices and community needs:\n\n\nSteering Committee (3-5 members, rotating)\nWorking Groups (data quality, tools, outreach)\nDecision Process (Martha’s Rules for major decisions)\nDocumentation (all five essential documents)\nRegular Reviews (quarterly governance check-ins)"
+  },
+  {
+    "objectID": "day1/governance-keep.html#action-planning",
+    "href": "day1/governance-keep.html#action-planning",
+    "title": "Governance",
+    "section": "Action Planning",
+    "text": "Action Planning\n\nImmediate Actions (Next 30 days)\n\n\nDraft CODE_OF_CONDUCT\nCreate CONTRIBUTING guide\nDefine initial roles\nSet up communication channels\n\n\n\n\nMedium-term (3-6 months)\n\n\nImplement decision process\nForm working groups\nRegular community calls\nDocument all processes"
+  },
+  {
+    "objectID": "day1/governance-keep.html#small-group-discussion-20-min",
+    "href": "day1/governance-keep.html#small-group-discussion-20-min",
+    "title": "Governance",
+    "section": "Small Group Discussion (20 min)",
+    "text": "Small Group Discussion (20 min)\nBreak into groups of 3-4 to discuss:\n\nWhich governance model fits openwashdata best?\nWhat roles do we need to define first?\nWhat decisions need a formal process?\nHow do we ensure inclusive participation?\n\n\nReport Back: Each group shares top priority"
+  },
+  {
+    "objectID": "day1/governance-keep.html#synthesis-next-steps",
+    "href": "day1/governance-keep.html#synthesis-next-steps",
+    "title": "Governance",
+    "section": "Synthesis & Next Steps",
+    "text": "Synthesis & Next Steps\n\nKey Takeaways\n\n\nGovernance enables growth\nStart simple, evolve as needed\nDocument everything\nBe inclusive by design\nReview and adapt regularly"
+  },
+  {
+    "objectID": "day1/governance-keep.html#your-commitment",
+    "href": "day1/governance-keep.html#your-commitment",
+    "title": "Governance",
+    "section": "Your Commitment",
+    "text": "Your Commitment\nBefore we close, consider:\n\n\nWhat governance aspect excites you most?\nWhere could you contribute?\nWhat concerns do you have?\nWhat support do you need?\n\n\n\nShare: One commitment or question with the group"
+  },
+  {
+    "objectID": "day1/governance-keep.html#resources",
+    "href": "day1/governance-keep.html#resources",
+    "title": "Governance",
+    "section": "Resources",
+    "text": "Resources\n\nThe Turing Way - Guide for Collaboration\nOpen Source Guides - Leadership & Governance\nApache Software Foundation - How it Works\nResearch Software Engineering Handbook"
+  },
+  {
+    "objectID": "day1/governance-keep.html#thank-you",
+    "href": "day1/governance-keep.html#thank-you",
+    "title": "Governance",
+    "section": "Thank You!",
+    "text": "Thank You!\n\n\nLet’s build a sustainable, inclusive governance model together!\nQuestions? Thoughts? Concerns?"
+  },
+  {
+    "objectID": "day1/images/index.html",
+    "href": "day1/images/index.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding and rough consensus of the problem being solved and work that needs to be done.\n— Lorin Hochstein\n\n\nIn this house we call them “project managers”.\n— Greg Wilson"
+  },
+  {
+    "objectID": "day1/images/index.html#starting-point",
+    "href": "day1/images/index.html#starting-point",
+    "title": "Introduction",
+    "section": "",
+    "text": "A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding and rough consensus of the problem being solved and work that needs to be done.\n— Lorin Hochstein\n\n\nIn this house we call them “project managers”.\n— Greg Wilson"
+  },
+  {
+    "objectID": "day1/images/index.html#research-software",
+    "href": "day1/images/index.html#research-software",
+    "title": "Introduction",
+    "section": "Research software",
+    "text": "Research software\n\nSoftware is created and run to answer a question\nPapers, theses, and other reports are the product\nThe software is “just” a tool\nShades into projects that produce software for other researchers to use"
+  },
+  {
+    "objectID": "day1/images/index.html#you",
+    "href": "day1/images/index.html#you",
+    "title": "Introduction",
+    "section": "You",
+    "text": "You\n\nDegree(s) in some research domain\nLittle or no formal training in software development\nIn a team of 1–12 people\nTimelines of weeks to months\n\n\n\n\nXKCD Dependency cartoon"
+  },
+  {
+    "objectID": "day1/images/index.html#me",
+    "href": "day1/images/index.html#me",
+    "title": "Introduction",
+    "section": "Me",
+    "text": "Me\n\nDon’t remember much statistics…\n…but I’ve built a lot of complicated software…\n…and I’ve been lucky enough to hang out with some very smart people"
+  },
+  {
+    "objectID": "day1/images/index.html#where-weve-been-where-were-going",
+    "href": "day1/images/index.html#where-weve-been-where-were-going",
+    "title": "Introduction",
+    "section": "Where we’ve been, where we’re going",
+    "text": "Where we’ve been, where we’re going\n\n\n\nThen\n\n\nNow\n\n\nNext\n\n\n\n\nDropbox\n\n\nGit repository\n\n\nBranching workflow\n\n\n\n\n“Just do it”\n\n\nSlack / mailing list\n\n\nMartha’s Rules\n\n\n\n\nInteractive analysis\n\n\nA big pile of scripts\n\n\nBuild tools / CI\n\n\n\n\nWord / Google Docs\n\n\nNotebooks / LaTeX\n\n\nSite builder\n\n\n\n\n“It doesn’t crash”\n\n\n“Are there any NAs?”\n\n\nAssertions / unit tests\n\n\n\n\n“Um, hi?”\n\n\nREADME + LICENSE\n\n\nCONTRIBUTING + CoC"
+  },
+  {
+    "objectID": "day1/images/index.html#acknowledgments",
+    "href": "day1/images/index.html#acknowledgments",
+    "title": "Introduction",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\n\nOriginal workshop: Daniel Standage and Greg Wilson\nProducing Open Source Software: Karl Fogel\nResearch Software Engineering with Python: Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, and Greg Wilson\nAnd everyone cited in the bibliography\n\n\n\n\nCover of ‘Research Software Engineering with Python’"
+  },
+  {
+    "objectID": "day1/images/index.html#how-is-your-project-currently-run",
+    "href": "day1/images/index.html#how-is-your-project-currently-run",
+    "title": "Introduction",
+    "section": "How is your project currently run?",
+    "text": "How is your project currently run?\n\nWho uses your software?\nHow do they find it?\nWho decides what will happen next?\nHow is that communicated?\nWho can make what kinds of changes?\nWhat happens automatically?\nHow are newcomers brought on board?"
   }
 ]
