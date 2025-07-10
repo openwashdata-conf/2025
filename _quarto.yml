@@ -28,28 +28,10 @@ website:
         contents:
           - text: "Overview"
             href: day1/index.qmd
-          - text: "Warm-up Session"
-            href: day1/warmup.qmd
-          - text: "Governance"
-            href: day1/governance.qmd
-          - text: "Ideation for Hackathon"
-            href: day1/ideation.qmd
-          - text: "Lean Coffee"
-            href: day1/lean-coffee.qmd
       - section: "Day 2 - July 16"
         contents:
           - text: "Overview"
             href: day2/index.qmd
-          - text: "Why Claude Code"
-            href: day2/why-claude.qmd
-          - text: "Setup Check"
-            href: day2/setup-check.qmd
-          - text: "Ideation"
-            href: day2/ideation.qmd
-          - text: "Work Sessions"
-            href: day2/work-sessions.qmd
-          - text: "Showcase"
-            href: day2/showcase.qmd
       - section: "Day 3 - July 17"
         contents:
           - text: "Social Day"
@@ -57,15 +39,17 @@ website:
 
 format:
   html:
-    theme: 
-      light: flatly
-      dark: darkly
-    css: styles.css
-    toc: true
-    toc-depth: 3
+    theme:
+      light: [litera, theme.scss]
     link-external-icon: true
     link-external-newwindow: true
     code-copy: true
+    code-overflow: wrap
+    toc: true
+    mainfont: "Atkinson Hyperlegible"
+    include-in-header:
+        - text: |
+            <script defer data-domain="openwashdata-conf.github.io/2025" src="https://plausible.io/js/script.js"></script>
 
 execute:
   freeze: auto
