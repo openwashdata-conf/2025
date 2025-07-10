@@ -351,8 +351,7 @@ Complete Before the Conference
 <ul>
 <li>Visit <a href="https://claude.ai">Claude.ai</a></li>
 <li>Sign up or log in to your account</li>
-<li>Subscribe to the Claude Max plan ($20/month)</li>
-<li>Download and install Claude Code following the instructions</li>
+<li>Subscribe to the Claude Max plan ($100/month) and send me your invoice</li>
 </ul>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -364,7 +363,7 @@ Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>You can cancel the subscription after the conference if you don’t wish to continue using it.</p>
+<p>You can cancel the subscription after the conference if you don’t wish to continue using it. You will have access to it for 1 month.</p>
 </div>
 </div>
 </section>
@@ -384,14 +383,23 @@ Tip
 </ol>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p><strong>Recommended: Windows Terminal</strong></p>
+<ol type="1">
+<li>Install Windows Terminal from the <a href="https://aka.ms/terminal">Microsoft Store</a></li>
+<li>Once installed, press <code>Win</code> key and type “Windows Terminal”</li>
+<li>Click to open Windows Terminal</li>
+<li>In the terminal, type <code>echo Terminal works!</code> and press Enter</li>
+<li>If you see “Terminal works!” printed, you’re all set</li>
+</ol>
+<p><strong>Alternative: Command Prompt</strong></p>
+<p>If you can’t install Windows Terminal:</p>
 <ol type="1">
 <li>Press <code>Win + R</code> to open Run dialog</li>
-<li>Type “cmd” and press Enter (or use PowerShell)</li>
+<li>Type “cmd” and press Enter</li>
 <li>You should see a command prompt window</li>
 <li>Type <code>echo Terminal works!</code> and press Enter</li>
 <li>If you see “Terminal works!” printed, you’re all set</li>
 </ol>
-<p><strong>Alternative:</strong> Consider installing <a href="https://aka.ms/terminal">Windows Terminal</a> from the Microsoft Store for a better experience.</p>
 </div>
 </div>
 </div>
@@ -447,26 +455,26 @@ Tip
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">macOS</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Windows</a></li></ul>
 <div class="tab-content">
 <div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the directory</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> ~/gitrepos</span>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the directory in Documents</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> ~/Documents/gitrepos</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Navigate to it</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/gitrepos</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/Documents/gitrepos</span>
 <span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Verify it exists</span></span>
 <span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="bu">pwd</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>You should see: <code>/Users/yourusername/gitrepos</code></p>
+<p>You should see: <code>/Users/yourusername/Documents/gitrepos</code></p>
 </div>
 <div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
-<div class="sourceCode" id="cb6"><pre class="sourceCode cmd code-with-copy"><code class="sourceCode dosbat"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a># Create the directory</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="bu">mkdir</span> C:\gitrepos</span>
+<div class="sourceCode" id="cb6"><pre class="sourceCode cmd code-with-copy"><code class="sourceCode dosbat"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a># Create the directory in Documents</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="bu">mkdir</span> <span class="pp">%</span><span class="va">USERPROFILE</span><span class="pp">%</span>\Documents\gitrepos</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a># Navigate to it</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> C:\gitrepos</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> <span class="pp">%</span><span class="va">USERPROFILE</span><span class="pp">%</span>\Documents\gitrepos</span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a># Verify it exists</span>
 <span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>You should see: <code>C:\gitrepos</code></p>
+<p>You should see: <code>C:\Users\yourusername\Documents\gitrepos</code></p>
 </div>
 </div>
 </div>
@@ -526,8 +534,8 @@ Note
 <p>If you encounter any issues during setup:</p>
 <ol type="1">
 <li>Check our <a href="#troubleshooting">troubleshooting guide</a> below</li>
-<li>Ask in the conference Slack channel</li>
-<li>Email us at <a href="mailto:tech-support@openwashdata.org">tech-support@openwashdata.org</a></li>
+<li>Ask in the conference Element channel</li>
+<li>Email Lars directly (you have his email address)</li>
 </ol>
 </section>
 <section id="troubleshooting" class="level2">

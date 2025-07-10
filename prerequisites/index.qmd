@@ -20,11 +20,10 @@ Claude Code requires a subscription to the Max plan for full functionality.
 
 - Visit [Claude.ai](https://claude.ai)
 - Sign up or log in to your account
-- Subscribe to the Claude Max plan ($20/month)
-- Download and install Claude Code following the instructions
+- Subscribe to the Claude Max plan ($100/month) and send me your invoice
 
 ::: {.callout-tip}
-You can cancel the subscription after the conference if you don't wish to continue using it.
+You can cancel the subscription after the conference if you don't wish to continue using it. You will have access to it for 1 month.
 :::
 
 ### 2. Verify Terminal Access
@@ -42,13 +41,23 @@ You'll need to use the terminal/command line during the hackathon.
 
 ## Windows
 
+**Recommended: Windows Terminal**
+
+1. Install Windows Terminal from the [Microsoft Store](https://aka.ms/terminal)
+2. Once installed, press `Win` key and type "Windows Terminal"
+3. Click to open Windows Terminal
+4. In the terminal, type `echo Terminal works!` and press Enter
+5. If you see "Terminal works!" printed, you're all set
+
+**Alternative: Command Prompt**
+
+If you can't install Windows Terminal:
+
 1. Press `Win + R` to open Run dialog
-2. Type "cmd" and press Enter (or use PowerShell)
+2. Type "cmd" and press Enter
 3. You should see a command prompt window
 4. Type `echo Terminal works!` and press Enter
 5. If you see "Terminal works!" printed, you're all set
-
-**Alternative:** Consider installing [Windows Terminal](https://aka.ms/terminal) from the Microsoft Store for a better experience.
 :::
 
 ### 3. Install Python
@@ -107,32 +116,32 @@ Create a dedicated folder for storing code repositories locally (not in cloud-sy
 ## macOS
 
 ```bash
-# Create the directory
-mkdir -p ~/gitrepos
+# Create the directory in Documents
+mkdir -p ~/Documents/gitrepos
 
 # Navigate to it
-cd ~/gitrepos
+cd ~/Documents/gitrepos
 
 # Verify it exists
 pwd
 ```
 
-You should see: `/Users/yourusername/gitrepos`
+You should see: `/Users/yourusername/Documents/gitrepos`
 
 ## Windows
 
 ```cmd
-# Create the directory
-mkdir C:\gitrepos
+# Create the directory in Documents
+mkdir %USERPROFILE%\Documents\gitrepos
 
 # Navigate to it
-cd C:\gitrepos
+cd %USERPROFILE%\Documents\gitrepos
 
 # Verify it exists
 cd
 ```
 
-You should see: `C:\gitrepos`
+You should see: `C:\Users\yourusername\Documents\gitrepos`
 :::
 
 ::: {.callout-warning}
@@ -175,8 +184,8 @@ Before Day 2, ensure you can check all these boxes:
 If you encounter any issues during setup:
 
 1. Check our [troubleshooting guide](#troubleshooting) below
-2. Ask in the conference Slack channel
-3. Email us at [tech-support@openwashdata.org](mailto:tech-support@openwashdata.org)
+2. Ask in the conference Element channel
+3. Email Lars directly (you have his email address)
 
 ## Troubleshooting {#troubleshooting}
 
@@ -201,3 +210,4 @@ If you encounter any issues during setup:
 - Check spam/junk folders
 - Verify your email address with organizers
 - Request a resend if needed
+
