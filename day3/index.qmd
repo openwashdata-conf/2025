@@ -1,6 +1,11 @@
 ---
 title: "Day 3: Social Day"
-date: "July 17, 2025"
+editor_options: 
+  chunk_output_type: console
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
 
 ## A Day of Connection and Relaxation

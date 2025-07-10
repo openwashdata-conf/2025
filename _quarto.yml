@@ -9,10 +9,12 @@ website:
   repo-url: https://github.com/openwashdata-conf/2025
   page-navigation: true
   page-footer:
-    left: "Copyright 2025, openwashdata"
+    left: |
+        This conference is part of the [openwashdata project](https://openwashdata.org/) supported by the
+        [Open Research Data Program of the ETH Board](https://ethrat.ch/en/eth-domain/open-research-data/)
     right:
-      - text: "Built with Quarto"
-        href: https://quarto.org
+      - text: Code of Conduct
+        href: code_of_conduct.qmd
   sidebar:
     style: "docked"
     background: "#f8f9fa"

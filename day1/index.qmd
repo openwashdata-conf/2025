@@ -9,7 +9,21 @@ execute:
 ---
 
 ```{r}
-source(here::here("data/get_sheets_tables.R"))
+library(tidyverse)
+
+agenda <- read_csv(here::here("data/tbl-openwashdata-conference-agenda.csv")) 
+
+agenda_final <- agenda  |>
+  select(-start_time, -end_time, -speaker_link, -affiliation_link) |>
+  relocate(time) |>
+  mutate(speaker = case_when(
+    str_detect(speaker, "NA") == TRUE ~ " - ",
+    TRUE ~ speaker
+  )) |>
+  mutate(affiliation = case_when(
+    str_detect(affiliation, "NA") == TRUE ~ " - ",
+    TRUE ~ affiliation
+  ))
 ```
 
 ## Pre-requisites
@@ -39,15 +53,11 @@ The day begins with a warm-up session led by Lars, followed by a reflection on t
 After lunch, Liz will present on the intersection of openwashdata and Open Research Data from the Global Health Engineering perspective. 
 
 The afternoon continues with:
+
 - **Positive Gossip Exercise** - An energizing warm-up activity to reconnect after lunch
 - **Governance Discussion** - Reflection on different governance style and how we might shape the future structure and decision-making processes of openwashdata
 - **Hackathon Ideation** - Preparing a long list of ideas for the hackathon on Day 2
 - **Lean Coffee** - An open, democratically-driven discussion on topics that matter most to the community
 
-## What to Bring
 
-- Laptop for afternoon sessions
-- Note-taking materials
-- Ideas for projects for the hackathon
-- Questions about openwashdata's future direction
 

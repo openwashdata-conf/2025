@@ -1,6 +1,6 @@
 ---
 title: "openwashdata Conference 2025"
-subtitle: "Building the Future of Open Water and Sanitation Data"
+subtitle: "Preparing for the Future of Open Data in the WASH Sector"
 ---
 
 Welcome to the **openwashdata Conference 2025**! Join us for three days of collaboration, learning, and community building.
@@ -8,18 +8,21 @@ Welcome to the **openwashdata Conference 2025**! Join us for three days of colla
 ## Event Details
 
 - **Dates:** July 15-17, 2025
-- **Location:** ETH Zurich, Switzerland
+- **Location:** Villa Hatt, Zurich, Switzerland
 - **Theme:** Advancing open water and sanitation data through community collaboration
 
 ## Conference Overview
 
 ### Day 1: Community & Governance
+
 Tuesday, July 15 - Focus on community building, governance discussions, and hackathon ideation.
 
 ### Day 2: Claude Code Hackathon
+
 Wednesday, July 16 - Hands-on hackathon using Claude Code to develop openwashdata tools and projects.
 
 ### Day 3: Social Day
+
 Thursday, July 17 - Community bonding with a visit to a lama farm, lunch at Juckerfarm, and swimming.
 
 ## Important Information
@@ -38,4 +41,4 @@ If you're participating in the Day 2 hackathon, please complete the [prerequisit
 
 ## Contact
 
-For questions about the conference, please contact the organizing team at [contact@openwashdata.org](mailto:contact@openwashdata.org).
+For questions about the conference, please contact the organizing team at [ghe@mavt.ethz.ch](mailto:ghe@mavt.ethz.ch).

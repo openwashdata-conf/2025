@@ -1,0 +1,17 @@
+{
+  "hash": "e7c92a8c4e44b6215cc606e38bf8cd3c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Day 2: Claude Code Hackathon\"\neditor_options: \n  chunk_output_type: console\nexecute:\n  echo: false\n  warning: false\n  message: false\n---\n\n::: {.cell}\n\n:::\n\n\n\n\n::: {.callout-important}\n## Prerequisites Required\nPlease ensure you've completed all [prerequisite setup](../prerequisites/index.qmd) before arriving.\n:::\n\n## Schedule Overview\n\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n\n|Time          |Title                                                                     |Speaker |Affiliation |\n|:-------------|:-------------------------------------------------------------------------|:-------|:-----------|\n|09:00 - 09:30 |Arrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli). |-       |-           |\n|09:30 - 10:00 |Why Claude Code & Workflow                                                |-       |-           |\n|10:00 - 10:30 |Claude Code setup check                                                   |-       |-           |\n|10:30 - 10:45 |Break                                                                     |-       |-           |\n|10:45 - 11:15 |Work session                                                              |-       |-           |\n|12:00 - 13:00 |Lunch break                                                               |-       |-           |\n|13:00 - 14:00 |Work session                                                              |-       |-           |\n|14:00 - 14:15 |Break                                                                     |-       |-           |\n|14:15 - 15:00 |Work session                                                              |-       |-           |\n|15:00 - 15:30 |Showcase round 1                                                          |-       |-           |\n|15:30 - 15:45 |Break with small cakes                                                    |-       |-           |\n|15:45 - 16:15 |Showcase round 2                                                          |-       |-           |\n|16:15 - 16:30 |Closing                                                                   |-       |-           |\n\n\n:::\n:::\n\n\n\n\n## Tips & Workflow\n\n- Work in progress\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

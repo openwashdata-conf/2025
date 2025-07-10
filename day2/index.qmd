@@ -1,7 +1,30 @@
 ---
 title: "Day 2: Claude Code Hackathon"
-date: "July 16, 2025"
+editor_options: 
+  chunk_output_type: console
+execute:
+  echo: false
+  warning: false
+  message: false
 ---
+
+```{r}
+library(tidyverse)
+
+agenda <- read_csv(here::here("data/tbl-openwashdata-conference-agenda.csv")) 
+
+agenda_final <- agenda  |>
+  select(-start_time, -end_time, -speaker_link, -affiliation_link) |>
+  relocate(time) |>
+  mutate(speaker = case_when(
+    str_detect(speaker, "NA") == TRUE ~ " - ",
+    TRUE ~ speaker
+  )) |>
+  mutate(affiliation = case_when(
+    str_detect(affiliation, "NA") == TRUE ~ " - ",
+    TRUE ~ affiliation
+  ))
+```
 
 ::: {.callout-important}
 ## Prerequisites Required
@@ -10,62 +33,15 @@ Please ensure you've completed all [prerequisite setup](../prerequisites/index.q
 
 ## Schedule Overview
 
-| Time | Session | Description |
-|------|---------|-------------|
-| 09:00-09:30 | Arrival & Welcome Coffee | Get settled and connect with your team |
-| 09:30-10:00 | [Why Claude Code](why-claude.qmd) | Introduction to AI-assisted development |
-| 10:00-10:30 | [Setup Check](setup-check.qmd) | Verify all tools are working |
-| 10:30-10:45 | *Coffee Break* | |
-| 10:45-11:15 | [Ideation Finalization](ideation.qmd) | Finalize project scopes |
-| 11:15-12:30 | [Work Session 1](work-sessions.qmd) | Begin hacking! |
-| 12:30-13:30 | *Lunch Break* | |
-| 13:30-15:00 | [Work Session 2](work-sessions.qmd) | Continue development |
-| 15:00-15:30 | [Work Session 3](work-sessions.qmd) | Final push |
-| 15:30-16:15 | [Project Showcase](showcase.qmd) | Present your work |
-| 16:15-16:30 | Wrap-up & Next Steps | |
+```{r}
+agenda_final |> 
+    filter(day == 2) |> 
+    select(-day) |> 
+    rename_with(~stringr::str_to_title(.x), everything()) |> 
+    knitr::kable()
+```
 
-## Hackathon Overview
+## Tips & Workflow
 
-Day 2 is dedicated to hands-on development using Claude Code to create tools and solutions for the openwashdata ecosystem.
+- Work in progress
 
-### What We'll Build
-
-- Data processing pipelines
-- Visualization tools
-- APIs and integrations
-- Documentation systems
-- Quality assurance tools
-
-### Support Available
-
-- Technical mentors circulating
-- Claude Code assistance
-- openwashdata team guidance
-- Peer collaboration
-
-## What to Bring
-
-- Laptop with prerequisites installed
-- Power adapter
-- GitHub account credentials
-- Project ideas from Day 1
-- Enthusiasm!
-
-## Hackathon Rules
-
-1. **Collaboration:** Work in teams of 3-5 people
-2. **Open Source:** All code must be openly licensed
-3. **Time Box:** Stop coding at 15:00 sharp
-4. **Showcase:** Each team presents for 5 minutes
-5. **Have Fun:** This is about learning and community
-
-## Resources
-
-- [openwashdata Documentation](https://openwashdata.org)
-- [Claude Code Documentation](https://claude.ai/docs)
-- [GitHub organization](https://github.com/openwashdata-conf)
-- Slack channel for real-time help
-
-## Location
-
-All hackathon activities will be held in the main conference room at ETH Zurich. Breakout spaces available for team work.
