@@ -130,9 +130,9 @@
   {
     "objectID": "day1/governance.html#starting-point",
     "href": "day1/governance.html#starting-point",
-    "title": "Governance",
+    "title": "Governance & Decision Making",
     "section": "Starting point",
-    "text": "Starting point\n\nA 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding and rough consensus of the problem being solved and work that needs to be done.\n— Lorin Hochstein\n\n\nIn this house we call them “project managers”.\n— Greg Wilson"
+    "text": "Starting point\n\n\nA 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding and rough consensus of the problem being solved and work that needs to be done.\n— Lorin Hochstein\n\n\nIn this house we call them “project managers”.\n— Greg Wilson"
   },
   {
     "objectID": "day1/governance.html#research-software",
@@ -144,30 +144,30 @@
   {
     "objectID": "day1/governance.html#you",
     "href": "day1/governance.html#you",
-    "title": "Governance",
-    "section": "You",
+    "title": "Governance & Decision Making",
+    "section": " You",
     "text": "You\n\nDegree(s) in some research domain\nLittle or no formal training in software development\nIn a team of 1–12 people\nTimelines of weeks to months\n\n\nXKCD Dependency cartoon"
   },
   {
     "objectID": "day1/governance.html#me",
     "href": "day1/governance.html#me",
-    "title": "Governance",
-    "section": "Me",
-    "text": "Me\n\nDon’t remember much statistics…\n…but I’ve built a lot of complicated software…\n…and I’ve been lucky enough to hang out with some very smart people"
+    "title": "Governance & Decision Making",
+    "section": " Me",
+    "text": "Me\n\nDon’t remember much statistics…\n…but I have programmed a bit in R,\n…I’ve managed a few software projects,\n…and I’ve been lucky enough to hang out with some very smart people"
   },
   {
     "objectID": "day1/governance.html#where-weve-been-where-were-going",
     "href": "day1/governance.html#where-weve-been-where-were-going",
-    "title": "Governance",
+    "title": "Governance & Decision Making",
     "section": "Where we’ve been, where we’re going",
-    "text": "Where we’ve been, where we’re going\n\n\n\nThen\n\n\nNow\n\n\nNext\n\n\n\n\nDropbox\n\n\nGit repository\n\n\nBranching workflow\n\n\n\n\n“Just do it”\n\n\nSlack / mailing list\n\n\nMartha’s Rules\n\n\n\n\nInteractive analysis\n\n\nA big pile of scripts\n\n\nBuild tools / CI\n\n\n\n\nWord / Google Docs\n\n\nNotebooks / LaTeX\n\n\nSite builder\n\n\n\n\n“It doesn’t crash”\n\n\n“Are there any NAs?”\n\n\nAssertions / unit tests\n\n\n\n\n“Um, hi?”\n\n\nREADME + LICENSE\n\n\nCONTRIBUTING + CoC"
+    "text": "Where we’ve been, where we’re going\n\n\n\nThen\nNow\nNext\n\n\n\n\nDropbox\nGit repository\nBranching workflow\n\n\n“Just do it”\nSlack / mailing list\nMartha’s Rules\n\n\nInteractive analysis\nA big pile of scripts\nBuild tools / CI\n\n\nWord / Google Docs\nNotebooks / LaTeX\nSite builder\n\n\n“It doesn’t crash”\n“Are there any NAs?”\nAssertions / unit tests\n\n\n“Um, hi?”\nREADME + LICENSE\nCONTRIBUTING + CoC"
   },
   {
     "objectID": "day1/governance.html#acknowledgments",
     "href": "day1/governance.html#acknowledgments",
-    "title": "Governance",
-    "section": "Acknowledgments",
-    "text": "Acknowledgments\n\nOriginal workshop: Daniel Standage and Greg Wilson\nProducing Open Source Software: Karl Fogel\nResearch Software Engineering with Python: Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, and Greg Wilson\nAnd everyone cited in the bibliography\n\n\nCover of ‘Research Software Engineering with Python’"
+    "title": "Governance & Decision Making",
+    "section": " Acknowledgments",
+    "text": "Acknowledgments\n\nOriginal workshop: Daniel Standage and Greg Wilson\nProducing Open Source Software: Karl Fogel\nResearch Software Engineering with Python: Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, and Greg Wilson\n\n\nCover of ‘Research Software Engineering with Python’"
   },
   {
     "objectID": "day1/governance.html#how-is-your-project-currently-run",
@@ -179,22 +179,22 @@
   {
     "objectID": "day1/governance.html#what-problems-are-we-trying-to-solve",
     "href": "day1/governance.html#what-problems-are-we-trying-to-solve",
-    "title": "Governance",
-    "section": "What problems are we trying to solve?",
+    "title": "Governance & Decision Making",
+    "section": " What problems are we trying to solve?",
     "text": "What problems are we trying to solve?\n\nLow productivity\n\n“Oh no: not another meeting…”\n\nOpaque decision making\n\n“Did we decide that?”\n“It’s not what you know, it’s who you know.”"
   },
   {
     "objectID": "day1/governance.html#the-good-news",
     "href": "day1/governance.html#the-good-news",
-    "title": "Governance",
-    "section": "The good news",
-    "text": "The good news\n\nYou don’t have to invent this yourself\nhttps://www.askamanager.org/\n\n\nAsk a Manager logo"
+    "title": "Governance & Decision Making",
+    "section": " The good news",
+    "text": "The good news\n\nYou don’t have to invent this yourself\nLearn from others who’ve solved these problems\nhttps://www.askamanager.org/ - Great resource for management advice\n\n\nExample insights: - “Consensus doesn’t mean everyone agrees - it means everyone can live with the decision” - “Document decisions immediately, or they didn’t happen”\n\n\nAsk a Manager logo"
   },
   {
     "objectID": "day1/governance.html#governance-models",
     "href": "day1/governance.html#governance-models",
-    "title": "Governance",
-    "section": "Governance models",
+    "title": "Governance & Decision Making",
+    "section": " Governance models",
     "text": "Governance models\n\nhttps://communityrule.info/ describes lots of options\nBenevolent dictator (often the project founder)\n\nCommon in young projects\nBrittle (founder can move on)\nUsually leads to emergence of unofficial (i.e., unaccountable) leaders\n\nElected representation\n\nExplicit rules for suffrage\n\nConsensus-based\n\nIf most people agree on most things most of the time"
   },
   {
@@ -207,43 +207,43 @@
   {
     "objectID": "day1/governance.html#hero-programmers",
     "href": "day1/governance.html#hero-programmers",
-    "title": "Governance",
-    "section": "“Hero” programmers",
+    "title": "Governance & Decision Making",
+    "section": " “Hero” programmers",
     "text": "“Hero” programmers\n\nBrooks advocated a chief programmer model in the 1970s [@Brooks1995]\n\nDisparaged since then\n\nBut 80% of projects on GitHub are hero projects [@Majumder2019]\n\n5% or less of people responsible for 95% or more of interactions\n“Heroes” commit far fewer bugs than other contributors\n\nDespite terminology, not a bad model for research projects\n\n[@Petre2014] found that people without domain knowledge couldn’t review scientific code effectively"
   },
   {
     "objectID": "day1/governance.html#marthas-rules",
     "href": "day1/governance.html#marthas-rules",
-    "title": "Governance",
-    "section": "Martha’s Rules",
-    "text": "Martha’s Rules\n\nAnyone can put forward a proposal by filing it at least 24 hours before a scheduled meeting\n\nOne-line summary\nBackground information\nConcrete proposal\nPros and cons\nAlternatives\n\nAt most two pages\n\nPreferably shorter"
+    "title": "Governance & Decision Making",
+    "section": " Martha’s Rules",
+    "text": "Martha’s Rules\n\n\nThis is our recommended governance framework\nSimple enough to implement immediately\nClear enough to avoid ambiguity\n\n\n\nAnyone can put forward a proposal by filing it at least 24 hours before a scheduled meeting\n\nOne-line summary\nBackground information\nConcrete proposal\nPros and cons\nAlternatives\n\nAt most two pages\n\nPreferably shorter"
   },
   {
     "objectID": "day1/governance.html#establishing-a-quorum",
     "href": "day1/governance.html#establishing-a-quorum",
-    "title": "Governance",
-    "section": "Establishing a quorum",
+    "title": "Governance & Decision Making",
+    "section": " Establishing a quorum",
     "text": "Establishing a quorum\n\nA quorum is established if half or more of voting members are present\nWhich means there must be:\n\nA rule about how to become a member\nA rule about when and how someone stops being a member\n\nThe meeting may not discuss or vote on a proposal unless its sponsor (or their delegate) is present."
   },
   {
     "objectID": "day1/governance.html#presenting-a-proposal",
     "href": "day1/governance.html#presenting-a-proposal",
-    "title": "Governance",
-    "section": "Presenting a proposal",
+    "title": "Governance & Decision Making",
+    "section": " Presenting a proposal",
     "text": "Presenting a proposal\n\nThe sponsor has 5 minutes to present the proposal\nMembers cast a sense vote: support, neutral, or oppose\n\nIf everyone supports or is neutral, go immediately to a binary vote with no further discussion\nIf a majority is opposed or neutral, send proposal back to sponsor for further work\n\nIf a minority of members oppose, set a timer for 10 minutes of moderated discussion\nThen call a final binary vote in which everyone must support or oppose (no neutral votes allowed)\nIf a majority support, the proposal is accepted\n\nOtherwise, it is returned to the sponsor for further work"
   },
   {
     "objectID": "day1/governance.html#roles-and-responsibilities",
     "href": "day1/governance.html#roles-and-responsibilities",
-    "title": "Governance",
-    "section": "Roles and responsibilities",
-    "text": "Roles and responsibilities\n\n\n\n\nPerson\n\n\nRoles\n\n\n\n\nRole\n\n\nTask\n\n\n\n\nghopper\n\n\nadmin\n\n\nadmin\n\n\nmerge PRs\n\n\n\n\nkjohnson\n\n\nadmin, commit\n\n\n×\n\n\nadmin\n\n\nassign issues\n\n\n\n\naturing\n\n\ncommit\n\n\n\n\ncommit\n\n\npublish posts\n\n\n\n\nbwk\n\n\ncommit\n\n\ncommit\n\n\nfile issues\n\n\n\n\n\nGives you a list of what actually needs to be done\n\nIt’s always longer than you first expect\n\nTells everyone who to go to for what\n\nParticularly when their first choice is on holiday\n\nHelps with succession planning\n\n“We don’t have anyone who does that any more…”"
+    "title": "Governance & Decision Making",
+    "section": " Roles and responsibilities",
+    "text": "Roles and responsibilities\n\n\nPeople & Their Roles\n\n\n\nPerson\nRoles\n\n\n\n\nghopper\nadmin\n\n\nkjohnson\nadmin, commit\n\n\naturing\ncommit\n\n\nbwk\ncommit\n\n\n\n\nRoles & Their Tasks\n\n\n\nRole\nTasks\n\n\n\n\nadmin\nmerge PRs, assign issues\n\n\ncommit\npublish posts, file issues\n\n\n\n\nBenefits:\n\nGives you a list of what actually needs to be done\n\nIt’s always longer than you first expect\n\nTells everyone who to go to for what\n\nParticularly when their first choice is on holiday\n\nHelps with succession planning\n\n“We don’t have anyone who does that any more…”"
   },
   {
     "objectID": "day1/governance.html#code-of-conduct",
     "href": "day1/governance.html#code-of-conduct",
-    "title": "Governance",
-    "section": "Code of Conduct",
+    "title": "Governance & Decision Making",
+    "section": " Code of Conduct",
     "text": "Code of Conduct\n\nDiverse communities need explicit norms\n\n“I didn’t realize someone would find that offensive”\nWhich is sometimes used dishonestly…\n\nAdopt a Code of Conduct (e.g., Python’s)\n\nIts mere existence is a strong signal about the kind of community you are\n\nDon’t write one yourself\n\nYou won’t think of all the edge cases\nUsing someone else’s makes misunderstandings less likely\n\nUse the Contributor Covenant"
   },
   {
@@ -256,78 +256,78 @@
   {
     "objectID": "day1/governance.html#meetings",
     "href": "day1/governance.html#meetings",
-    "title": "Governance",
-    "section": "Meetings",
-    "text": "Meetings\n\nOn par with interruptions for “things people wish they could have less of”\nUnlike interruptions, can be done well\nAs with governance, having rules is the first and biggest step toward efficiency"
+    "title": "Governance & Decision Making",
+    "section": " Meetings",
+    "text": "Meetings\n\n⏱️ START: 0:40 | DURATION: 15 minutes | END: 0:55 - 10 practical rules for better meetings - Each rule gets about 1.5 minutes\n\n\nOn par with interruptions for “things people wish they could have less of”\nUnlike interruptions, can be done well\nAs with governance, having rules is the first and biggest step toward efficiency"
   },
   {
     "objectID": "day1/governance.html#does-there-actually-need-to-be-a-meeting",
     "href": "day1/governance.html#does-there-actually-need-to-be-a-meeting",
-    "title": "Governance",
-    "section": "1. Does there actually need to be a meeting?",
+    "title": "Governance & Decision Making",
+    "section": " 1. Does there actually need to be a meeting?",
     "text": "1. Does there actually need to be a meeting?\n\nTo inform? Only if you are expecting questions\nTo consult? Only if people get a vote\n\nOtherwise it’s just informing with pretense\n\nTo discuss and make decisions? Yes\n\nBut only in small groups\nOr with well-defined procedural rules\n\nTo brainstorm or collaborate?\n\nThat’s a very different kind of meeting"
   },
   {
     "objectID": "day1/governance.html#create-an-agenda",
     "href": "day1/governance.html#create-an-agenda",
-    "title": "Governance",
-    "section": "2. Create an agenda",
+    "title": "Governance & Decision Making",
+    "section": " 2. Create an agenda",
     "text": "2. Create an agenda\n\nIf you don’t care enough to make a list, you don’t need a meeting\nInclude timings\nPrioritize\nPlan to end early\n\n“The most fundamental unit of time is the bladder”"
   },
   {
     "objectID": "day1/governance.html#have-clear-rules-for-making-decisions",
     "href": "day1/governance.html#have-clear-rules-for-making-decisions",
-    "title": "Governance",
-    "section": "3. Have clear rules for making decisions",
+    "title": "Governance & Decision Making",
+    "section": " 3. Have clear rules for making decisions",
     "text": "3. Have clear rules for making decisions\n\n“The Tyranny of Structurelessness” [@Freeman1972]\nIf you need Robert’s Rules, you need training"
   },
   {
     "objectID": "day1/governance.html#put-someone-in-charge",
     "href": "day1/governance.html#put-someone-in-charge",
-    "title": "Governance",
-    "section": "4. Put someone in charge",
+    "title": "Governance & Decision Making",
+    "section": " 4. Put someone in charge",
     "text": "4. Put someone in charge\n\nThe moderator should not do most of the talking\n\nAny more than the conductor plays most of the notes\n\nCall on specific people in order\nAllow them one point at a time\nKeep a backlog"
   },
   {
     "objectID": "day1/governance.html#require-politeness",
     "href": "day1/governance.html#require-politeness",
-    "title": "Governance",
-    "section": "5. Require politeness",
+    "title": "Governance & Decision Making",
+    "section": " 5. Require politeness",
     "text": "5. Require politeness\n\nAll the other rules are special cases of this…\nNo technology during in-person meeting\n\nExcept for assistive technology or family need\n“Please put your devices in politeness mode”\n\nNo interruptions\n\nExcept by moderator\n\nNo rambling\nYou do have a Code of Conduct, right?"
   },
   {
     "objectID": "day1/governance.html#record-minutes",
     "href": "day1/governance.html#record-minutes",
-    "title": "Governance",
-    "section": "6. Record minutes",
+    "title": "Governance & Decision Making",
+    "section": " 6. Record minutes",
     "text": "6. Record minutes\n\nSo people who weren’t there know what happened\nSo people who were there agree what happened\nSo people can be held accountable at later meetings"
   },
   {
     "objectID": "day1/governance.html#manage-that-guy",
     "href": "day1/governance.html#manage-that-guy",
-    "title": "Governance",
-    "section": "7. Manage “that guy”",
-    "text": "7. Manage “that guy”\n\n\n![NOAA categorization of disruptive behavior types](./images/noaa-ddb.png){width=\"100%\"}\n\n&lt;ul&gt;\n  &lt;li&gt;The moderator's other job…&lt;/li&gt;\n  &lt;li&gt;Three stickies&lt;/li&gt;\n  &lt;li&gt;Interruption bingo&lt;/li&gt;\n  &lt;li&gt;&lt;a href=\"https://coast.noaa.gov/ddb/\"&gt;https://coast.noaa.gov/ddb/&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;"
+    "title": "Governance & Decision Making",
+    "section": " 7. Manage “that guy”",
+    "text": "7. Manage “that guy”\n\n\n\n\n\nNOAA categorization of disruptive behavior types\n\n\n\n\nThe moderator’s other job…\nThree stickies\nInterruption bingo\nhttps://coast.noaa.gov/ddb/"
   },
   {
     "objectID": "day1/governance.html#be-an-active-participant",
     "href": "day1/governance.html#be-an-active-participant",
-    "title": "Governance",
-    "section": "8. Be an active participant",
+    "title": "Governance & Decision Making",
+    "section": " 8. Be an active participant",
     "text": "8. Be an active participant\n\nDecline invitations\n\nIf you agree to abide by what the meeting decides\n\nRead the agenda and material before the meeting\nTake your own notes\nUse participants’ names\nPause before speaking\nPut down your hand"
   },
   {
     "objectID": "day1/governance.html#life-online",
     "href": "day1/governance.html#life-online",
-    "title": "Governance",
-    "section": "9. Life online",
+    "title": "Governance & Decision Making",
+    "section": " 9. Life online",
     "text": "9. Life online\n\nNo mixed-mode meetings\n\nAll in person or all online\n\nDo not record the meeting without willing consent\nReview meeting protocol at the start if necessary\nTake minutes in a shared document\nRaise hands digitally\n\n/hand in the chat is good\n/hand another budget item is better"
   },
   {
     "objectID": "day1/governance.html#seek-truth-not-victory",
     "href": "day1/governance.html#seek-truth-not-victory",
-    "title": "Governance",
-    "section": "10. Seek truth, not victory",
+    "title": "Governance & Decision Making",
+    "section": " 10. Seek truth, not victory",
     "text": "10. Seek truth, not victory\n\nNo social dominance displays\n\n“Well actually…”\n\nDon’t raise points you don’t actually believe in\n\nThe devil doesn’t need more advocates\n\nDon’t make excuses for your questions or opinions\n\n“This is probably stupid, but…”"
   },
   {
@@ -340,9 +340,9 @@
   {
     "objectID": "day1/governance.html#recommended-reading",
     "href": "day1/governance.html#recommended-reading",
-    "title": "Governance",
-    "section": "Recommended reading",
-    "text": "Recommended reading\n\n[@Brookfield2016] has a lot of good ideas for managing discussion"
+    "title": "Governance & Decision Making",
+    "section": " Recommended reading",
+    "text": "Recommended reading\n\n[@Brookfield2016] has a lot of good ideas for managing discussion\nProducing Open Source Software by Karl Fogel\nThe Tyranny of Structurelessness by Jo Freeman"
   },
   {
     "objectID": "day1/governance.html#exercise",
@@ -1498,5 +1498,61 @@
     "title": "openwashdata conf 2025",
     "section": " Your Contributions Matter",
     "text": "Your Contributions Matter\nFrom today’s activities, we heard:\n\n\nNew strategies: [Reference 1-2 participant ideas]\nFunding opportunities: [Reference specific suggestions]\nCollaboration ideas: [Reference partnership suggestions]\n\n\nThese directly shape our Phase 3 planning!\n\n⏱️ Callback slide - fill in with actual participant contributions during session - This validates their input and shows immediate impact"
+  },
+  {
+    "objectID": "day1/governance.html#session-roadmap-70-min",
+    "href": "day1/governance.html#session-roadmap-70-min",
+    "title": "Governance & Decision Making",
+    "section": " Session Roadmap (70 min)",
+    "text": "Session Roadmap (70 min)\n\n\n Introduction & Context (~10 min)\n Governance Models (~15 min) - Including Martha’s Rules\n Activity 1 (5 min) - Project Assessment\n Roles & Code of Conduct (~10 min)\n Meeting Management (~15 min) - 10 rules for better meetings\n Activities 2-4 (15 min) - Decision making, roles, governance\n\n\n\nThis is our afternoon session on governance - More in-depth than morning session - Focus on practical tools and frameworks - Multiple activities to apply concepts"
+  },
+  {
+    "objectID": "day1/governance.html#research-software-because-that-is-what-we-create",
+    "href": "day1/governance.html#research-software-because-that-is-what-we-create",
+    "title": "Governance & Decision Making",
+    "section": " Research software (because that is what we create)",
+    "text": "Research software (because that is what we create)\n\nSoftware is created and run to answer a question\nPapers, theses, and other reports are the product\nThe software is “just” a tool\nShades into projects that produce software for other researchers to use"
+  },
+  {
+    "objectID": "day1/governance.html#activity-project-assessment-5-minutes",
+    "href": "day1/governance.html#activity-project-assessment-5-minutes",
+    "title": "Governance & Decision Making",
+    "section": " Activity: Project Assessment (5 minutes)",
+    "text": "Activity: Project Assessment (5 minutes)\nIn our shared Google Doc, Section: “Governance Assessment”\nReflect on your current project:\n\nWho uses your software / your work?\nHow do they find it?\nWho decides what will happen next?\nHow is that communicated?\nWho can make what kinds of changes?\nWhat happens automatically?\nHow are newcomers brought on board?\n\n\n⏱️ START: 0:20 | DURATION: 5 minutes | END: 0:25 - Give participants 4 minutes to write - 1 minute for quick sharing - This sets the context for why governance matters"
+  },
+  {
+    "objectID": "day1/governance.html#code-of-conduct-continued",
+    "href": "day1/governance.html#code-of-conduct-continued",
+    "title": "Governance & Decision Making",
+    "section": " Code of Conduct (continued)",
+    "text": "Code of Conduct (continued)\n\nA Code of Conduct is only useful if it is enforced\n\nAnd if there is a clear reporting mechanism that community members trust\n\nBe explicit about enforcement mechanisms and consequences\nDesignate an independent third party to handle complaints\n\nTrade off with another project lead\nDo the background reading [@Aurora2019]"
+  },
+  {
+    "objectID": "day1/governance.html#key-takeaways",
+    "href": "day1/governance.html#key-takeaways",
+    "title": "Governance & Decision Making",
+    "section": " Key Takeaways",
+    "text": "Key Takeaways\n\n\nGovernance is not bureaucracy - it’s clarity\nStart with Martha’s Rules for decision making\nDocument roles and responsibilities explicitly\nMake meetings count with clear structure\nCode of Conduct is non-negotiable\n\n\n\n\nWrap up with actionable items\nEncourage participants to implement one governance improvement"
+  },
+  {
+    "objectID": "day1/governance.html#activity-decision-making-5-minutes",
+    "href": "day1/governance.html#activity-decision-making-5-minutes",
+    "title": "Governance & Decision Making",
+    "section": " Activity: Decision Making (5 minutes)",
+    "text": "Activity: Decision Making (5 minutes)\nIn our shared Google Doc, Section: “Decision Making”\n\n\nWhat decisions has your project made recently?\nWho made them?\nWhere are they recorded?\n\n\n\n⏱️ START: 0:55 | DURATION: 5 minutes | END: 1:00 - This helps identify gaps in decision documentation"
+  },
+  {
+    "objectID": "day1/governance.html#activity-roles-responsibilities-5-minutes",
+    "href": "day1/governance.html#activity-roles-responsibilities-5-minutes",
+    "title": "Governance & Decision Making",
+    "section": " Activity: Roles & Responsibilities (5 minutes)",
+    "text": "Activity: Roles & Responsibilities (5 minutes)\nIn our shared Google Doc, Section: “Roles Matrix”\n\n\nColumn A: Tasks List things people do to keep your project going\n\nColumn B: People List contributors to the project\n\nThen: Draw connections - what patterns emerge?\n\n⏱️ START: 1:00 | DURATION: 5 minutes | END: 1:05 - Reveals informal structures and gaps"
+  },
+  {
+    "objectID": "day1/governance.html#activity-governance-structure-5-minutes",
+    "href": "day1/governance.html#activity-governance-structure-5-minutes",
+    "title": "Governance & Decision Making",
+    "section": " Activity: Governance Structure (5 minutes)",
+    "text": "Activity: Governance Structure (5 minutes)\nIn our shared Google Doc, Section: “Governance Rules”\n\n\nWho gets a vote in your group?\nHow are new people added to that pool?\nWhen and how do people lose their votes?\nWhere do people find out what has been decided?\nHow can non-voters raise issues?\n\n\n\n⏱️ START: 1:05 | DURATION: 5 minutes | END: 1:10 - Often reveals informal or unclear processes - Wrap up with key takeaways\n\n\n\n\n\n openwashdata-conf.github.io/2025/day1/governance.html"
   }
 ]

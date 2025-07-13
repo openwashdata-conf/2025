@@ -1,17 +1,53 @@
 ---
-title: "Governance"
+title: "Governance & Decision Making"
+subtitle: "Building effective structures for open projects"
+author: 
+  - name: "Lars Schöbitz"
+    url: https://openwashdata.org/about/lars/
+    affiliation: Global Health Engineering, ETH Zurich
+    affiliation_url: https://ghe.ethz.ch/
+date: 2025-07-15
+date-format: long
 format: 
   revealjs:
+    logo: "../images/OWD-logo-20.png"
+    theme: "../style/slides.scss"
+    transition: fade
     slide-number: true
-    theme: simple
-    chalkboard: true
-    preview-links: true
+    preview-links: auto
+    footer: "[{{< fa link >}} openwashdata-conf.github.io/2025/day1/governance.html](https://openwashdata-conf.github.io/2025/day1/governance.html)"
+editor: source
 ---
 
-# Introduction
+## {{< fa route >}} Session Roadmap (70 min)
 
-## Starting point TODO: incremental the two quotes
+::: incremental
+- {{< fa door-open >}} **Introduction & Context** (~10 min)
+- {{< fa gavel >}} **Governance Models** (~15 min) - Including Martha's Rules
+- {{< fa users >}} **Activity 1** (5 min) - Project Assessment
+- {{< fa handshake >}} **Roles & Code of Conduct** (~10 min)
+- {{< fa calendar-check >}} **Meeting Management** (~15 min) - 10 rules for better meetings
+- {{< fa pencil >}} **Activities 2-4** (15 min) - Decision making, roles, governance
+:::
 
+::: {.notes}
+This is our afternoon session on governance
+- More in-depth than morning session
+- Focus on practical tools and frameworks
+- Multiple activities to apply concepts
+:::
+
+# {{< fa door-open >}} Introduction {background-color="#5b195b"}
+
+::: {.notes}
+⏱️ START: 0:00 | DURATION: 10 minutes | END: 0:10
+- Welcome to afternoon governance session
+- More detailed than morning overview
+:::
+
+## Starting point
+
+::: incremental
 > A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding and rough consensus of the problem being solved and work that needs to be done.
 >
 > — [Lorin Hochstein](https://twitter.com/norootcause/status/1441828577314369544)
@@ -19,10 +55,11 @@ format:
 > In this house we call them "project managers".
 >
 > — [Greg Wilson](https://twitter.com/gvwilson/status/1442467916012822535)
+:::
 
 ---
 
-## Research software (because that is what we create)
+## {{< fa code >}} Research software (because that is what we create)
 
 - Software is created and run to answer a question
 - Papers, theses, and other reports are the product
@@ -31,7 +68,7 @@ format:
 
 ---
 
-## You
+## {{< fa user >}} You
 
 - Degree(s) in some research domain
 - Little or no formal training in software development
@@ -42,7 +79,7 @@ format:
 
 ---
 
-## Me
+## {{< fa user-tie >}} Me
 
 - Don't remember much statistics...
 - ...but I have programmed a bit in R, 
@@ -59,49 +96,20 @@ format:
 
 ---
 
-## Where we've been, where we're going (TODO: turn this into a markdown table)
+## Where we've been, where we're going
 
-<table>
-  <tr>
-    <th>Then</th>
-    <th>Now</th>
-    <th>Next</th>
-  </tr>
-  <tr>
-    <td>Dropbox</td>
-    <td>Git repository</td>
-    <td>Branching workflow</td>
-  </tr>
-  <tr>
-    <td>"Just do it"</td>
-    <td>Slack /<br/> mailing list</td>
-    <td>Martha's Rules</td>
-  </tr>
-  <tr>
-    <td>Interactive analysis</td>
-    <td>A big pile of scripts</td>
-    <td>Build tools /<br/> CI</td>
-  </tr>
-  <tr>
-    <td>Word /<br/> Google Docs</td>
-    <td>Notebooks /<br/> LaTeX</td>
-    <td>Site builder</td>
-  </tr>
-  <tr>
-    <td>"It doesn't crash"</td>
-    <td>"Are there any NAs?"</td>
-    <td>Assertions /<br/> unit tests</td>
-  </tr>
-  <tr>
-    <td>"Um, hi?"</td>
-    <td>README +<br/> LICENSE</td>
-    <td>CONTRIBUTING +<br/> CoC</td>
-  </tr>
-</table>
+| Then | Now | Next |
+|------|-----|------|
+| Dropbox | Git repository | Branching workflow |
+| "Just do it" | Slack / mailing list | Martha's Rules |
+| Interactive analysis | A big pile of scripts | Build tools / CI |
+| Word / Google Docs | Notebooks / LaTeX | Site builder |
+| "It doesn't crash" | "Are there any NAs?" | Assertions / unit tests |
+| "Um, hi?" | README + LICENSE | CONTRIBUTING + CoC |
 
 ---
 
-## Acknowledgments
+## {{< fa hands-helping >}} Acknowledgments
 
 - Original workshop: Daniel Standage and Greg Wilson
 - [*Producing Open Source Software*](https://producingoss.com): Karl Fogel
@@ -111,21 +119,36 @@ format:
 
 ---
 
-## How is your project currently run? {.exercise}
+## {{< fa users >}} Activity: Project Assessment (5 minutes)
 
-TODO: Turn into a task with timings and reference to section in shared Google doc: see: @day1/openwashdata.qmd
+**In our shared Google Doc, Section: "Governance Assessment"**
+
+Reflect on your current project:
 
 1. Who uses your software / your work?
-1. How do they find it?
-1. Who decides what will happen next?
-1. How is that communicated?
-1. Who can make what kinds of changes?
-1. What happens automatically?
-1. How are newcomers brought on board?
+2. How do they find it?
+3. Who decides what will happen next?
+4. How is that communicated?
+5. Who can make what kinds of changes?
+6. What happens automatically?
+7. How are newcomers brought on board?
 
-# Governance
+::: {.notes}
+⏱️ START: 0:20 | DURATION: 5 minutes | END: 0:25
+- Give participants 4 minutes to write
+- 1 minute for quick sharing
+- This sets the context for why governance matters
+:::
 
-## What problems are we trying to solve?
+# {{< fa gavel >}} Governance {background-color="#5b195b"}
+
+::: {.notes}
+⏱️ START: 0:10 | DURATION: 15 minutes | END: 0:25
+- Deep dive into governance models
+- Focus on Martha's Rules as practical framework
+:::
+
+## {{< fa exclamation-triangle >}} What problems are we trying to solve?
 
 - Low productivity
   - "Oh no: not another meeting…"
@@ -135,21 +158,26 @@ TODO: Turn into a task with timings and reference to section in shared Google do
 
 ---
 
-## The good news
-
-TODO: Review this website and extract one or two examples.
+## {{< fa thumbs-up >}} The good news
 
 - You don't have to invent this yourself
-- <https://www.askamanager.org/>
+- Learn from others who've solved these problems
+- <https://www.askamanager.org/> - Great resource for management advice
+
+::: incremental
+**Example insights:**
+- "Consensus doesn't mean everyone agrees - it means everyone can live with the decision"
+- "Document decisions immediately, or they didn't happen"
+:::
 
 ![Ask a Manager logo](./images/askamanager.png)
 
 ---
 
-## Governance models
+## {{< fa network-wired >}} Governance models
 
 - <https://communityrule.info/> describes [lots of options](./images/gov-booklet-MASTER.pdf)
-- [Benevolent dictator](g#benevolent-dictator) (often the project founder)
+- Benevolent dictator (often the project founder)
   - Common in young projects
   - Brittle (founder can move on)
   - Usually leads to emergence of unofficial (i.e., unaccountable) leaders
@@ -158,19 +186,24 @@ TODO: Review this website and extract one or two examples.
 - Consensus-based
   - If most people agree on most things most of the time
 
-## "Hero" programmers
+## {{< fa user-ninja >}} "Hero" programmers
 
-- Brooks advocated a [chief programmer](g#chief-programmer) model in the 1970s [@Brooks1995]
+- Brooks advocated a chief programmer model in the 1970s [@Brooks1995]
   - Disparaged since then
-- But 80% of projects on GitHub are [hero projects](g#hero-project) [@Majumder2019]
+- But 80% of projects on GitHub are hero projects [@Majumder2019]
   - 5% or less of people responsible for 95% or more of interactions
   - "Heroes" commit far fewer bugs than other contributors
 - Despite terminology, not a bad model for research projects
   - [@Petre2014] found that people without domain knowledge couldn't review scientific code effectively
 
---- TODO: Remove all three dashes
 
-## [Martha's Rules](g#marthas-rules)
+## {{< fa balance-scale >}} Martha's Rules
+
+::: {.notes}
+- This is our recommended governance framework
+- Simple enough to implement immediately
+- Clear enough to avoid ambiguity
+:::
 
 - Anyone can put forward a proposal by filing it at least 24 hours before a scheduled meeting
   - One-line summary
@@ -183,7 +216,7 @@ TODO: Review this website and extract one or two examples.
 
 ---
 
-## Establishing a quorum
+## {{< fa users >}} Establishing a quorum
 
 - A quorum is established if half or more of voting members are present
 - Which means there must be:
@@ -193,10 +226,10 @@ TODO: Review this website and extract one or two examples.
 
 ---
 
-## Presenting a proposal
+## {{< fa presentation >}} Presenting a proposal
 
 - The sponsor has 5 minutes to present the proposal
-- Members cast a [sense vote](g#sense-vote) (TODO: remove all glossary reference): support, neutral, or oppose
+- Members cast a sense vote: support, neutral, or oppose
   - If everyone supports or is neutral, go immediately to a binary vote with no further discussion
   - If a majority is opposed or neutral, send proposal back to sponsor for further work
 - If a minority of members oppose, set a timer for 10 minutes of moderated discussion
@@ -206,47 +239,29 @@ TODO: Review this website and extract one or two examples.
 
 ---
 
-## Roles and responsibilities
+## {{< fa tasks >}} Roles and responsibilities
 
-TODO: turn into markdown table
+:::: {.columns}
+::: {.column width="50%"}
+### People & Their Roles
+| Person | Roles |
+|--------|-------|
+| ghopper | admin |
+| kjohnson | admin, commit |
+| aturing | commit |
+| bwk | commit |
+:::
 
-<div align="center">
-<table>
-  <tr>
-    <th>Person</th>
-    <th>Roles</th>
-    <td rowspan="2"></td>
-    <th>Role</th>
-    <th>Task</th>
-  </tr>
-  <tr>
-    <td>ghopper</td>
-    <td>admin</td>
-    <td>admin</td>
-    <td>merge PRs</td>
-  </tr>
-  <tr>
-    <td>kjohnson</td>
-    <td>admin, commit</td>
-    <td align="center">×</td>
-    <td>admin</td>
-    <td>assign issues</td>
-  </tr>
-  <tr>
-    <td>aturing</td>
-    <td>commit</td>
-    <td rowspan="2"></td>
-    <td>commit</td>
-    <td>publish posts</td>
-  </tr>
-  <tr>
-    <td>bwk</td>
-    <td>commit</td>
-    <td>commit</td>
-    <td>file issues</td>
-  </tr>
-</table>
-</div>
+::: {.column width="50%"}
+### Roles & Their Tasks
+| Role | Tasks |
+|------|-------|
+| admin | merge PRs, assign issues |
+| commit | publish posts, file issues |
+:::
+::::
+
+**Benefits:**
 
 - Gives you a list of what actually needs to be done
   - It's always longer than you first expect
@@ -257,7 +272,7 @@ TODO: turn into markdown table
 
 ---
 
-## Code of Conduct
+## {{< fa handshake >}} Code of Conduct
 
 - Diverse communities need explicit norms
   - "I didn't realize someone would find that offensive"
@@ -271,7 +286,7 @@ TODO: turn into markdown table
 
 ---
 
-## Code of Conduct
+## {{< fa shield-alt >}} Code of Conduct (continued)
 
 - A Code of Conduct is only useful if it is enforced
   - And if there is a clear reporting mechanism that community members trust
@@ -282,7 +297,13 @@ TODO: turn into markdown table
 
 ---
 
-## Meetings
+## {{< fa calendar-check >}} Meetings
+
+::: {.notes}
+⏱️ START: 0:40 | DURATION: 15 minutes | END: 0:55
+- 10 practical rules for better meetings
+- Each rule gets about 1.5 minutes
+:::
 
 - On par with interruptions for "things people wish they could have less of"
 - Unlike interruptions, can be done well
@@ -290,7 +311,7 @@ TODO: turn into markdown table
 
 ---
 
-## 1. Does there actually need to be a meeting?
+## {{< fa question-circle >}} 1. Does there actually need to be a meeting?
 
 - To *inform*? Only if you are expecting questions
 - To *consult*? Only if people get a vote
@@ -303,7 +324,7 @@ TODO: turn into markdown table
 
 ---
 
-## 2. Create an agenda
+## {{< fa list >}} 2. Create an agenda
 
 - If you don't care enough to make a list, you don't need a meeting
 - Include timings
@@ -313,14 +334,14 @@ TODO: turn into markdown table
 
 ---
 
-## 3. Have clear rules for making decisions
+## {{< fa gavel >}} 3. Have clear rules for making decisions
 
 - "The Tyranny of Structurelessness" [@Freeman1972]
-- If you need [Robert's Rules](g#roberts-rules), you need training
+- If you need Robert's Rules, you need training
 
 ---
 
-## 4. Put someone in charge
+## {{< fa user-shield >}} 4. Put someone in charge
 
 - The moderator should *not* do most of the talking
   - Any more than the conductor plays most of the notes
@@ -330,7 +351,7 @@ TODO: turn into markdown table
 
 ---
 
-## 5. Require politeness
+## {{< fa smile >}} 5. Require politeness
 
 - All the other rules are special cases of this…
 - No technology during in-person meeting
@@ -343,7 +364,7 @@ TODO: turn into markdown table
 
 ---
 
-## 6. Record minutes
+## {{< fa file-alt >}} 6. Record minutes
 
 - So people who weren't there know what happened
 - So people who were there agree what happened
@@ -351,29 +372,23 @@ TODO: turn into markdown table
 
 ---
 
-## 7. Manage "that guy"
+## {{< fa user-times >}} 7. Manage "that guy"
 
 :::: {.columns}
 ::: {.column width="50%"}
-
-    ![NOAA categorization of disruptive behavior types](./images/noaa-ddb.png){width="100%"}
-  
+![NOAA categorization of disruptive behavior types](./images/noaa-ddb.png){width="100%"}
 :::
 ::: {.column width="50%"}
-
-    <ul>
-      <li>The moderator's other job…</li>
-      <li>Three stickies</li>
-      <li>Interruption bingo</li>
-      <li><a href="https://coast.noaa.gov/ddb/">https://coast.noaa.gov/ddb/</a></li>
-    </ul>
-  
+- The moderator's other job…
+- Three stickies
+- Interruption bingo
+- <https://coast.noaa.gov/ddb/>
 :::
 ::::
 
 ---
 
-## 8. Be an active participant
+## {{< fa user-check >}} 8. Be an active participant
 
 - Decline invitations
   - *If* you agree to abide by what the meeting decides
@@ -385,7 +400,7 @@ TODO: turn into markdown table
 
 ---
 
-## 9. Life online
+## {{< fa laptop >}} 9. Life online
 
 - No mixed-mode meetings
   - All in person or all online
@@ -398,7 +413,7 @@ TODO: turn into markdown table
 
 ---
 
-## 10. Seek truth, not victory
+## {{< fa search >}} 10. Seek truth, not victory
 
 - No social dominance displays
   - "Well actually…"
@@ -408,40 +423,91 @@ TODO: turn into markdown table
   - "This is probably stupid, but…"
 
 
-## Recommended reading
+## {{< fa book >}} Recommended reading
 
 - [@Brookfield2016] has a lot of good ideas for managing discussion
+- [Producing Open Source Software](https://producingoss.com) by Karl Fogel
+- [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm) by Jo Freeman
 
-# Exercises
+## {{< fa flag-checkered >}} Key Takeaways
 
-TODO: turn these into indicated exercises. add timings.
+::: incremental
+- Governance is not bureaucracy - it's clarity
+- Start with Martha's Rules for decision making
+- Document roles and responsibilities explicitly
+- Make meetings count with clear structure
+- Code of Conduct is non-negotiable
+:::
 
-## exercise {.exercise}
+::: {.notes}
+- Wrap up with actionable items
+- Encourage participants to implement one governance improvement
+:::
 
-## Decision making
+# {{< fa pencil >}} Exercises {background-color="#5b195b"}
 
+::: {.notes}
+⏱️ START: 0:55 | DURATION: 15 minutes total | END: 1:10
+- Three 5-minute activities
+- Apply governance concepts to participants' projects
+:::
+
+## {{< fa gavel >}} Activity: Decision Making (5 minutes)
+
+**In our shared Google Doc, Section: "Decision Making"**
+
+::: incremental
 1. What decisions has your project made recently?
-1. Who made them?
-1. Where are they recorded?
+2. Who made them?
+3. Where are they recorded?
+:::
+
+::: {.notes}
+⏱️ START: 0:55 | DURATION: 5 minutes | END: 1:00
+- This helps identify gaps in decision documentation
+:::
 
 ---
 
-## exercise {.exercise}
+## {{< fa sitemap >}} Activity: Roles & Responsibilities (5 minutes)
 
-## What roles and responsibilities do you have?
+**In our shared Google Doc, Section: "Roles Matrix"**
 
-1. List a dozen things people do to keep your project going in Column A.
-1. List people who contribute to the project in Column B.
-1. Draw lines to connect them. What roles can you identify?
+:::: {.columns}
+::: {.column width="50%"}
+**Column A: Tasks**
+List things people do to keep your project going
+:::
+
+::: {.column width="50%"}
+**Column B: People**
+List contributors to the project
+:::
+::::
+
+**Then:** Draw connections - what patterns emerge?
+
+::: {.notes}
+⏱️ START: 1:00 | DURATION: 5 minutes | END: 1:05
+- Reveals informal structures and gaps
+:::
 
 ---
 
-## exercise {.exercise}
+## {{< fa vote-yea >}} Activity: Governance Structure (5 minutes)
 
-## Who decides?
+**In our shared Google Doc, Section: "Governance Rules"**
 
+::: incremental
 1. Who gets a vote in your group?
-1. How are new people added to that pool?
-1. When and how do people lose their votes?
-1. Where and how do other people find out what has been decided and how it affects them?
-1. Where and how can non-voters raise issues?
+2. How are new people added to that pool?
+3. When and how do people lose their votes?
+4. Where do people find out what has been decided?
+5. How can non-voters raise issues?
+:::
+
+::: {.notes}
+⏱️ START: 1:05 | DURATION: 5 minutes | END: 1:10
+- Often reveals informal or unclear processes
+- Wrap up with key takeaways
+:::

@@ -7,10 +7,14 @@
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
-  <title>openwashdata Conference 2025 – Governance</title>
+  <meta name="author" content="Lars Schöbitz">
+  <meta name="dcterms.date" content="2025-07-15">
+  <title>openwashdata Conference 2025 – Governance &amp; Decision Making</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -33,8 +37,6 @@
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
-  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -327,19 +329,68 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Governance</h1>
+  <h1 class="title">Governance &amp; Decision Making</h1>
+  <p class="subtitle">Building effective structures for open projects</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+<a href="https://openwashdata.org/about/lars/">Lars Schöbitz</a> 
+</div>
+        <p class="quarto-title-affiliation">
+            Global Health Engineering, ETH Zurich
+          </p>
+    </div>
 </div>
 
+  <p class="date">July 15, 2025</p>
+</section>
+<section id="session-roadmap-70-min" class="slide level2">
+<h2><i class="fa-solid fa-route" aria-label="route"></i> Session Roadmap (70 min)</h2>
+<div>
+<ul>
+<li class="fragment"><i class="fa-solid fa-door-open" aria-label="door-open"></i> <strong>Introduction &amp; Context</strong> (~10 min)</li>
+<li class="fragment"><i class="fa-solid fa-gavel" aria-label="gavel"></i> <strong>Governance Models</strong> (~15 min) - Including Martha’s Rules</li>
+<li class="fragment"><i class="fa-solid fa-users" aria-label="users"></i> <strong>Activity 1</strong> (5 min) - Project Assessment</li>
+<li class="fragment"><i class="fa-solid fa-handshake" aria-label="handshake"></i> <strong>Roles &amp; Code of Conduct</strong> (~10 min)</li>
+<li class="fragment"><i class="fa-solid fa-calendar-check" aria-label="calendar-check"></i> <strong>Meeting Management</strong> (~15 min) - 10 rules for better meetings</li>
+<li class="fragment"><i class="fa-solid fa-pencil" aria-label="pencil"></i> <strong>Activities 2-4</strong> (15 min) - Decision making, roles, governance</li>
+</ul>
+</div>
+<aside class="notes">
+<p>This is our afternoon session on governance - More in-depth than morning session - Focus on practical tools and frameworks - Multiple activities to apply concepts</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section>
-<section id="introduction" class="title-slide slide level1 center">
-<h1>Introduction</h1>
-
+<section id="introduction" class="title-slide slide level1 center" data-background-color="#5b195b">
+<h1><i class="fa-solid fa-door-open" aria-label="door-open"></i> Introduction</h1>
+<aside class="notes">
+<p>⏱️ START: 0:00 | DURATION: 10 minutes | END: 0:10 - Welcome to afternoon governance session - More detailed than morning overview</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="starting-point" class="slide level2">
 <h2>Starting point</h2>
+<div>
 <blockquote>
 <p>A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding and rough consensus of the problem being solved and work that needs to be done.</p>
 <p>— <a href="https://twitter.com/norootcause/status/1441828577314369544">Lorin Hochstein</a></p>
@@ -348,9 +399,10 @@
 <p>In this house we call them “project managers”.</p>
 <p>— <a href="https://twitter.com/gvwilson/status/1442467916012822535">Greg Wilson</a></p>
 </blockquote>
+</div>
 </section>
-<section id="research-software" class="slide level2">
-<h2>Research software</h2>
+<section id="research-software-because-that-is-what-we-create" class="slide level2">
+<h2><i class="fa-solid fa-code" aria-label="code"></i> Research software (because that is what we create)</h2>
 <ul>
 <li>Software is created and run to answer a question</li>
 <li>Papers, theses, and other reports are the product</li>
@@ -359,7 +411,7 @@
 </ul>
 </section>
 <section id="you" class="slide level2">
-<h2>You</h2>
+<h2><i class="fa-solid fa-user" aria-label="user"></i> You</h2>
 <ul>
 <li>Degree(s) in some research domain</li>
 <li>Little or no formal training in software development</li>
@@ -369,10 +421,11 @@
 
 <img data-src="./images/dependency.png" style="width:40.0%" class="r-stretch quarto-figure-center"><p class="caption">XKCD Dependency cartoon</p></section>
 <section id="me" class="slide level2">
-<h2>Me</h2>
+<h2><i class="fa-solid fa-user-tie" aria-label="user-tie"></i> Me</h2>
 <ul>
 <li>Don’t remember much statistics…</li>
-<li>…but I’ve built a lot of complicated software…</li>
+<li>…but I have programmed a bit in R,</li>
+<li>…I’ve managed a few software projects,</li>
 <li>…and I’ve been lucky enough to hang out with some very smart people</li>
 </ul>
 <div data-align="center">
@@ -383,100 +436,63 @@
 </section>
 <section id="where-weve-been-where-were-going" class="slide level2">
 <h2>Where we’ve been, where we’re going</h2>
-<table>
-<tbody><tr>
-<th>
-Then
-</th>
-<th>
-Now
-</th>
-<th>
-Next
-</th>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Then</th>
+<th>Now</th>
+<th>Next</th>
 </tr>
-<tr>
-<td>
-Dropbox
-</td>
-<td>
-Git repository
-</td>
-<td>
-Branching workflow
-</td>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dropbox</td>
+<td>Git repository</td>
+<td>Branching workflow</td>
 </tr>
-<tr>
-<td>
-“Just do it”
-</td>
-<td>
-Slack /<br> mailing list
-</td>
-<td>
-Martha’s Rules
-</td>
+<tr class="even">
+<td>“Just do it”</td>
+<td>Slack / mailing list</td>
+<td>Martha’s Rules</td>
 </tr>
-<tr>
-<td>
-Interactive analysis
-</td>
-<td>
-A big pile of scripts
-</td>
-<td>
-Build tools /<br> CI
-</td>
+<tr class="odd">
+<td>Interactive analysis</td>
+<td>A big pile of scripts</td>
+<td>Build tools / CI</td>
 </tr>
-<tr>
-<td>
-Word /<br> Google Docs
-</td>
-<td>
-Notebooks /<br> LaTeX
-</td>
-<td>
-Site builder
-</td>
+<tr class="even">
+<td>Word / Google Docs</td>
+<td>Notebooks / LaTeX</td>
+<td>Site builder</td>
 </tr>
-<tr>
-<td>
-“It doesn’t crash”
-</td>
-<td>
-“Are there any NAs?”
-</td>
-<td>
-Assertions /<br> unit tests
-</td>
+<tr class="odd">
+<td>“It doesn’t crash”</td>
+<td>“Are there any NAs?”</td>
+<td>Assertions / unit tests</td>
 </tr>
-<tr>
-<td>
-“Um, hi?”
-</td>
-<td>
-README +<br> LICENSE
-</td>
-<td>
-CONTRIBUTING +<br> CoC
-</td>
+<tr class="even">
+<td>“Um, hi?”</td>
+<td>README + LICENSE</td>
+<td>CONTRIBUTING + CoC</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
 </section>
 <section id="acknowledgments" class="slide level2">
-<h2>Acknowledgments</h2>
+<h2><i class="fa-solid fa-hands-helping" aria-label="hands-helping"></i> Acknowledgments</h2>
 <ul>
 <li>Original workshop: Daniel Standage and Greg Wilson</li>
 <li><a href="https://producingoss.com"><em>Producing Open Source Software</em></a>: Karl Fogel</li>
 <li><em><a href="https://merely-useful.tech/py-rse/">Research Software Engineering with Python</a></em>: Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, and Greg Wilson</li>
-<li>And everyone cited in <a href="../bibliography/">the bibliography</a></li>
 </ul>
 
 <img data-src="./images/py-rse-cover.png" style="width:30.0%" class="r-stretch quarto-figure-center"><p class="caption">Cover of ‘Research Software Engineering with Python’</p></section>
-<section id="how-is-your-project-currently-run" class="slide level2 exercise">
-<h2>How is your project currently run?</h2>
+<section id="activity-project-assessment-5-minutes" class="slide level2">
+<h2><i class="fa-solid fa-users" aria-label="users"></i> Activity: Project Assessment (5 minutes)</h2>
+<p><strong>In our shared Google Doc, Section: “Governance Assessment”</strong></p>
+<p>Reflect on your current project:</p>
 <ol type="1">
-<li>Who uses your software?</li>
+<li>Who uses your software / your work?</li>
 <li>How do they find it?</li>
 <li>Who decides what will happen next?</li>
 <li>How is that communicated?</li>
@@ -484,14 +500,39 @@ CONTRIBUTING +<br> CoC
 <li>What happens automatically?</li>
 <li>How are newcomers brought on board?</li>
 </ol>
+<aside class="notes">
+<p>⏱️ START: 0:20 | DURATION: 5 minutes | END: 0:25 - Give participants 4 minutes to write - 1 minute for quick sharing - This sets the context for why governance matters</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
-<section id="governance" class="title-slide slide level1 center">
-<h1>Governance</h1>
-
+<section id="governance" class="title-slide slide level1 center" data-background-color="#5b195b">
+<h1><i class="fa-solid fa-gavel" aria-label="gavel"></i> Governance</h1>
+<aside class="notes">
+<p>⏱️ START: 0:10 | DURATION: 15 minutes | END: 0:25 - Deep dive into governance models - Focus on Martha’s Rules as practical framework</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="what-problems-are-we-trying-to-solve" class="slide level2">
-<h2>What problems are we trying to solve?</h2>
+<h2><i class="fa-solid fa-exclamation-triangle" aria-label="exclamation-triangle"></i> What problems are we trying to solve?</h2>
 <ul>
 <li>Low productivity
 <ul>
@@ -505,18 +546,22 @@ CONTRIBUTING +<br> CoC
 </ul>
 </section>
 <section id="the-good-news" class="slide level2">
-<h2>The good news</h2>
+<h2><i class="fa-solid fa-thumbs-up" aria-label="thumbs-up"></i> The good news</h2>
 <ul>
 <li>You don’t have to invent this yourself</li>
-<li><a href="https://www.askamanager.org/" class="uri">https://www.askamanager.org/</a></li>
+<li>Learn from others who’ve solved these problems</li>
+<li><a href="https://www.askamanager.org/" class="uri">https://www.askamanager.org/</a> - Great resource for management advice</li>
 </ul>
+<div>
+<p><strong>Example insights:</strong> - “Consensus doesn’t mean everyone agrees - it means everyone can live with the decision” - “Document decisions immediately, or they didn’t happen”</p>
+</div>
 
 <img data-src="./images/askamanager.png" class="r-stretch quarto-figure-center"><p class="caption">Ask a Manager logo</p></section>
 <section id="governance-models" class="slide level2">
-<h2>Governance models</h2>
+<h2><i class="fa-solid fa-network-wired" aria-label="network-wired"></i> Governance models</h2>
 <ul>
 <li><a href="https://communityrule.info/" class="uri">https://communityrule.info/</a> describes <a href="./images/gov-booklet-MASTER.pdf">lots of options</a></li>
-<li><a href="g#benevolent-dictator">Benevolent dictator</a> (often the project founder)
+<li>Benevolent dictator (often the project founder)
 <ul>
 <li>Common in young projects</li>
 <li>Brittle (founder can move on)</li>
@@ -532,17 +577,14 @@ CONTRIBUTING +<br> CoC
 </ul></li>
 </ul>
 </section>
-<section id="sidebar" class="slide level2 sidebar">
-<h2>sidebar</h2>
-</section>
 <section id="hero-programmers" class="slide level2">
-<h2>“Hero” programmers</h2>
+<h2><i class="fa-solid fa-user-ninja" aria-label="user-ninja"></i> “Hero” programmers</h2>
 <ul>
-<li>Brooks advocated a <a href="g#chief-programmer">chief programmer</a> model in the 1970s <span class="citation" data-cites="Brooks1995">[@Brooks1995]</span>
+<li>Brooks advocated a chief programmer model in the 1970s <span class="citation" data-cites="Brooks1995">[@Brooks1995]</span>
 <ul>
 <li>Disparaged since then</li>
 </ul></li>
-<li>But 80% of projects on GitHub are <a href="g#hero-project">hero projects</a> <span class="citation" data-cites="Majumder2019">[@Majumder2019]</span>
+<li>But 80% of projects on GitHub are hero projects <span class="citation" data-cites="Majumder2019">[@Majumder2019]</span>
 <ul>
 <li>5% or less of people responsible for 95% or more of interactions</li>
 <li>“Heroes” commit far fewer bugs than other contributors</li>
@@ -554,7 +596,24 @@ CONTRIBUTING +<br> CoC
 </ul>
 </section>
 <section id="marthas-rules" class="slide level2">
-<h2><a href="g#marthas-rules">Martha’s Rules</a></h2>
+<h2><i class="fa-solid fa-balance-scale" aria-label="balance-scale"></i> Martha’s Rules</h2>
+<aside class="notes">
+<ul>
+<li>This is our recommended governance framework</li>
+<li>Simple enough to implement immediately</li>
+<li>Clear enough to avoid ambiguity</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 <ul>
 <li>Anyone can put forward a proposal by filing it at least 24 hours before a scheduled meeting
 <ul>
@@ -571,7 +630,7 @@ CONTRIBUTING +<br> CoC
 </ul>
 </section>
 <section id="establishing-a-quorum" class="slide level2">
-<h2>Establishing a quorum</h2>
+<h2><i class="fa-solid fa-users" aria-label="users"></i> Establishing a quorum</h2>
 <ul>
 <li>A quorum is established if half or more of voting members are present</li>
 <li>Which means there must be:
@@ -583,10 +642,10 @@ CONTRIBUTING +<br> CoC
 </ul>
 </section>
 <section id="presenting-a-proposal" class="slide level2">
-<h2>Presenting a proposal</h2>
+<h2><i class="fa-solid fa-presentation" aria-label="presentation"></i> Presenting a proposal</h2>
 <ul>
 <li>The sponsor has 5 minutes to present the proposal</li>
-<li>Members cast a <a href="g#sense-vote">sense vote</a>: support, neutral, or oppose
+<li>Members cast a sense vote: support, neutral, or oppose
 <ul>
 <li>If everyone supports or is neutral, go immediately to a binary vote with no further discussion</li>
 <li>If a majority is opposed or neutral, send proposal back to sponsor for further work</li>
@@ -600,88 +659,58 @@ CONTRIBUTING +<br> CoC
 </ul>
 </section>
 <section id="roles-and-responsibilities" class="slide level2">
-<h2>Roles and responsibilities</h2>
-<div data-align="center">
-<table>
-<tbody><tr>
-<th>
-Person
-</th>
-<th>
-Roles
-</th>
-<td rowspan="2">
-</td>
-<th>
-Role
-</th>
-<th>
-Task
-</th>
+<h2><i class="fa-solid fa-tasks" aria-label="tasks"></i> Roles and responsibilities</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="people-their-roles">People &amp; Their Roles</h3>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Person</th>
+<th>Roles</th>
 </tr>
-<tr>
-<td>
-ghopper
-</td>
-<td>
-admin
-</td>
-<td>
-admin
-</td>
-<td>
-merge PRs
-</td>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ghopper</td>
+<td>admin</td>
 </tr>
-<tr>
-<td>
-kjohnson
-</td>
-<td>
-admin, commit
-</td>
-<td align="center">
-×
-</td>
-<td>
-admin
-</td>
-<td>
-assign issues
-</td>
+<tr class="even">
+<td>kjohnson</td>
+<td>admin, commit</td>
 </tr>
-<tr>
-<td>
-aturing
-</td>
-<td>
-commit
-</td>
-<td rowspan="2">
-</td>
-<td>
-commit
-</td>
-<td>
-publish posts
-</td>
+<tr class="odd">
+<td>aturing</td>
+<td>commit</td>
 </tr>
-<tr>
-<td>
-bwk
-</td>
-<td>
-commit
-</td>
-<td>
-commit
-</td>
-<td>
-file issues
-</td>
+<tr class="even">
+<td>bwk</td>
+<td>commit</td>
 </tr>
-</tbody></table>
-</div>
+</tbody>
+</table>
+</div><div class="column" style="width:50%;">
+<h3 id="roles-their-tasks">Roles &amp; Their Tasks</h3>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Role</th>
+<th>Tasks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>admin</td>
+<td>merge PRs, assign issues</td>
+</tr>
+<tr class="even">
+<td>commit</td>
+<td>publish posts, file issues</td>
+</tr>
+</tbody>
+</table>
+</div></div>
+<p><strong>Benefits:</strong></p>
 <ul>
 <li>Gives you a list of what actually needs to be done
 <ul>
@@ -698,7 +727,7 @@ file issues
 </ul>
 </section>
 <section id="code-of-conduct" class="slide level2">
-<h2>Code of Conduct</h2>
+<h2><i class="fa-solid fa-handshake" aria-label="handshake"></i> Code of Conduct</h2>
 <ul>
 <li>Diverse communities need explicit norms
 <ul>
@@ -717,8 +746,8 @@ file issues
 <li>Use the <a href="https://www.contributor-covenant.org/">Contributor Covenant</a></li>
 </ul>
 </section>
-<section id="code-of-conduct-1" class="slide level2">
-<h2>Code of Conduct</h2>
+<section id="code-of-conduct-continued" class="slide level2">
+<h2><i class="fa-solid fa-shield-alt" aria-label="shield-alt"></i> Code of Conduct (continued)</h2>
 <ul>
 <li>A Code of Conduct is only useful if it is enforced
 <ul>
@@ -733,7 +762,20 @@ file issues
 </ul>
 </section>
 <section id="meetings" class="slide level2">
-<h2>Meetings</h2>
+<h2><i class="fa-solid fa-calendar-check" aria-label="calendar-check"></i> Meetings</h2>
+<aside class="notes">
+<p>⏱️ START: 0:40 | DURATION: 15 minutes | END: 0:55 - 10 practical rules for better meetings - Each rule gets about 1.5 minutes</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 <ul>
 <li>On par with interruptions for “things people wish they could have less of”</li>
 <li>Unlike interruptions, can be done well</li>
@@ -741,7 +783,7 @@ file issues
 </ul>
 </section>
 <section id="does-there-actually-need-to-be-a-meeting" class="slide level2">
-<h2>1. Does there actually need to be a meeting?</h2>
+<h2><i class="fa-solid fa-question-circle" aria-label="question-circle"></i> 1. Does there actually need to be a meeting?</h2>
 <ul>
 <li>To <em>inform</em>? Only if you are expecting questions</li>
 <li>To <em>consult</em>? Only if people get a vote
@@ -760,7 +802,7 @@ file issues
 </ul>
 </section>
 <section id="create-an-agenda" class="slide level2">
-<h2>2. Create an agenda</h2>
+<h2><i class="fa-solid fa-list" aria-label="list"></i> 2. Create an agenda</h2>
 <ul>
 <li>If you don’t care enough to make a list, you don’t need a meeting</li>
 <li>Include timings</li>
@@ -772,14 +814,14 @@ file issues
 </ul>
 </section>
 <section id="have-clear-rules-for-making-decisions" class="slide level2">
-<h2>3. Have clear rules for making decisions</h2>
+<h2><i class="fa-solid fa-gavel" aria-label="gavel"></i> 3. Have clear rules for making decisions</h2>
 <ul>
 <li>“The Tyranny of Structurelessness” <span class="citation" data-cites="Freeman1972">[@Freeman1972]</span></li>
-<li>If you need <a href="g#roberts-rules">Robert’s Rules</a>, you need training</li>
+<li>If you need Robert’s Rules, you need training</li>
 </ul>
 </section>
 <section id="put-someone-in-charge" class="slide level2">
-<h2>4. Put someone in charge</h2>
+<h2><i class="fa-solid fa-user-shield" aria-label="user-shield"></i> 4. Put someone in charge</h2>
 <ul>
 <li>The moderator should <em>not</em> do most of the talking
 <ul>
@@ -791,7 +833,7 @@ file issues
 </ul>
 </section>
 <section id="require-politeness" class="slide level2">
-<h2>5. Require politeness</h2>
+<h2><i class="fa-solid fa-smile" aria-label="smile"></i> 5. Require politeness</h2>
 <ul>
 <li>All the other rules are special cases of this…</li>
 <li>No technology during in-person meeting
@@ -808,7 +850,7 @@ file issues
 </ul>
 </section>
 <section id="record-minutes" class="slide level2">
-<h2>6. Record minutes</h2>
+<h2><i class="fa-solid fa-file-alt" aria-label="file-alt"></i> 6. Record minutes</h2>
 <ul>
 <li>So people who weren’t there know what happened</li>
 <li>So people who were there agree what happened</li>
@@ -816,21 +858,26 @@ file issues
 </ul>
 </section>
 <section id="manage-that-guy" class="slide level2">
-<h2>7. Manage “that guy”</h2>
+<h2><i class="fa-solid fa-user-times" aria-label="user-times"></i> 7. Manage “that guy”</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<pre><code>![NOAA categorization of disruptive behavior types](./images/noaa-ddb.png){width="100%"}</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/noaa-ddb.png" style="width:100.0%"></p>
+<figcaption>NOAA categorization of disruptive behavior types</figcaption>
+</figure>
+</div>
 </div><div class="column" style="width:50%;">
-<pre><code>&lt;ul&gt;
-  &lt;li&gt;The moderator's other job…&lt;/li&gt;
-  &lt;li&gt;Three stickies&lt;/li&gt;
-  &lt;li&gt;Interruption bingo&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://coast.noaa.gov/ddb/"&gt;https://coast.noaa.gov/ddb/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</code></pre>
+<ul>
+<li>The moderator’s other job…</li>
+<li>Three stickies</li>
+<li>Interruption bingo</li>
+<li><a href="https://coast.noaa.gov/ddb/" class="uri">https://coast.noaa.gov/ddb/</a></li>
+</ul>
 </div></div>
 </section>
 <section id="be-an-active-participant" class="slide level2">
-<h2>8. Be an active participant</h2>
+<h2><i class="fa-solid fa-user-check" aria-label="user-check"></i> 8. Be an active participant</h2>
 <ul>
 <li>Decline invitations
 <ul>
@@ -844,7 +891,7 @@ file issues
 </ul>
 </section>
 <section id="life-online" class="slide level2">
-<h2>9. Life online</h2>
+<h2><i class="fa-solid fa-laptop" aria-label="laptop"></i> 9. Life online</h2>
 <ul>
 <li>No mixed-mode meetings
 <ul>
@@ -861,7 +908,7 @@ file issues
 </ul>
 </section>
 <section id="seek-truth-not-victory" class="slide level2">
-<h2>10. Seek truth, not victory</h2>
+<h2><i class="fa-solid fa-search" aria-label="search"></i> 10. Seek truth, not victory</h2>
 <ul>
 <li>No social dominance displays
 <ul>
@@ -877,53 +924,137 @@ file issues
 </ul></li>
 </ul>
 </section>
-<section id="sidebar-1" class="slide level2 sidebar">
-<h2>sidebar</h2>
-</section>
 <section id="recommended-reading" class="slide level2">
-<h2>Recommended reading</h2>
+<h2><i class="fa-solid fa-book" aria-label="book"></i> Recommended reading</h2>
 <ul>
 <li><span class="citation" data-cites="Brookfield2016">[@Brookfield2016]</span> has a lot of good ideas for managing discussion</li>
+<li><a href="https://producingoss.com">Producing Open Source Software</a> by Karl Fogel</li>
+<li><a href="https://www.jofreeman.com/joreen/tyranny.htm">The Tyranny of Structurelessness</a> by Jo Freeman</li>
 </ul>
 </section>
-<section id="exercise" class="slide level2 exercise">
-<h2>exercise</h2>
+<section id="key-takeaways" class="slide level2">
+<h2><i class="fa-solid fa-flag-checkered" aria-label="flag-checkered"></i> Key Takeaways</h2>
+<div>
+<ul>
+<li class="fragment">Governance is not bureaucracy - it’s clarity</li>
+<li class="fragment">Start with Martha’s Rules for decision making</li>
+<li class="fragment">Document roles and responsibilities explicitly</li>
+<li class="fragment">Make meetings count with clear structure</li>
+<li class="fragment">Code of Conduct is non-negotiable</li>
+</ul>
+</div>
+<aside class="notes">
+<ul>
+<li>Wrap up with actionable items</li>
+<li>Encourage participants to implement one governance improvement</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="exercises" class="title-slide slide level1 center" data-background-color="#5b195b">
+<h1><i class="fa-solid fa-pencil" aria-label="pencil"></i> Exercises</h1>
+<aside class="notes">
+<p>⏱️ START: 0:55 | DURATION: 15 minutes total | END: 1:10 - Three 5-minute activities - Apply governance concepts to participants’ projects</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="decision-making" class="slide level2">
-<h2>Decision making</h2>
+<section id="activity-decision-making-5-minutes" class="slide level2">
+<h2><i class="fa-solid fa-gavel" aria-label="gavel"></i> Activity: Decision Making (5 minutes)</h2>
+<p><strong>In our shared Google Doc, Section: “Decision Making”</strong></p>
+<div>
 <ol type="1">
-<li>What decisions has your project made recently?</li>
-<li>Who made them?</li>
-<li>Where are they recorded?</li>
+<li class="fragment">What decisions has your project made recently?</li>
+<li class="fragment">Who made them?</li>
+<li class="fragment">Where are they recorded?</li>
 </ol>
+</div>
+<aside class="notes">
+<p>⏱️ START: 0:55 | DURATION: 5 minutes | END: 1:00 - This helps identify gaps in decision documentation</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="exercise-1" class="slide level2 exercise">
-<h2>exercise</h2>
+<section id="activity-roles-responsibilities-5-minutes" class="slide level2">
+<h2><i class="fa-solid fa-sitemap" aria-label="sitemap"></i> Activity: Roles &amp; Responsibilities (5 minutes)</h2>
+<p><strong>In our shared Google Doc, Section: “Roles Matrix”</strong></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Column A: Tasks</strong> List things people do to keep your project going</p>
+</div><div class="column" style="width:50%;">
+<p><strong>Column B: People</strong> List contributors to the project</p>
+</div></div>
+<p><strong>Then:</strong> Draw connections - what patterns emerge?</p>
+<aside class="notes">
+<p>⏱️ START: 1:00 | DURATION: 5 minutes | END: 1:05 - Reveals informal structures and gaps</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="what-roles-and-responsibilities-do-you-have" class="slide level2">
-<h2>What roles and responsibilities do you have?</h2>
+<section id="activity-governance-structure-5-minutes" class="slide level2">
+<h2><i class="fa-solid fa-vote-yea" aria-label="vote-yea"></i> Activity: Governance Structure (5 minutes)</h2>
+<p><strong>In our shared Google Doc, Section: “Governance Rules”</strong></p>
+<div>
 <ol type="1">
-<li>List a dozen things people do to keep your project going in Column A.</li>
-<li>List people who contribute to the project in Column B.</li>
-<li>Draw lines to connect them. What roles can you identify?</li>
+<li class="fragment">Who gets a vote in your group?</li>
+<li class="fragment">How are new people added to that pool?</li>
+<li class="fragment">When and how do people lose their votes?</li>
+<li class="fragment">Where do people find out what has been decided?</li>
+<li class="fragment">How can non-voters raise issues?</li>
 </ol>
-</section>
-<section id="exercise-2" class="slide level2 exercise">
-<h2>exercise</h2>
-</section>
-<section id="who-decides" class="slide level2">
-<h2>Who decides?</h2>
-<ol type="1">
-<li>Who gets a vote in your group?</li>
-<li>How are new people added to that pool?</li>
-<li>When and how do people lose their votes?</li>
-<li>Where and how do other people find out what has been decided and how it affects them?</li>
-<li>Where and how can non-voters raise issues?</li>
-</ol>
+</div>
+<aside class="notes">
+<p>⏱️ START: 1:05 | DURATION: 5 minutes | END: 1:10 - Often reveals informal or unclear processes - Wrap up with key takeaways</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 
 <div class="quarto-auto-generated-content">
+<p><img src="../images/OWD-logo-20.png" class="slide-logo"></p>
 <div class="footer footer-default">
-
+<p><a href="https://openwashdata-conf.github.io/2025/day1/governance.html"><i class="fa-solid fa-link" aria-label="link"></i> openwashdata-conf.github.io/2025/day1/governance.html</a></p>
 </div>
 </div>
 </section></section>
@@ -937,7 +1068,6 @@ file issues
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -953,13 +1083,12 @@ file issues
       // https://revealjs.com/config/
       Reveal.initialize({
 'controlsAuto': true,
-'previewLinksAuto': false,
+'previewLinksAuto': true,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'chalkboard': {"buttons":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -1082,10 +1211,10 @@ file issues
         hideCursorTime: 5000,
 
         // Opens links in an iframe preview overlay
-        previewLinks: true,
+        previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'fade',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
@@ -1130,7 +1259,7 @@ file issues
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
           RevealMath,
           RevealNotes,
