@@ -316,9 +316,21 @@ VMOST analysis is a tool used to evaluate if an overall strategy and supporting 
 
 :::
 
-## Strategies
+## Strategies (TODO: fix the list)
 
-... 11
+
+    Develop and maintain a data warehouse on the openwashdata website that provides an overview of published datasets.
+    Develop a guide as a companion to workshops, live coding events, etc. that documents how to participate in the community and publish data following FAIR principles.
+    Build a cohort of students, scientists, practitioners, and civil servants, that are comfortable using R statistical software for exploratory data analysis and Git version control and GitHub for communication and collaboration.
+    Prepare all communication material for openwashdata using Quarto publishing framework^[https://quarto.org/] and R statistical software.
+    Provide tools and resources to promote the use of open data in the WASH sector
+    Publish workshops as open educational material.
+    Introduce people to the concept of “open by default”, as well as the use of open source software, the concept of open science, and benefits of open government (data).
+    Build material always in mind with learner personas3 that were defined for the community.
+    Communication material does not refer to openwashdata as a project, but as a community.
+    Design a common corporate identity using defined color palettes, fonts, etc.
+    Ensure that material developed for openwashdata follows best practices for accessibility.
+
 
 ::: footer
 
@@ -326,22 +338,19 @@ Check: [openwashdata.org/pages/gallery/vmost/](https://openwashdata.org/pages/ga
 
 :::
 
-## Tactics
+## Tactics  (TODO: fix the list)
 
-... 5
+    Provide a 10-week online workshop for a selected group of participants to share tools and workflows that support publishing of open data following FAIR principles.
+    Publish monthly blog posts on the openwashdata website about selected open datasets, community stories, workflows, insights into community management, use cases, etc.
+    Publish monthly issues of the openwashdata newsletter.
+    Host quarterly community meetups with invited speakers that share stories from their organisations related to data management, data analysis, open data, etc.
+    Visualize and disseminate published open data using interactive dashboards, maps, articles, etc.
 
 ::: footer
 
 Check: [openwashdata.org/pages/gallery/vmost/](https://openwashdata.org/pages/gallery/vmost/)
 
 :::
-
-## Some Stats
-
-- Number of datasets published: [33 R data packages](https://openwashdata.org/pages/gallery/data/)
-- Number of newsletter subscribers: [202 (14 since Jan 2025)](https://openwashdata.org/pages/gallery/newsletter/)
-- Number of unique visitors (openwashdata.org): [~5 visitors/day (past 3 months)](https://openwashdata.org/pages/gallery/stats/)
-- Number of unique visitors (data packages): [~5 visitors/day (past 3 months)](https://plausible.io/openwashdata.github.io)
 
 # Future {background-color="#5b195b"}
 
@@ -365,15 +374,15 @@ Check: [openwashdata.org/pages/gallery/vmost/](https://openwashdata.org/pages/ga
 
 All efforts into the next iteration of the course.
 
-- free, live, online, 9 module programme
-- 200 registrations for 2023 iteration (goal 2025: 500)
-- 100 show-ups (goal 2025: 250)
-- 20 participants completed capstone project (goal: 100)
-- 5 participants published data packages (goal: 50)
-- next iteration: from September 2025, sign-up link: <https://ee-eu.kobotoolbox.org/x/7V3qeDYD>
+- free, live, online, 9 module programme (TODO.highlight-yellow[goal: new AI module])
+- 200 registrations for 2023 iteration (TODO.highlight-yellow[goal 2025: 500)
+- 100 show-ups (TODO.highlight-yellow[goal 2025: 250)
+- 20 participants completed capstone project (TODO.highlight-yellow[goal: 100)
+- 5 participants published data packages (TODO.highlight-yellow[goal: 50)
+- next iteration: from 11th September 2025, sign-up link: <https://ee-eu.kobotoolbox.org/x/7V3qeDYD>
 
 ::: learn-more
-[ds4owd-001.github.io/website/](https://ds4owd-001.github.io/website/)
+[ds4owd-002.github.io/website/](https://ds4owd-002.github.io/website/)
 
 ```{=html}
 <iframe src="https://ds4owd-001.github.io/website/" width="100%" height="300" style="border:2px solid #123233;" title="Website of data science for openwashdata coursew"></iframe>
@@ -382,17 +391,113 @@ All efforts into the next iteration of the course.
 
 ## ds4owd-002 communication campaign (strategy)
 
-- restart monthly newsletter editions (now)
-- publish a blog post on ds4owd-001 (July)
-- start publishing a LinkedIn post every Thursday (openwashdata thursday)
-- host an information event (late August)
-- host a series of workshops for `washr` (from November 2025 to March 2026)
+- restart monthly newsletter editions (now) TODO: emoji full moon 
+- publish a blog post on ds4owd-001 (July) TODO: emoji full moon (Thanks, Adriana)
+- start publishing a LinkedIn post every Thursday (openwashdata thursday) TODO: emoji half-mon 
+- host an information event (late August) TODO: emoji empty moon
+- host a series of workshops for `washr` / `fairenough` (from October 2025 to March 2026) TODO: emoji open to do empty moon
 
 ## ds4owd-002 course preparation
 
-- Platform for access to recordings through authentication
-- Prepare quizzes for each module for participants to complete each module
-- Write R code for using GitHub API to comment and close issues
+- Platform for access to recordings through authentication TODO: emoji full moon (Zoom with registration for each session and detailed usage statistics)
+- Prepare quizzes for each module for participants to complete each module TODO: emoji half moon (with feedback on whether participants watched recording or joined live module)
+- Write templates / R function / Claude Code Slash commands for reviewing homework assignments, capstone projects, data packages, etc. TODO: emoji empty moon
+- Establish mentorship programme TODO: emoji empty moon
+- Share information about course through personal channels, newsletters, etc. TODO emoji half moon
+
+# Organogram {background-color="#5b195b"}
+
+##
+
+![](../images/openwashdata-organogram-01.svg)
+
+::: footer
+Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
+:::
+
+##
+
+![](../images/openwashdata-organogram-02.svg)
+
+::: footer
+Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
+:::
+
+##
+
+![](../images/openwashdata-organogram-03.svg)
+
+::: footer
+Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
+:::
+
+##
+
+![](../images/openwashdata-organogram-04.svg)
+
+::: footer
+Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
+:::
+
+##
+
+![](../images/openwashdata-organogram-05.svg)
+
+::: footer
+Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
+:::
+
+##
+
+![](../images/openwashdata-organogram-06.svg)
+
+::: footer
+Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
+:::
+
+##
+
+![](../images/openwashdata-organogram-07.svg)
+
+::: footer
+Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
+:::
+
+##
+
+![](../images/openwashdata-organogram-08.svg)
+
+::: footer
+Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
+:::
+
+##
+
+![](../images/openwashdata-organogram-09.svg)
+
+::: footer
+Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
+:::
+
+##
+
+![](../images/openwashdata-organogram-10.svg)
+
+::: footer
+Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
+:::
+
+
+# Funding opportunities {background-color="#5b195b"}
+
+##
+
+- proposals
+    - research grant
+    - italy conference center
+    - ETH Foundation
+    - ETH ORD programme (open educational material)
+    - 
 
 # Papers from mid-2026 {background-color="#5b195b"}
 
