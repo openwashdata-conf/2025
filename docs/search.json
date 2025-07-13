@@ -1195,14 +1195,14 @@
     "objectID": "day1/openwashdata.html#vision",
     "href": "day1/openwashdata.html#vision",
     "title": "openwashdata conf 2025",
-    "section": "Vision",
+    "section": " Vision",
     "text": "Vision\nAn active global community that applies FAIR principles [@wilkinson2016] to data generated in the greater water, sanitation, and hygiene sector."
   },
   {
     "objectID": "day1/openwashdata.html#mission",
     "href": "day1/openwashdata.html#mission",
     "title": "openwashdata conf 2025",
-    "section": "Mission",
+    "section": " Mission",
     "text": "Mission\nEmpower WASH professionals to engage with tools and workflows for open data and code.\n\nFrom: openwashdata.org/pages/gallery/vmost/"
   },
   {
@@ -1210,7 +1210,7 @@
     "href": "day1/openwashdata.html#vmost",
     "title": "openwashdata conf 2025",
     "section": "VMOST",
-    "text": "VMOST\n\nVision\nMission\nObjectives\nStrategy\nTactics\n\n\nVMOST analysis is a tool used to evaluate if an overall strategy and supporting activities are in alignment. It can be used for current or future plans, and it breaks down a strategy and its core components into an easy-to-consume format"
+    "text": "VMOST\n\n Vision\n Mission\n Objectives\n Strategy\n Tactics\n\n\n⏱️ START: 0:16 | DURATION: 7 minutes | END: 0:23 VMOST analysis is a tool used to evaluate if an overall strategy and supporting activities are in alignment. It can be used for current or future plans, and it breaks down a strategy and its core components into an easy-to-consume format - Vision & Mission: 2 minutes - Objectives: 2 minutes\n- Strategies & Tactics: 3 minutes"
   },
   {
     "objectID": "day1/openwashdata.html#objectives-indicators",
@@ -1259,7 +1259,7 @@
     "href": "day1/openwashdata.html#data-science-for-openwashdata-002",
     "title": "openwashdata conf 2025",
     "section": "data science for openwashdata 002",
-    "text": "data science for openwashdata 002\nAll efforts into the next iteration of the course.\n\nfree, live, online, 9 module programme (goal: new AI module)\n200 registrations for 2023 iteration (goal 2025: 500)\n100 show-ups (goal 2025: 250)\n20 participants completed capstone project (goal: 100)\n5 participants published data packages (goal: 50)\nnext iteration: from 11th September 2025, sign-up link: https://ee-eu.kobotoolbox.org/x/7V3qeDYD\n\n\nds4owd-002.github.io/website/"
+    "text": "data science for openwashdata 002\nAll efforts into the next iteration of the course.\n\n⏱️ START: 0:33 | DURATION: 5 minutes | END: 0:38 - Course overview and goals: 2 minutes - Communication campaign: 1.5 minutes - Course preparation: 1.5 minutes\n\n\nfree, live, online, 9 module programme (goal: new AI module)\n200 registrations for 2023 iteration (goal 2025: 500)\n100 show-ups (goal 2025: 250)\n20 participants completed capstone project (goal: 100)\n5 participants published data packages (goal: 50)\nnext iteration: from 11th September 2025, sign-up link: https://ee-eu.kobotoolbox.org/x/7V3qeDYD\n\n\nds4owd-002.github.io/website/"
   },
   {
     "objectID": "day1/openwashdata.html#ds4owd-002-communication-campaign-strategy",
@@ -1280,7 +1280,7 @@
     "href": "day1/openwashdata.html#months-4-papers",
     "title": "openwashdata conf 2025",
     "section": "12 months, 4 papers",
-    "text": "12 months, 4 papers\n\n\nSetting the baseline: FAIR / Open Data practices in the WASH sector\nIncreasing competency: Data from two iterations of data science for openwashdata course\nStreamlining workflows: Development of an R package for FAIR data publication (washr / fairenough)\nTracking impact: Analytics from published data packages\nWhat else?"
+    "text": "12 months, 4 papers\n\n⏱️ START: 0:48 | DURATION: 2 minutes | END: 0:50 - Callback slide: 30 seconds - Papers overview: 1 minute - Thank you & closing: 30 seconds - Allow buffer time for questions if ahead of schedule\n\n\n\nSetting the baseline: FAIR / Open Data practices in the WASH sector\nIncreasing competency: Data from two iterations of data science for openwashdata course\nStreamlining workflows: Development of an R package for FAIR data publication (washr / fairenough)\nTracking impact: Analytics from published data packages\nWhat else?"
   },
   {
     "objectID": "day1/openwashdata.html#thanks",
@@ -1385,21 +1385,21 @@
     "href": "day1/openwashdata.html#sorted-by-deadline",
     "title": "openwashdata conf 2025",
     "section": "Sorted by deadline",
-    "text": "Sorted by deadline\n\n2025-09-01: ETH Open Research Data Program - Creating and publishing open educational resources on research data management. CHF 10,000 – CHF 25,000. (10 months)\n2025-09-30: Swiss Leading House Africa - Call for Research Partnership Grant. CHF 15,000 – CHF 40,000 (3 to 12 months).\n2025-10-31: Congressi Stefano Franscini. 2nd open(wash)data / conference in July 2027.\nTBD: ETH Foundation"
+    "text": "Sorted by deadline\n\n2025-09-01: ETH Open Research Data Program - Creating and publishing open educational resources on research data management. CHF 10,000 – CHF 25,000. (10 months)\n2025-09-30: Swiss Leading House Africa - Call for Research Partnership Grant. CHF 15,000 – CHF 40,000 (3 to 12 months).\n2025-10-31: Congressi Stefano Franscini. 2nd open(wash)data / conference in July 2027.\nTBD: ETH Foundation\n\n\n⏱️ ~3 minutes before activity"
   },
   {
     "objectID": "day1/openwashdata.html#wp2-governance-what-today-is-all-about",
     "href": "day1/openwashdata.html#wp2-governance-what-today-is-all-about",
     "title": "openwashdata conf 2025",
-    "section": "WP2: Governance (what today is all about)",
-    "text": "WP2: Governance (what today is all about)\n\nActivity 2.1: Develop a governance structure for a community organization and decision-making processes.\nActivity 2.2: Form a sounding board comprising community members to provide directional feedback.\nActivity 2.3: Create a long-term funding strategy for the openwashdata community.\n\nOpen question: What is the medium-term future of openwashdata and what does it look like?"
+    "section": " WP2: Governance (what today is all about)",
+    "text": "WP2: Governance (what today is all about)\n\nActivity 2.1: Develop a governance structure for a community organization and decision-making processes.\nActivity 2.2: Form a sounding board comprising community members to provide directional feedback.\nActivity 2.3: Create a long-term funding strategy for the openwashdata community.\n\nOpen question: What is the medium-term future of openwashdata and what does it look like?\n\n⏱️ START: 0:28 | DURATION: 5 minutes | END: 0:33 - WP2 Governance: 2 minutes - WP3 Community expansion: 3 minutes - Reference back to participant ideas from Activity 1"
   },
   {
     "objectID": "day1/openwashdata.html#wp3-community-expansion-what-i-need-your-support-for",
     "href": "day1/openwashdata.html#wp3-community-expansion-what-i-need-your-support-for",
     "title": "openwashdata conf 2025",
-    "section": "WP3: Community expansion (What I need your support for)",
-    "text": "WP3: Community expansion (What I need your support for)\n\nActivity 3.1: Offer advanced data science training and workshops to community members.\nActivity 3.2: Develop a mentorship program to support new members in adopting ORD practices.\nActivity 3.3: Organize community events to foster networking and collaboration.\n\nPriority: Strong focus on WP3 for the remainder of the project."
+    "section": " WP3: Community expansion (What I need your support for)",
+    "text": "WP3: Community expansion (What I need your support for)\n\n Activity 3.1: Offer advanced data science training and workshops to community members.\n Activity 3.2: Develop a mentorship program to support new members in adopting ORD practices.\n Activity 3.3: Organize community events to foster networking and collaboration.\n\nPriority: Strong focus on WP3 for the remainder of the project."
   },
   {
     "objectID": "day1/openwashdata.html#ds4owd-002-communication-campaign-strategy-from-early-june",
@@ -1407,5 +1407,96 @@
     "title": "openwashdata conf 2025",
     "section": "ds4owd-002 communication campaign (strategy from early June)",
     "text": "ds4owd-002 communication campaign (strategy from early June)\n\n\n🌕 restart monthly newsletter editions (now)\n🌕 publish a blog post on ds4owd-001 (July) (Thanks, Adriana)\n🌗 start publishing a LinkedIn post every Thursday (openwashdata thursday)\n🌑 host an information event (late August)\n🌑 host a series of workshops for washr / fairenough (from October 2025 to March 2026)"
+  },
+  {
+    "objectID": "day1/openwashdata.html#session-roadmap-45-min",
+    "href": "day1/openwashdata.html#session-roadmap-45-min",
+    "title": "openwashdata conf 2025",
+    "section": " Session Roadmap (45 min)",
+    "text": "Session Roadmap (45 min)\n\n\n The Opportunity (~10 min) - Why open data matters in WASH\n openwashdata Journey (~10 min) - Our story and framework\n Activity 1 (5 min) - Your strategies & tactics\n Future Plans (~10 min) - WP2/WP3 & ds4owd-002\n Funding & Collaboration (~5 min)\n Activity 2 (5 min) - Building together\n Wrap-up (~2 min)\n\n\n\nThis roadmap helps participants know what to expect and where we are in the journey"
+  },
+  {
+    "objectID": "day1/openwashdata.html#activity-your-ideas-matter-5-minutes",
+    "href": "day1/openwashdata.html#activity-your-ideas-matter-5-minutes",
+    "title": "openwashdata conf 2025",
+    "section": " Activity: Your Ideas Matter (5 minutes)",
+    "text": "Activity: Your Ideas Matter (5 minutes)\nIn our shared Google Doc, please add:\nWhat other strategies or tactics could help build an open data culture in WASH?\nThink about:\n\n🎯 Your (local) context\n🤝 Partnerships you could leverage\n🛠️ Tools or resources you need\n\n\n⏱️ START: 0:23 | DURATION: 5 minutes | END: 0:28 - Give clear instructions (1 min) - Silent writing time (3 min) - Quick verbal share of 1-2 ideas (1 min) This builds on the VMOST framework they just learned. Watch for innovative ideas that could expand our approach. Highlight connections to their suggestions when discussing WP3."
+  },
+  {
+    "objectID": "day1/openwashdata.html#starting-point",
+    "href": "day1/openwashdata.html#starting-point",
+    "title": "openwashdata conf 2025",
+    "section": "Starting Point",
+    "text": "Starting Point\n\n\nRead full proposal for Phase 2 at: openwashdata.org/pages/gallery/proposal-02/\n\n\n⏱️ START: 0:38 | DURATION: 2 minutes | END: 0:40 - 30 seconds per slide (4 slides = 2 minutes) - Emphasize evolution and growth - Quick visual journey through phases"
+  },
+  {
+    "objectID": "day1/openwashdata.html#mid-development",
+    "href": "day1/openwashdata.html#mid-development",
+    "title": "openwashdata conf 2025",
+    "section": "Mid-development",
+    "text": "Mid-development\n\n\nFull evolution available at: openwashdata.org/pages/gallery/proposal-02/"
+  },
+  {
+    "objectID": "day1/openwashdata.html#community-integration",
+    "href": "day1/openwashdata.html#community-integration",
+    "title": "openwashdata conf 2025",
+    "section": "Community Integration",
+    "text": "Community Integration\n\n\nFull evolution available at: openwashdata.org/pages/gallery/proposal-02/"
+  },
+  {
+    "objectID": "day1/openwashdata.html#future-vision",
+    "href": "day1/openwashdata.html#future-vision",
+    "title": "openwashdata conf 2025",
+    "section": "Future Vision",
+    "text": "Future Vision\n\n\nRead full proposal for Phase 2 at: openwashdata.org/pages/gallery/proposal-02/"
+  },
+  {
+    "objectID": "day1/openwashdata.html#activity-building-together-5-minutes",
+    "href": "day1/openwashdata.html#activity-building-together-5-minutes",
+    "title": "openwashdata conf 2025",
+    "section": " Activity: Building Together (5 minutes)",
+    "text": "Activity: Building Together (5 minutes)\nIn our shared Google Doc, please share:\n\nWhat other funding opportunities exist for open data initiatives?\nWho would you want to collaborate with on an open(wash)data project?\n\n\n⏱️ START: 0:43 | DURATION: 5 minutes | END: 0:48 - Instructions: 1 minute - Writing time: 3 minutes\n- Quick share: 1 minute This helps identify potential funding sources we haven’t considered. Also helps with networking - participants can see shared interests. Use this to transition to papers/impact discussion."
+  },
+  {
+    "objectID": "day1/openwashdata.html#on-the-list",
+    "href": "day1/openwashdata.html#on-the-list",
+    "title": "openwashdata conf 2025",
+    "section": "On the list",
+    "text": "On the list\n\n2025-09-01: ETH Open Research Data Program - Creating and publishing open educational resources on research data management. CHF 10,000 – CHF 25,000. (10 months)\n2025-09-30: Swiss Leading House Africa - Call for Research Partnership Grant. CHF 15,000 – CHF 40,000 (3 to 12 months).\n2025-10-31: Congressi Stefano Franscini. 2nd open(wash)data / conference in July 2027.\nTBD: ETH Foundation\n\n\n⏱️ START: 0:40 | DURATION: 3 minutes | END: 0:43 - List funding opportunities: 2 minutes - Transition slide: 30 seconds - Set up for Activity 2: 30 seconds"
+  },
+  {
+    "objectID": "day1/openwashdata.html#detailed-timing-breakdown",
+    "href": "day1/openwashdata.html#detailed-timing-breakdown",
+    "title": "openwashdata conf 2025",
+    "section": " Detailed Timing Breakdown",
+    "text": "Detailed Timing Breakdown\n\n\n\n\n\n\n\n\n\nTime\nDuration\nSection\nKey Activities\n\n\n\n\n0:00\n3 min\nIntroduction & Programme\nWelcome, session overview\n\n\n0:03\n10 min\n The Opportunity\nJournal data analysis, FAIR principles\n\n\n0:13\n10 min\n openwashdata & VMOST\nCommunity intro, Vision, Mission, Objectives\n\n\n0:23\n5 min\n Activity 1\nStrategies & tactics brainstorming\n\n\n0:28\n5 min\n Future (WP2/WP3)\nGovernance & expansion plans\n\n\n0:33\n5 min\n ds4owd-002\nCourse plans & preparation\n\n\n0:38\n2 min\n Organogram\nCommunity structure evolution\n\n\n0:40\n3 min\n Funding & Papers\nOpportunities & publications\n\n\n0:43\n5 min\n Activity 2\nFunding ideas & collaborations\n\n\n0:48\n2 min\n Wrap-up\nKey takeaways, next steps\n\n\n\n\n⏱️ This detailed breakdown helps you pace the session and ensures all content fits within 45 minutes"
+  },
+  {
+    "objectID": "day1/openwashdata.html#get-ready-to-share",
+    "href": "day1/openwashdata.html#get-ready-to-share",
+    "title": "openwashdata conf 2025",
+    "section": " Get Ready to Share!",
+    "text": "Get Ready to Share!\n\nIn a moment, I’ll pause to hear your ideas\n\n\n\n Think about strategies & tactics for your context\n Consider your (local) challenges & opportunities\n\n What partnerships could accelerate progress?\n\n\n\n⏱️ This transition slide prepares participants for the upcoming activity - Give them a moment to think before opening the Google Doc - Emphasize we want practical, actionable ideas"
+  },
+  {
+    "objectID": "day1/openwashdata.html#building-on-your-ideas",
+    "href": "day1/openwashdata.html#building-on-your-ideas",
+    "title": "openwashdata conf 2025",
+    "section": " Building on Your Ideas",
+    "text": "Building on Your Ideas\n\n\nYour strategies from Activity 1 directly inform WP3 planning\nLocal contexts you shared help shape regional initiatives\nPartnership ideas guide our collaboration approach\n\n\n\n⏱️ Callback to Activity 1 - reference specific ideas if they shared good ones - This shows we value their input and it directly influences our work"
+  },
+  {
+    "objectID": "day1/openwashdata.html#activity-2-coming-up",
+    "href": "day1/openwashdata.html#activity-2-coming-up",
+    "title": "openwashdata conf 2025",
+    "section": " Activity 2 Coming Up",
+    "text": "Activity 2 Coming Up\n\nPrepare to share your knowledge about:\n\n\n\n Funding\nWhat opportunities exist in your region/sector?\n\n Collaboration\nWho would you partner with?\n\n\n⏱️ Quick transition to prepare them for the second activity - This helps them start thinking before we open the Google Doc"
+  },
+  {
+    "objectID": "day1/openwashdata.html#your-contributions-matter",
+    "href": "day1/openwashdata.html#your-contributions-matter",
+    "title": "openwashdata conf 2025",
+    "section": " Your Contributions Matter",
+    "text": "Your Contributions Matter\nFrom today’s activities, we heard:\n\n\nNew strategies: [Reference 1-2 participant ideas]\nFunding opportunities: [Reference specific suggestions]\nCollaboration ideas: [Reference partnership suggestions]\n\n\nThese directly shape our Phase 3 planning!\n\n⏱️ Callback slide - fill in with actual participant contributions during session - This validates their input and shows immediate impact"
   }
 ]

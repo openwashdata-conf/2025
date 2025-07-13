@@ -159,14 +159,48 @@ agenda_final |>
   knitr::kable()
 ```
 
+## {{< fa route >}} Session Roadmap (45 min)
 
-# The Opportunity {background-color="#5b195b"}
+::: incremental
+- {{< fa chart-line >}} **The Opportunity** (~10 min) - Why open data matters in WASH
+- {{< fa users >}} **openwashdata Journey** (~10 min) - Our story and framework
+- {{< fa lightbulb >}} **Activity 1** (5 min) - Your strategies & tactics
+- {{< fa rocket >}} **Future Plans** (~10 min) - WP2/WP3 & ds4owd-002
+- {{< fa coins >}} **Funding & Collaboration** (~5 min)
+- {{< fa users >}} **Activity 2** (5 min) - Building together
+- {{< fa flag-checkered >}} **Wrap-up** (~2 min)
+:::
 
 ::: {.notes}
+This roadmap helps participants know what to expect and where we are in the journey
+:::
 
+## {{< fa clock >}} Detailed Timing Breakdown
+
+| Time | Duration | Section | Key Activities |
+|------|----------|---------|----------------|
+| 0:00 | 3 min | Introduction & Programme | Welcome, session overview |
+| 0:03 | 10 min | {{< fa chart-line >}} The Opportunity | Journal data analysis, FAIR principles |
+| 0:13 | 10 min | {{< fa users >}} openwashdata & VMOST | Community intro, Vision, Mission, Objectives |
+| 0:23 | 5 min | {{< fa lightbulb >}} **Activity 1** | Strategies & tactics brainstorming |
+| 0:28 | 5 min | {{< fa rocket >}} Future (WP2/WP3) | Governance & expansion plans |
+| 0:33 | 5 min | {{< fa graduation-cap >}} ds4owd-002 | Course plans & preparation |
+| 0:38 | 2 min | {{< fa sitemap >}} Organogram | Community structure evolution |
+| 0:40 | 3 min | {{< fa coins >}} Funding & Papers | Opportunities & publications |
+| 0:43 | 5 min | {{< fa users >}} **Activity 2** | Funding ideas & collaborations |
+| 0:48 | 2 min | {{< fa flag-checkered >}} Wrap-up | Key takeaways, next steps |
+
+::: {.notes}
+⏱️ This detailed breakdown helps you pace the session and ensures all content fits within 45 minutes
+:::
+
+
+# {{< fa chart-line >}} The Opportunity {background-color="#5b195b"}
+
+::: {.notes}
+⏱️ ~10 minutes for The Opportunity section
 - We have a huge and missed opportunity in our sector
 - Very little data is shared publicly and following best practices for reuse
-
 :::
 
 ## Journal articles
@@ -258,10 +292,12 @@ Data: R package washopenresearch to be published at <https://github.com/openwash
 
 :::
 
-# openwashdata community {background-color="#5b195b"} 
+# {{< fa users >}} openwashdata community {background-color="#5b195b"} 
 
 ::: {.notes}
+⏱️ START: 0:13 | DURATION: 3 minutes | END: 0:16
 - To address this, we started the openwashdata community
+- Quick overview of launch and support
 :::
 
 ## openwashdata community
@@ -271,11 +307,11 @@ Data: R package washopenresearch to be published at <https://github.com/openwash
 - Ends in July 2026
 - So many outputs to write about (from 2026 to 2027)
 
-## [Vision]{.highlight-yellow}
+## {{< fa eye >}} [Vision]{.highlight-yellow}
 
 An active global community that applies FAIR principles [@wilkinson2016] to data generated in the greater water, sanitation, and hygiene sector.
 
-## [Mission]{.highlight-yellow}
+## {{< fa bullseye >}} [Mission]{.highlight-yellow}
 
 Empower WASH professionals to engage with tools and workflows for open data and code.
 
@@ -285,18 +321,22 @@ From: [openwashdata.org/pages/gallery/vmost/](https://openwashdata.org/pages/gal
 
 :::
 
-# VMOST as a method {background-color="#5b195b"}
+# {{< fa flag >}} VMOST as a method {background-color="#5b195b"}
 
 ## VMOST
 
-- [V]{.highlight-yellow}ision
-- [M]{.highlight-yellow}ission
-- [O]{.highlight-yellow}bjectives
-- [S]{.highlight-yellow}trategy
-- [T]{.highlight-yellow}actics
+- {{< fa eye >}} [V]{.highlight-yellow}ision
+- {{< fa bullseye >}} [M]{.highlight-yellow}ission
+- {{< fa list-check >}} [O]{.highlight-yellow}bjectives
+- {{< fa chess >}} [S]{.highlight-yellow}trategy
+- {{< fa tools >}} [T]{.highlight-yellow}actics
 
-::: speaker-notes
-VMOST analysis is a tool used to evaluate if an overall strategy and supporting activities are in alignment. It can be used for current or future plans, and it breaks down a strategy and its core components into an easy-to-consume format 
+::: {.notes}
+⏱️ START: 0:16 | DURATION: 7 minutes | END: 0:23
+VMOST analysis is a tool used to evaluate if an overall strategy and supporting activities are in alignment. It can be used for current or future plans, and it breaks down a strategy and its core components into an easy-to-consume format
+- Vision & Mission: 2 minutes
+- Objectives: 2 minutes  
+- Strategies & Tactics: 3 minutes
 :::
 
 ## Objectives (Indicators) {.scrollable .smaller}
@@ -358,27 +398,94 @@ Check: [openwashdata.org/pages/gallery/vmost/](https://openwashdata.org/pages/ga
 
 :::
 
-# Future {background-color="#5b195b"}
+## {{< fa hand-paper >}} Get Ready to Share! {background-color="#e8f4f8"}
 
-## WP2: Governance (what today is all about)
+::: {style="font-size: 1.5em; text-align: center; margin-top: 2em;"}
+In a moment, I'll pause to hear **your** ideas
+:::
+
+::: incremental
+- {{< fa edit >}} Think about strategies & tactics for your context
+- {{< fa globe >}} Consider your (local) challenges & opportunities  
+- {{< fa users >}} What partnerships could accelerate progress?
+:::
+
+::: {.notes}
+⏱️ This transition slide prepares participants for the upcoming activity
+- Give them a moment to think before opening the Google Doc
+- Emphasize we want practical, actionable ideas
+:::
+
+## {{< fa lightbulb >}} Activity: Your Ideas Matter (5 minutes)
+
+**In our shared Google Doc, please add:**
+
+What other strategies or tactics could help build an open data culture in WASH?
+
+Think about:
+
+- 🎯 Your (local) context
+- 🤝 Partnerships you could leverage
+- 🛠️ Tools or resources you need
+
+::: {.notes}
+⏱️ START: 0:23 | DURATION: 5 minutes | END: 0:28
+- Give clear instructions (1 min)
+- Silent writing time (3 min)
+- Quick verbal share of 1-2 ideas (1 min)
+This builds on the VMOST framework they just learned. 
+Watch for innovative ideas that could expand our approach.
+Highlight connections to their suggestions when discussing WP3.
+:::
+
+# {{< fa rocket >}} Future {background-color="#5b195b"}
+
+## {{< fa gavel >}} WP2: Governance (what today is all about)
 
 - Activity 2.1: Develop a governance structure for a community organization and decision-making processes.
 - Activity 2.2: Form a sounding board comprising community members to provide directional feedback.
 - Activity 2.3: Create a long-term funding strategy for the openwashdata community.
 
-[Open question: What is the medium-term future of openwashdata and what does it look like?]{.highlight-yellow} 
+[Open question: What is the medium-term future of openwashdata and what does it look like?]{.highlight-yellow}
 
-## WP3: Community expansion (What I need your support for)
+::: {.notes}
+⏱️ START: 0:28 | DURATION: 5 minutes | END: 0:33
+- WP2 Governance: 2 minutes
+- WP3 Community expansion: 3 minutes
+- Reference back to participant ideas from Activity 1
+::: 
 
-- Activity 3.1: Offer advanced data science training and workshops to community members.
-- Activity 3.2: Develop a mentorship program to support new members in adopting ORD practices.
-- Activity 3.3: Organize community events to foster networking and collaboration.
+## {{< fa users-rays >}} WP3: Community expansion (What I need your support for)
 
-[Priority: Strong focus on WP3 for the remainder of the project.]{.highlight-yellow} 
+- {{< fa graduation-cap >}} Activity 3.1: Offer advanced data science training and workshops to community members.
+- {{< fa handshake >}} Activity 3.2: Develop a mentorship program to support new members in adopting ORD practices.
+- {{< fa calendar-days >}} Activity 3.3: Organize community events to foster networking and collaboration.
+
+[Priority: Strong focus on WP3 for the remainder of the project.]{.highlight-yellow}
+
+## {{< fa comments >}} Building on Your Ideas
+
+::: incremental
+- Your strategies from Activity 1 directly inform WP3 planning
+- Local contexts you shared help shape regional initiatives
+- Partnership ideas guide our collaboration approach
+:::
+
+::: {.notes}
+⏱️ Callback to Activity 1 - reference specific ideas if they shared good ones
+- This shows we value their input and it directly influences our work
+::: 
 
 ## data science for openwashdata 002 {.smaller}
 
 All efforts into the next iteration of the course.
+
+::: {.notes}
+⏱️ START: 0:33 | DURATION: 5 minutes | END: 0:38
+- Course overview and goals: 2 minutes
+- Communication campaign: 1.5 minutes
+- Course preparation: 1.5 minutes
+:::
 
 - free, live, online, 9 module programme ([goal: new AI module]{.highlight-yellow})
 - 200 registrations for 2023 iteration ([goal 2025: 500]{.highlight-yellow})
@@ -419,9 +526,9 @@ All efforts into the next iteration of the course.
 
 :::
 
-# Organogram (Phase 3?) {background-color="#5b195b"}
+# {{< fa sitemap >}} Organogram (Phase 3?) {background-color="#5b195b"}
 
-##
+## Starting Point
 
 ![](../images/openwashdata-organogram-01.svg)
 
@@ -429,71 +536,30 @@ All efforts into the next iteration of the course.
 Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
 :::
 
-##
-
-![](../images/openwashdata-organogram-02.svg)
-
-::: footer
-Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
+::: {.notes}
+⏱️ START: 0:38 | DURATION: 2 minutes | END: 0:40
+- 30 seconds per slide (4 slides = 2 minutes)
+- Emphasize evolution and growth
+- Quick visual journey through phases
 :::
 
-##
-
-![](../images/openwashdata-organogram-03.svg)
-
-::: footer
-Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
-:::
-
-##
-
-![](../images/openwashdata-organogram-04.svg)
-
-::: footer
-Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
-:::
-
-##
+## Mid-development
 
 ![](../images/openwashdata-organogram-05.svg)
 
 ::: footer
-Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
+Full evolution available at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
 :::
 
-##
-
-![](../images/openwashdata-organogram-06.svg)
-
-::: footer
-Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
-:::
-
-##
-
-![](../images/openwashdata-organogram-07.svg)
-
-::: footer
-Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
-:::
-
-##
-
-![](../images/openwashdata-organogram-08.svg)
-
-::: footer
-Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
-:::
-
-##
+## Community Integration
 
 ![](../images/openwashdata-organogram-09.svg)
 
 ::: footer
-Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
+Full evolution available at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
 :::
 
-##
+## Future Vision
 
 ![](../images/openwashdata-organogram-10.svg)
 
@@ -502,18 +568,91 @@ Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/]
 :::
 
 
-# Funding opportunities {background-color="#5b195b"}
+# {{< fa coins >}} Funding opportunities {background-color="#5b195b"}
 
-## Sorted by deadline
+## On the list
 
 - 2025-09-01: [ETH Open Research Data Program](https://www.lib4ri.ch/sites/default/files/media/documents/Creating-and-publishing-oer-on-rdm.pdf) - Creating and publishing open educational resources on research data management. CHF 10,000 – CHF 25,000. (10 months)
 - 2025-09-30: [Swiss Leading House Africa](https://swisstph.submittable.com/submit) - Call for Research Partnership Grant. CHF 15,000 – CHF 40,000 (3 to 12 months).
 - 2025-10-31: [Congressi Stefano Franscini](https://csf.ethz.ch/). 2nd open(wash)data / conference in July 2027. 
 - TBD: [ETH Foundation](https://ethz-foundation.ch/en/)
 
-# Papers from mid-2026 {background-color="#5b195b"}
+::: {.notes}
+⏱️ START: 0:40 | DURATION: 3 minutes | END: 0:43
+- List funding opportunities: 2 minutes
+- Transition slide: 30 seconds
+- Set up for Activity 2: 30 seconds
+:::
+
+## {{< fa pencil >}} Activity 2 Coming Up {background-color="#e8f4f8"}
+
+::: {style="font-size: 1.2em; text-align: center; margin-top: 1.5em;"}
+Prepare to share your knowledge about:
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+### {{< fa coins >}} Funding
+What opportunities exist in your region/sector?
+:::
+
+::: {.column width="50%"}
+### {{< fa handshake >}} Collaboration  
+Who would you partner with?
+:::
+::::
+
+::: {.notes}
+⏱️ Quick transition to prepare them for the second activity
+- This helps them start thinking before we open the Google Doc
+:::
+
+## {{< fa users >}} Activity: Building Together (5 minutes)
+
+**In our shared Google Doc, please share:**
+
+1. What other funding opportunities exist for open data initiatives?
+
+2. Who would you want to collaborate with on an open(wash)data project?
+
+::: {.notes}
+⏱️ START: 0:43 | DURATION: 5 minutes | END: 0:48
+- Instructions: 1 minute
+- Writing time: 3 minutes  
+- Quick share: 1 minute
+This helps identify potential funding sources we haven't considered.
+Also helps with networking - participants can see shared interests.
+Use this to transition to papers/impact discussion.
+:::
+
+# {{< fa file-lines >}} Papers from mid-2026 {background-color="#5b195b"}
+
+## {{< fa link >}} Your Contributions Matter
+
+From today's activities, we heard:
+
+::: incremental
+- **New strategies:** [Reference 1-2 participant ideas]
+- **Funding opportunities:** [Reference specific suggestions]
+- **Collaboration ideas:** [Reference partnership suggestions]
+:::
+
+**These directly shape our Phase 3 planning!**
+
+::: {.notes}
+⏱️ Callback slide - fill in with actual participant contributions during session
+- This validates their input and shows immediate impact
+:::
 
 ## 12 months, 4 papers {.smaller}
+
+::: {.notes}
+⏱️ START: 0:48 | DURATION: 2 minutes | END: 0:50
+- Callback slide: 30 seconds
+- Papers overview: 1 minute
+- Thank you & closing: 30 seconds
+- Allow buffer time for questions if ahead of schedule
+:::
 
 ::: incremental
 

@@ -10,7 +10,7 @@ format:
 
 # Introduction
 
-## Starting point
+## Starting point TODO: incremental the two quotes
 
 > A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding and rough consensus of the problem being solved and work that needs to be done.
 >
@@ -22,7 +22,7 @@ format:
 
 ---
 
-## Research software
+## Research software (because that is what we create)
 
 - Software is created and run to answer a question
 - Papers, theses, and other reports are the product
@@ -44,9 +44,10 @@ format:
 
 ## Me
 
-- Don't remember much statistics…
-- …but I've built a lot of complicated software…
-- …and I've been lucky enough to hang out with some very smart people
+- Don't remember much statistics...
+- ...but I have programmed a bit in R, 
+- ...I've managed a few software projects,
+- ...and I've been lucky enough to hang out with some very smart people
 
 <div align="center">
   <p>
@@ -58,7 +59,7 @@ format:
 
 ---
 
-## Where we've been, where we're going
+## Where we've been, where we're going (TODO: turn this into a markdown table)
 
 <table>
   <tr>
@@ -105,7 +106,6 @@ format:
 - Original workshop: Daniel Standage and Greg Wilson
 - [*Producing Open Source Software*](https://producingoss.com): Karl Fogel
 - *[Research Software Engineering with Python](https://merely-useful.tech/py-rse/)*: Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, and Greg Wilson
-- And everyone cited in [the bibliography](../bibliography/)
 
 ![Cover of 'Research Software Engineering with Python'](./images/py-rse-cover.png){width="30%"}
 
@@ -113,7 +113,9 @@ format:
 
 ## How is your project currently run? {.exercise}
 
-1. Who uses your software?
+TODO: Turn into a task with timings and reference to section in shared Google doc: see: @day1/openwashdata.qmd
+
+1. Who uses your software / your work?
 1. How do they find it?
 1. Who decides what will happen next?
 1. How is that communicated?
@@ -135,6 +137,8 @@ format:
 
 ## The good news
 
+TODO: Review this website and extract one or two examples.
+
 - You don't have to invent this yourself
 - <https://www.askamanager.org/>
 
@@ -154,10 +158,6 @@ format:
 - Consensus-based
   - If most people agree on most things most of the time
 
----
-
-## sidebar {.sidebar}
-
 ## "Hero" programmers
 
 - Brooks advocated a [chief programmer](g#chief-programmer) model in the 1970s [@Brooks1995]
@@ -168,7 +168,7 @@ format:
 - Despite terminology, not a bad model for research projects
   - [@Petre2014] found that people without domain knowledge couldn't review scientific code effectively
 
----
+--- TODO: Remove all three dashes
 
 ## [Martha's Rules](g#marthas-rules)
 
@@ -196,7 +196,7 @@ format:
 ## Presenting a proposal
 
 - The sponsor has 5 minutes to present the proposal
-- Members cast a [sense vote](g#sense-vote): support, neutral, or oppose
+- Members cast a [sense vote](g#sense-vote) (TODO: remove all glossary reference): support, neutral, or oppose
   - If everyone supports or is neutral, go immediately to a binary vote with no further discussion
   - If a majority is opposed or neutral, send proposal back to sponsor for further work
 - If a minority of members oppose, set a timer for 10 minutes of moderated discussion
@@ -207,6 +207,8 @@ format:
 ---
 
 ## Roles and responsibilities
+
+TODO: turn into markdown table
 
 <div align="center">
 <table>
@@ -405,15 +407,14 @@ format:
 - Don't make excuses for your questions or opinions
   - "This is probably stupid, but…"
 
----
-
-## sidebar {.sidebar}
 
 ## Recommended reading
 
 - [@Brookfield2016] has a lot of good ideas for managing discussion
 
----
+# Exercises
+
+TODO: turn these into indicated exercises. add timings.
 
 ## exercise {.exercise}
 
