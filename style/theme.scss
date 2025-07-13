@@ -1,0 +1,35 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+$font-family-serif: "Atkinson Hyperlegible", sans-serif;
+$font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
+$font-family-monospace: "Source Code Pro", monospace;
+
+$body-color: #1e1e1e;
+$body-bg: #f4f4f4;
+$link-color: #272bd1;
+
+/*-- scss:rules --*/
+
+
+.highlight-peach {
+  background-color: #FEBC94;
+  padding: 0.0em 0.1em;
+}
+
+.highlight-yellow {
+  background-color: #FAE3B4;
+  padding: 0.0em 0.1em;
+}
+
+.highlight-pink {
+  background-color: #FFC0CB;
+  padding: 0.0em 0.1em;
+}
+
+.a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #3EB489;
+}
