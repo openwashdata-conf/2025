@@ -395,21 +395,29 @@ All efforts into the next iteration of the course.
 ```
 :::
 
-## ds4owd-002 communication campaign (strategy)
+## ds4owd-002 communication campaign (strategy from early June)
 
-- restart monthly newsletter editions (now) 🌕 
-- publish a blog post on ds4owd-001 (July) 🌕 (Thanks, Adriana)
-- start publishing a LinkedIn post every Thursday (openwashdata thursday) 🌗 
-- host an information event (late August) 🌑
-- host a series of workshops for `washr` / `fairenough` (from October 2025 to March 2026) 🌑
+::: incremental
+
+- 🌕 restart monthly newsletter editions (now) 
+- 🌕 publish a blog post on ds4owd-001 (July) (Thanks, Adriana)
+- 🌗 start publishing a LinkedIn post every Thursday (openwashdata thursday) 
+- 🌑 host an information event (late August)
+- 🌑 host a series of workshops for `washr` / `fairenough` (from October 2025 to March 2026)
+
+:::
 
 ## ds4owd-002 course preparation
 
-- Platform for access to recordings through authentication 🌕 (Zoom with registration for each session and detailed usage statistics)
-- Prepare quizzes for each module for participants to complete each module 🌗 (with feedback on whether participants watched recording or joined live module)
-- Write templates / R function / Claude Code Slash commands for reviewing homework assignments, capstone projects, data packages, etc. 🌑
-- Establish mentorship programme 🌑
-- Share information about course through personal channels, newsletters, etc. 🌗
+::: incremental
+
+- 🌕 Platform for access to recordings through authentication (Zoom with registration for each session and detailed usage statistics)
+- 🌗 Prepare quizzes for each module for participants to complete each module (with feedback on whether participants watched recording or joined live module)
+- 🌗 Share information about course through personal channels, newsletters, etc.
+- 🌑 Write templates / R function / Claude Code Slash commands for reviewing homework assignments, capstone projects, data packages, etc.
+- 🌑 Establish mentorship programme
+
+:::
 
 # Organogram (Phase 3?) {background-color="#5b195b"}
 
@@ -501,7 +509,7 @@ Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/]
 - 2025-09-01: [ETH Open Research Data Program](https://www.lib4ri.ch/sites/default/files/media/documents/Creating-and-publishing-oer-on-rdm.pdf) - Creating and publishing open educational resources on research data management. CHF 10,000 – CHF 25,000. (10 months)
 - 2025-09-30: [Swiss Leading House Africa](https://swisstph.submittable.com/submit) - Call for Research Partnership Grant. CHF 15,000 – CHF 40,000 (3 to 12 months).
 - 2025-10-31: [Congressi Stefano Franscini](https://csf.ethz.ch/). 2nd open(wash)data / conference in July 2027. 
-- TBD: ETH Foundation
+- TBD: [ETH Foundation](https://ethz-foundation.ch/en/)
 
 # Papers from mid-2026 {background-color="#5b195b"}
 
@@ -513,6 +521,7 @@ Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/]
 2. [Increasing competency:]{.highlight-yellow} Data from two iterations of data science for openwashdata course
 3. [Streamlining workflows:]{.highlight-yellow} Development of an R package for FAIR data publication (`washr` / `fairenough`)
 4. [Tracking impact:]{.highlight-yellow} Analytics from published data packages
+5. What else?
 
 :::
 
@@ -527,5 +536,3 @@ You can [view source code of slides on GitHub](https://github.com/openwashdata-c
 Or you can [download slides in PDF format](https://openwashdata-conf.github.io/2025/day1/openwashdata.pdf)
 
 This material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
-
-# References
