@@ -188,13 +188,13 @@ Reflect on your current project:
 
 ## {{< fa user-ninja >}} "Hero" programmers
 
-- Brooks advocated a chief programmer model in the 1970s [@Brooks1995]
+- Brooks advocated a chief programmer model in the 1970s [@brooksjr.1995mythical]
   - Disparaged since then
-- But 80% of projects on GitHub are hero projects [@Majumder2019]
+- But 80% of projects on GitHub are hero projects [@majumder2019why]
   - 5% or less of people responsible for 95% or more of interactions
   - "Heroes" commit far fewer bugs than other contributors
 - Despite terminology, not a bad model for research projects
-  - [@Petre2014] found that people without domain knowledge couldn't review scientific code effectively
+  - [@petre2014code] found that people without domain knowledge couldn't review scientific code effectively
 
 
 ## {{< fa balance-scale >}} Martha's Rules
@@ -293,7 +293,7 @@ Reflect on your current project:
 - Be explicit about enforcement mechanisms and consequences
 - Designate an independent third party to handle complaints
   - Trade off with another project lead
-  - *Do the background reading* [@Aurora2019]
+  - *Do the background reading* [@aurora2019howa]
 
 ---
 
@@ -336,7 +336,7 @@ Reflect on your current project:
 
 ## {{< fa gavel >}} 3. Have clear rules for making decisions
 
-- "The Tyranny of Structurelessness" [@Freeman1972]
+- "The Tyranny of Structurelessness" [@freeman1972tyrannya]
 - If you need Robert's Rules, you need training
 
 ---
@@ -425,7 +425,7 @@ Reflect on your current project:
 
 ## {{< fa book >}} Recommended reading
 
-- [@Brookfield2016] has a lot of good ideas for managing discussion
+- [@brookfield2016discussiona] has a lot of good ideas for managing discussion
 - [Producing Open Source Software](https://producingoss.com) by Karl Fogel
 - [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm) by Jo Freeman
 
@@ -511,3 +511,5 @@ List contributors to the project
 - Often reveals informal or unclear processes
 - Wrap up with key takeaways
 :::
+
+## References
