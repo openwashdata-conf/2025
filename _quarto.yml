@@ -42,7 +42,7 @@ website:
 format:
   html:
     theme:
-      light: [litera, theme.scss]
+      light: [litera, style/theme.scss]
     link-external-icon: true
     link-external-newwindow: true
     code-copy: true
