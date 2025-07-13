@@ -1224,14 +1224,14 @@
     "href": "day1/openwashdata.html#strategies",
     "title": "openwashdata conf 2025",
     "section": "Strategies",
-    "text": "Strategies\n… 11\n\nCheck: openwashdata.org/pages/gallery/vmost/"
+    "text": "Strategies\n\n\nDevelop and maintain a data warehouse on the openwashdata website that provides an overview of published datasets.\nDevelop a guide as a companion to workshops, live coding events, etc. that documents how to participate in the community and publish data following FAIR principles.\nBuild a cohort of students, scientists, practitioners, and civil servants, that are comfortable using R statistical software for exploratory data analysis and Git version control and GitHub for communication and collaboration.\nPrepare all communication material for openwashdata using Quarto publishing framework1 and R statistical software.\nProvide tools and resources to promote the use of open data in the WASH sector\nPublish workshops as open educational material.\nIntroduce people to the concept of “open by default”, as well as the use of open source software, the concept of open science, and benefits of open government (data).\nBuild material always in mind with learner personas3 that were defined for the community.\nCommunication material does not refer to openwashdata as a project, but as a community.\nDesign a common corporate identity using defined color palettes, fonts, etc.\nEnsure that material developed for openwashdata follows best practices for accessibility.\n\n\n\nCheck: openwashdata.org/pages/gallery/vmost/\n\nhttps://quarto.org/"
   },
   {
     "objectID": "day1/openwashdata.html#tactics",
     "href": "day1/openwashdata.html#tactics",
     "title": "openwashdata conf 2025",
     "section": "Tactics",
-    "text": "Tactics\n… 5\n\nCheck: openwashdata.org/pages/gallery/vmost/"
+    "text": "Tactics\n\n\nProvide a 10-week online workshop for a selected group of participants to share tools and workflows that support publishing of open data following FAIR principles.\nPublish monthly blog posts on the openwashdata website about selected open datasets, community stories, workflows, insights into community management, use cases, etc.\nPublish monthly issues of the openwashdata newsletter.\nHost quarterly community meetups with invited speakers that share stories from their organisations related to data management, data analysis, open data, etc.\nVisualize and disseminate published open data using interactive dashboards, maps, articles, etc.\n\n\n\nCheck: openwashdata.org/pages/gallery/vmost/"
   },
   {
     "objectID": "day1/openwashdata.html#some-stats",
@@ -1245,7 +1245,7 @@
     "href": "day1/openwashdata.html#wp2-governance",
     "title": "openwashdata conf 2025",
     "section": "WP2: Governance",
-    "text": "WP2: Governance\n\nActivity 2.1: Develop a governance structure for a community organization and decision-making processes.\nActivity 2.2: Form a sounding board comprising community members to provide directional feedback.\nActivity 2.3: Create a long-term funding strategy for the openwashdata community.\n\nOpen question: Does openwashdata have a long term future?"
+    "text": "WP2: Governance\n\nActivity 2.1: Develop a governance structure for a community organization and decision-making processes.\nActivity 2.2: Form a sounding board comprising community members to provide directional feedback.\nActivity 2.3: Create a long-term funding strategy for the openwashdata community.\n\nOpen question: What is the medium-term future of openwashdata and what does it look like?"
   },
   {
     "objectID": "day1/openwashdata.html#wp3-community-expansion",
@@ -1259,28 +1259,28 @@
     "href": "day1/openwashdata.html#data-science-for-openwashdata-002",
     "title": "openwashdata conf 2025",
     "section": "data science for openwashdata 002",
-    "text": "data science for openwashdata 002\nAll efforts into the next iteration of the course.\n\nfree, live, online, 9 module programme (TODO.highlight-yellow[goal: new AI module])\n200 registrations for 2023 iteration (TODO.highlight-yellow[goal 2025: 500)\n100 show-ups (TODO.highlight-yellow[goal 2025: 250)\n20 participants completed capstone project (TODO.highlight-yellow[goal: 100)\n5 participants published data packages (TODO.highlight-yellow[goal: 50)\nnext iteration: from 11th September 2025, sign-up link: https://ee-eu.kobotoolbox.org/x/7V3qeDYD\n\n\nds4owd-002.github.io/website/"
+    "text": "data science for openwashdata 002\nAll efforts into the next iteration of the course.\n\nfree, live, online, 9 module programme (goal: new AI module)\n200 registrations for 2023 iteration (goal 2025: 500)\n100 show-ups (goal 2025: 250)\n20 participants completed capstone project (goal: 100)\n5 participants published data packages (goal: 50)\nnext iteration: from 11th September 2025, sign-up link: https://ee-eu.kobotoolbox.org/x/7V3qeDYD\n\n\nds4owd-002.github.io/website/"
   },
   {
     "objectID": "day1/openwashdata.html#ds4owd-002-communication-campaign-strategy",
     "href": "day1/openwashdata.html#ds4owd-002-communication-campaign-strategy",
     "title": "openwashdata conf 2025",
     "section": "ds4owd-002 communication campaign (strategy)",
-    "text": "ds4owd-002 communication campaign (strategy)\n\nrestart monthly newsletter editions (now) TODO: emoji full moon\npublish a blog post on ds4owd-001 (July) TODO: emoji full moon (Thanks, Adriana)\nstart publishing a LinkedIn post every Thursday (openwashdata thursday) TODO: emoji half-mon\nhost an information event (late August) TODO: emoji empty moon\nhost a series of workshops for washr / fairenough (from October 2025 to March 2026) TODO: emoji open to do empty moon"
+    "text": "ds4owd-002 communication campaign (strategy)\n\nrestart monthly newsletter editions (now) 🌕\npublish a blog post on ds4owd-001 (July) 🌕 (Thanks, Adriana)\nstart publishing a LinkedIn post every Thursday (openwashdata thursday) 🌗\nhost an information event (late August) 🌑\nhost a series of workshops for washr / fairenough (from October 2025 to March 2026) 🌑"
   },
   {
     "objectID": "day1/openwashdata.html#ds4owd-002-course-preparation",
     "href": "day1/openwashdata.html#ds4owd-002-course-preparation",
     "title": "openwashdata conf 2025",
     "section": "ds4owd-002 course preparation",
-    "text": "ds4owd-002 course preparation\n\nPlatform for access to recordings through authentication TODO: emoji full moon (Zoom with registration for each session and detailed usage statistics)\nPrepare quizzes for each module for participants to complete each module TODO: emoji half moon (with feedback on whether participants watched recording or joined live module)\nWrite templates / R function / Claude Code Slash commands for reviewing homework assignments, capstone projects, data packages, etc. TODO: emoji empty moon\nEstablish mentorship programme TODO: emoji empty moon\nShare information about course through personal channels, newsletters, etc. TODO emoji half moon"
+    "text": "ds4owd-002 course preparation\n\nPlatform for access to recordings through authentication 🌕 (Zoom with registration for each session and detailed usage statistics)\nPrepare quizzes for each module for participants to complete each module 🌗 (with feedback on whether participants watched recording or joined live module)\nWrite templates / R function / Claude Code Slash commands for reviewing homework assignments, capstone projects, data packages, etc. 🌑\nEstablish mentorship programme 🌑\nShare information about course through personal channels, newsletters, etc. 🌗"
   },
   {
     "objectID": "day1/openwashdata.html#months-4-papers",
     "href": "day1/openwashdata.html#months-4-papers",
     "title": "openwashdata conf 2025",
     "section": "12 months, 4 papers",
-    "text": "12 months, 4 papers\n\n\nSetting the baseline: FAIR / Open Data practices in the WASH sector\nIncreasing competency: Data from two iterations of data science for openwashdata course\nStreamling workflows: Developmnent of an R package for FAIR data publication (washr / fairenough)\nTracking impact: Analytics from published data packages"
+    "text": "12 months, 4 papers\n\n\nSetting the baseline: FAIR / Open Data practices in the WASH sector\nIncreasing competency: Data from two iterations of data science for openwashdata course\nStreamlining workflows: Development of an R package for FAIR data publication (washr / fairenough)\nTracking impact: Analytics from published data packages"
   },
   {
     "objectID": "day1/openwashdata.html#thanks",
@@ -1379,5 +1379,26 @@
     "title": "openwashdata conf 2025",
     "section": "",
     "text": "proposals\n\nresearch grant\nitaly conference center\nETH Foundation\nETH ORD programme (open educational material)"
+  },
+  {
+    "objectID": "day1/openwashdata.html#sorted-by-deadline",
+    "href": "day1/openwashdata.html#sorted-by-deadline",
+    "title": "openwashdata conf 2025",
+    "section": "Sorted by deadline",
+    "text": "Sorted by deadline\n\n2025-09-01: ETH Open Research Data Program - Creating and publishing open educational resources on research data management. CHF 10,000 – CHF 25,000. (10 months)\n2025-09-30: Swiss Leading House Africa - Call for Research Partnership Grant. CHF 15,000 – CHF 40,000 (3 to 12 months).\n2025-10-31: Congressi Stefano Franscini. 2nd open(wash)data / conference in July 2027.\nTBD: ETH Foundation"
+  },
+  {
+    "objectID": "day1/openwashdata.html#wp2-governance-what-today-is-all-about",
+    "href": "day1/openwashdata.html#wp2-governance-what-today-is-all-about",
+    "title": "openwashdata conf 2025",
+    "section": "WP2: Governance (what today is all about)",
+    "text": "WP2: Governance (what today is all about)\n\nActivity 2.1: Develop a governance structure for a community organization and decision-making processes.\nActivity 2.2: Form a sounding board comprising community members to provide directional feedback.\nActivity 2.3: Create a long-term funding strategy for the openwashdata community.\n\nOpen question: What is the medium-term future of openwashdata and what does it look like?"
+  },
+  {
+    "objectID": "day1/openwashdata.html#wp3-community-expansion-what-i-need-your-support-for",
+    "href": "day1/openwashdata.html#wp3-community-expansion-what-i-need-your-support-for",
+    "title": "openwashdata conf 2025",
+    "section": "WP3: Community expansion (What I need your support for)",
+    "text": "WP3: Community expansion (What I need your support for)\n\nActivity 3.1: Offer advanced data science training and workshops to community members.\nActivity 3.2: Develop a mentorship program to support new members in adopting ORD practices.\nActivity 3.3: Organize community events to foster networking and collaboration.\n\nPriority: Strong focus on WP3 for the remainder of the project."
   }
 ]

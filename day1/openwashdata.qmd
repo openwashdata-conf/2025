@@ -6,7 +6,7 @@ author:
     url: https://openwashdata.org/about/lars/
     affiliation: Global Health Engineering, ETH Zurich
     affiliation_url: https://ghe.ethz.ch/
-date: 2025-06-02
+date: 2025-07-15
 date-format: long
 format: 
   revealjs:
@@ -15,7 +15,7 @@ format:
     transition: fade
     slide-number: true
     preview-links: auto
-    footer: "[{{< fa link >}} openwashdata.org/pages/gallery/slides/](https://openwashdata.org/pages/gallery/slides/)"
+    footer: "[{{< fa link >}} openwashdata-conf.github.io/2025/day1/openwashdata.html](https://openwashdata-conf.github.io/2025/day1/openwashdata.html)"
 editor: source
 editor_options: 
   chunk_output_type: console
@@ -149,7 +149,7 @@ tbl_supp_type <- washdev_supp_file_type_n |>
 
 # openwashdata conf 2025 {background-color="#5b195b"}
 
-## Programme
+## Programme {.smaller .scrollable}
 
 ```{r}
 agenda_final |> 
@@ -316,21 +316,23 @@ VMOST analysis is a tool used to evaluate if an overall strategy and supporting 
 
 :::
 
-## Strategies (TODO: fix the list)
+## Strategies {.scrollable .smaller}
 
+::: incremental
 
-    Develop and maintain a data warehouse on the openwashdata website that provides an overview of published datasets.
-    Develop a guide as a companion to workshops, live coding events, etc. that documents how to participate in the community and publish data following FAIR principles.
-    Build a cohort of students, scientists, practitioners, and civil servants, that are comfortable using R statistical software for exploratory data analysis and Git version control and GitHub for communication and collaboration.
-    Prepare all communication material for openwashdata using Quarto publishing framework^[https://quarto.org/] and R statistical software.
-    Provide tools and resources to promote the use of open data in the WASH sector
-    Publish workshops as open educational material.
-    Introduce people to the concept of “open by default”, as well as the use of open source software, the concept of open science, and benefits of open government (data).
-    Build material always in mind with learner personas3 that were defined for the community.
-    Communication material does not refer to openwashdata as a project, but as a community.
-    Design a common corporate identity using defined color palettes, fonts, etc.
-    Ensure that material developed for openwashdata follows best practices for accessibility.
+- Develop and maintain a data warehouse on the openwashdata website that provides an overview of published datasets.
+- Develop a guide as a companion to workshops, live coding events, etc. that documents how to participate in the community and publish data following FAIR principles.
+- Build a cohort of students, scientists, practitioners, and civil servants, that are comfortable using R statistical software for exploratory data analysis and Git version control and GitHub for communication and collaboration.
+- Prepare all communication material for openwashdata using Quarto publishing framework^[https://quarto.org/] and R statistical software.
+- Provide tools and resources to promote the use of open data in the WASH sector
+- Publish workshops as open educational material.
+- Introduce people to the concept of "open by default", as well as the use of open source software, the concept of open science, and benefits of open government (data).
+- Build material always in mind with learner personas3 that were defined for the community.
+- Communication material does not refer to openwashdata as a project, but as a community.
+- Design a common corporate identity using defined color palettes, fonts, etc.
+- Ensure that material developed for openwashdata follows best practices for accessibility.
 
+:::
 
 ::: footer
 
@@ -338,13 +340,17 @@ Check: [openwashdata.org/pages/gallery/vmost/](https://openwashdata.org/pages/ga
 
 :::
 
-## Tactics  (TODO: fix the list)
+## Tactics {.scrollable .smaller}
 
-    Provide a 10-week online workshop for a selected group of participants to share tools and workflows that support publishing of open data following FAIR principles.
-    Publish monthly blog posts on the openwashdata website about selected open datasets, community stories, workflows, insights into community management, use cases, etc.
-    Publish monthly issues of the openwashdata newsletter.
-    Host quarterly community meetups with invited speakers that share stories from their organisations related to data management, data analysis, open data, etc.
-    Visualize and disseminate published open data using interactive dashboards, maps, articles, etc.
+::: incremental
+
+- Provide a 10-week online workshop for a selected group of participants to share tools and workflows that support publishing of open data following FAIR principles.
+- Publish monthly blog posts on the openwashdata website about selected open datasets, community stories, workflows, insights into community management, use cases, etc.
+- Publish monthly issues of the openwashdata newsletter.
+- Host quarterly community meetups with invited speakers that share stories from their organisations related to data management, data analysis, open data, etc.
+- Visualize and disseminate published open data using interactive dashboards, maps, articles, etc.
+
+:::
 
 ::: footer
 
@@ -354,15 +360,15 @@ Check: [openwashdata.org/pages/gallery/vmost/](https://openwashdata.org/pages/ga
 
 # Future {background-color="#5b195b"}
 
-## WP2: Governance
+## WP2: Governance (what today is all about)
 
 - Activity 2.1: Develop a governance structure for a community organization and decision-making processes.
 - Activity 2.2: Form a sounding board comprising community members to provide directional feedback.
 - Activity 2.3: Create a long-term funding strategy for the openwashdata community.
 
-[Open question: Does openwashdata have a long term future?]{.highlight-yellow} 
+[Open question: What is the medium-term future of openwashdata and what does it look like?]{.highlight-yellow} 
 
-## WP3: Community expansion
+## WP3: Community expansion (What I need your support for)
 
 - Activity 3.1: Offer advanced data science training and workshops to community members.
 - Activity 3.2: Develop a mentorship program to support new members in adopting ORD practices.
@@ -374,11 +380,11 @@ Check: [openwashdata.org/pages/gallery/vmost/](https://openwashdata.org/pages/ga
 
 All efforts into the next iteration of the course.
 
-- free, live, online, 9 module programme (TODO.highlight-yellow[goal: new AI module])
-- 200 registrations for 2023 iteration (TODO.highlight-yellow[goal 2025: 500)
-- 100 show-ups (TODO.highlight-yellow[goal 2025: 250)
-- 20 participants completed capstone project (TODO.highlight-yellow[goal: 100)
-- 5 participants published data packages (TODO.highlight-yellow[goal: 50)
+- free, live, online, 9 module programme ([goal: new AI module]{.highlight-yellow})
+- 200 registrations for 2023 iteration ([goal 2025: 500]{.highlight-yellow})
+- 100 show-ups ([goal 2025: 250]{.highlight-yellow})
+- 20 participants completed capstone project ([goal: 100]{.highlight-yellow})
+- 5 participants published data packages ([goal: 50]{.highlight-yellow})
 - next iteration: from 11th September 2025, sign-up link: <https://ee-eu.kobotoolbox.org/x/7V3qeDYD>
 
 ::: learn-more
@@ -391,19 +397,19 @@ All efforts into the next iteration of the course.
 
 ## ds4owd-002 communication campaign (strategy)
 
-- restart monthly newsletter editions (now) TODO: emoji full moon 
-- publish a blog post on ds4owd-001 (July) TODO: emoji full moon (Thanks, Adriana)
-- start publishing a LinkedIn post every Thursday (openwashdata thursday) TODO: emoji half-mon 
-- host an information event (late August) TODO: emoji empty moon
-- host a series of workshops for `washr` / `fairenough` (from October 2025 to March 2026) TODO: emoji open to do empty moon
+- restart monthly newsletter editions (now) 🌕 
+- publish a blog post on ds4owd-001 (July) 🌕 (Thanks, Adriana)
+- start publishing a LinkedIn post every Thursday (openwashdata thursday) 🌗 
+- host an information event (late August) 🌑
+- host a series of workshops for `washr` / `fairenough` (from October 2025 to March 2026) 🌑
 
 ## ds4owd-002 course preparation
 
-- Platform for access to recordings through authentication TODO: emoji full moon (Zoom with registration for each session and detailed usage statistics)
-- Prepare quizzes for each module for participants to complete each module TODO: emoji half moon (with feedback on whether participants watched recording or joined live module)
-- Write templates / R function / Claude Code Slash commands for reviewing homework assignments, capstone projects, data packages, etc. TODO: emoji empty moon
-- Establish mentorship programme TODO: emoji empty moon
-- Share information about course through personal channels, newsletters, etc. TODO emoji half moon
+- Platform for access to recordings through authentication 🌕 (Zoom with registration for each session and detailed usage statistics)
+- Prepare quizzes for each module for participants to complete each module 🌗 (with feedback on whether participants watched recording or joined live module)
+- Write templates / R function / Claude Code Slash commands for reviewing homework assignments, capstone projects, data packages, etc. 🌑
+- Establish mentorship programme 🌑
+- Share information about course through personal channels, newsletters, etc. 🌗
 
 # Organogram {background-color="#5b195b"}
 
@@ -490,14 +496,12 @@ Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/]
 
 # Funding opportunities {background-color="#5b195b"}
 
-##
+## Sorted by deadline
 
-- proposals
-    - research grant
-    - italy conference center
-    - ETH Foundation
-    - ETH ORD programme (open educational material)
-    - 
+- 2025-09-01: [ETH Open Research Data Program](https://www.lib4ri.ch/sites/default/files/media/documents/Creating-and-publishing-oer-on-rdm.pdf) - Creating and publishing open educational resources on research data management. CHF 10,000 – CHF 25,000. (10 months)
+- 2025-09-30: [Swiss Leading House Africa](https://swisstph.submittable.com/submit) - Call for Research Partnership Grant. CHF 15,000 – CHF 40,000 (3 to 12 months).
+- 2025-10-31: [Congressi Stefano Franscini](https://csf.ethz.ch/). 2nd open(wash)data / conference in July 2027. 
+- TBD: ETH Foundation
 
 # Papers from mid-2026 {background-color="#5b195b"}
 
@@ -507,7 +511,7 @@ Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/]
 
 1. [Setting the baseline:]{.highlight-yellow} FAIR / Open Data practices in the WASH sector
 2. [Increasing competency:]{.highlight-yellow} Data from two iterations of data science for openwashdata course
-3. [Streamling workflows:]{.highlight-yellow} Developmnent of an R package for FAIR data publication (`washr` / `fairenough`)
+3. [Streamlining workflows:]{.highlight-yellow} Development of an R package for FAIR data publication (`washr` / `fairenough`)
 4. [Tracking impact:]{.highlight-yellow} Analytics from published data packages
 
 :::
@@ -518,9 +522,9 @@ This project was supported by the  [Open Research Data Program of the ETH Board]
 
 The slides were created via revealjs and Quarto: [https://quarto.org/docs/presentations/revealjs/](https://quarto.org/docs/presentations/revealjs/)
 
-You can [view source code of slides on GitHub](https://github.com/openwashdata/website/blob/main/pages/gallery/slides/ukzn-seminar/index.qmd)
+You can [view source code of slides on GitHub](https://github.com/openwashdata-conf/2025/blob/main/day1/openwashdata.qmd)
 
-Or you can [download slides in PDF format](https://github.com/openwashdata/website/raw/main/pages/gallery/slides/ukzn-seminar/2024-09-12-ukzn-seminar-openwashdata.pdf)
+Or you can [download slides in PDF format](https://openwashdata-conf.github.io/2025/day1/openwashdata.pdf)
 
 This material is licensed under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
