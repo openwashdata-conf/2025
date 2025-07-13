@@ -1162,5 +1162,131 @@
     "title": "Hackathon Ideation",
     "section": "Next Steps",
     "text": "Next Steps\nAfter this session:\n\nTeams finalize project scopes\nSet up GitHub repositories\nPrepare development environments\nReview Day 2 prerequisites\n\n\n\n\n\n\n\nPro Tip\n\n\n\nDon’t aim for perfection! Focus on creating a working prototype that demonstrates your idea."
+  },
+  {
+    "objectID": "day1/openwashdata.html#programme",
+    "href": "day1/openwashdata.html#programme",
+    "title": "openwashdata conf 2025",
+    "section": "Programme",
+    "text": "Programme\n\n\n\n\n\nTime\nTitle\nSpeaker\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n\n\n09:30 - 10:00\nWarm-up activity\nLars\n\n\n10:00 - 10:45\nopenwashdata community - past and future\nLars\n\n\n10:45 - 11:00\nBreak\n-\n\n\n11:00 - 12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n\n\n12:00 - 13:00\nLunch break\n-\n\n\n13:00 - 13:30\nWarm-up - Positive Gossip\n-\n\n\n13:30 - 14:00\nGovernance Part 1\nLars\n\n\n14:00 - 14:15\nBreak\n-\n\n\n14:15 - 15:00\nGovernance Part 2\nLars\n\n\n15:00 - 15:30\nHackathon Ideation\n-\n\n\n15:30 - 15:45\nBreak with small cakes\n-\n\n\n15:45 - 16:30\nLean Coffee\n-"
+  },
+  {
+    "objectID": "day1/openwashdata.html#journal-articles",
+    "href": "day1/openwashdata.html#journal-articles",
+    "title": "openwashdata conf 2025",
+    "section": "Journal articles",
+    "text": "Journal articles\n\n\nData: R package washopenresearch to be published at https://github.com/openwashdata/washopenresearch\n\n\n\nThe first missed opportunity are journal articles and data from researchers\nWe looked at the Data Availability Statements in 924 articles published in the Journal of Water, Sanitation and Hygiene for Development from 2011 to 2023.\nYou can see the data availability statements on the vertical axis and the number of publications on the horizontal axis\nColors differentiate between papers published before 2020 and in 2020 or later, when a policy was introduced that requires authors to select one of the three data availability statements\nAfter that policy was introduced, we still found 15% of papers without a data availability statement, while 60% of articles stated that data was available in the paper, which could also be as supplementary material"
+  },
+  {
+    "objectID": "day1/openwashdata.html#journal-articles-1",
+    "href": "day1/openwashdata.html#journal-articles-1",
+    "title": "openwashdata conf 2025",
+    "section": "Journal articles",
+    "text": "Journal articles\nSupplementary Material\n\n\nTake-away: Not a single file is in machine-readable, non-proprietary file type format that would qualify for following FAIR principles for data sharing [@wilkinson2016].\nGood practice: CSV file (comma-separated values), including a data dictionary for all variables/columns in the data\n\n\n\n\n\n\n\n\n\nSupplementary Material\n\n\nArticles published 2020 or later\n\n\nfile type\nn1\n%\n\n\n\n\nmissing\n202\n51.4\n\n\ndocx\n149\n37.9\n\n\nxlsx\n24\n6.1\n\n\npdf\n13\n3.3\n\n\npptx\n4\n1.0\n\n\npng\n1\n0.3\n\n\n\n1 One article can have multiple files.\n\n\n\n\n\n\n\n\n\n\nData: R package washopenresearch to be published at https://github.com/openwashdata/washopenresearch\n\n\n\nWe then looked at the Supplementary Material of all articles published in 2020 or later and found that have half of the published articles still had no data published alongside the article\nBut, the most insightful take-away is that not a single file was shared in a file type format that would qualify for following FAIR principles for data sharing.\nThat is something we are hoping to change, where sharing data as CSV files would already go a long way."
+  },
+  {
+    "objectID": "day1/openwashdata.html#openwashdata-community-1",
+    "href": "day1/openwashdata.html#openwashdata-community-1",
+    "title": "openwashdata conf 2025",
+    "section": "openwashdata community",
+    "text": "openwashdata community\n\nLaunched 10 March 2023\nSupported by four projects worth 340’000 CHF (50% in-kind contribution)\nEnds in July 2026\nSo many outputs to write about (from 2026 to 2027)"
+  },
+  {
+    "objectID": "day1/openwashdata.html#vision",
+    "href": "day1/openwashdata.html#vision",
+    "title": "openwashdata conf 2025",
+    "section": "Vision",
+    "text": "Vision\nAn active global community that applies FAIR principles [@wilkinson2016] to data generated in the greater water, sanitation, and hygiene sector."
+  },
+  {
+    "objectID": "day1/openwashdata.html#mission",
+    "href": "day1/openwashdata.html#mission",
+    "title": "openwashdata conf 2025",
+    "section": "Mission",
+    "text": "Mission\nEmpower WASH professionals to engage with tools and workflows for open data and code.\n\nFrom: openwashdata.org/pages/gallery/vmost/"
+  },
+  {
+    "objectID": "day1/openwashdata.html#vmost",
+    "href": "day1/openwashdata.html#vmost",
+    "title": "openwashdata conf 2025",
+    "section": "VMOST",
+    "text": "VMOST\n\nVision\nMission\nObjectives\nStrategy\nTactics\n\n\nVMOST analysis is a tool used to evaluate if an overall strategy and supporting activities are in alignment. It can be used for current or future plans, and it breaks down a strategy and its core components into an easy-to-consume format"
+  },
+  {
+    "objectID": "day1/openwashdata.html#objectives-indicators",
+    "href": "day1/openwashdata.html#objectives-indicators",
+    "title": "openwashdata conf 2025",
+    "section": "Objectives (Indicators)",
+    "text": "Objectives (Indicators)\nBy the end of March 2024\n\n\nIncrease the number of datasets published on the website to 20 R data packages.\nIncrease the number of datasets that are donated for publication to 50 datasets.\nIncrease the number of people that have donated, cleaned, and published data independently with support of the openwashdata team to 5.\nIncrease the number of unique visitors to the website to 10 visitors/day.\nIncrease global coverage of visitors to the website to 50% of countries globally.\nIncrease the number of data users who report having used data published through openwashdata community to 2 uses per dataset on average.\nIncrease the number of subscribers to the openwashdata newsletter to250 subscribers from 50 countries.\nIncrease the number of participants in live coding events to 5 participants on average."
+  },
+  {
+    "objectID": "day1/openwashdata.html#strategies",
+    "href": "day1/openwashdata.html#strategies",
+    "title": "openwashdata conf 2025",
+    "section": "Strategies",
+    "text": "Strategies\n… 11\n\nCheck: openwashdata.org/pages/gallery/vmost/"
+  },
+  {
+    "objectID": "day1/openwashdata.html#tactics",
+    "href": "day1/openwashdata.html#tactics",
+    "title": "openwashdata conf 2025",
+    "section": "Tactics",
+    "text": "Tactics\n… 5\n\nCheck: openwashdata.org/pages/gallery/vmost/"
+  },
+  {
+    "objectID": "day1/openwashdata.html#some-stats",
+    "href": "day1/openwashdata.html#some-stats",
+    "title": "openwashdata conf 2025",
+    "section": "Some Stats",
+    "text": "Some Stats\n\nNumber of datasets published: 33 R data packages\nNumber of newsletter subscribers: 202 (14 since Jan 2025)\nNumber of unique visitors (openwashdata.org): ~5 visitors/day (past 3 months)\nNumber of unique visitors (data packages): ~5 visitors/day (past 3 months)"
+  },
+  {
+    "objectID": "day1/openwashdata.html#wp2-governance",
+    "href": "day1/openwashdata.html#wp2-governance",
+    "title": "openwashdata conf 2025",
+    "section": "WP2: Governance",
+    "text": "WP2: Governance\n\nActivity 2.1: Develop a governance structure for a community organization and decision-making processes.\nActivity 2.2: Form a sounding board comprising community members to provide directional feedback.\nActivity 2.3: Create a long-term funding strategy for the openwashdata community.\n\nOpen question: Does openwashdata have a long term future?"
+  },
+  {
+    "objectID": "day1/openwashdata.html#wp3-community-expansion",
+    "href": "day1/openwashdata.html#wp3-community-expansion",
+    "title": "openwashdata conf 2025",
+    "section": "WP3: Community expansion",
+    "text": "WP3: Community expansion\n\nActivity 3.1: Offer advanced data science training and workshops to community members.\nActivity 3.2: Develop a mentorship program to support new members in adopting ORD practices.\nActivity 3.3: Organize community events to foster networking and collaboration.\n\nPriority: Strong focus on WP3 for the remainder of the project."
+  },
+  {
+    "objectID": "day1/openwashdata.html#data-science-for-openwashdata-002",
+    "href": "day1/openwashdata.html#data-science-for-openwashdata-002",
+    "title": "openwashdata conf 2025",
+    "section": "data science for openwashdata 002",
+    "text": "data science for openwashdata 002\nAll efforts into the next iteration of the course.\n\nfree, live, online, 10-week programme\n200 registrations for 2023 iteration\n100 show-ups\n20 graduates\nnext iteration: from September 2025, sign-up: https://forms.gle/MP5rNYZagBdfG2ZRA\n\n\nds4owd-001.github.io/website/"
+  },
+  {
+    "objectID": "day1/openwashdata.html#ds4owd-002-communication-campaign-strategy",
+    "href": "day1/openwashdata.html#ds4owd-002-communication-campaign-strategy",
+    "title": "openwashdata conf 2025",
+    "section": "ds4owd-002 communication campaign (strategy)",
+    "text": "ds4owd-002 communication campaign (strategy)\n\nrestart monthly newsletter editions (now)\npublish a blog post on ds4owd-001 (July)\nstart publishing a LinkedIn post every Thursday (openwashdata thursday)\nhost an information event (late August)\nhost a series of workshops for washr (from November 2025 to March 2026)"
+  },
+  {
+    "objectID": "day1/openwashdata.html#ds4owd-002-course-preparation",
+    "href": "day1/openwashdata.html#ds4owd-002-course-preparation",
+    "title": "openwashdata conf 2025",
+    "section": "ds4owd-002 course preparation",
+    "text": "ds4owd-002 course preparation\n\nPlatform for access to recordings through authentication\nPrepare quizzes for each module for participants to complete each module\nWrite R code for using GitHub API to comment and close issues"
+  },
+  {
+    "objectID": "day1/openwashdata.html#months-4-papers",
+    "href": "day1/openwashdata.html#months-4-papers",
+    "title": "openwashdata conf 2025",
+    "section": "12 months, 4 papers",
+    "text": "12 months, 4 papers\n\n\nSetting the baseline: FAIR / Open Data practices in the WASH sector\nIncreasing competency: Data from two iterations of data science for openwashdata course\nStreamling workflows: Developmnent of an R package for FAIR data publication (washr / fairenough)\nTracking impact: Analytics from published data packages"
+  },
+  {
+    "objectID": "day1/openwashdata.html#thanks",
+    "href": "day1/openwashdata.html#thanks",
+    "title": "openwashdata conf 2025",
+    "section": "Thanks 🌻",
+    "text": "Thanks 🌻\nThis project was supported by the Open Research Data Program of the ETH Board.\nThe slides were created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nYou can view source code of slides on GitHub\nOr you can download slides in PDF format\nThis material is licensed under Creative Commons Attribution Share Alike 4.0 International."
   }
 ]
