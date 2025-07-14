@@ -18,6 +18,14 @@ By the end of this session, you will be able to:
 - Form balanced teams with complementary skills
 - Define clear project scopes and deliverables
 
+## {{< fa presentation >}} Slides
+
+[View slides in full screen](slides.qmd) | [Download slides as PDF](https://github.com/openwashdata-conf/2025/raw/main/day1/ideation/ideation-slides.pdf)
+
+```{=html}
+<iframe class="slide-deck" src="slides.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
 ## {{< fa book >}} Resources
 
 ### Hackathon Materials
@@ -33,21 +41,6 @@ By the end of this session, you will be able to:
 ### Project Management
 - **[GitHub Project Boards](https://docs.github.com/en/issues/planning-and-tracking-with-projects)** - For tracking progress
 - **[Git Collaboration](https://guides.github.com/introduction/flow/)** - GitHub flow guide
-
-## {{< fa presentation >}} Slides
-
-<div class="slide-buttons">
-  <a href="slides.qmd" class="btn btn-primary btn-sm" target="_blank">
-    {{< fa expand >}} View Slides Fullscreen
-  </a>
-  <a href="ideation.md" class="btn btn-secondary btn-sm">
-    {{< fa list >}} View Ideas List
-  </a>
-</div>
-
-<div class="slide-embed">
-  <iframe src="slides.qmd" width="100%" height="475" style="border:1px solid #123233;"></iframe>
-</div>
 
 ## {{< fa lightbulb >}} Project Categories
 

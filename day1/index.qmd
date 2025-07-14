@@ -39,25 +39,26 @@ agenda_final |>
     filter(day == 1) |> 
     select(-day) |> 
     rename_with(~stringr::str_to_title(.x), everything()) |> 
-    knitr::kable()
+    knitr::kable() 
 ```
 
 ## Session Details
 
-### Morning Sessions
-
-The day begins with a warm-up session led by Lars, followed by a reflection on the openwashdata community's journey and future direction. Emmanuel will share insights on data stewardship implementation at BASEflow Malawi.
-
-### Afternoon Sessions
-
-After lunch, we will get into a converstion on Governance for Research Software Engineering teams. The topics and resources also apply to teams beyond software engineering. We will explore different governance styles and how they can shape the future structure and decision-making processes of openwashdata.
-
-The afternoon continues with:
-
-- **Positive Gossip Exercise** - An energizing warm-up activity to reconnect after lunch
-- **Governance Discussion** - Reflection on different governance styles
-- **Hackathon Ideation** - Preparing a long list of ideas for the hackathon on Day 2
-- **Lean Coffee** - An open, democratically-driven discussion on topics that matter most to the community
+| Time | Title | Speaker | Affiliation |
+|------|-------|---------|-------------|
+| 09:00 - 09:30 | Arrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli). | - | - |
+| 09:30 - 10:00 | [Warm-up activity](warmup/) | Lars | - |
+| 10:00 - 10:45 | [openwashdata community - past and future](openwashdata/) | Lars | - |
+| 10:45 - 11:00 | Break | - | - |
+| 11:00 - 12:00 | Data stewardship at BASEflow Malawi | Emmanuel | - |
+| 12:00 - 13:00 | Lunch break | - | - |
+| 13:00 - 13:30 | Warm-up - Positive Gossip | - | - |
+| 13:30 - 14:00 | [Governance Part 1](governance/) | Lars | - |
+| 14:00 - 14:15 | Break | - | - |
+| 14:15 - 15:00 | [Governance Part 2](governance/) | Lars | - |
+| 15:00 - 15:30 | [Hackathon Ideation](ideation/) | - | - |
+| 15:30 - 15:45 | Break with small cakes | - | - |
+| 15:45 - 16:30 | [Lean Coffee](lean-coffee/) | - | - | 
 
 
 

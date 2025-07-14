@@ -72,7 +72,7 @@
     "href": "day1/index.html#session-details",
     "title": "Day 1: Community & Governance",
     "section": "Session Details",
-    "text": "Session Details\n\nMorning Sessions\nThe day begins with a warm-up session led by Lars, followed by a reflection on the openwashdata community’s journey and future direction. Emmanuel will share insights on data stewardship implementation at BASEflow Malawi.\n\n\nAfternoon Sessions\nAfter lunch, we will get into a converstion on Governance for Research Software Engineering teams. The topics and resources also apply to teams beyond software engineering. We will explore different governance styles and how they can shape the future structure and decision-making processes of openwashdata.\nThe afternoon continues with:\n\nPositive Gossip Exercise - An energizing warm-up activity to reconnect after lunch\nGovernance Discussion - Reflection on different governance styles\nHackathon Ideation - Preparing a long list of ideas for the hackathon on Day 2\nLean Coffee - An open, democratically-driven discussion on topics that matter most to the community",
+    "text": "Session Details\n\n\n\nTime\nTitle\nSpeaker\nAffiliation\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n-\n\n\n09:30 - 10:00\nWarm-up activity\nLars\n-\n\n\n10:00 - 10:45\nopenwashdata community - past and future\nLars\n-\n\n\n10:45 - 11:00\nBreak\n-\n-\n\n\n11:00 - 12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n-\n\n\n12:00 - 13:00\nLunch break\n-\n-\n\n\n13:00 - 13:30\nWarm-up - Positive Gossip\n-\n-\n\n\n13:30 - 14:00\nGovernance Part 1\nLars\n-\n\n\n14:00 - 14:15\nBreak\n-\n-\n\n\n14:15 - 15:00\nGovernance Part 2\nLars\n-\n\n\n15:00 - 15:30\nHackathon Ideation\n-\n-\n\n\n15:30 - 15:45\nBreak with small cakes\n-\n-\n\n\n15:45 - 16:30\nLean Coffee\n-\n-",
     "crumbs": [
       "Day 1 - July 15",
       "Overview"
@@ -1616,7 +1616,7 @@
     "href": "day1/openwashdata/index.html",
     "title": "Session 1",
     "section": "",
-    "text": "Learn about the openwashdata initiative, its mission, current state, and future direction. Discover how you can contribute to making water and sanitation data more accessible and impactful.\nThis session presents the opportunity for open data in WASH, introduces the openwashdata community framework (VMOST), shares future plans, and engages participants in collaborative activities.",
+    "text": "Learn about the openwashdata community, its mission, current state, and future direction.",
     "crumbs": [
       "Day 1 - July 15",
       "openwashdata"
@@ -1627,7 +1627,7 @@
     "href": "day1/openwashdata/index.html#session-overview",
     "title": "Session 1",
     "section": "",
-    "text": "Learn about the openwashdata initiative, its mission, current state, and future direction. Discover how you can contribute to making water and sanitation data more accessible and impactful.\nThis session presents the opportunity for open data in WASH, introduces the openwashdata community framework (VMOST), shares future plans, and engages participants in collaborative activities.",
+    "text": "Learn about the openwashdata community, its mission, current state, and future direction.",
     "crumbs": [
       "Day 1 - July 15",
       "openwashdata"
@@ -1660,7 +1660,7 @@
     "href": "day1/openwashdata/index.html#resources",
     "title": "Session 1",
     "section": " Resources",
-    "text": "Resources\n\nResearch & Publications\n\nR Package: washopenresearch - Analysis of data availability in WASH publications\nFAIR Principles: Wilkinson et al. (2016) - The FAIR Guiding Principles for scientific data management\n\n\n\nCommunity Resources\n\nMain Website: openwashdata.org\nGitHub Organization: github.com/openwashdata\nVMOST Framework: openwashdata.org/pages/gallery/vmost/\nPhase 2 Proposal: openwashdata.org/pages/gallery/proposal-02/\n\n\n\nCourse & Training\n\nNext Course Iteration: ds4owd-002.github.io/website/\nCourse Registration: Sign up for ds4owd-002\n\n\n\nTools & Packages (In Development)\n\nwashr - R package for FAIR data publication\nfairenough - Tool for assessing FAIR compliance\n\n\n\nFunding Opportunities\n\nETH Open Research Data Program - Due date: 2025-09-01\nSwiss Leading House Africa - Due date: 2025-09-30\nCongressi Stefano Franscini - Due date: 2025-10-31\nETH Foundation",
+    "text": "Resources\nThe following resources are linked in the slides and provided here as an overview.\n\nResearch & Publications\n\nR Package: washopenresearch - Analysis of data availability in WASH publications\nFAIR Principles: Wilkinson et al. (2016) - The FAIR Guiding Principles for scientific data management\n\n\n\nCommunity Resources\n\nMain Website: openwashdata.org\nGitHub Organization: github.com/openwashdata\nVMOST Framework: openwashdata.org/pages/gallery/vmost/\nPhase 2 Proposal: openwashdata.org/pages/gallery/proposal-02/\n\n\n\nCourse & Training\n\nNext Course Iteration: ds4owd-002.github.io/website/\nCourse Registration: Sign up for ds4owd-002\n\n\n\nTools & Packages (In Development)\n\nwashr - R package for FAIR data publication\nfairenough - Tool for assessing FAIR compliance\n\n\n\nFunding Opportunities\n\nETH Open Research Data Program - Due date: 2025-09-01\nSwiss Leading House Africa - Due date: 2025-09-30\nCongressi Stefano Franscini - Due date: 2025-10-31\nETH Foundation",
     "crumbs": [
       "Day 1 - July 15",
       "openwashdata"
@@ -2717,7 +2717,7 @@
     "href": "day1/governance/index.html#slides",
     "title": "Governance & Decision Making",
     "section": " Slides",
-    "text": "Slides\n\n  View Slides Fullscreen    Additional Resources",
+    "text": "Slides\nView slides in full screen | Download slides as PDF",
     "crumbs": [
       "Day 1 - July 15",
       "Governance"

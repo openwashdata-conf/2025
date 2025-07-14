@@ -1,6 +1,6 @@
 ---
-title: "Session 1"
-subtitle: "openwashdata - where do we head?"
+title: "openwashdata community"
+subtitle: "where do we head?"
 editor: source
 ---
 

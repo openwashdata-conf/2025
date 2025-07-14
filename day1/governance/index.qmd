@@ -19,46 +19,44 @@ By the end of this session, you will be able to:
 - Establish and enforce codes of conduct
 - Assess your project's current governance gaps
 
+## {{< fa presentation >}} Slides
+
+[View slides in full screen](slides.qmd) | [Download slides as PDF](https://github.com/openwashdata-conf/2025/raw/main/day1/governance/governance-slides.pdf)
+
+```{=html}
+<iframe class="slide-deck" src="slides.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
 ## {{< fa book >}} Resources
 
 ### Books & Publications
+
 - **[Producing Open Source Software](https://producingoss.com)** by Karl Fogel - Comprehensive guide to running open source projects
 - **[Research Software Engineering with Python](https://merely-useful.tech/py-rse/)** by Irving et al. - Includes governance practices for research software
 - **[The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)** by Brooks (1995) - Classic on software project management
 - **[The Discussion Book](https://www.wiley.com/en-us/The+Discussion+Book%3A+50+Great+Ways+to+Get+People+Talking-p-9781119049715)** by Brookfield & Preskill (2016) - Techniques for managing discussions
 
 ### Articles & Essays
+
 - **[The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm)** by Jo Freeman - Why informal structures can be problematic
 - **[How to Respond to Code of Conduct Reports](https://files.frameshiftconsulting.com/books/cocguide.pdf)** by Aurora & Gardiner (2019) - Enforcement guide
 
 ### Websites & Tools
+
 - **[Ask a Manager](https://www.askamanager.org/)** - Practical management advice
 - **[Community Rule](https://communityrule.info/)** - Governance toolkit with multiple models
 - **[NOAA Disruptive Behavior](https://coast.noaa.gov/ddb/)** - Guide for managing difficult participants
 - **[Contributor Covenant](https://www.contributor-covenant.org/)** - Standard code of conduct template
 
 ### Research Papers
+
 - Majumder et al. (2019) - "Why do people give up FLOSSing? A study of contributor abandonment"
 - Petre (2014) - "Nobody can read your code" - On code review in scientific software
-
-## {{< fa presentation >}} Slides
-
-<div class="slide-buttons">
-  <a href="slides.qmd" class="btn btn-primary btn-sm" target="_blank">
-    {{< fa expand >}} View Slides Fullscreen
-  </a>
-  <a href="governance-keep.qmd" class="btn btn-secondary btn-sm">
-    {{< fa file-alt >}} Additional Resources
-  </a>
-</div>
-
-<div class="slide-embed">
-  <iframe src="slides.qmd" width="100%" height="475" style="border:1px solid #123233;"></iframe>
-</div>
 
 ## {{< fa gavel >}} Martha's Rules Framework
 
 ### Key Components:
+
 1. **Proposal Requirements** (24 hours before meeting):
    - One-line summary
    - Background information
