@@ -443,19 +443,6 @@ Highlight connections to their suggestions when discussing WP3.
 
 [Priority: Strong focus on WP3 for the remainder of the project.]{.highlight-yellow}
 
-## {{< fa comments >}} Building on Your Ideas
-
-::: incremental
-- Your strategies from Activity 1 directly inform WP3 planning
-- Local contexts you shared help shape regional initiatives
-- Partnership ideas guide our collaboration approach
-:::
-
-::: {.notes}
-⏱️ Callback to Activity 1 - reference specific ideas if they shared good ones
-- This shows we value their input and it directly influences our work
-::: 
-
 ## data science for openwashdata 002 {.smaller}
 
 All efforts into the next iteration of the course.
@@ -606,23 +593,6 @@ Use this to transition to papers/impact discussion.
 :::
 
 # {{< fa file-lines >}} Papers from mid-2026 {background-color="#5b195b"}
-
-## {{< fa link >}} Your Contributions Matter
-
-From today's activities, we heard:
-
-::: incremental
-- **New strategies:** [Reference 1-2 participant ideas]
-- **Funding opportunities:** [Reference specific suggestions]
-- **Collaboration ideas:** [Reference partnership suggestions]
-:::
-
-**These directly shape our Phase 3 planning!**
-
-::: {.notes}
-⏱️ Callback slide - fill in with actual participant contributions during session
-- This validates their input and shows immediate impact
-:::
 
 ## 12 months, 4 papers {.smaller}
 
