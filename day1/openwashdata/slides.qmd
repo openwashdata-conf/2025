@@ -15,7 +15,6 @@ format:
     transition: fade
     slide-number: true
     preview-links: auto
-    footer: "[{{< fa link >}} openwashdata-conf.github.io/2025/day1/openwashdata.html](https://openwashdata-conf.github.io/2025/day1/openwashdata.html)"
 editor: source
 editor_options: 
   chunk_output_type: console

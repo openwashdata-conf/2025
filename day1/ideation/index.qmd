@@ -6,17 +6,12 @@ editor: source
 
 ## {{< fa info-circle >}} Session Overview
 
-Prepare for Day 2's hackathon by generating and refining project ideas. This session will help form teams and define project scopes that can be realistically achieved during the hackathon. We'll use collaborative brainstorming techniques to identify challenges in the WASH data space and develop innovative solutions.
+Prepare for Day 2's hackathon by generating and refining project ideas. 
 
 ## {{< fa bullseye >}} Learning Objectives
 
 By the end of this session, you will be able to:
 
-- Identify key challenges in water and sanitation data management
-- Generate innovative project ideas using structured brainstorming
-- Evaluate project feasibility for a one-day hackathon
-- Form balanced teams with complementary skills
-- Define clear project scopes and deliverables
 
 ## {{< fa presentation >}} Slides
 
@@ -26,116 +21,4 @@ By the end of this session, you will be able to:
 <iframe class="slide-deck" src="slides.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
-## {{< fa book >}} Resources
 
-### Hackathon Materials
-- **[Hackathon Ideas List](ideation.md)** - Comprehensive list of project ideas
-- **[Day 2 Prerequisites](../../prerequisites/index.qmd)** - Technical setup requirements
-- **[Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code)** - AI assistant for coding
-
-### openwashdata Resources
-- **[Data Packages](https://github.com/openwashdata)** - Available datasets for projects
-- **[Package Templates](https://github.com/openwashdata/openwashdata-package-template)** - R package template
-- **[Contributing Guide](https://openwashdata.org/pages/contribute/)** - How to contribute
-
-### Project Management
-- **[GitHub Project Boards](https://docs.github.com/en/issues/planning-and-tracking-with-projects)** - For tracking progress
-- **[Git Collaboration](https://guides.github.com/introduction/flow/)** - GitHub flow guide
-
-## {{< fa lightbulb >}} Project Categories
-
-Based on the [hackathon ideas list](ideation.md), projects fall into these categories:
-
-### Data Package & Analysis
-- Historical data digitization
-- Creating data processing pipelines
-- Building analysis tools
-
-### Branding & Design
-- Visual identity development
-- Documentation templates
-- User interface improvements
-
-### Teaching & Assessment
-- Educational materials
-- Automated grading systems
-- Course content development
-
-### Content Creation
-- Documentation improvements
-- Tutorial development
-- Data visualization dashboards
-
-## {{< fa users >}} Team Formation Process
-
-### 1. Problem Identification (20 min)
-- Review challenges in WASH data
-- Identify personal interests and skills
-- Consider available resources
-
-### 2. Solution Brainstorming (30 min)
-- Generate multiple solutions per challenge
-- Use rapid prototyping sketches
-- Consider technology requirements
-
-### 3. Project Pitches (30 min)
-- 2-minute pitches per idea
-- Clear problem statement
-- Proposed solution approach
-- Required team skills
-
-### 4. Team Formation (20 min)
-- Match skills to project needs
-- Balance team sizes (3-5 people)
-- Exchange contact information
-- Designate project lead
-
-## {{< fa check-circle >}} Good Hackathon Projects
-
-Projects should be:
-
-- **Achievable**: Can be completed in one day
-- **Relevant**: Addresses real openwashdata needs
-- **Collaborative**: Requires diverse skills
-- **Demonstrable**: Has clear outputs to showcase
-- **Sustainable**: Can be continued after the hackathon
-
-## {{< fa rocket >}} Available Support
-
-### Technical Resources
-- Claude Code for development assistance
-- GitHub Copilot (if you have access)
-- Technical mentors throughout the day
-
-### Data Resources
-- openwashdata packages for testing
-- Example datasets in various formats
-- Data documentation templates
-
-### Infrastructure
-- GitHub organization access
-- Collaborative workspaces
-- Cloud development environments
-
-## {{< fa clock >}} Session Details
-
-**Time**: 11:30-12:30  
-**Duration**: 60 minutes  
-**Format**: Interactive brainstorming and team formation  
-**Facilitator**: Conference organizers
-
-## {{< fa tasks >}} Next Steps
-
-After this session:
-
-1. **Finalize project scopes** - Document clear objectives
-2. **Set up repositories** - Create GitHub repos in openwashdata-conf
-3. **Prepare environments** - Complete technical setup
-4. **Review prerequisites** - Ensure all tools are working
-5. **Create project plan** - Break down tasks for Day 2
-
-## {{< fa link >}} Quick Links
-
-- {{< fa github >}} [openwashdata-conf Organization](https://github.com/openwashdata-conf)
-- {{< fa book >}} [Hackathon Guidelines](ideation.md)
-- {{< fa tools >}} [Day 2 Setup Check](../../day2/setup-check.qmd)

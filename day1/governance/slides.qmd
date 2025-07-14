@@ -16,7 +16,6 @@ format:
     transition: fade
     slide-number: true
     preview-links: auto
-    footer: "[{{< fa link >}} openwashdata-conf.github.io/2025/day1/governance.html](https://openwashdata-conf.github.io/2025/day1/governance.html)"
 editor: source
 ---
 
@@ -28,7 +27,7 @@ editor: source
 - {{< fa users >}} **Activity 1** (5 min) - Project Assessment
 - {{< fa handshake >}} **Roles & Code of Conduct** (~10 min)
 - {{< fa calendar-check >}} **Meeting Management** (~15 min) - 10 rules for better meetings
-- {{< fa pencil >}} **Activities 2-4** (15 min) - Decision making, roles, governance
+- {{< fa pencil >}} **Activities throughout** - Integrated into relevant sections
 :::
 
 ::: {.notes}
@@ -240,6 +239,23 @@ Reflect on your current project:
 
 ---
 
+## {{< fa gavel >}} Activity: Decision Making (5 minutes)
+
+**In our shared Google Doc, Section: "Decision Making"**
+
+::: incremental
+1. What decisions has your project made recently?
+2. Who made them?
+3. Where are they recorded?
+:::
+
+::: {.notes}
+⏱️ START: 0:30 | DURATION: 5 minutes | END: 0:35
+- This helps identify gaps in decision documentation
+:::
+
+---
+
 ## {{< fa tasks >}} Roles and responsibilities
 
 :::: {.columns}
@@ -270,6 +286,31 @@ Reflect on your current project:
   - Particularly when their first choice is on holiday
 - Helps with succession planning
   - "We don't have anyone who does that any more…"
+
+---
+
+## {{< fa sitemap >}} Activity: Roles & Responsibilities (5 minutes)
+
+**In our shared Google Doc, Section: "Roles Matrix"**
+
+:::: {.columns}
+::: {.column width="50%"}
+**Column A: Tasks**
+List things people do to keep your project going
+:::
+
+::: {.column width="50%"}
+**Column B: People**
+List contributors to the project
+:::
+::::
+
+**Then:** Draw connections - what patterns emerge?
+
+::: {.notes}
+⏱️ START: 0:40 | DURATION: 5 minutes | END: 0:45
+- Reveals informal structures and gaps
+:::
 
 ---
 
@@ -445,56 +486,6 @@ Reflect on your current project:
 - Encourage participants to implement one governance improvement
 :::
 
-# {{< fa pencil >}} Exercises {background-color="#5b195b"}
-
-::: {.notes}
-⏱️ START: 0:55 | DURATION: 15 minutes total | END: 1:10
-- Three 5-minute activities
-- Apply governance concepts to participants' projects
-:::
-
-## {{< fa gavel >}} Activity: Decision Making (5 minutes)
-
-**In our shared Google Doc, Section: "Decision Making"**
-
-::: incremental
-1. What decisions has your project made recently?
-2. Who made them?
-3. Where are they recorded?
-:::
-
-::: {.notes}
-⏱️ START: 0:55 | DURATION: 5 minutes | END: 1:00
-- This helps identify gaps in decision documentation
-:::
-
----
-
-## {{< fa sitemap >}} Activity: Roles & Responsibilities (5 minutes)
-
-**In our shared Google Doc, Section: "Roles Matrix"**
-
-:::: {.columns}
-::: {.column width="50%"}
-**Column A: Tasks**
-List things people do to keep your project going
-:::
-
-::: {.column width="50%"}
-**Column B: People**
-List contributors to the project
-:::
-::::
-
-**Then:** Draw connections - what patterns emerge?
-
-::: {.notes}
-⏱️ START: 1:00 | DURATION: 5 minutes | END: 1:05
-- Reveals informal structures and gaps
-:::
-
----
-
 ## {{< fa vote-yea >}} Activity: Governance Structure (5 minutes)
 
 **In our shared Google Doc, Section: "Governance Rules"**
@@ -511,6 +502,7 @@ List contributors to the project
 ⏱️ START: 1:05 | DURATION: 5 minutes | END: 1:10
 - Often reveals informal or unclear processes
 - Wrap up with key takeaways
+- This final activity brings everything together
 :::
 
 ## References
