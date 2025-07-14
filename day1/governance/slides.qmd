@@ -11,7 +11,7 @@ date-format: long
 bibliography: slides-governance.bib
 format: 
   revealjs:
-    logo: "../images/OWD-logo-20.png"
+    logo: "../../images/OWD-logo-20.png"
     theme: "../../style/slides.scss"
     transition: fade
     slide-number: true
@@ -27,7 +27,6 @@ editor: source
 - {{< fa users >}} **Activity 1** (5 min) - Project Assessment
 - {{< fa handshake >}} **Roles & Code of Conduct** (~10 min)
 - {{< fa calendar-check >}} **Meeting Management** (~15 min) - 10 rules for better meetings
-- {{< fa pencil >}} **Activities throughout** - Integrated into relevant sections
 :::
 
 ::: {.notes}
@@ -44,6 +43,10 @@ This is our afternoon session on governance
 - Welcome to afternoon governance session
 - More detailed than morning overview
 :::
+
+## Attribution
+
+These slides are reproduced from [github.con/gvwilson/codebender](https://github.com/gvwilson/codebender/tree/2022-12/2021-10-open/governance) "Copyright (c) Greg Wilson". The original content is licensed under <http://creativecommons.org/licenses/by/4.0/>.
 
 ## Starting point
 
