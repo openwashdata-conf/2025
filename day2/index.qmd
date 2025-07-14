@@ -41,34 +41,13 @@ agenda_final |>
     knitr::kable()
 ```
 
-## Session Details
-
-```{r}
-agenda_sessions <- agenda_final |> 
-  filter(day == 2) |> 
-  select(-day, -speaker) |> 
-  mutate(title = case_when(
-    str_detect(title, "Why Claude Code") ~ "[Why Claude Code & Workflow](why-claude.qmd)",
-    str_detect(title, "Claude Code setup check") ~ "[Claude Code setup check](setup-check.qmd)",
-    str_detect(title, "Showcase round 1") ~ "[Showcase round 1](showcase.qmd)",
-    str_detect(title, "Showcase round 2") ~ "[Showcase round 2](showcase.qmd)",
-    str_detect(title, "Work session") ~ "[Work session](work-sessions.qmd)",
-    TRUE ~ title
-  )) |> 
-  rename_with(~stringr::str_to_title(.x), everything())
-
-knitr::kable(agenda_sessions)
-```
-
 ## Tips & Workflow
 
 ```{bash}
 
 ```
 
-
 - Work in progress
-- 
 
 ## Resources
 

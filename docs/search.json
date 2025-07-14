@@ -55,72 +55,6 @@
     ]
   },
   {
-    "objectID": "day1/governance/index.html#marthas-rules-framework",
-    "href": "day1/governance/index.html#marthas-rules-framework",
-    "title": "Governance & Decision Making",
-    "section": " Martha’s Rules Framework",
-    "text": "Martha’s Rules Framework\n\nKey Components:\n\nProposal Requirements (24 hours before meeting):\n\nOne-line summary\nBackground information\nConcrete proposal\nPros and cons\nAlternatives\nMaximum 2 pages\n\nVoting Process:\n\nSense vote: support/neutral/oppose\nDiscussion: 10 minutes if minority opposes\nFinal vote: binary (no neutrals)\n\nQuorum & Membership:\n\n50% attendance required\nClear membership rules\nSponsor must be present",
-    "crumbs": [
-      "Day 1 - July 15",
-      "Governance"
-    ]
-  },
-  {
-    "objectID": "day1/governance/index.html#rules-for-better-meetings",
-    "href": "day1/governance/index.html#rules-for-better-meetings",
-    "title": "Governance & Decision Making",
-    "section": " 10 Rules for Better Meetings",
-    "text": "10 Rules for Better Meetings\n\nDoes there need to be a meeting? - Only for decisions and discussions\nCreate an agenda - Include timings and priorities\nHave clear decision rules - Avoid structurelessness\nPut someone in charge - Moderator manages flow\nRequire politeness - No interruptions, devices in politeness mode\nRecord minutes - Document decisions immediately\nManage disruptive behavior - Use three-sticky system\nBe an active participant - Read materials beforehand\nLife online - No mixed-mode meetings\nSeek truth, not victory - No dominance displays",
-    "crumbs": [
-      "Day 1 - July 15",
-      "Governance"
-    ]
-  },
-  {
-    "objectID": "day1/governance/index.html#interactive-activities",
-    "href": "day1/governance/index.html#interactive-activities",
-    "title": "Governance & Decision Making",
-    "section": " Interactive Activities",
-    "text": "Interactive Activities\n\nActivity 1: Project Assessment (5 minutes)\nReflect on your current project: 1. Who uses your software/work? 2. How do they find it? 3. Who decides what happens next? 4. How is that communicated? 5. Who can make what kinds of changes? 6. What happens automatically? 7. How are newcomers brought on board?\n\n\nActivity 2: Decision Making (5 minutes)\nDocument recent decisions: 1. What decisions has your project made recently? 2. Who made them? 3. Where are they recorded?\n\n\nActivity 3: Roles & Responsibilities (5 minutes)\nCreate a matrix of: - Column A: Tasks that keep your project going - Column B: People who contribute - Draw connections to identify patterns and gaps\n\n\nActivity 4: Governance Structure (5 minutes)\nDefine your voting process: 1. Who gets a vote in your group? 2. How are new people added to that pool? 3. When and how do people lose their votes? 4. Where do people find out what has been decided? 5. How can non-voters raise issues?",
-    "crumbs": [
-      "Day 1 - July 15",
-      "Governance"
-    ]
-  },
-  {
-    "objectID": "day1/governance/index.html#session-details",
-    "href": "day1/governance/index.html#session-details",
-    "title": "Governance & Decision Making",
-    "section": " Session Details",
-    "text": "Session Details\nTime: 09:30-10:30\nDuration: 70 minutes\nFormat: Presentation with multiple interactive activities\nFacilitator: Lars Schöbitz",
-    "crumbs": [
-      "Day 1 - July 15",
-      "Governance"
-    ]
-  },
-  {
-    "objectID": "day1/governance/index.html#key-takeaways",
-    "href": "day1/governance/index.html#key-takeaways",
-    "title": "Governance & Decision Making",
-    "section": " Key Takeaways",
-    "text": "Key Takeaways\n\nGovernance is not bureaucracy - it’s clarity\nStart with Martha’s Rules for decision making\nDocument roles and responsibilities explicitly\nMake meetings count with clear structure\nCode of Conduct is non-negotiable",
-    "crumbs": [
-      "Day 1 - July 15",
-      "Governance"
-    ]
-  },
-  {
-    "objectID": "day1/governance/index.html#quick-links",
-    "href": "day1/governance/index.html#quick-links",
-    "title": "Governance & Decision Making",
-    "section": " Quick Links",
-    "text": "Quick Links\n\n Governance Models PDF\n View Source Code\n Licensed under CC BY-SA 4.0",
-    "crumbs": [
-      "Day 1 - July 15",
-      "Governance"
-    ]
-  },
-  {
     "objectID": "day1/governance/governance-keep.html#session-overview",
     "href": "day1/governance/governance-keep.html#session-overview",
     "title": "Governance",
@@ -359,13 +293,6 @@
     "text": "WP3: Community expansion (What I need your support for)\n\n Activity 3.1: Offer advanced data science training and workshops to community members.\n Activity 3.2: Develop a mentorship program to support new members in adopting ORD practices.\n Activity 3.3: Organize community events to foster networking and collaboration.\n\nPriority: Strong focus on WP3 for the remainder of the project."
   },
   {
-    "objectID": "day1/openwashdata/slides.html#building-on-your-ideas",
-    "href": "day1/openwashdata/slides.html#building-on-your-ideas",
-    "title": "openwashdata conf 2025",
-    "section": " Building on Your Ideas",
-    "text": "Building on Your Ideas\n\n\nYour strategies from Activity 1 directly inform WP3 planning\nLocal contexts you shared help shape regional initiatives\nPartnership ideas guide our collaboration approach\n\n\n\n⏱️ Callback to Activity 1 - reference specific ideas if they shared good ones - This shows we value their input and it directly influences our work"
-  },
-  {
     "objectID": "day1/openwashdata/slides.html#data-science-for-openwashdata-002",
     "href": "day1/openwashdata/slides.html#data-science-for-openwashdata-002",
     "title": "openwashdata conf 2025",
@@ -434,13 +361,6 @@
     "title": "openwashdata conf 2025",
     "section": " Activity: Building Together (5 minutes)",
     "text": "Activity: Building Together (5 minutes)\nIn our shared Google Doc, please share:\n\nWhat other funding opportunities exist for open data initiatives?\nWho would you want to collaborate with on an open(wash)data project?\n\n\n⏱️ START: 0:43 | DURATION: 5 minutes | END: 0:48 - Instructions: 1 minute - Writing time: 3 minutes\n- Quick share: 1 minute This helps identify potential funding sources we haven’t considered. Also helps with networking - participants can see shared interests. Use this to transition to papers/impact discussion."
-  },
-  {
-    "objectID": "day1/openwashdata/slides.html#your-contributions-matter",
-    "href": "day1/openwashdata/slides.html#your-contributions-matter",
-    "title": "openwashdata conf 2025",
-    "section": " Your Contributions Matter",
-    "text": "Your Contributions Matter\nFrom today’s activities, we heard:\n\n\nNew strategies: [Reference 1-2 participant ideas]\nFunding opportunities: [Reference specific suggestions]\nCollaboration ideas: [Reference partnership suggestions]\n\n\nThese directly shape our Phase 3 planning!\n\n⏱️ Callback slide - fill in with actual participant contributions during session - This validates their input and shows immediate impact"
   },
   {
     "objectID": "day1/openwashdata/slides.html#months-4-papers",
@@ -978,17 +898,6 @@
     ]
   },
   {
-    "objectID": "day2/index.html#session-details",
-    "href": "day2/index.html#session-details",
-    "title": "Day 2: Claude Code Hackathon",
-    "section": "Session Details",
-    "text": "Session Details\n\n\n\n\n\nTime\nTitle\nAffiliation\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n\n\n09:30 - 10:00\nWhy Claude Code & Workflow\n-\n\n\n10:00 - 10:30\nClaude Code setup check\n-\n\n\n10:30 - 10:45\nBreak\n-\n\n\n10:45 - 11:15\nWork session\n-\n\n\n12:00 - 13:00\nLunch break\n-\n\n\n13:00 - 14:00\nWork session\n-\n\n\n14:00 - 14:15\nBreak\n-\n\n\n14:15 - 15:00\nWork session\n-\n\n\n15:00 - 15:30\nShowcase round 1\n-\n\n\n15:30 - 15:45\nBreak with small cakes\n-\n\n\n15:45 - 16:15\nShowcase round 2\n-\n\n\n16:15 - 16:30\nClosing\n-",
-    "crumbs": [
-      "Day 2 - July 16",
-      "Overview"
-    ]
-  },
-  {
     "objectID": "day2/index.html#tips-workflow",
     "href": "day2/index.html#tips-workflow",
     "title": "Day 2: Claude Code Hackathon",
@@ -1297,17 +1206,6 @@
     ]
   },
   {
-    "objectID": "day1/index.html#schedule-overview",
-    "href": "day1/index.html#schedule-overview",
-    "title": "Day 1: Community & Governance",
-    "section": "Schedule Overview",
-    "text": "Schedule Overview\n\n\n\n\n\n\n\n\n\n\nTime\nTitle\nAffiliation\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n\n\n09:30 - 10:00\nWarm-up activity\n-\n\n\n10:00 - 10:45\nopenwashdata community - past and future\n-\n\n\n10:45 - 11:00\nBreak\n-\n\n\n11:00 - 12:00\nData stewardship at BASEflow Malawi\n-\n\n\n12:00 - 13:00\nLunch break\n-\n\n\n13:00 - 13:30\nWarm-up - Positive Gossip\n-\n\n\n13:30 - 14:00\nGovernance Part 1\n-\n\n\n14:00 - 14:15\nBreak\n-\n\n\n14:15 - 15:00\nGovernance Part 2\n-\n\n\n15:00 - 15:30\nHackathon Ideation\n-\n\n\n15:30 - 15:45\nBreak with small cakes\n-\n\n\n15:45 - 16:30\nBuffer: Hackathon Ideation / Lean Coffee / Claude Code setup check\n-",
-    "crumbs": [
-      "Day 1 - July 15",
-      "Overview"
-    ]
-  },
-  {
     "objectID": "day1/index.html#session-details",
     "href": "day1/index.html#session-details",
     "title": "Day 1: Community & Governance",
@@ -1378,7 +1276,14 @@
     "href": "day1/governance/slides.html#session-roadmap-70-min",
     "title": "Governance & Decision Making",
     "section": " Session Roadmap (70 min)",
-    "text": "Session Roadmap (70 min)\n\n\n Introduction & Context (~10 min)\n Governance Models (~15 min) - Including Martha’s Rules\n Activity 1 (5 min) - Project Assessment\n Roles & Code of Conduct (~10 min)\n Meeting Management (~15 min) - 10 rules for better meetings\n Activities throughout - Integrated into relevant sections\n\n\n\nThis is our afternoon session on governance - More in-depth than morning session - Focus on practical tools and frameworks - Multiple activities to apply concepts"
+    "text": "Session Roadmap (70 min)\n\n\n Introduction & Context (~10 min)\n Governance Models (~15 min) - Including Martha’s Rules\n Activity 1 (5 min) - Project Assessment\n Roles & Code of Conduct (~10 min)\n Meeting Management (~15 min) - 10 rules for better meetings\n\n\n\nThis is our afternoon session on governance - More in-depth than morning session - Focus on practical tools and frameworks - Multiple activities to apply concepts"
+  },
+  {
+    "objectID": "day1/governance/slides.html#attribution",
+    "href": "day1/governance/slides.html#attribution",
+    "title": "Governance & Decision Making",
+    "section": "Attribution",
+    "text": "Attribution\nThese slides are reproduced from github.con/gvwilson/codebender “Copyright (c) Greg Wilson”. The original content is licensed under http://creativecommons.org/licenses/by/4.0/."
   },
   {
     "objectID": "day1/governance/slides.html#starting-point",
