@@ -1,0 +1,61 @@
+---
+title: "Session 1"
+subtitle: "openwashdata - where do we head?"
+editor: source
+---
+
+## {{< fa info-circle >}} Session Overview
+
+Learn about the openwashdata community, its mission, current state, and future direction.
+
+## {{< fa bullseye >}} Learning Objectives
+
+By the end of this session, you will be able to:
+
+- Understand the current state of data sharing in WASH publications
+- Explain the vision, mission, and objectives of openwashdata
+- Identify strategies and tactics for building open data culture
+- Recognize opportunities for collaboration and funding
+- Contribute ideas for community expansion
+
+## {{< fa presentation >}} Slides
+
+[View slides in full screen](slides.qmd) | [Download slides as PDF](https://github.com/openwashdata-conf/2025/raw/main/day1/openwashdata/openwashdata-slides.pdf)
+
+```{=html}
+<iframe class="slide-deck" src="slides.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
+```
+
+## {{< fa book >}} Resources
+
+The following resources are linked in the slides and provided here as an overview.
+
+### Research & Publications
+
+- **R Package**: [washopenresearch](https://github.com/openwashdata/washopenresearch) - Analysis of data availability in WASH publications
+- **FAIR Principles**: [Wilkinson et al. (2016)](https://doi.org/10.1038/sdata.2016.18) - The FAIR Guiding Principles for scientific data management
+
+### Community Resources
+
+- **Main Website**: [openwashdata.org](https://openwashdata.org)
+- **GitHub Organization**: [github.com/openwashdata](https://github.com/openwashdata)
+- **VMOST Framework**: [openwashdata.org/pages/gallery/vmost/](https://openwashdata.org/pages/gallery/vmost/)
+- **Phase 2 Proposal**: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
+
+### Course & Training
+
+- **Next Course Iteration**: [ds4owd-002.github.io/website/](https://ds4owd-002.github.io/website/)
+- **Course Registration**: [Sign up for ds4owd-002](https://ee-eu.kobotoolbox.org/single/7V3qeDYD)
+
+### Tools & Packages (In Development)
+
+- **[washr](https://github.com/openwashdata/washr)** - R package for FAIR data publication
+- **fairenough** - Tool for assessing FAIR compliance
+
+### Funding Opportunities
+
+- [ETH Open Research Data Program](https://www.lib4ri.ch/sites/default/files/media/documents/Creating-and-publishing-oer-on-rdm.pdf) - Due date: 2025-09-01
+- [Swiss Leading House Africa](https://swisstph.submittable.com/submit) - Due date: 2025-09-30
+- [Congressi Stefano Franscini](https://csf.ethz.ch/) - Due date: 2025-10-31
+- [ETH Foundation](https://ethz-foundation.ch/en/)
+
