@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../day3/index.html" rel="next">
-<link href="../day1/lean-coffee/index.html" rel="prev">
+<link href="../day1/lean-coffee/index.qmd" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -147,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../day1/warmup/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../day1/warmup/index.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Warm-up</span></a>
   </div>
 </li>
@@ -171,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../day1/lean-coffee/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../day1/lean-coffee/index.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lean Coffee</span></a>
   </div>
 </li>
@@ -222,6 +222,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#schedule-overview" id="toc-schedule-overview" class="nav-link active" data-scroll-target="#schedule-overview">Schedule Overview</a></li>
+  <li><a href="#session-details" id="toc-session-details" class="nav-link" data-scroll-target="#session-details">Session Details</a></li>
   <li><a href="#tips-workflow" id="toc-tips-workflow" class="nav-link" data-scroll-target="#tips-workflow">Tips &amp; Workflow</a></li>
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul>
@@ -268,16 +269,14 @@ Prerequisites Required
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
+<col style="width: 14%">
+<col style="width: 74%">
 <col style="width: 12%">
-<col style="width: 68%">
-<col style="width: 7%">
-<col style="width: 11%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Time</th>
 <th style="text-align: left;">Title</th>
-<th style="text-align: left;">Speaker</th>
 <th style="text-align: left;">Affiliation</th>
 </tr>
 </thead>
@@ -286,78 +285,148 @@ Prerequisites Required
 <td style="text-align: left;">09:00 - 09:30</td>
 <td style="text-align: left;">Arrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).</td>
 <td style="text-align: left;">-</td>
-<td style="text-align: left;">-</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">09:30 - 10:00</td>
 <td style="text-align: left;">Why Claude Code &amp; Workflow</td>
-<td style="text-align: left;">-</td>
 <td style="text-align: left;">-</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">10:00 - 10:30</td>
 <td style="text-align: left;">Claude Code setup check</td>
 <td style="text-align: left;">-</td>
-<td style="text-align: left;">-</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">10:30 - 10:45</td>
 <td style="text-align: left;">Break</td>
-<td style="text-align: left;">-</td>
 <td style="text-align: left;">-</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">10:45 - 11:15</td>
 <td style="text-align: left;">Work session</td>
 <td style="text-align: left;">-</td>
-<td style="text-align: left;">-</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">12:00 - 13:00</td>
 <td style="text-align: left;">Lunch break</td>
-<td style="text-align: left;">-</td>
 <td style="text-align: left;">-</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">13:00 - 14:00</td>
 <td style="text-align: left;">Work session</td>
 <td style="text-align: left;">-</td>
-<td style="text-align: left;">-</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">14:00 - 14:15</td>
 <td style="text-align: left;">Break</td>
-<td style="text-align: left;">-</td>
 <td style="text-align: left;">-</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">14:15 - 15:00</td>
 <td style="text-align: left;">Work session</td>
 <td style="text-align: left;">-</td>
-<td style="text-align: left;">-</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">15:00 - 15:30</td>
 <td style="text-align: left;">Showcase round 1</td>
-<td style="text-align: left;">-</td>
 <td style="text-align: left;">-</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">15:30 - 15:45</td>
 <td style="text-align: left;">Break with small cakes</td>
 <td style="text-align: left;">-</td>
-<td style="text-align: left;">-</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">15:45 - 16:15</td>
 <td style="text-align: left;">Showcase round 2</td>
-<td style="text-align: left;">-</td>
 <td style="text-align: left;">-</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">16:15 - 16:30</td>
 <td style="text-align: left;">Closing</td>
 <td style="text-align: left;">-</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="session-details" class="level2">
+<h2 class="anchored" data-anchor-id="session-details">Session Details</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Time</th>
+<th style="text-align: left;">Title</th>
+<th style="text-align: left;">Affiliation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">09:00 - 09:30</td>
+<td style="text-align: left;">Arrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">09:30 - 10:00</td>
+<td style="text-align: left;"><a href="../day2/why-claude.html">Why Claude Code &amp; Workflow</a></td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">10:00 - 10:30</td>
+<td style="text-align: left;"><a href="../day2/setup-check.html">Claude Code setup check</a></td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">10:30 - 10:45</td>
+<td style="text-align: left;">Break</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">10:45 - 11:15</td>
+<td style="text-align: left;"><a href="../day2/work-sessions.html">Work session</a></td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">12:00 - 13:00</td>
+<td style="text-align: left;">Lunch break</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">13:00 - 14:00</td>
+<td style="text-align: left;"><a href="../day2/work-sessions.html">Work session</a></td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">14:00 - 14:15</td>
+<td style="text-align: left;">Break</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">14:15 - 15:00</td>
+<td style="text-align: left;"><a href="../day2/work-sessions.html">Work session</a></td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">15:00 - 15:30</td>
+<td style="text-align: left;"><a href="../day2/showcase.html">Showcase round 1</a></td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">15:30 - 15:45</td>
+<td style="text-align: left;">Break with small cakes</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">15:45 - 16:15</td>
+<td style="text-align: left;"><a href="../day2/showcase.html">Showcase round 2</a></td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">16:15 - 16:30</td>
+<td style="text-align: left;">Closing</td>
 <td style="text-align: left;">-</td>
 </tr>
 </tbody>
@@ -811,7 +880,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../day1/lean-coffee/index.html" class="pagination-link" aria-label="Lean Coffee">
+      <a href="../day1/lean-coffee/index.qmd" class="pagination-link" aria-label="Lean Coffee">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Lean Coffee</span>
       </a>          
   </div>

@@ -6,12 +6,7 @@ editor: source
 
 ## {{< fa info-circle >}} Session Overview
 
-Prepare for Day 2's hackathon by generating and refining project ideas. 
-
-## {{< fa bullseye >}} Learning Objectives
-
-By the end of this session, you will be able to:
-
+Prepare for Day 2's hackathon by exploring project ideas. Each participant can work on any of these projects or develop ideas themselves. Ideas will also arise as you work with the tool. 
 
 ## {{< fa presentation >}} Slides
 

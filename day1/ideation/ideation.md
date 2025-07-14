@@ -24,6 +24,11 @@
 - **SFD Data Validation**:
   - Collect all SFD JSON files
   - Cross-check and verify how many data points contain actual data vs placeholders
+  
+## Project management
+
+- **CONTRIBUTING.md**: Prepare contribution guidelines for the project
+- **GitHub Project Management**: Organize issues into a GitHub project kanban board
 
 ## Teaching & Assessment Tools
 
@@ -38,10 +43,8 @@
 - **CV Updates**: Update existing CVs and have Claude create Quarto document versions
 - **Mentorship Program Page**: Generate page featuring mentor/mentee profiles with clickable elements linking to their work
 
-## Additional "Hubris to Hope" Ideas
+## "Hubris to Hope" or any other course Ideas
 
 - **Git/GitHub/Quarto Training**: Provide 2-hour basic introduction for students on using these tools for essay writing
 - **Quarto Assignment Requirements**: Expect and require students to submit assignments written in Quarto
 - **Automated Grading**: Define grading rubrics and run Claude Code to evaluate student assignments
-- **CONTRIBUTING.md**: Prepare contribution guidelines for the project
-- **GitHub Project Management**: Organize issues into a GitHub project kanban board

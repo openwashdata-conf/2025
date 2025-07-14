@@ -1,43 +1,225 @@
 ---
 title: "Hackathon Ideation"
 subtitle: "Brainstorming Projects for Day 2"
+author: 
+  - name: "Lars Schöbitz"
+    url: https://openwashdata.org/about/lars/
+    affiliation: Global Health Engineering, ETH Zurich
+    affiliation_url: https://ghe.ethz.ch/
+date: 2025-07-15
+date-format: long
+format: 
+  revealjs:
+    logo: "../images/OWD-logo-20.png"
+    theme: "../../style/slides.scss"
+    transition: fade
+    slide-number: true
+    preview-links: auto
+editor: source
 ---
 
-**Time:** TBD (Afternoon session)  
-**Format:** Collaborative brainstorming
+## {{< fa route >}} Session Roadmap (30 min)
 
-## Session Overview
+- {{< fa lightbulb >}} **Project Categories** (~5 min)
+- {{< fa clipboard-list >}} **Project Ideas Overview** (~20 min)
+- {{< fa rocket >}} **Next Steps & Resources** (~5 min)
 
-Prepare for Day 2's hackathon by generating and refining project ideas. This session will help form teams and define project scopes that can be realistically achieved during the hackathon.
-
-## Slides
-
-```{r}
-
-```
-
-
-## Ideation Process
-
-We'll be using a collaborative Google Doc to capture and organize ideas throughout this session.
-
-## Resources for Teams
-
-- Claude Code for development assistance
-- openwashdata datasets for testing
-- GitHub repositories for collaboration
-- Technical mentors available
-
-## Next Steps
-
-After this session:
-
-1. Teams finalize project scopes
-2. Set up GitHub repositories
-3. Prepare development environments
-4. Review Day 2 prerequisites
-
-::: {.callout-tip}
-## Pro Tip
-Don't aim for perfection! Focus on creating a working prototype that demonstrates your idea.
+::: {.notes}
+This session helps participants prepare for tomorrow's hackathon
+- Overview of project categories
+- Review specific project ideas
+- Choose individual projects based on interests
 :::
+
+# {{< fa lightbulb >}} Project Categories {background-color="#5b195b"}
+
+## Project Categories
+
+- {{< fa database >}} **Data Package & Analysis**
+- {{< fa palette >}} **Branding & Design**
+- {{< fa search >}} **Data Discovery & Documentation**
+- {{< fa graduation-cap >}} **Teaching & Assessment Tools**
+- {{< fa file-code >}} **Content Creation & Conversion**
+- {{< fa book >}} **Course Development Ideas**
+
+::: {.notes}
+Six main categories of projects
+Each offers different skill requirements and outcomes
+:::
+
+# {{< fa database >}} Data Package & Analysis {background-color="#5b195b"}
+
+## Historical Data Digitization
+
+**Project:** Convert scanned historical records into digital data
+
+- Collect historical papers/records
+- Create organized image folders
+- Use Claude to extract and analyze data
+- Create structured datasets
+- Build data packages for archival data
+---
+
+## Open Wash Data Package Workflow
+
+**Project:** Create new analyses using existing packages
+
+- Clone existing openwashdata package
+- Use Claude to write analytical articles
+- Add personal notes and templates
+- Create vignettes demonstrating usage
+- Share insights with community
+# {{< fa palette >}} Branding & Design {background-color="#5b195b"}
+
+## Create Brand Guidelines
+
+**Project:** Comprehensive branding for openwashdata
+
+- Design color palettes (colorblind-friendly)
+- Create common design elements
+- Develop brand YAML templates
+- Package YAML configurations
+- Implement via pull requests
+
+**Deliverables:**
+- Style guide document
+- Template repository
+- Implementation examples
+# {{< fa search >}} Data Discovery {background-color="#5b195b"}
+
+## Identify New Data Sources
+
+**Project:** Expand openwashdata collection
+
+- Research WASH data sources
+- Evaluate data quality
+- Create data packages
+- Document metadata
+- Submit to openwashdata
+
+---
+
+## SFD Report Analysis
+
+**Project:** Analyze Shit Flow Diagram reports
+
+- Collect all SFD PDF reports
+- Use Claude to extract data sources
+- Categorize as primary/secondary
+- Analyze data collection methods:
+  - Key informant interviews
+  - Focus group discussions
+  - Lab analysis
+  - Observations
+
+**Output:** Comprehensive methodology database
+
+---
+
+## SFD Data Validation
+
+**Project:** Verify SFD data quality
+
+- Collect all SFD JSON files
+- Cross-check data completeness
+- Identify placeholder vs actual data
+- Create data quality report
+- Suggest improvements
+# {{< fa graduation-cap >}} Teaching & Assessment {background-color="#5b195b"}
+
+## Assignment Templates
+
+**Project:** Streamline assignment feedback
+
+- Create response templates
+- Implement as Claude slash commands
+- Test with real assignments
+- Document usage patterns
+- Share with educators
+
+---
+
+## Document Conversion
+
+**Project:** Modernize course materials
+
+- Convert Word reports to Quarto
+- Create slide templates
+- Maintain formatting consistency
+- Add interactive elements
+- Version control materials
+---
+
+## Grading Automation
+
+**Project:** Develop automated assessment tools
+
+- Design grading rubrics
+- Test on previous assignments
+- Use Claude for evaluation
+- Compare with manual grading
+- Refine accuracy
+
+**Output:** Validated grading system
+
+---
+
+## Git-based Submissions
+
+**Project:** Modernize assignment submission
+
+- Design Git/GitHub workflow
+- Create student guides
+- Set up template repositories
+- Automate collection process
+- Replace email/Google Docs
+
+**Benefits:** Version control, professional skills, automated workflows
+
+# {{< fa file-code >}} Content Creation {background-color="#5b195b"}
+
+## Talk Transcription
+
+**Project:** Convert talks to educational content
+
+- Find relevant WASH talks
+- Use Claude for transcription
+- Convert to slide format
+- Add visual elements
+- Create learning materials
+
+---
+
+## CV Modernization
+
+**Project:** Update CVs with Quarto
+
+- Collect existing CVs
+- Convert to Quarto format
+- Create templates
+- Add interactive elements
+- Version control careers
+---
+
+## Mentorship Program Page
+
+**Project:** Showcase mentor/mentee connections
+
+- Design profile templates
+- Create clickable elements
+- Link to participant work
+- Build interactive directory
+- Foster connections
+
+
+## Automated Grading System
+
+**Project:** Implement Claude-based assessment
+
+- Define clear rubrics
+- Create evaluation prompts
+- Test accuracy and fairness
+- Document edge cases
+- Build instructor dashboard
+
+

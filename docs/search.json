@@ -61,7 +61,7 @@
     "href": "day1/index.html#schedule-overview",
     "title": "Day 1: Community & Governance",
     "section": "Schedule Overview",
-    "text": "Schedule Overview\n\n\n\n\n\nTime\nTitle\nSpeaker\nAffiliation\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n-\n\n\n09:30 - 10:00\nWarm-up activity\nLars\n-\n\n\n10:00 - 10:45\nopenwashdata community - past and future\nLars\n-\n\n\n10:45 - 11:00\nBreak\n-\n-\n\n\n11:00 - 12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n-\n\n\n12:00 - 13:00\nLunch break\n-\n-\n\n\n13:00 - 13:30\nWarm-up - Positive Gossip\n-\n-\n\n\n13:30 - 14:00\nGovernance Part 1\nLars\n-\n\n\n14:00 - 14:15\nBreak\n-\n-\n\n\n14:15 - 15:00\nGovernance Part 2\nLars\n-\n\n\n15:00 - 15:30\nHackathon Ideation\n-\n-\n\n\n15:30 - 15:45\nBreak with small cakes\nLars\n-\n\n\n15:45 - 16:30\nBuffer: Hackathon Ideation / Lean Coffee / Claude Code setup check\n-\n-",
+    "text": "Schedule Overview\n\n\n\n\n\n\n\n\n\n\nTime\nTitle\nAffiliation\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n\n\n09:30 - 10:00\nWarm-up activity\n-\n\n\n10:00 - 10:45\nopenwashdata community - past and future\n-\n\n\n10:45 - 11:00\nBreak\n-\n\n\n11:00 - 12:00\nData stewardship at BASEflow Malawi\n-\n\n\n12:00 - 13:00\nLunch break\n-\n\n\n13:00 - 13:30\nWarm-up - Positive Gossip\n-\n\n\n13:30 - 14:00\nGovernance Part 1\n-\n\n\n14:00 - 14:15\nBreak\n-\n\n\n14:15 - 15:00\nGovernance Part 2\n-\n\n\n15:00 - 15:30\nHackathon Ideation\n-\n\n\n15:30 - 15:45\nBreak with small cakes\n-\n\n\n15:45 - 16:30\nBuffer: Hackathon Ideation / Lean Coffee / Claude Code setup check\n-",
     "crumbs": [
       "Day 1 - July 15",
       "Overview"
@@ -72,7 +72,7 @@
     "href": "day1/index.html#session-details",
     "title": "Day 1: Community & Governance",
     "section": "Session Details",
-    "text": "Session Details\n\n\n\n\n\nTime\nTitle\nSpeaker\nAffiliation\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n-\n\n\n09:30 - 10:00\nWarm-up activity\nLars\n-\n\n\n10:00 - 10:45\nopenwashdata community - past and future\nLars\n-\n\n\n10:45 - 11:00\nBreak\n-\n-\n\n\n11:00 - 12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n-\n\n\n12:00 - 13:00\nLunch break\n-\n-\n\n\n13:00 - 13:30\nWarm-up - Positive Gossip\n-\n-\n\n\n13:30 - 14:00\nGovernance Part 1\nLars\n-\n\n\n14:00 - 14:15\nBreak\n-\n-\n\n\n14:15 - 15:00\nGovernance Part 2\nLars\n-\n\n\n15:00 - 15:30\nHackathon Ideation\n-\n-\n\n\n15:30 - 15:45\nBreak with small cakes\nLars\n-\n\n\n15:45 - 16:30\nHackathon Ideation\n-\n-",
+    "text": "Session Details\n\n\n\n\n\nTime\nTitle\nAffiliation\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n\n\n09:30 - 10:00\nWarm-up activity\n-\n\n\n10:00 - 10:45\nopenwashdata community - past and future\n-\n\n\n10:45 - 11:00\nBreak\n-\n\n\n11:00 - 12:00\nData stewardship at BASEflow Malawi\n-\n\n\n12:00 - 13:00\nLunch break\n-\n\n\n13:00 - 13:30\nWarm-up - Positive Gossip\n-\n\n\n13:30 - 14:00\nGovernance Part 1\n-\n\n\n14:00 - 14:15\nBreak\n-\n\n\n14:15 - 15:00\nGovernance Part 2\n-\n\n\n15:00 - 15:30\nHackathon Ideation\n-\n\n\n15:30 - 15:45\nBreak with small cakes\n-\n\n\n15:45 - 16:30\nHackathon Ideation\n-",
     "crumbs": [
       "Day 1 - July 15",
       "Overview"
@@ -584,7 +584,7 @@
     "href": "day2/index.html#schedule-overview",
     "title": "Day 2: Claude Code Hackathon",
     "section": "Schedule Overview",
-    "text": "Schedule Overview\n\n\n\n\n\n\n\n\n\n\n\nTime\nTitle\nSpeaker\nAffiliation\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n-\n\n\n09:30 - 10:00\nWhy Claude Code & Workflow\n-\n-\n\n\n10:00 - 10:30\nClaude Code setup check\n-\n-\n\n\n10:30 - 10:45\nBreak\n-\n-\n\n\n10:45 - 11:15\nWork session\n-\n-\n\n\n12:00 - 13:00\nLunch break\n-\n-\n\n\n13:00 - 14:00\nWork session\n-\n-\n\n\n14:00 - 14:15\nBreak\n-\n-\n\n\n14:15 - 15:00\nWork session\n-\n-\n\n\n15:00 - 15:30\nShowcase round 1\n-\n-\n\n\n15:30 - 15:45\nBreak with small cakes\n-\n-\n\n\n15:45 - 16:15\nShowcase round 2\n-\n-\n\n\n16:15 - 16:30\nClosing\n-\n-",
+    "text": "Schedule Overview\n\n\n\n\n\n\n\n\n\n\nTime\nTitle\nAffiliation\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n\n\n09:30 - 10:00\nWhy Claude Code & Workflow\n-\n\n\n10:00 - 10:30\nClaude Code setup check\n-\n\n\n10:30 - 10:45\nBreak\n-\n\n\n10:45 - 11:15\nWork session\n-\n\n\n12:00 - 13:00\nLunch break\n-\n\n\n13:00 - 14:00\nWork session\n-\n\n\n14:00 - 14:15\nBreak\n-\n\n\n14:15 - 15:00\nWork session\n-\n\n\n15:00 - 15:30\nShowcase round 1\n-\n\n\n15:30 - 15:45\nBreak with small cakes\n-\n\n\n15:45 - 16:15\nShowcase round 2\n-\n\n\n16:15 - 16:30\nClosing\n-",
     "crumbs": [
       "Day 2 - July 16",
       "Overview"
@@ -1823,14 +1823,14 @@
     "href": "day1/governance/slides.html",
     "title": "Governance & Decision Making",
     "section": "",
-    "text": "Introduction & Context (~10 min)\n Governance Models (~15 min) - Including Martha’s Rules\n Activity 1 (5 min) - Project Assessment\n Roles & Code of Conduct (~10 min)\n Meeting Management (~15 min) - 10 rules for better meetings\n Activities 2-4 (15 min) - Decision making, roles, governance\n\n\n\nThis is our afternoon session on governance - More in-depth than morning session - Focus on practical tools and frameworks - Multiple activities to apply concepts"
+    "text": "Introduction & Context (~10 min)\n Governance Models (~15 min) - Including Martha’s Rules\n Activity 1 (5 min) - Project Assessment\n Roles & Code of Conduct (~10 min)\n Meeting Management (~15 min) - 10 rules for better meetings\n Activities throughout - Integrated into relevant sections\n\n\n\nThis is our afternoon session on governance - More in-depth than morning session - Focus on practical tools and frameworks - Multiple activities to apply concepts"
   },
   {
     "objectID": "day1/governance/slides.html#session-roadmap-70-min",
     "href": "day1/governance/slides.html#session-roadmap-70-min",
     "title": "Governance & Decision Making",
-    "section": " Session Roadmap (70 min)",
-    "text": "Session Roadmap (70 min)\n\n\n Introduction & Context (~10 min)\n Governance Models (~15 min) - Including Martha’s Rules\n Activity 1 (5 min) - Project Assessment\n Roles & Code of Conduct (~10 min)\n Meeting Management (~15 min) - 10 rules for better meetings\n Activities 2-4 (15 min) - Decision making, roles, governance\n\n\n\nThis is our afternoon session on governance - More in-depth than morning session - Focus on practical tools and frameworks - Multiple activities to apply concepts"
+    "section": "",
+    "text": "Introduction & Context (~10 min)\n Governance Models (~15 min) - Including Martha’s Rules\n Activity 1 (5 min) - Project Assessment\n Roles & Code of Conduct (~10 min)\n Meeting Management (~15 min) - 10 rules for better meetings\n Activities throughout - Integrated into relevant sections\n\n\n\nThis is our afternoon session on governance - More in-depth than morning session - Focus on practical tools and frameworks - Multiple activities to apply concepts"
   },
   {
     "objectID": "day1/governance/slides.html#starting-point",
@@ -1851,7 +1851,7 @@
     "href": "day1/governance/slides.html#you",
     "title": "Governance & Decision Making",
     "section": " You",
-    "text": "You\n\nDegree(s) in some research domain\nLittle or no formal training in software development\nIn a team of 1–12 people\nTimelines of weeks to months\n\n\nXKCD Dependency cartoon"
+    "text": "You\n\nDegree(s) in some research domain\nLittle or no formal training in software development\nIn a team of 1–12 people\nTimelines of weeks to months\n\n\n\n\nXKCD Dependency cartoon"
   },
   {
     "objectID": "day1/governance/slides.html#me",
@@ -1872,7 +1872,7 @@
     "href": "day1/governance/slides.html#acknowledgments",
     "title": "Governance & Decision Making",
     "section": " Acknowledgments",
-    "text": "Acknowledgments\n\nOriginal workshop: Daniel Standage and Greg Wilson\nProducing Open Source Software: Karl Fogel\nResearch Software Engineering with Python: Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, and Greg Wilson\n\n\nCover of ‘Research Software Engineering with Python’"
+    "text": "Acknowledgments\n\nOriginal workshop: Daniel Standage and Greg Wilson\nProducing Open Source Software: Karl Fogel\nResearch Software Engineering with Python: Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, and Greg Wilson\n\n\n\n\nCover of ‘Research Software Engineering with Python’"
   },
   {
     "objectID": "day1/governance/slides.html#activity-project-assessment-5-minutes",
@@ -1893,7 +1893,7 @@
     "href": "day1/governance/slides.html#the-good-news",
     "title": "Governance & Decision Making",
     "section": " The good news",
-    "text": "The good news\n\nYou don’t have to invent this yourself\nLearn from others who’ve solved these problems\nhttps://www.askamanager.org/ - Great resource for management advice\n\n\nExample insights: - “Consensus doesn’t mean everyone agrees - it means everyone can live with the decision” - “Document decisions immediately, or they didn’t happen”\n\n\nAsk a Manager logo"
+    "text": "The good news\n\nYou don’t have to invent this yourself\nLearn from others who’ve solved these problems\nhttps://www.askamanager.org/ - Great resource for management advice\n\n\nExample insights: - “Consensus doesn’t mean everyone agrees - it means everyone can live with the decision” - “Document decisions immediately, or they didn’t happen”\n\n\n\n\nAsk a Manager logo"
   },
   {
     "objectID": "day1/governance/slides.html#governance-models",
@@ -1935,7 +1935,7 @@
     "href": "day1/governance/slides.html#roles-and-responsibilities",
     "title": "Governance & Decision Making",
     "section": " Roles and responsibilities",
-    "text": "Roles and responsibilities\n\n\nPeople & Their Roles\n\n\n\nPerson\nRoles\n\n\n\n\nghopper\nadmin\n\n\nkjohnson\nadmin, commit\n\n\naturing\ncommit\n\n\nbwk\ncommit\n\n\n\n\nRoles & Their Tasks\n\n\n\nRole\nTasks\n\n\n\n\nadmin\nmerge PRs, assign issues\n\n\ncommit\npublish posts, file issues\n\n\n\n\nBenefits:\n\nGives you a list of what actually needs to be done\n\nIt’s always longer than you first expect\n\nTells everyone who to go to for what\n\nParticularly when their first choice is on holiday\n\nHelps with succession planning\n\n“We don’t have anyone who does that any more…”"
+    "text": "Roles and responsibilities\n\n\n\nPeople & Their Roles\n\n\n\nPerson\nRoles\n\n\n\n\nghopper\nadmin\n\n\nkjohnson\nadmin, commit\n\n\naturing\ncommit\n\n\nbwk\ncommit\n\n\n\n\n\n\nRoles & Their Tasks\n\n\n\nRole\nTasks\n\n\n\n\nadmin\nmerge PRs, assign issues\n\n\ncommit\npublish posts, file issues\n\n\n\n\n\n\nBenefits:\n\nGives you a list of what actually needs to be done\n\nIt’s always longer than you first expect\n\nTells everyone who to go to for what\n\nParticularly when their first choice is on holiday\n\nHelps with succession planning\n\n“We don’t have anyone who does that any more…”"
   },
   {
     "objectID": "day1/governance/slides.html#code-of-conduct",
@@ -2047,21 +2047,21 @@
     "href": "day1/governance/slides.html#activity-decision-making-5-minutes",
     "title": "Governance & Decision Making",
     "section": " Activity: Decision Making (5 minutes)",
-    "text": "Activity: Decision Making (5 minutes)\nIn our shared Google Doc, Section: “Decision Making”\n\n\nWhat decisions has your project made recently?\nWho made them?\nWhere are they recorded?\n\n\n\n⏱️ START: 0:55 | DURATION: 5 minutes | END: 1:00 - This helps identify gaps in decision documentation"
+    "text": "Activity: Decision Making (5 minutes)\nIn our shared Google Doc, Section: “Decision Making”\n\n\nWhat decisions has your project made recently?\nWho made them?\nWhere are they recorded?\n\n\n\n⏱️ START: 0:30 | DURATION: 5 minutes | END: 0:35 - This helps identify gaps in decision documentation"
   },
   {
     "objectID": "day1/governance/slides.html#activity-roles-responsibilities-5-minutes",
     "href": "day1/governance/slides.html#activity-roles-responsibilities-5-minutes",
     "title": "Governance & Decision Making",
     "section": " Activity: Roles & Responsibilities (5 minutes)",
-    "text": "Activity: Roles & Responsibilities (5 minutes)\nIn our shared Google Doc, Section: “Roles Matrix”\n\n\nColumn A: Tasks List things people do to keep your project going\n\nColumn B: People List contributors to the project\n\nThen: Draw connections - what patterns emerge?\n\n⏱️ START: 1:00 | DURATION: 5 minutes | END: 1:05 - Reveals informal structures and gaps"
+    "text": "Activity: Roles & Responsibilities (5 minutes)\nIn our shared Google Doc, Section: “Roles Matrix”\n\n\nColumn A: Tasks List things people do to keep your project going\n\nColumn B: People List contributors to the project\n\n\nThen: Draw connections - what patterns emerge?\n\n⏱️ START: 0:40 | DURATION: 5 minutes | END: 0:45 - Reveals informal structures and gaps"
   },
   {
     "objectID": "day1/governance/slides.html#activity-governance-structure-5-minutes",
     "href": "day1/governance/slides.html#activity-governance-structure-5-minutes",
     "title": "Governance & Decision Making",
     "section": " Activity: Governance Structure (5 minutes)",
-    "text": "Activity: Governance Structure (5 minutes)\nIn our shared Google Doc, Section: “Governance Rules”\n\n\nWho gets a vote in your group?\nHow are new people added to that pool?\nWhen and how do people lose their votes?\nWhere do people find out what has been decided?\nHow can non-voters raise issues?\n\n\n\n⏱️ START: 1:05 | DURATION: 5 minutes | END: 1:10 - Often reveals informal or unclear processes - Wrap up with key takeaways"
+    "text": "Activity: Governance Structure (5 minutes)\nIn our shared Google Doc, Section: “Governance Rules”\n\n\nWho gets a vote in your group?\nHow are new people added to that pool?\nWhen and how do people lose their votes?\nWhere do people find out what has been decided?\nHow can non-voters raise issues?\n\n\n\n⏱️ START: 1:05 | DURATION: 5 minutes | END: 1:10 - Often reveals informal or unclear processes - Wrap up with key takeaways - This final activity brings everything together"
   },
   {
     "objectID": "day1/governance/slides.html#references",
@@ -2075,14 +2075,14 @@
     "href": "day1/openwashdata/slides.html",
     "title": "openwashdata conf 2025",
     "section": "",
-    "text": "library(washopenresearch)\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.4     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(ggthemes)\nlibrary(ggtext)\nlibrary(gt)\n\n# set ggplot theme --------------------------------------------------------\n\nggplot2::theme_set(\n    # Pick a starting theme\n    ggplot2::theme_gray(base_size = 14) +\n        # Add your favourite elements\n        ggplot2::theme(\n            axis.line = element_line(),\n            panel.background = element_rect(fill = \"white\"),\n            panel.grid.major = element_line(\"grey95\", linewidth = 0.25),\n            legend.key  = element_rect(fill = NA) \n        )\n)\nagenda &lt;- read_csv(here::here(\"data/tbl-openwashdata-conference-agenda.csv\")) \n\nRows: 26 Columns: 9\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (6): title, speaker, speaker_link, affiliation, affiliation_link, time\ndbl  (1): day\ntime (2): start_time, end_time\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\nagenda_final &lt;- agenda  |&gt;\n  select(-start_time, -end_time, -speaker_link, -affiliation_link) |&gt;\n  relocate(time) |&gt;\n  mutate(speaker = case_when(\n    str_detect(speaker, \"NA\") == TRUE ~ \" - \",\n    TRUE ~ speaker\n  )) |&gt;\n  mutate(affiliation = case_when(\n    str_detect(affiliation, \"NA\") == TRUE ~ \" - \",\n    TRUE ~ affiliation\n  ))\n# data preparation\n\nwashdev_das_type &lt;- washdev |&gt; \n    mutate(das_policy = case_when(\n        published_year &lt; 2020 ~ \"pre-2020\",\n        TRUE ~ \"2020 or later\"\n    )) |&gt; \n    mutate(das_type = case_when(\n        das_type == \"in paper\" ~ \"available in paper\",\n        das_type == \"on request\" ~ \"available on request\",\n        TRUE ~ das_type\n    ))  |&gt;     \n    mutate(das_type = case_when(\n        is.na(das_type) ~ \"missing\",\n        TRUE ~ das_type\n    ))\n## summary for data availability statement (DAS) type and policy year\n\nwashdev_das_type_n &lt;- washdev_das_type |&gt; \n    count(das_policy, das_type) \n\n\nfig_das_type &lt;- washdev_das_type_n |&gt; \n    ggplot(aes(x = reorder(das_type, n), y = n, fill = das_policy)) +\n    geom_col(position = position_dodge(), width = 0.6) +\n    geom_text(aes(label = n), \n              vjust = 0.5, \n              hjust = -0.5,  \n              size = 3,\n              position = position_dodge(width = 0.5)\n    ) +\n    coord_flip() +\n    annotate(\"text\", \n             x = 3.77, \n             y = 150, \n             size = 3, \n             label = \"after introducing policy\\nfor data availability statement\", \n             color = \"gray20\") +\n    geom_curve(aes(x = 3.95, y = 142, xend = 3.95, yend = 70), \n               curvature = 0.5, \n               arrow = arrow(type = \"closed\", length = unit(0.1, \"inches\")),\n               color = \"gray20\") +\n    labs(\n        title = \"Data Availability Statement\",\n        subtitle = \"Analysis of 924 articles published in Journal of Water, Sanitation and Hygiene for Development (2011 to 2023)\",\n        fill = \"published year\",\n        y = \"number of publications\",\n        x = \"data availability statement\") +\n    scale_y_continuous(breaks = seq(0, 600, 100), limits = c(0,600)) +\n    scale_fill_colorblind() +\n    theme(panel.grid.major.y = element_blank(),\n          plot.subtitle = element_text(size = 10))\n\n# https://www.iwapublishing.com/news/iwa-publishing-2020-annual-review\n## summary for data availability statement (DAS) type and supp file type\n\nwashdev_supp_file_type_n &lt;- washdev_das_type |&gt; \n    filter(das_policy == \"2020 or later\") |&gt; \n    select(paperid, das_type, supp_file_type) |&gt; \n    unnest(supp_file_type) |&gt; \n    mutate(supp_file_type = case_when(\n        is.na(supp_file_type) ~ \"missing\",\n        TRUE ~ supp_file_type\n    )) |&gt;\n    count(das_type, supp_file_type) \n\ntbl_supp_type &lt;- washdev_supp_file_type_n |&gt; \n    group_by(supp_file_type) |&gt; \n    summarise(n = sum(n)) |&gt; \n    arrange(desc(n)) |&gt; \n    mutate(perc = n / sum(n) * 100)"
+    "text": "Time\nTitle\nSpeaker\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n\n\n09:30 - 10:00\nWarm-up activity\nLars\n\n\n10:00 - 10:45\nopenwashdata community - past and future\nLars\n\n\n10:45 - 11:00\nBreak\n-\n\n\n11:00 - 12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n\n\n12:00 - 13:00\nLunch break\n-\n\n\n13:00 - 13:30\nWarm-up - Positive Gossip\n-\n\n\n13:30 - 14:00\nGovernance Part 1\nLars\n\n\n14:00 - 14:15\nBreak\n-\n\n\n14:15 - 15:00\nGovernance Part 2\nLars\n\n\n15:00 - 15:30\nHackathon Ideation\n-\n\n\n15:30 - 15:45\nBreak with small cakes\nLars\n\n\n15:45 - 16:30\nBuffer: Hackathon Ideation / Lean Coffee / Claude Code setup check\n-\n\n\n\n\n\n\n\n\n\n\n The Opportunity (~10 min) - Why open data matters in WASH\n openwashdata Journey (~10 min) - Our story and framework\n Activity 1 (5 min) - Your strategies & tactics\n Future Plans (~10 min) - WP2/WP3 & ds4owd-002\n Funding & Collaboration (~5 min)\n Activity 2 (5 min) - Building together\n Wrap-up (~2 min)\n\n\n\nThis roadmap helps participants know what to expect and where we are in the journey\n\n\n\n\n\n\n\n\n\n\n\n\n\nTime\nDuration\nSection\nKey Activities\n\n\n\n\n0:00\n3 min\nIntroduction & Programme\nWelcome, session overview\n\n\n0:03\n10 min\n The Opportunity\nJournal data analysis, FAIR principles\n\n\n0:13\n10 min\n openwashdata & VMOST\nCommunity intro, Vision, Mission, Objectives\n\n\n0:23\n5 min\n Activity 1\nStrategies & tactics brainstorming\n\n\n0:28\n5 min\n Future (WP2/WP3)\nGovernance & expansion plans\n\n\n0:33\n5 min\n ds4owd-002\nCourse plans & preparation\n\n\n0:38\n2 min\n Organogram\nCommunity structure evolution\n\n\n0:40\n3 min\n Funding & Papers\nOpportunities & publications\n\n\n0:43\n5 min\n Activity 2\nFunding ideas & collaborations\n\n\n0:48\n2 min\n Wrap-up\nKey takeaways, next steps\n\n\n\n\n⏱️ This detailed breakdown helps you pace the session and ensures all content fits within 45 minutes"
   },
   {
     "objectID": "day1/openwashdata/slides.html#programme",
     "href": "day1/openwashdata/slides.html#programme",
     "title": "openwashdata conf 2025",
     "section": "Programme",
-    "text": "Programme\n\n\n\n\n\nTime\nTitle\nSpeaker\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n\n\n09:30 - 10:00\nWarm-up activity\nLars\n\n\n10:00 - 10:45\nopenwashdata community - past and future\nLars\n\n\n10:45 - 11:00\nBreak\n-\n\n\n11:00 - 12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n\n\n12:00 - 13:00\nLunch break\n-\n\n\n13:00 - 13:30\nWarm-up - Positive Gossip\n-\n\n\n13:30 - 14:00\nGovernance Part 1\nLars\n\n\n14:00 - 14:15\nBreak\n-\n\n\n14:15 - 15:00\nGovernance Part 2\nLars\n\n\n15:00 - 15:30\nHackathon Ideation\n-\n\n\n15:30 - 15:45\nBreak with small cakes\n-\n\n\n15:45 - 16:30\nLean Coffee\n-"
+    "text": "Programme\n\n\n\n\n\nTime\nTitle\nSpeaker\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n\n\n09:30 - 10:00\nWarm-up activity\nLars\n\n\n10:00 - 10:45\nopenwashdata community - past and future\nLars\n\n\n10:45 - 11:00\nBreak\n-\n\n\n11:00 - 12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n\n\n12:00 - 13:00\nLunch break\n-\n\n\n13:00 - 13:30\nWarm-up - Positive Gossip\n-\n\n\n13:30 - 14:00\nGovernance Part 1\nLars\n\n\n14:00 - 14:15\nBreak\n-\n\n\n14:15 - 15:00\nGovernance Part 2\nLars\n\n\n15:00 - 15:30\nHackathon Ideation\n-\n\n\n15:30 - 15:45\nBreak with small cakes\nLars\n\n\n15:45 - 16:30\nBuffer: Hackathon Ideation / Lean Coffee / Claude Code setup check\n-"
   },
   {
     "objectID": "day1/openwashdata/slides.html#session-roadmap-45-min",
@@ -2285,7 +2285,7 @@
     "href": "day1/openwashdata/slides.html#thanks",
     "title": "openwashdata conf 2025",
     "section": "Thanks 🌻",
-    "text": "Thanks 🌻\nThis project was supported by the Open Research Data Program of the ETH Board.\nThe slides were created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nYou can view source code of slides on GitHub\nOr you can download slides in PDF format\nThis material is licensed under Creative Commons Attribution Share Alike 4.0 International.\n\n\n\n\n openwashdata-conf.github.io/2025/day1/openwashdata.html"
+    "text": "Thanks 🌻\nThis project was supported by the Open Research Data Program of the ETH Board.\nThe slides were created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nYou can view source code of slides on GitHub\nOr you can download slides in PDF format\nThis material is licensed under Creative Commons Attribution Share Alike 4.0 International."
   },
   {
     "objectID": "day1/openwashdata/slides.html#footnotes",
@@ -2299,7 +2299,7 @@
     "href": "day1/ideation/index.html",
     "title": "Ideation for Hackathon",
     "section": "",
-    "text": "Prepare for Day 2’s hackathon by generating and refining project ideas. This session will help form teams and define project scopes that can be realistically achieved during the hackathon. We’ll use collaborative brainstorming techniques to identify challenges in the WASH data space and develop innovative solutions.",
+    "text": "Prepare for Day 2’s hackathon by exploring project ideas and choosing an individual project to work on. Each participant can work on any of these projects or develop ideas themselves. Ideas will also arise as you work with the tool.",
     "crumbs": [
       "Day 1 - July 15",
       "Ideation"
@@ -2310,7 +2310,7 @@
     "href": "day1/ideation/index.html#session-overview",
     "title": "Ideation for Hackathon",
     "section": "",
-    "text": "Prepare for Day 2’s hackathon by generating and refining project ideas. This session will help form teams and define project scopes that can be realistically achieved during the hackathon. We’ll use collaborative brainstorming techniques to identify challenges in the WASH data space and develop innovative solutions.",
+    "text": "Prepare for Day 2’s hackathon by exploring project ideas and choosing an individual project to work on. Each participant can work on any of these projects or develop ideas themselves. Ideas will also arise as you work with the tool.",
     "crumbs": [
       "Day 1 - July 15",
       "Ideation"
@@ -2442,7 +2442,7 @@
     "href": "day1/ideation/slides.html",
     "title": "Hackathon Ideation",
     "section": "",
-    "text": "Time: TBD (Afternoon session)\nFormat: Collaborative brainstorming"
+    "text": "Project Categories (~5 min)\n Project Ideas Overview (~20 min)\n Next Steps & Resources (~5 min)\n\n\n\nThis session helps participants prepare for tomorrow’s hackathon - Overview of project categories - Review specific project ideas - Choose individual projects based on interests"
   },
   {
     "objectID": "day1/ideation/slides.html#session-overview",
@@ -2484,7 +2484,7 @@
     "href": "day1/ideation/ideation.html",
     "title": "Hackathon Ideas for Day 2",
     "section": "",
-    "text": "Historical Data Digitization: Digitize scanned historical records/papers, add images to folder, have Claude read and analyze the data\nOpen Wash Data Package Workflow: Clone an existing package, use Claude to write an article in the vignette folder using the data, add your own notes and templates\n\n\n\n\n\nCreate Brand Guidelines: Develop comprehensive branding for all openwashdata projects including:\n\nColor palettes (with colorblindness considerations)\nCommon design elements for packages, websites, and marketing materials\nBrand YAML/package YAML templates\nImplementation across all data packages via pull requests\n\n\n\n\n\n\nIdentify New Data Sources: Find additional WASH data sources and create data packages for them\nReview Course Materials: Prepare command lists for reviewing module content and assignments for next iteration of data science course\nSFD Report Analysis:\n\nCollect all SFD PDF reports into a folder\nUse Claude to review reports and categorize data sources as primary or secondary\nFor primary data sources, analyze methods used (key informant interviews, FGDs, observations, lab analysis, etc.)\n\nSFD Data Validation:\n\nCollect all SFD JSON files\nCross-check and verify how many data points contain actual data vs placeholders\n\n\n\n\n\n\nAssignment Templates: Create templates for responding to student assignments, implement as slash commands\nDocument Conversion: Transform existing Word reports into Quarto slides\nGrading Rubrics: Develop grading rubrics for courses, test on previous student assignments using Claude\nGit-based Submissions: Implement workflow for students to submit assignments via Git/GitHub instead of Google Docs/email\n\n\n\n\n\nTalk Transcription: Find talks you like, have Claude transcribe them and convert to slides\nCV Updates: Update existing CVs and have Claude create Quarto document versions\nMentorship Program Page: Generate page featuring mentor/mentee profiles with clickable elements linking to their work\n\n\n\n\n\nGit/GitHub/Quarto Training: Provide 2-hour basic introduction for students on using these tools for essay writing\nQuarto Assignment Requirements: Expect and require students to submit assignments written in Quarto\nAutomated Grading: Define grading rubrics and run Claude Code to evaluate student assignments\nCONTRIBUTING.md: Prepare contribution guidelines for the project\nGitHub Project Management: Organize issues into a GitHub project kanban board"
+    "text": "Historical Data Digitization: Digitize scanned historical records/papers, add images to folder, have Claude read and analyze the data\nOpen Wash Data Package Workflow: Clone an existing package, use Claude to write an article in the vignette folder using the data, add your own notes and templates\n\n\n\n\n\nCreate Brand Guidelines: Develop comprehensive branding for all openwashdata projects including:\n\nColor palettes (with colorblindness considerations)\nCommon design elements for packages, websites, and marketing materials\nBrand YAML/package YAML templates\nImplementation across all data packages via pull requests\n\n\n\n\n\n\nIdentify New Data Sources: Find additional WASH data sources and create data packages for them\nReview Course Materials: Prepare command lists for reviewing module content and assignments for next iteration of data science course\nSFD Report Analysis:\n\nCollect all SFD PDF reports into a folder\nUse Claude to review reports and categorize data sources as primary or secondary\nFor primary data sources, analyze methods used (key informant interviews, FGDs, observations, lab analysis, etc.)\n\nSFD Data Validation:\n\nCollect all SFD JSON files\nCross-check and verify how many data points contain actual data vs placeholders\n\n\n\n\n\n\nCONTRIBUTING.md: Prepare contribution guidelines for the project\nGitHub Project Management: Organize issues into a GitHub project kanban board\n\n\n\n\n\nAssignment Templates: Create templates for responding to student assignments, implement as slash commands\nDocument Conversion: Transform existing Word reports into Quarto slides\nGrading Rubrics: Develop grading rubrics for courses, test on previous student assignments using Claude\nGit-based Submissions: Implement workflow for students to submit assignments via Git/GitHub instead of Google Docs/email\n\n\n\n\n\nTalk Transcription: Find talks you like, have Claude transcribe them and convert to slides\nCV Updates: Update existing CVs and have Claude create Quarto document versions\nMentorship Program Page: Generate page featuring mentor/mentee profiles with clickable elements linking to their work\n\n\n\n\n\nGit/GitHub/Quarto Training: Provide 2-hour basic introduction for students on using these tools for essay writing\nQuarto Assignment Requirements: Expect and require students to submit assignments written in Quarto\nAutomated Grading: Define grading rubrics and run Claude Code to evaluate student assignments"
   },
   {
     "objectID": "day1/ideation/ideation.html#data-package-analysis-ideas",
@@ -2706,7 +2706,7 @@
     "href": "day1/governance/index.html#resources",
     "title": "Governance & Decision Making",
     "section": " Resources",
-    "text": "Resources\n\nBooks & Publications\n\nProducing Open Source Software by Karl Fogel - Comprehensive guide to running open source projects\nResearch Software Engineering with Python by Irving et al. - Includes governance practices for research software\nThe Mythical Man-Month by Brooks (1995) - Classic on software project management\nThe Discussion Book by Brookfield & Preskill (2016) - Techniques for managing discussions\n\n\n\nArticles & Essays\n\nThe Tyranny of Structurelessness by Jo Freeman - Why informal structures can be problematic\nHow to Respond to Code of Conduct Reports by Aurora & Gardiner (2019) - Enforcement guide\n\n\n\nWebsites & Tools\n\nAsk a Manager - Practical management advice\nCommunity Rule - Governance toolkit with multiple models\nNOAA Disruptive Behavior - Guide for managing difficult participants\nContributor Covenant - Standard code of conduct template\n\n\n\nResearch Papers\n\nMajumder et al. (2019) - “Why do people give up FLOSSing? A study of contributor abandonment”\nPetre (2014) - “Nobody can read your code” - On code review in scientific software",
+    "text": "Resources\n\nBooks & Publications\n\nProducing Open Source Software by Karl Fogel - Comprehensive guide to running open source projects\nResearch Software Engineering with Python by Irving et al. - Includes governance practices for research software\nThe Mythical Man-Month by Brooks (1995) - Classic on software project management\nThe Discussion Book by Brookfield & Preskill (2016) - Techniques for managing discussions\n\n\n\nArticles & Essays\n\nThe Tyranny of Structurelessness by Jo Freeman (1972) - Why informal structures can be problematic\nHow to Respond to Code of Conduct Reports by Aurora & Gardiner (2019) - Enforcement guide\n\n\n\nWebsites & Tools\n\nAsk a Manager - Practical management advice\nCommunity Rule - Governance toolkit with multiple models\nNOAA Disruptive Behavior - Guide for managing difficult participants\nContributor Covenant - Standard code of conduct template\n\n\n\nResearch Papers\n\nMajumder et al. (2019) - “Why Software Projects Need Heroes: Lessons Learned from 1100+ Projects” - Analysis of hero programmers in GitHub projects\nPetre & Wilson (2014) - “Code Review for and by Scientists” - Study on code review effectiveness in scientific software development",
     "crumbs": [
       "Day 1 - July 15",
       "Governance"
@@ -2920,5 +2920,142 @@
       "Day 1 - July 15",
       "Lean Coffee"
     ]
+  },
+  {
+    "objectID": "day1/ideation/ideation.html#project-management",
+    "href": "day1/ideation/ideation.html#project-management",
+    "title": "Hackathon Ideas for Day 2",
+    "section": "",
+    "text": "CONTRIBUTING.md: Prepare contribution guidelines for the project\nGitHub Project Management: Organize issues into a GitHub project kanban board"
+  },
+  {
+    "objectID": "day1/ideation/ideation.html#hubris-to-hope-or-any-other-course-ideas",
+    "href": "day1/ideation/ideation.html#hubris-to-hope-or-any-other-course-ideas",
+    "title": "Hackathon Ideas for Day 2",
+    "section": "",
+    "text": "Git/GitHub/Quarto Training: Provide 2-hour basic introduction for students on using these tools for essay writing\nQuarto Assignment Requirements: Expect and require students to submit assignments written in Quarto\nAutomated Grading: Define grading rubrics and run Claude Code to evaluate student assignments"
+  },
+  {
+    "objectID": "day2/index.html#session-details",
+    "href": "day2/index.html#session-details",
+    "title": "Day 2: Claude Code Hackathon",
+    "section": "Session Details",
+    "text": "Session Details\n\n\n\n\n\nTime\nTitle\nAffiliation\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n\n\n09:30 - 10:00\nWhy Claude Code & Workflow\n-\n\n\n10:00 - 10:30\nClaude Code setup check\n-\n\n\n10:30 - 10:45\nBreak\n-\n\n\n10:45 - 11:15\nWork session\n-\n\n\n12:00 - 13:00\nLunch break\n-\n\n\n13:00 - 14:00\nWork session\n-\n\n\n14:00 - 14:15\nBreak\n-\n\n\n14:15 - 15:00\nWork session\n-\n\n\n15:00 - 15:30\nShowcase round 1\n-\n\n\n15:30 - 15:45\nBreak with small cakes\n-\n\n\n15:45 - 16:15\nShowcase round 2\n-\n\n\n16:15 - 16:30\nClosing\n-",
+    "crumbs": [
+      "Day 2 - July 16",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "day1/ideation/slides.html#session-roadmap-30-min",
+    "href": "day1/ideation/slides.html#session-roadmap-30-min",
+    "title": "Hackathon Ideation",
+    "section": " Session Roadmap (30 min)",
+    "text": "Session Roadmap (30 min)\n\n\n Project Categories (~5 min)\n Project Ideas Overview (~20 min)\n Next Steps & Resources (~5 min)\n\n\n\nThis session helps participants prepare for tomorrow’s hackathon - Overview of project categories - Review specific project ideas - Choose individual projects based on interests"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#project-categories-1",
+    "href": "day1/ideation/slides.html#project-categories-1",
+    "title": "Hackathon Ideation",
+    "section": "Project Categories",
+    "text": "Project Categories\n\n\n Data Package & Analysis\n Branding & Design\n Data Discovery & Documentation\n Teaching & Assessment Tools\n Content Creation & Conversion\n Course Development Ideas\n\n\n\nSix main categories of projects Each offers different skill requirements and outcomes"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#historical-data-digitization",
+    "href": "day1/ideation/slides.html#historical-data-digitization",
+    "title": "Hackathon Ideation",
+    "section": "Historical Data Digitization",
+    "text": "Historical Data Digitization\nProject: Convert scanned historical records into digital data\n\n\nCollect historical papers/records\nCreate organized image folders\nUse Claude to extract and analyze data\nCreate structured datasets\nBuild data packages for archival data"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#open-wash-data-package-workflow",
+    "href": "day1/ideation/slides.html#open-wash-data-package-workflow",
+    "title": "Hackathon Ideation",
+    "section": "Open Wash Data Package Workflow",
+    "text": "Open Wash Data Package Workflow\nProject: Create new analyses using existing packages\n\n\nClone existing openwashdata package\nUse Claude to write analytical articles\nAdd personal notes and templates\nCreate vignettes demonstrating usage\nShare insights with community"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#create-brand-guidelines",
+    "href": "day1/ideation/slides.html#create-brand-guidelines",
+    "title": "Hackathon Ideation",
+    "section": "Create Brand Guidelines",
+    "text": "Create Brand Guidelines\nProject: Comprehensive branding for openwashdata\n\n\nDesign color palettes (colorblind-friendly)\nCreate common design elements\nDevelop brand YAML templates\nPackage YAML configurations\nImplement via pull requests\n\n\nDeliverables: - Style guide document - Template repository - Implementation examples #  Data Discovery {background-color=“#5b195b”}"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#identify-new-data-sources",
+    "href": "day1/ideation/slides.html#identify-new-data-sources",
+    "title": "Hackathon Ideation",
+    "section": "Identify New Data Sources",
+    "text": "Identify New Data Sources\nProject: Expand openwashdata collection\n\n\nResearch WASH data sources\nEvaluate data quality\nCreate data packages\nDocument metadata\nSubmit to openwashdata"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#sfd-report-analysis",
+    "href": "day1/ideation/slides.html#sfd-report-analysis",
+    "title": "Hackathon Ideation",
+    "section": "SFD Report Analysis",
+    "text": "SFD Report Analysis\nProject: Analyze Shit Flow Diagram reports\n\n\nCollect all SFD PDF reports\nUse Claude to extract data sources\nCategorize as primary/secondary\nAnalyze data collection methods:\n\nKey informant interviews\nFocus group discussions\nLab analysis\nObservations\n\n\n\nOutput: Comprehensive methodology database"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#sfd-data-validation",
+    "href": "day1/ideation/slides.html#sfd-data-validation",
+    "title": "Hackathon Ideation",
+    "section": "SFD Data Validation",
+    "text": "SFD Data Validation\nProject: Verify SFD data quality\n\n\nCollect all SFD JSON files\nCross-check data completeness\nIdentify placeholder vs actual data\nCreate data quality report\nSuggest improvements"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#assignment-templates",
+    "href": "day1/ideation/slides.html#assignment-templates",
+    "title": "Hackathon Ideation",
+    "section": "Assignment Templates",
+    "text": "Assignment Templates\nProject: Streamline assignment feedback\n\n\nCreate response templates\nImplement as Claude slash commands\nTest with real assignments\nDocument usage patterns\nShare with educators"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#document-conversion",
+    "href": "day1/ideation/slides.html#document-conversion",
+    "title": "Hackathon Ideation",
+    "section": "Document Conversion",
+    "text": "Document Conversion\nProject: Modernize course materials\n\n\nConvert Word reports to Quarto\nCreate slide templates\nMaintain formatting consistency\nAdd interactive elements\nVersion control materials"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#grading-automation",
+    "href": "day1/ideation/slides.html#grading-automation",
+    "title": "Hackathon Ideation",
+    "section": "Grading Automation",
+    "text": "Grading Automation\nProject: Develop automated assessment tools\n\n\nDesign grading rubrics\nTest on previous assignments\nUse Claude for evaluation\nCompare with manual grading\nRefine accuracy\n\n\nOutput: Validated grading system"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#git-based-submissions",
+    "href": "day1/ideation/slides.html#git-based-submissions",
+    "title": "Hackathon Ideation",
+    "section": "Git-based Submissions",
+    "text": "Git-based Submissions\nProject: Modernize assignment submission\n\n\nDesign Git/GitHub workflow\nCreate student guides\nSet up template repositories\nAutomate collection process\nReplace email/Google Docs\n\n\nBenefits: Version control, professional skills, automated workflows"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#talk-transcription",
+    "href": "day1/ideation/slides.html#talk-transcription",
+    "title": "Hackathon Ideation",
+    "section": "Talk Transcription",
+    "text": "Talk Transcription\nProject: Convert talks to educational content\n\n\nFind relevant WASH talks\nUse Claude for transcription\nConvert to slide format\nAdd visual elements\nCreate learning materials"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#cv-modernization",
+    "href": "day1/ideation/slides.html#cv-modernization",
+    "title": "Hackathon Ideation",
+    "section": "CV Modernization",
+    "text": "CV Modernization\nProject: Update CVs with Quarto\n\n\nCollect existing CVs\nConvert to Quarto format\nCreate templates\nAdd interactive elements\nVersion control careers"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#mentorship-program-page",
+    "href": "day1/ideation/slides.html#mentorship-program-page",
+    "title": "Hackathon Ideation",
+    "section": "Mentorship Program Page",
+    "text": "Mentorship Program Page\nProject: Showcase mentor/mentee connections\n\n\nDesign profile templates\nCreate clickable elements\nLink to participant work\nBuild interactive directory\nFoster connections"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#automated-grading-system",
+    "href": "day1/ideation/slides.html#automated-grading-system",
+    "title": "Hackathon Ideation",
+    "section": "Automated Grading System",
+    "text": "Automated Grading System\nProject: Implement Claude-based assessment\n\n\nDefine clear rubrics\nCreate evaluation prompts\nTest accuracy and fairness\nDocument edge cases\nBuild instructor dashboard"
   }
 ]

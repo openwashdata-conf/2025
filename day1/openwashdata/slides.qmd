@@ -174,25 +174,6 @@ agenda_final |>
 This roadmap helps participants know what to expect and where we are in the journey
 :::
 
-## {{< fa clock >}} Detailed Timing Breakdown
-
-| Time | Duration | Section | Key Activities |
-|------|----------|---------|----------------|
-| 0:00 | 3 min | Introduction & Programme | Welcome, session overview |
-| 0:03 | 10 min | {{< fa chart-line >}} The Opportunity | Journal data analysis, FAIR principles |
-| 0:13 | 10 min | {{< fa users >}} openwashdata & VMOST | Community intro, Vision, Mission, Objectives |
-| 0:23 | 5 min | {{< fa lightbulb >}} **Activity 1** | Strategies & tactics brainstorming |
-| 0:28 | 5 min | {{< fa rocket >}} Future (WP2/WP3) | Governance & expansion plans |
-| 0:33 | 5 min | {{< fa graduation-cap >}} ds4owd-002 | Course plans & preparation |
-| 0:38 | 2 min | {{< fa sitemap >}} Organogram | Community structure evolution |
-| 0:40 | 3 min | {{< fa coins >}} Funding & Papers | Opportunities & publications |
-| 0:43 | 5 min | {{< fa users >}} **Activity 2** | Funding ideas & collaborations |
-| 0:48 | 2 min | {{< fa flag-checkered >}} Wrap-up | Key takeaways, next steps |
-
-::: {.notes}
-⏱️ This detailed breakdown helps you pace the session and ensures all content fits within 45 minutes
-:::
-
 
 # {{< fa chart-line >}} The Opportunity {background-color="#5b195b"}
 
@@ -415,7 +396,7 @@ In a moment, I'll pause to hear **your** ideas
 - Emphasize we want practical, actionable ideas
 :::
 
-## {{< fa lightbulb >}} Activity: Your Ideas Matter (5 minutes)
+## {{< fa lightbulb >}} Activity: (5 minutes)
 
 **In our shared Google Doc, please add:**
 
