@@ -1,0 +1,15 @@
+{
+  "hash": "646aec24cfb366c3590db472a0c8a2ca",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Hackathon Ideation\"\nsubtitle: \"Brainstorming Projects for Day 2\"\n---\n\n\n\n\n\n**Time:** TBD (Afternoon session)  \n**Format:** Collaborative brainstorming\n\n## Session Overview\n\nPrepare for Day 2's hackathon by generating and refining project ideas. This session will help form teams and define project scopes that can be realistically achieved during the hackathon.\n\n## Slides\n\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n\n## Ideation Process\n\nWe'll be using a collaborative Google Doc to capture and organize ideas throughout this session.\n\n## Resources for Teams\n\n- Claude Code for development assistance\n- openwashdata datasets for testing\n- GitHub repositories for collaboration\n- Technical mentors available\n\n## Next Steps\n\nAfter this session:\n\n1. Teams finalize project scopes\n2. Set up GitHub repositories\n3. Prepare development environments\n4. Review Day 2 prerequisites\n\n::: {.callout-tip}\n## Pro Tip\nDon't aim for perfection! Focus on creating a working prototype that demonstrates your idea.\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

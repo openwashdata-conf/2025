@@ -10,65 +10,16 @@ subtitle: "Brainstorming Projects for Day 2"
 
 Prepare for Day 2's hackathon by generating and refining project ideas. This session will help form teams and define project scopes that can be realistically achieved during the hackathon.
 
+## Slides
+
+```{r}
+
+```
+
+
 ## Ideation Process
 
 We'll be using a collaborative Google Doc to capture and organize ideas throughout this session.
-
-### 1. Problem Identification (20 min)
-
-Identify key challenges in the water and sanitation data space:
-
-- Data collection gaps
-- Analysis tool needs
-- Visualization requirements
-- Data quality issues
-- Accessibility challenges
-
-### 2. Solution Brainstorming (30 min)
-
-Generate potential solutions using:
-
-- Individual idea generation
-- Small group discussions
-- Rapid prototyping sketches
-- Technology stack considerations
-
-### 3. Project Pitches (30 min)
-
-Quick presentations of project ideas:
-
-- 2-minute pitches per idea
-- Problem statement
-- Proposed solution
-- Required skills/team members
-- Expected outcomes
-
-### 4. Team Formation (20 min)
-
-Self-organize into hackathon teams:
-
-- Match skills to project needs
-- Balance team sizes (3-5 people)
-- Designate team leads
-- Exchange contact information
-
-## Project Criteria
-
-Good hackathon projects should be:
-
-- **Achievable:** Can be completed in one day
-- **Relevant:** Addresses real openwashdata needs
-- **Collaborative:** Requires diverse skills
-- **Demonstrable:** Has clear outputs to showcase
-
-## Example Project Types
-
-- Data processing pipelines
-- Visualization dashboards
-- API development
-- Documentation improvements
-- Data quality tools
-- Mobile data collection apps
 
 ## Resources for Teams
 

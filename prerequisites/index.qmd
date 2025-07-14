@@ -51,7 +51,84 @@ You'll need to use the terminal/command line during the hackathon.
 5. If you see "Terminal works!" printed, you're all set
 :::
 
-### 3. Install Python
+### 3. Install Node.js
+
+Node.js is required for many modern web development tools and Claude Code extensions.
+
+::: {.panel-tabset}
+## macOS
+
+1. Check if Node.js is already installed:
+   ```bash
+   node --version
+   ```
+
+2. If not installed, install using Homebrew:
+   ```bash
+   # Install Homebrew first if you don't have it
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   
+   # Then install Node.js
+   brew install node
+   ```
+
+3. Verify installation:
+   ```bash
+   node --version
+   npm --version
+   ```
+
+## Windows
+
+1. Download Node.js from [nodejs.org](https://nodejs.org/)
+2. Choose the LTS version (recommended)
+3. Run the installer
+4. **Important:** Keep all default settings, including "Add to PATH"
+5. Open a new Command Prompt and verify:
+   ```cmd
+   node --version
+   npm --version
+   ```
+:::
+
+### 4. Install Claude Code
+
+Claude Code is the AI coding assistant we'll use throughout the hackathon.
+
+::: {.panel-tabset}
+## macOS
+
+1. Open Terminal
+2. Install Claude Code using npm (Node.js must be installed first):
+   ```bash
+   npm install -g @anthropic-ai/claude-code
+   ```
+   **Important:** Do NOT use `sudo` with this command
+3. After installation, verify by running:
+   ```bash
+   claude doctor
+   ```
+4. You should see a successful setup confirmation
+
+## Windows
+
+1. Open the terminal you verified in Step 2 (Windows Terminal recommended)
+2. Install Claude Code using npm (Node.js must be installed first):
+   ```cmd
+   npm install -g @anthropic-ai/claude-code
+   ```
+3. After installation, verify by running:
+   ```cmd
+   claude doctor
+   ```
+4. You should see a successful setup confirmation
+
+::: {.callout-note}
+If you encounter issues on Windows, you may need to use Windows Subsystem for Linux (WSL). See the troubleshooting section for WSL setup instructions.
+:::
+:::
+
+### 5. Install Python
 
 Python is required for many data processing tasks.
 
@@ -90,7 +167,7 @@ Python is required for many data processing tasks.
    ```
 :::
 
-### 4. GitHub Account Setup
+### 6. GitHub Account Setup
 
 Ensure you can access your GitHub account:
 
@@ -99,7 +176,7 @@ Ensure you can access your GitHub account:
 3. Verify you can access your profile and repositories
 4. **Recommended:** Set up [two-factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa)
 
-### 5. Create Local Working Directory
+### 7. Create Local Working Directory
 
 Create a dedicated folder for storing code repositories locally (not in cloud-synced folders). The recommended location is in your Documents folder, named `gitrepos`. Use your preferred way of creating directories (Finder, File Explorer, or terminal/command line).
 
@@ -139,7 +216,9 @@ You should see: `C:\Users\yourusername\Documents\gitrepos`
 
 ::: {.callout-warning}
 ## Important: Avoid Cloud-Synced Folders
+
 Do **not** create your `gitrepos` folder inside:
+
 - OneDrive
 - Google Drive
 - Dropbox
@@ -148,7 +227,7 @@ Do **not** create your `gitrepos` folder inside:
 These services can interfere with Git operations.
 :::
 
-### 6. Accept GitHub Organization Invitation
+### 8. Accept GitHub Organization Invitation
 
 Before the conference, you'll receive an invitation to join the `openwashdata-conf` GitHub organization.
 
@@ -167,6 +246,8 @@ Before Day 2, ensure you can check all these boxes:
 
 - [ ] Claude Code Max plan active
 - [ ] Terminal/command line accessible
+- [ ] Node.js installed and working
+- [ ] Claude Code installed and working
 - [ ] Python installed and working
 - [ ] GitHub account accessible
 - [ ] Local `gitrepos` folder created
@@ -186,9 +267,19 @@ If you encounter any issues during setup:
 
 **Claude Code won't install**
 
-- Ensure you have admin rights on your computer
-- Temporarily disable antivirus during installation
-- Try downloading again with a different browser
+- Ensure Node.js is installed first (version 18+)
+- Do NOT use `sudo` with npm install on macOS/Linux
+- If permission errors occur, see [npm's guide on fixing permissions](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
+- Windows users: If the standard installation fails, you may need to use WSL:
+  1. Install WSL: `wsl --install` (in PowerShell as Administrator)
+  2. Restart your computer
+  3. Open WSL (Ubuntu) from Start menu
+  4. Install Node.js in WSL:
+     ```bash
+     curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+     sudo apt-get install -y nodejs
+     ```
+  5. Install Claude Code: `npm install -g @anthropic-ai/claude-code`
 
 **Python command not found**
 

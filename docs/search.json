@@ -473,7 +473,7 @@
     "href": "prerequisites/index.html#required-setup-steps",
     "title": "Day 2 Prerequisites",
     "section": "Required Setup Steps",
-    "text": "Required Setup Steps\n\n1. Get Claude Code Max Plan\nClaude Code requires a subscription to the Max plan for full functionality.\n\nVisit Claude.ai\nSign up or log in to your account\nSubscribe to the Claude Max plan ($100/month)\nSend your invoice to Lars\n\n\n\n\n\n\n\nTip\n\n\n\nYou can cancel the subscription after the conference if you don’t wish to continue using it. You will have access to it for 1 month.\n\n\n\n\n2. Verify Terminal Access\nYou’ll need to use the terminal/command line during the hackathon.\n\nmacOSWindows\n\n\n\nPress Cmd + Space to open Spotlight\nType “Terminal” and press Enter\nYou should see a window with a command prompt\nType echo \"Terminal works!\" and press Enter\nIf you see “Terminal works!” printed, you’re all set\n\n\n\nRecommended: Windows Terminal\n\nInstall Windows Terminal from the Microsoft Store\nOnce installed, press Win key and type “Windows Terminal”\nClick to open Windows Terminal\nIn the terminal, type echo Terminal works! and press Enter\nIf you see “Terminal works!” printed, you’re all set\n\n\n\n\n\n\n3. Install Python\nPython is required for many data processing tasks.\n\nmacOSWindows\n\n\n\nCheck if Python is installed:\npython3 --version\nIf not installed, install using Homebrew:\n# Install Homebrew first if you don't have it\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# Then install Python\nbrew install python\nVerify installation:\npython3 --version\npip3 --version\n\n\n\n\nDownload Python from python.org\nRun the installer\nImportant: Check “Add Python to PATH” during installation\nOpen a new command prompt and verify:\npython --version\npip --version\n\n\n\n\n\n\n4. GitHub Account Setup\nEnsure you can access your GitHub account:\n\nGo to github.com\nLog in to your account\nVerify you can access your profile and repositories\nRecommended: Set up two-factor authentication\n\n\n\n5. Create Local Working Directory\nCreate a dedicated folder for storing code repositories locally (not in cloud-synced folders). The recommended location is in your Documents folder, named gitrepos. Use your preferred way of creating directories (Finder, File Explorer, or terminal/command line).\nBelow are the terminal commands for both macOS and Windows users.\n\nmacOSWindows\n\n\n# Create the directory in Documents\nmkdir -p ~/Documents/gitrepos\n\n# Navigate to it\ncd ~/Documents/gitrepos\n\n# Verify it exists\npwd\nYou should see: /Users/yourusername/Documents/gitrepos\n\n\n# Create the directory in Documents\nmkdir %USERPROFILE%\\Documents\\gitrepos\n\n# Navigate to it\ncd %USERPROFILE%\\Documents\\gitrepos\n\n# Verify it exists\ncd\nYou should see: C:\\Users\\yourusername\\Documents\\gitrepos\n\n\n\n\n\n\n\n\n\nImportant: Avoid Cloud-Synced Folders\n\n\n\nDo not create your gitrepos folder inside: - OneDrive - Google Drive - Dropbox - iCloud Drive\nThese services can interfere with Git operations.\n\n\n\n\n6. Accept GitHub Organization Invitation\nBefore the conference, you’ll receive an invitation to join the openwashdata-conf GitHub organization.\n\nCheck your email for the invitation\nClick the invitation link\nAccept the invitation to join the organization\nVerify access at: github.com/openwashdata-conf\n\n\n\n\n\n\n\nNote\n\n\n\nIf you haven’t received an invitation by July 10, please contact the organizing team.",
+    "text": "Required Setup Steps\n\n1. Get Claude Code Max Plan\nClaude Code requires a subscription to the Max plan for full functionality.\n\nVisit Claude.ai\nSign up or log in to your account\nSubscribe to the Claude Max plan ($100/month)\nSend your invoice to Lars\n\n\n\n\n\n\n\nTip\n\n\n\nYou can cancel the subscription after the conference if you don’t wish to continue using it. You will have access to it for 1 month.\n\n\n\n\n2. Verify Terminal Access\nYou’ll need to use the terminal/command line during the hackathon.\n\nmacOSWindows\n\n\n\nPress Cmd + Space to open Spotlight\nType “Terminal” and press Enter\nYou should see a window with a command prompt\nType echo \"Terminal works!\" and press Enter\nIf you see “Terminal works!” printed, you’re all set\n\n\n\nRecommended: Windows Terminal\n\nInstall Windows Terminal from the Microsoft Store\nOnce installed, press Win key and type “Windows Terminal”\nClick to open Windows Terminal\nIn the terminal, type echo Terminal works! and press Enter\nIf you see “Terminal works!” printed, you’re all set\n\n\n\n\n\n\n3. Install Node.js\nNode.js is required for many modern web development tools and Claude Code extensions.\n\nmacOSWindows\n\n\n\nCheck if Node.js is already installed:\nnode --version\nIf not installed, install using Homebrew:\n# Install Homebrew first if you don't have it\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# Then install Node.js\nbrew install node\nVerify installation:\nnode --version\nnpm --version\n\n\n\n\nDownload Node.js from nodejs.org\nChoose the LTS version (recommended)\nRun the installer\nImportant: Keep all default settings, including “Add to PATH”\nOpen a new Command Prompt and verify:\nnode --version\nnpm --version\n\n\n\n\n\n\n4. Install Claude Code\nClaude Code is the AI coding assistant we’ll use throughout the hackathon.\n\nmacOSWindows\n\n\n\nOpen Terminal\nInstall Claude Code using npm (Node.js must be installed first):\nnpm install -g @anthropic-ai/claude-code\nImportant: Do NOT use sudo with this command\nAfter installation, verify by running:\nclaude doctor\nYou should see a successful setup confirmation\n\n\n\nImportant: Claude Code requires Windows Subsystem for Linux (WSL) on Windows.\n\nInstall WSL if not already installed:\nwsl --install\nRestart your computer after WSL installation\nOpen WSL (Ubuntu) from Start menu\nIn WSL, install Node.js:\ncurl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -\nsudo apt-get install -y nodejs\nInstall Claude Code:\nnpm install -g @anthropic-ai/claude-code\nVerify installation:\nclaude doctor\n\n\n\n\n\n\n5. Install Python\nPython is required for many data processing tasks.\n\nmacOSWindows\n\n\n\nCheck if Python is installed:\npython3 --version\nIf not installed, install using Homebrew:\n# Install Homebrew first if you don't have it\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# Then install Python\nbrew install python\nVerify installation:\npython3 --version\npip3 --version\n\n\n\n\nDownload Python from python.org\nRun the installer\nImportant: Check “Add Python to PATH” during installation\nOpen a new command prompt and verify:\npython --version\npip --version\n\n\n\n\n\n\n6. GitHub Account Setup\nEnsure you can access your GitHub account:\n\nGo to github.com\nLog in to your account\nVerify you can access your profile and repositories\nRecommended: Set up two-factor authentication\n\n\n\n7. Create Local Working Directory\nCreate a dedicated folder for storing code repositories locally (not in cloud-synced folders). The recommended location is in your Documents folder, named gitrepos. Use your preferred way of creating directories (Finder, File Explorer, or terminal/command line).\nBelow are the terminal commands for both macOS and Windows users.\n\nmacOSWindows\n\n\n# Create the directory in Documents\nmkdir -p ~/Documents/gitrepos\n\n# Navigate to it\ncd ~/Documents/gitrepos\n\n# Verify it exists\npwd\nYou should see: /Users/yourusername/Documents/gitrepos\n\n\n# Create the directory in Documents\nmkdir %USERPROFILE%\\Documents\\gitrepos\n\n# Navigate to it\ncd %USERPROFILE%\\Documents\\gitrepos\n\n# Verify it exists\ncd\nYou should see: C:\\Users\\yourusername\\Documents\\gitrepos\n\n\n\n\n\n\n\n\n\nImportant: Avoid Cloud-Synced Folders\n\n\n\nDo not create your gitrepos folder inside: - OneDrive - Google Drive - Dropbox - iCloud Drive\nThese services can interfere with Git operations.\n\n\n\n\n8. Accept GitHub Organization Invitation\nBefore the conference, you’ll receive an invitation to join the openwashdata-conf GitHub organization.\n\nCheck your email for the invitation\nClick the invitation link\nAccept the invitation to join the organization\nVerify access at: github.com/openwashdata-conf\n\n\n\n\n\n\n\nNote\n\n\n\nIf you haven’t received an invitation by July 10, please contact the organizing team.",
     "crumbs": [
       "Prerequisites (Day 2)",
       "Hackathon Preparation"
@@ -484,7 +484,7 @@
     "href": "prerequisites/index.html#verification-checklist",
     "title": "Day 2 Prerequisites",
     "section": "Verification Checklist",
-    "text": "Verification Checklist\nBefore Day 2, ensure you can check all these boxes:\n\nClaude Code Max plan active\nTerminal/command line accessible\nPython installed and working\nGitHub account accessible\nLocal gitrepos folder created\nMember of openwashdata-conf organization",
+    "text": "Verification Checklist\nBefore Day 2, ensure you can check all these boxes:\n\nClaude Code Max plan active\nTerminal/command line accessible\nNode.js installed and working\nClaude Code installed and working\nPython installed and working\nGitHub account accessible\nLocal gitrepos folder created\nMember of openwashdata-conf organization",
     "crumbs": [
       "Prerequisites (Day 2)",
       "Hackathon Preparation"
@@ -506,7 +506,7 @@
     "href": "prerequisites/index.html#troubleshooting",
     "title": "Day 2 Prerequisites",
     "section": "Troubleshooting",
-    "text": "Troubleshooting\n\nCommon Issues\nClaude Code won’t install\n\nEnsure you have admin rights on your computer\nTemporarily disable antivirus during installation\nTry downloading again with a different browser\n\nPython command not found\n\nRestart your terminal after installation\nEnsure Python was added to PATH during installation\nTry python3 instead of python on macOS/Linux\n\nCan’t create gitrepos folder\n\nEnsure you have write permissions\nTry creating in your user home directory\nAvoid special characters in the path\n\nGitHub invitation not received\n\nCheck spam/junk folders\nVerify your email address with organizers\nRequest a resend if needed",
+    "text": "Troubleshooting\n\nCommon Issues\nClaude Code won’t install\n\nEnsure Node.js is installed first (version 18+)\nDo NOT use sudo with npm install\nIf permission errors occur, see npm’s guide on fixing permissions\nOn Windows, ensure WSL is properly installed and running\n\nPython command not found\n\nRestart your terminal after installation\nEnsure Python was added to PATH during installation\nTry python3 instead of python on macOS/Linux\n\nCan’t create gitrepos folder\n\nEnsure you have write permissions\nTry creating in your user home directory\nAvoid special characters in the path\n\nGitHub invitation not received\n\nCheck spam/junk folders\nVerify your email address with organizers\nRequest a resend if needed",
     "crumbs": [
       "Prerequisites (Day 2)",
       "Hackathon Preparation"
@@ -1133,7 +1133,7 @@
     "href": "day1/ideation.html#ideation-process",
     "title": "Hackathon Ideation",
     "section": "Ideation Process",
-    "text": "Ideation Process\nWe’ll be using a collaborative Google Doc to capture and organize ideas throughout this session.\n\n1. Problem Identification (20 min)\nIdentify key challenges in the water and sanitation data space:\n\nData collection gaps\nAnalysis tool needs\nVisualization requirements\nData quality issues\nAccessibility challenges\n\n\n\n2. Solution Brainstorming (30 min)\nGenerate potential solutions using:\n\nIndividual idea generation\nSmall group discussions\nRapid prototyping sketches\nTechnology stack considerations\n\n\n\n3. Project Pitches (30 min)\nQuick presentations of project ideas:\n\n2-minute pitches per idea\nProblem statement\nProposed solution\nRequired skills/team members\nExpected outcomes\n\n\n\n4. Team Formation (20 min)\nSelf-organize into hackathon teams:\n\nMatch skills to project needs\nBalance team sizes (3-5 people)\nDesignate team leads\nExchange contact information"
+    "text": "Ideation Process\nWe’ll be using a collaborative Google Doc to capture and organize ideas throughout this session."
   },
   {
     "objectID": "day1/ideation.html#project-criteria",
@@ -1561,5 +1561,54 @@
     "title": "Governance & Decision Making",
     "section": "References",
     "text": "References\n\n\n\n\n openwashdata-conf.github.io/2025/day1/governance.html"
+  },
+  {
+    "objectID": "day1/ideation.html#data-package-analysis-ideas",
+    "href": "day1/ideation.html#data-package-analysis-ideas",
+    "title": "Hackathon Ideas for Day 2",
+    "section": "",
+    "text": "Historical Data Digitization: Digitize scanned historical records/papers, add images to folder, have Claude read and analyze the data\nOpen Wash Data Package Workflow: Clone an existing package, use Claude to write an article in the vignette folder using the data, add your own notes and templates"
+  },
+  {
+    "objectID": "day1/ideation.html#branding-design",
+    "href": "day1/ideation.html#branding-design",
+    "title": "Hackathon Ideas for Day 2",
+    "section": "",
+    "text": "Create Brand Guidelines: Develop comprehensive branding for all openwashdata projects including:\n\nColor palettes (with colorblindness considerations)\nCommon design elements for packages, websites, and marketing materials\nBrand YAML/package YAML templates\nImplementation across all data packages via pull requests"
+  },
+  {
+    "objectID": "day1/ideation.html#data-discovery-documentation",
+    "href": "day1/ideation.html#data-discovery-documentation",
+    "title": "Hackathon Ideas for Day 2",
+    "section": "",
+    "text": "Identify New Data Sources: Find additional WASH data sources and create data packages for them\nReview Course Materials: Prepare command lists for reviewing module content and assignments for next iteration of data science course\nSFD Report Analysis:\n\nCollect all SFD PDF reports into a folder\nUse Claude to review reports and categorize data sources as primary or secondary\nFor primary data sources, analyze methods used (key informant interviews, FGDs, observations, lab analysis, etc.)\n\nSFD Data Validation:\n\nCollect all SFD JSON files\nCross-check and verify how many data points contain actual data vs placeholders"
+  },
+  {
+    "objectID": "day1/ideation.html#teaching-assessment-tools",
+    "href": "day1/ideation.html#teaching-assessment-tools",
+    "title": "Hackathon Ideas for Day 2",
+    "section": "",
+    "text": "Assignment Templates: Create templates for responding to student assignments, implement as slash commands\nDocument Conversion: Transform existing Word reports into Quarto slides\nGrading Rubrics: Develop grading rubrics for courses, test on previous student assignments using Claude\nGit-based Submissions: Implement workflow for students to submit assignments via Git/GitHub instead of Google Docs/email"
+  },
+  {
+    "objectID": "day1/ideation.html#content-creation-conversion",
+    "href": "day1/ideation.html#content-creation-conversion",
+    "title": "Hackathon Ideas for Day 2",
+    "section": "",
+    "text": "Talk Transcription: Find talks you like, have Claude transcribe them and convert to slides\nCV Updates: Update existing CVs and have Claude create Quarto document versions\nMentorship Program Page: Generate page featuring mentor/mentee profiles with clickable elements linking to their work"
+  },
+  {
+    "objectID": "day1/ideation.html#additional-hubris-to-hope-ideas",
+    "href": "day1/ideation.html#additional-hubris-to-hope-ideas",
+    "title": "Hackathon Ideas for Day 2",
+    "section": "",
+    "text": "Git/GitHub/Quarto Training: Provide 2-hour basic introduction for students on using these tools for essay writing\nQuarto Assignment Requirements: Expect and require students to submit assignments written in Quarto\nAutomated Grading: Define grading rubrics and run Claude Code to evaluate student assignments\nCONTRIBUTING.md: Prepare contribution guidelines for the project\nGitHub Project Management: Organize issues into a GitHub project kanban board"
+  },
+  {
+    "objectID": "day1/ideation.html#slides",
+    "href": "day1/ideation.html#slides",
+    "title": "Hackathon Ideation",
+    "section": "Slides",
+    "text": "Slides"
   }
 ]
