@@ -8,10 +8,11 @@ author:
     affiliation_url: https://ghe.ethz.ch/
 date: 2025-07-15
 date-format: long
+bibliography: slides-governance.bib
 format: 
   revealjs:
     logo: "../images/OWD-logo-20.png"
-    theme: "../style/slides.scss"
+    theme: "../../style/slides.scss"
     transition: fade
     slide-number: true
     preview-links: auto
@@ -75,7 +76,7 @@ This is our afternoon session on governance
 - In a team of 1–12 people
 - Timelines of weeks to months
 
-![XKCD Dependency cartoon](./images/dependency.png){width="40%"}
+![XKCD Dependency cartoon](../images/dependency.png){width="40%"}
 
 ---
 
@@ -88,9 +89,9 @@ This is our afternoon session on governance
 
 <div align="center">
   <p>
-    <img src="./images/beautiful-code.png" alt="Beautiful Code cover" />
-    <img src="./images/aosa1.png" alt="AOSA vol 1 cover" />
-    <img src="./images/aosa2.png" alt="AOSA vol 2 cover" />
+    <img src="../images/beautiful-code.png" alt="Beautiful Code cover" />
+    <img src="../images/aosa1.png" alt="AOSA vol 1 cover" />
+    <img src="../images/aosa2.png" alt="AOSA vol 2 cover" />
   </p>
 </div>
 
@@ -115,7 +116,7 @@ This is our afternoon session on governance
 - [*Producing Open Source Software*](https://producingoss.com): Karl Fogel
 - *[Research Software Engineering with Python](https://merely-useful.tech/py-rse/)*: Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, and Greg Wilson
 
-![Cover of 'Research Software Engineering with Python'](./images/py-rse-cover.png){width="30%"}
+![Cover of 'Research Software Engineering with Python'](../images/py-rse-cover.png){width="30%"}
 
 ---
 
@@ -170,13 +171,13 @@ Reflect on your current project:
 - "Document decisions immediately, or they didn't happen"
 :::
 
-![Ask a Manager logo](./images/askamanager.png)
+![Ask a Manager logo](../images/askamanager.png)
 
 ---
 
 ## {{< fa network-wired >}} Governance models
 
-- <https://communityrule.info/> describes [lots of options](./images/gov-booklet-MASTER.pdf)
+- <https://communityrule.info/> describes [lots of options](../images/gov-booklet-MASTER.pdf)
 - Benevolent dictator (often the project founder)
   - Common in young projects
   - Brittle (founder can move on)
@@ -376,7 +377,7 @@ Reflect on your current project:
 
 :::: {.columns}
 ::: {.column width="50%"}
-![NOAA categorization of disruptive behavior types](./images/noaa-ddb.png){width="100%"}
+![NOAA categorization of disruptive behavior types](../images/noaa-ddb.png){width="100%"}
 :::
 ::: {.column width="50%"}
 - The moderator's other job…

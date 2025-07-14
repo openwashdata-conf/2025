@@ -38,7 +38,7 @@ By the end of this session, you will be able to:
 
 ### Articles & Essays
 
-- **[The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm)** by Jo Freeman - Why informal structures can be problematic
+- **[The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm)** by Jo Freeman (1972) - Why informal structures can be problematic
 - **[How to Respond to Code of Conduct Reports](https://files.frameshiftconsulting.com/books/cocguide.pdf)** by Aurora & Gardiner (2019) - Enforcement guide
 
 ### Websites & Tools
@@ -50,8 +50,8 @@ By the end of this session, you will be able to:
 
 ### Research Papers
 
-- Majumder et al. (2019) - "Why do people give up FLOSSing? A study of contributor abandonment"
-- Petre (2014) - "Nobody can read your code" - On code review in scientific software
+- **Majumder et al. (2019)** - "Why Software Projects Need Heroes: Lessons Learned from 1100+ Projects" - Analysis of hero programmers in GitHub projects
+- **Petre & Wilson (2014)** - "Code Review for and by Scientists" - Study on code review effectiveness in scientific software development
 
 ## {{< fa gavel >}} Martha's Rules Framework
 

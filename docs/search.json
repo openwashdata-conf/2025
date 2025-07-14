@@ -61,7 +61,7 @@
     "href": "day1/index.html#schedule-overview",
     "title": "Day 1: Community & Governance",
     "section": "Schedule Overview",
-    "text": "Schedule Overview\n\n\n\n\n\nTime\nTitle\nSpeaker\nAffiliation\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n-\n\n\n09:30 - 10:00\nWarm-up activity\nLars\n-\n\n\n10:00 - 10:45\nopenwashdata community - past and future\nLars\n-\n\n\n10:45 - 11:00\nBreak\n-\n-\n\n\n11:00 - 12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n-\n\n\n12:00 - 13:00\nLunch break\n-\n-\n\n\n13:00 - 13:30\nWarm-up - Positive Gossip\n-\n-\n\n\n13:30 - 14:00\nGovernance Part 1\nLars\n-\n\n\n14:00 - 14:15\nBreak\n-\n-\n\n\n14:15 - 15:00\nGovernance Part 2\nLars\n-\n\n\n15:00 - 15:30\nHackathon Ideation\n-\n-\n\n\n15:30 - 15:45\nBreak with small cakes\n-\n-\n\n\n15:45 - 16:30\nLean Coffee\n-\n-",
+    "text": "Schedule Overview\n\n\n\n\n\nTime\nTitle\nSpeaker\nAffiliation\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n-\n\n\n09:30 - 10:00\nWarm-up activity\nLars\n-\n\n\n10:00 - 10:45\nopenwashdata community - past and future\nLars\n-\n\n\n10:45 - 11:00\nBreak\n-\n-\n\n\n11:00 - 12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n-\n\n\n12:00 - 13:00\nLunch break\n-\n-\n\n\n13:00 - 13:30\nWarm-up - Positive Gossip\n-\n-\n\n\n13:30 - 14:00\nGovernance Part 1\nLars\n-\n\n\n14:00 - 14:15\nBreak\n-\n-\n\n\n14:15 - 15:00\nGovernance Part 2\nLars\n-\n\n\n15:00 - 15:30\nHackathon Ideation\n-\n-\n\n\n15:30 - 15:45\nBreak with small cakes\nLars\n-\n\n\n15:45 - 16:30\nBuffer: Hackathon Ideation / Lean Coffee / Claude Code setup check\n-\n-",
     "crumbs": [
       "Day 1 - July 15",
       "Overview"
@@ -72,7 +72,7 @@
     "href": "day1/index.html#session-details",
     "title": "Day 1: Community & Governance",
     "section": "Session Details",
-    "text": "Session Details\n\n\n\nTime\nTitle\nSpeaker\nAffiliation\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n-\n\n\n09:30 - 10:00\nWarm-up activity\nLars\n-\n\n\n10:00 - 10:45\nopenwashdata community - past and future\nLars\n-\n\n\n10:45 - 11:00\nBreak\n-\n-\n\n\n11:00 - 12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n-\n\n\n12:00 - 13:00\nLunch break\n-\n-\n\n\n13:00 - 13:30\nWarm-up - Positive Gossip\n-\n-\n\n\n13:30 - 14:00\nGovernance Part 1\nLars\n-\n\n\n14:00 - 14:15\nBreak\n-\n-\n\n\n14:15 - 15:00\nGovernance Part 2\nLars\n-\n\n\n15:00 - 15:30\nHackathon Ideation\n-\n-\n\n\n15:30 - 15:45\nBreak with small cakes\n-\n-\n\n\n15:45 - 16:30\nLean Coffee\n-\n-",
+    "text": "Session Details\n\n\n\n\n\nTime\nTitle\nSpeaker\nAffiliation\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n-\n\n\n09:30 - 10:00\nWarm-up activity\nLars\n-\n\n\n10:00 - 10:45\nopenwashdata community - past and future\nLars\n-\n\n\n10:45 - 11:00\nBreak\n-\n-\n\n\n11:00 - 12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n-\n\n\n12:00 - 13:00\nLunch break\n-\n-\n\n\n13:00 - 13:30\nWarm-up - Positive Gossip\n-\n-\n\n\n13:30 - 14:00\nGovernance Part 1\nLars\n-\n\n\n14:00 - 14:15\nBreak\n-\n-\n\n\n14:15 - 15:00\nGovernance Part 2\nLars\n-\n\n\n15:00 - 15:30\nHackathon Ideation\n-\n-\n\n\n15:30 - 15:45\nBreak with small cakes\nLars\n-\n\n\n15:45 - 16:30\nHackathon Ideation\n-\n-",
     "crumbs": [
       "Day 1 - July 15",
       "Overview"
@@ -1614,7 +1614,7 @@
   {
     "objectID": "day1/openwashdata/index.html",
     "href": "day1/openwashdata/index.html",
-    "title": "Session 1",
+    "title": "openwashdata community",
     "section": "",
     "text": "Learn about the openwashdata community, its mission, current state, and future direction.",
     "crumbs": [
@@ -1625,7 +1625,7 @@
   {
     "objectID": "day1/openwashdata/index.html#session-overview",
     "href": "day1/openwashdata/index.html#session-overview",
-    "title": "Session 1",
+    "title": "openwashdata community",
     "section": "",
     "text": "Learn about the openwashdata community, its mission, current state, and future direction.",
     "crumbs": [
@@ -1636,7 +1636,7 @@
   {
     "objectID": "day1/openwashdata/index.html#learning-objectives",
     "href": "day1/openwashdata/index.html#learning-objectives",
-    "title": "Session 1",
+    "title": "openwashdata community",
     "section": " Learning Objectives",
     "text": "Learning Objectives\nBy the end of this session, you will be able to:\n\nUnderstand the current state of data sharing in WASH publications\nExplain the vision, mission, and objectives of openwashdata\nIdentify strategies and tactics for building open data culture\nRecognize opportunities for collaboration and funding\nContribute ideas for community expansion",
     "crumbs": [
@@ -1647,7 +1647,7 @@
   {
     "objectID": "day1/openwashdata/index.html#slides",
     "href": "day1/openwashdata/index.html#slides",
-    "title": "Session 1",
+    "title": "openwashdata community",
     "section": " Slides",
     "text": "Slides\nView slides in full screen | Download slides as PDF",
     "crumbs": [
@@ -1658,7 +1658,7 @@
   {
     "objectID": "day1/openwashdata/index.html#resources",
     "href": "day1/openwashdata/index.html#resources",
-    "title": "Session 1",
+    "title": "openwashdata community",
     "section": " Resources",
     "text": "Resources\nThe following resources are linked in the slides and provided here as an overview.\n\nResearch & Publications\n\nR Package: washopenresearch - Analysis of data availability in WASH publications\nFAIR Principles: Wilkinson et al. (2016) - The FAIR Guiding Principles for scientific data management\n\n\n\nCommunity Resources\n\nMain Website: openwashdata.org\nGitHub Organization: github.com/openwashdata\nVMOST Framework: openwashdata.org/pages/gallery/vmost/\nPhase 2 Proposal: openwashdata.org/pages/gallery/proposal-02/\n\n\n\nCourse & Training\n\nNext Course Iteration: ds4owd-002.github.io/website/\nCourse Registration: Sign up for ds4owd-002\n\n\n\nTools & Packages (In Development)\n\nwashr - R package for FAIR data publication\nfairenough - Tool for assessing FAIR compliance\n\n\n\nFunding Opportunities\n\nETH Open Research Data Program - Due date: 2025-09-01\nSwiss Leading House Africa - Due date: 2025-09-30\nCongressi Stefano Franscini - Due date: 2025-10-31\nETH Foundation",
     "crumbs": [
@@ -1829,8 +1829,8 @@
     "objectID": "day1/governance/slides.html#session-roadmap-70-min",
     "href": "day1/governance/slides.html#session-roadmap-70-min",
     "title": "Governance & Decision Making",
-    "section": "",
-    "text": "Introduction & Context (~10 min)\n Governance Models (~15 min) - Including Martha’s Rules\n Activity 1 (5 min) - Project Assessment\n Roles & Code of Conduct (~10 min)\n Meeting Management (~15 min) - 10 rules for better meetings\n Activities 2-4 (15 min) - Decision making, roles, governance\n\n\n\nThis is our afternoon session on governance - More in-depth than morning session - Focus on practical tools and frameworks - Multiple activities to apply concepts"
+    "section": " Session Roadmap (70 min)",
+    "text": "Session Roadmap (70 min)\n\n\n Introduction & Context (~10 min)\n Governance Models (~15 min) - Including Martha’s Rules\n Activity 1 (5 min) - Project Assessment\n Roles & Code of Conduct (~10 min)\n Meeting Management (~15 min) - 10 rules for better meetings\n Activities 2-4 (15 min) - Decision making, roles, governance\n\n\n\nThis is our afternoon session on governance - More in-depth than morning session - Focus on practical tools and frameworks - Multiple activities to apply concepts"
   },
   {
     "objectID": "day1/governance/slides.html#starting-point",
@@ -1851,7 +1851,7 @@
     "href": "day1/governance/slides.html#you",
     "title": "Governance & Decision Making",
     "section": " You",
-    "text": "You\n\nDegree(s) in some research domain\nLittle or no formal training in software development\nIn a team of 1–12 people\nTimelines of weeks to months\n\n\n\n\nXKCD Dependency cartoon"
+    "text": "You\n\nDegree(s) in some research domain\nLittle or no formal training in software development\nIn a team of 1–12 people\nTimelines of weeks to months\n\n\nXKCD Dependency cartoon"
   },
   {
     "objectID": "day1/governance/slides.html#me",
@@ -1872,7 +1872,7 @@
     "href": "day1/governance/slides.html#acknowledgments",
     "title": "Governance & Decision Making",
     "section": " Acknowledgments",
-    "text": "Acknowledgments\n\nOriginal workshop: Daniel Standage and Greg Wilson\nProducing Open Source Software: Karl Fogel\nResearch Software Engineering with Python: Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, and Greg Wilson\n\n\n\n\nCover of ‘Research Software Engineering with Python’"
+    "text": "Acknowledgments\n\nOriginal workshop: Daniel Standage and Greg Wilson\nProducing Open Source Software: Karl Fogel\nResearch Software Engineering with Python: Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, and Greg Wilson\n\n\nCover of ‘Research Software Engineering with Python’"
   },
   {
     "objectID": "day1/governance/slides.html#activity-project-assessment-5-minutes",
@@ -1893,7 +1893,7 @@
     "href": "day1/governance/slides.html#the-good-news",
     "title": "Governance & Decision Making",
     "section": " The good news",
-    "text": "The good news\n\nYou don’t have to invent this yourself\nLearn from others who’ve solved these problems\nhttps://www.askamanager.org/ - Great resource for management advice\n\n\nExample insights: - “Consensus doesn’t mean everyone agrees - it means everyone can live with the decision” - “Document decisions immediately, or they didn’t happen”\n\n\n\n\nAsk a Manager logo"
+    "text": "The good news\n\nYou don’t have to invent this yourself\nLearn from others who’ve solved these problems\nhttps://www.askamanager.org/ - Great resource for management advice\n\n\nExample insights: - “Consensus doesn’t mean everyone agrees - it means everyone can live with the decision” - “Document decisions immediately, or they didn’t happen”\n\n\nAsk a Manager logo"
   },
   {
     "objectID": "day1/governance/slides.html#governance-models",
@@ -1907,7 +1907,7 @@
     "href": "day1/governance/slides.html#hero-programmers",
     "title": "Governance & Decision Making",
     "section": " “Hero” programmers",
-    "text": "“Hero” programmers\n\nBrooks advocated a chief programmer model in the 1970s [@brooksjr.1995mythical]\n\nDisparaged since then\n\nBut 80% of projects on GitHub are hero projects [@majumder2019why]\n\n5% or less of people responsible for 95% or more of interactions\n“Heroes” commit far fewer bugs than other contributors\n\nDespite terminology, not a bad model for research projects\n\n[@petre2014code] found that people without domain knowledge couldn’t review scientific code effectively"
+    "text": "“Hero” programmers\n\nBrooks advocated a chief programmer model in the 1970s (Brooks 1995)\n\nDisparaged since then\n\nBut 80% of projects on GitHub are hero projects (Majumder et al. 2019)\n\n5% or less of people responsible for 95% or more of interactions\n“Heroes” commit far fewer bugs than other contributors\n\nDespite terminology, not a bad model for research projects\n\n(Petre and Wilson 2014) found that people without domain knowledge couldn’t review scientific code effectively"
   },
   {
     "objectID": "day1/governance/slides.html#marthas-rules",
@@ -1935,7 +1935,7 @@
     "href": "day1/governance/slides.html#roles-and-responsibilities",
     "title": "Governance & Decision Making",
     "section": " Roles and responsibilities",
-    "text": "Roles and responsibilities\n\n\n\nPeople & Their Roles\n\n\n\nPerson\nRoles\n\n\n\n\nghopper\nadmin\n\n\nkjohnson\nadmin, commit\n\n\naturing\ncommit\n\n\nbwk\ncommit\n\n\n\n\n\n\nRoles & Their Tasks\n\n\n\nRole\nTasks\n\n\n\n\nadmin\nmerge PRs, assign issues\n\n\ncommit\npublish posts, file issues\n\n\n\n\n\n\nBenefits:\n\nGives you a list of what actually needs to be done\n\nIt’s always longer than you first expect\n\nTells everyone who to go to for what\n\nParticularly when their first choice is on holiday\n\nHelps with succession planning\n\n“We don’t have anyone who does that any more…”"
+    "text": "Roles and responsibilities\n\n\nPeople & Their Roles\n\n\n\nPerson\nRoles\n\n\n\n\nghopper\nadmin\n\n\nkjohnson\nadmin, commit\n\n\naturing\ncommit\n\n\nbwk\ncommit\n\n\n\n\nRoles & Their Tasks\n\n\n\nRole\nTasks\n\n\n\n\nadmin\nmerge PRs, assign issues\n\n\ncommit\npublish posts, file issues\n\n\n\n\nBenefits:\n\nGives you a list of what actually needs to be done\n\nIt’s always longer than you first expect\n\nTells everyone who to go to for what\n\nParticularly when their first choice is on holiday\n\nHelps with succession planning\n\n“We don’t have anyone who does that any more…”"
   },
   {
     "objectID": "day1/governance/slides.html#code-of-conduct",
@@ -1949,7 +1949,7 @@
     "href": "day1/governance/slides.html#code-of-conduct-continued",
     "title": "Governance & Decision Making",
     "section": " Code of Conduct (continued)",
-    "text": "Code of Conduct (continued)\n\nA Code of Conduct is only useful if it is enforced\n\nAnd if there is a clear reporting mechanism that community members trust\n\nBe explicit about enforcement mechanisms and consequences\nDesignate an independent third party to handle complaints\n\nTrade off with another project lead\nDo the background reading [@aurora2019howa]"
+    "text": "Code of Conduct (continued)\n\nA Code of Conduct is only useful if it is enforced\n\nAnd if there is a clear reporting mechanism that community members trust\n\nBe explicit about enforcement mechanisms and consequences\nDesignate an independent third party to handle complaints\n\nTrade off with another project lead\nDo the background reading (Aurora and Gardiner 2019)"
   },
   {
     "objectID": "day1/governance/slides.html#meetings",
@@ -1977,7 +1977,7 @@
     "href": "day1/governance/slides.html#have-clear-rules-for-making-decisions",
     "title": "Governance & Decision Making",
     "section": " 3. Have clear rules for making decisions",
-    "text": "3. Have clear rules for making decisions\n\n“The Tyranny of Structurelessness” [@freeman1972tyrannya]\nIf you need Robert’s Rules, you need training"
+    "text": "3. Have clear rules for making decisions\n\n“The Tyranny of Structurelessness” (Freeman 1972)\nIf you need Robert’s Rules, you need training"
   },
   {
     "objectID": "day1/governance/slides.html#put-someone-in-charge",
@@ -2033,7 +2033,7 @@
     "href": "day1/governance/slides.html#recommended-reading",
     "title": "Governance & Decision Making",
     "section": " Recommended reading",
-    "text": "Recommended reading\n\n[@brookfield2016discussiona] has a lot of good ideas for managing discussion\nProducing Open Source Software by Karl Fogel\nThe Tyranny of Structurelessness by Jo Freeman"
+    "text": "Recommended reading\n\n(Brookfield and Preskill 2016) has a lot of good ideas for managing discussion\nProducing Open Source Software by Karl Fogel\nThe Tyranny of Structurelessness by Jo Freeman"
   },
   {
     "objectID": "day1/governance/slides.html#key-takeaways",
@@ -2054,7 +2054,7 @@
     "href": "day1/governance/slides.html#activity-roles-responsibilities-5-minutes",
     "title": "Governance & Decision Making",
     "section": " Activity: Roles & Responsibilities (5 minutes)",
-    "text": "Activity: Roles & Responsibilities (5 minutes)\nIn our shared Google Doc, Section: “Roles Matrix”\n\n\nColumn A: Tasks List things people do to keep your project going\n\nColumn B: People List contributors to the project\n\n\nThen: Draw connections - what patterns emerge?\n\n⏱️ START: 1:00 | DURATION: 5 minutes | END: 1:05 - Reveals informal structures and gaps"
+    "text": "Activity: Roles & Responsibilities (5 minutes)\nIn our shared Google Doc, Section: “Roles Matrix”\n\n\nColumn A: Tasks List things people do to keep your project going\n\nColumn B: People List contributors to the project\n\nThen: Draw connections - what patterns emerge?\n\n⏱️ START: 1:00 | DURATION: 5 minutes | END: 1:05 - Reveals informal structures and gaps"
   },
   {
     "objectID": "day1/governance/slides.html#activity-governance-structure-5-minutes",
@@ -2068,7 +2068,7 @@
     "href": "day1/governance/slides.html#references",
     "title": "Governance & Decision Making",
     "section": "References",
-    "text": "References"
+    "text": "References\n\n\n\n\n openwashdata-conf.github.io/2025/day1/governance.html\n\n\n\n\nAurora, Valerie, and Mary Gardiner. 2019. How to Respond to Code of Conduct Reports. Version 1.1. Frame Shift Consulting LLC.\n\n\nBrookfield, Stephen D., and Stephen Preskill. 2016. The Discussion Book: 50 Great Ways to Get People Talking. Jossey-Bass.\n\n\nBrooks, Frederick P., Jr. 1995. The Mythical Man-Month: Essays on Software Engineering. Anniversary edition. Addison-Wesley Professional.\n\n\nFreeman, Jo. 1972. “The Tyranny of Structurelessness.” The Second Wave 2 (1).\n\n\nMajumder, Suvodeep, Joymallya Chakraborty, Amritanshu Agrawal, and Tim Menzies. 2019. “Why Software Projects Need Heroes: Lessons Learned from 1100+ Projects.” Arxiv.org abs/1904.09954.\n\n\nPetre, Marian, and Greg Wilson. 2014. “Code Review for and by Scientists.” In Proc.second Workshop on Sustainable Software for Science: Practice and Experience. https://doi.org/arXiv:1407.5648."
   },
   {
     "objectID": "day1/openwashdata/slides.html",
@@ -2343,7 +2343,7 @@
     "href": "day1/ideation/index.html#slides",
     "title": "Ideation for Hackathon",
     "section": " Slides",
-    "text": "Slides\n\n  View Slides Fullscreen    View Ideas List",
+    "text": "Slides\nView slides in full screen | Download slides as PDF",
     "crumbs": [
       "Day 1 - July 15",
       "Ideation"

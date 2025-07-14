@@ -37,28 +37,30 @@ agenda_final <- agenda  |>
 ```{r}
 agenda_final |> 
     filter(day == 1) |> 
-    select(-day) |> 
+    select(-day, -speaker) |> 
     rename_with(~stringr::str_to_title(.x), everything()) |> 
     knitr::kable() 
 ```
 
 ## Session Details
 
-| Time | Title | Speaker | Affiliation |
-|------|-------|---------|-------------|
-| 09:00 - 09:30 | Arrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli). | - | - |
-| 09:30 - 10:00 | [Warm-up activity](warmup/) | Lars | - |
-| 10:00 - 10:45 | [openwashdata community - past and future](openwashdata/) | Lars | - |
-| 10:45 - 11:00 | Break | - | - |
-| 11:00 - 12:00 | Data stewardship at BASEflow Malawi | Emmanuel | - |
-| 12:00 - 13:00 | Lunch break | - | - |
-| 13:00 - 13:30 | Warm-up - Positive Gossip | - | - |
-| 13:30 - 14:00 | [Governance Part 1](governance/) | Lars | - |
-| 14:00 - 14:15 | Break | - | - |
-| 14:15 - 15:00 | [Governance Part 2](governance/) | Lars | - |
-| 15:00 - 15:30 | [Hackathon Ideation](ideation/) | - | - |
-| 15:30 - 15:45 | Break with small cakes | - | - |
-| 15:45 - 16:30 | [Lean Coffee](lean-coffee/) | - | - | 
+```{r}
+agenda_sessions <- agenda_final |> 
+  filter(day == 1) |> 
+  select(-day, -speaker) |> 
+  mutate(title = case_when(
+    str_detect(title, "Warm-up activity") ~ "[Warm-up activity](warmup/)",
+    str_detect(title, "openwashdata community") ~ "[openwashdata community - past and future](openwashdata/)",
+    str_detect(title, "Governance Part 1") ~ "[Governance Part 1](governance/)",
+    str_detect(title, "Governance Part 2") ~ "[Governance Part 2](governance/)",
+    str_detect(title, "Hackathon Ideation") ~ "[Hackathon Ideation](ideation/)",
+    str_detect(title, "Buffer") & str_detect(title, "Hackathon") ~ "[Hackathon Ideation](ideation/)",
+    TRUE ~ title
+  )) |> 
+  rename_with(~stringr::str_to_title(.x), everything())
+
+knitr::kable(agenda_sessions)
+``` 
 
 
 
