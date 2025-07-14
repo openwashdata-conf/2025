@@ -209,7 +209,7 @@
     "href": "day1/governance.html#hero-programmers",
     "title": "Governance & Decision Making",
     "section": " “Hero” programmers",
-    "text": "“Hero” programmers\n\nBrooks advocated a chief programmer model in the 1970s [@Brooks1995]\n\nDisparaged since then\n\nBut 80% of projects on GitHub are hero projects [@Majumder2019]\n\n5% or less of people responsible for 95% or more of interactions\n“Heroes” commit far fewer bugs than other contributors\n\nDespite terminology, not a bad model for research projects\n\n[@Petre2014] found that people without domain knowledge couldn’t review scientific code effectively"
+    "text": "“Hero” programmers\n\nBrooks advocated a chief programmer model in the 1970s [@brooksjr.1995mythical]\n\nDisparaged since then\n\nBut 80% of projects on GitHub are hero projects [@majumder2019why]\n\n5% or less of people responsible for 95% or more of interactions\n“Heroes” commit far fewer bugs than other contributors\n\nDespite terminology, not a bad model for research projects\n\n[@petre2014code] found that people without domain knowledge couldn’t review scientific code effectively"
   },
   {
     "objectID": "day1/governance.html#marthas-rules",
@@ -279,7 +279,7 @@
     "href": "day1/governance.html#have-clear-rules-for-making-decisions",
     "title": "Governance & Decision Making",
     "section": " 3. Have clear rules for making decisions",
-    "text": "3. Have clear rules for making decisions\n\n“The Tyranny of Structurelessness” [@Freeman1972]\nIf you need Robert’s Rules, you need training"
+    "text": "3. Have clear rules for making decisions\n\n“The Tyranny of Structurelessness” [@freeman1972tyrannya]\nIf you need Robert’s Rules, you need training"
   },
   {
     "objectID": "day1/governance.html#put-someone-in-charge",
@@ -342,7 +342,7 @@
     "href": "day1/governance.html#recommended-reading",
     "title": "Governance & Decision Making",
     "section": " Recommended reading",
-    "text": "Recommended reading\n\n[@Brookfield2016] has a lot of good ideas for managing discussion\nProducing Open Source Software by Karl Fogel\nThe Tyranny of Structurelessness by Jo Freeman"
+    "text": "Recommended reading\n\n[@brookfield2016discussiona] has a lot of good ideas for managing discussion\nProducing Open Source Software by Karl Fogel\nThe Tyranny of Structurelessness by Jo Freeman"
   },
   {
     "objectID": "day1/governance.html#exercise",
@@ -1525,7 +1525,7 @@
     "href": "day1/governance.html#code-of-conduct-continued",
     "title": "Governance & Decision Making",
     "section": " Code of Conduct (continued)",
-    "text": "Code of Conduct (continued)\n\nA Code of Conduct is only useful if it is enforced\n\nAnd if there is a clear reporting mechanism that community members trust\n\nBe explicit about enforcement mechanisms and consequences\nDesignate an independent third party to handle complaints\n\nTrade off with another project lead\nDo the background reading [@Aurora2019]"
+    "text": "Code of Conduct (continued)\n\nA Code of Conduct is only useful if it is enforced\n\nAnd if there is a clear reporting mechanism that community members trust\n\nBe explicit about enforcement mechanisms and consequences\nDesignate an independent third party to handle complaints\n\nTrade off with another project lead\nDo the background reading [@aurora2019howa]"
   },
   {
     "objectID": "day1/governance.html#key-takeaways",
@@ -1553,6 +1553,13 @@
     "href": "day1/governance.html#activity-governance-structure-5-minutes",
     "title": "Governance & Decision Making",
     "section": " Activity: Governance Structure (5 minutes)",
-    "text": "Activity: Governance Structure (5 minutes)\nIn our shared Google Doc, Section: “Governance Rules”\n\n\nWho gets a vote in your group?\nHow are new people added to that pool?\nWhen and how do people lose their votes?\nWhere do people find out what has been decided?\nHow can non-voters raise issues?\n\n\n\n⏱️ START: 1:05 | DURATION: 5 minutes | END: 1:10 - Often reveals informal or unclear processes - Wrap up with key takeaways\n\n\n\n\n\n openwashdata-conf.github.io/2025/day1/governance.html"
+    "text": "Activity: Governance Structure (5 minutes)\nIn our shared Google Doc, Section: “Governance Rules”\n\n\nWho gets a vote in your group?\nHow are new people added to that pool?\nWhen and how do people lose their votes?\nWhere do people find out what has been decided?\nHow can non-voters raise issues?\n\n\n\n⏱️ START: 1:05 | DURATION: 5 minutes | END: 1:10 - Often reveals informal or unclear processes - Wrap up with key takeaways"
+  },
+  {
+    "objectID": "day1/governance.html#references",
+    "href": "day1/governance.html#references",
+    "title": "Governance & Decision Making",
+    "section": "References",
+    "text": "References\n\n\n\n\n openwashdata-conf.github.io/2025/day1/governance.html"
   }
 ]
