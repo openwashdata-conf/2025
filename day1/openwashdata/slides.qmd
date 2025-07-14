@@ -510,7 +510,7 @@ All efforts into the next iteration of the course.
 
 ## Starting Point
 
-![](../images/openwashdata-organogram-01.svg)
+![](../../images/openwashdata-organogram-01.svg)
 
 ::: footer
 Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
@@ -525,7 +525,7 @@ Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/]
 
 ## Mid-development
 
-![](../images/openwashdata-organogram-05.svg)
+![](../../images/openwashdata-organogram-05.svg)
 
 ::: footer
 Full evolution available at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
@@ -533,7 +533,7 @@ Full evolution available at: [openwashdata.org/pages/gallery/proposal-02/](https
 
 ## Community Integration
 
-![](../images/openwashdata-organogram-09.svg)
+![](../../images/openwashdata-organogram-09.svg)
 
 ::: footer
 Full evolution available at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
@@ -541,7 +541,7 @@ Full evolution available at: [openwashdata.org/pages/gallery/proposal-02/](https
 
 ## Future Vision
 
-![](../images/openwashdata-organogram-10.svg)
+![](../../images/openwashdata-organogram-10.svg)
 
 ::: footer
 Read full proposal for Phase 2 at: [openwashdata.org/pages/gallery/proposal-02/](https://openwashdata.org/pages/gallery/proposal-02/)
