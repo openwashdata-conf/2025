@@ -20,6 +20,7 @@ Claude Code requires a subscription to the Max plan for full functionality.
 
 - Visit [Claude.ai](https://claude.ai)
 - Sign up or log in to your account
+- **Important:** You must create an individual account (not a collaborative/team account)
 - Subscribe to the Claude Max plan ($100/month) 
 - Send your invoice to Lars
 
@@ -112,19 +113,23 @@ Claude Code is the AI coding assistant we'll use throughout the hackathon.
 
 ## Windows
 
-1. Open the terminal you verified in Step 2 (Windows Terminal recommended)
-2. Install Claude Code using npm (Node.js must be installed first):
-   ```cmd
-   npm install -g @anthropic-ai/claude-code
-   ```
-3. After installation, verify by running:
-   ```cmd
-   claude doctor
-   ```
-4. You should see a successful setup confirmation
+Claude Code on Windows requires Windows Subsystem for Linux (WSL). Due to the complexity of the Windows setup, please follow the comprehensive installation guide:
 
-::: {.callout-note}
-If you encounter issues on Windows, you may need to use Windows Subsystem for Linux (WSL). See the troubleshooting section for WSL setup instructions.
+**[Complete Windows Installation Guide for Claude Code](https://github.com/VonHoltenCodes/CLAUDECODE_COMPLETE_WINDOWS_INSTALL_GUIDE/blob/main/docs/INSTALLATION.md)**
+
+This guide includes:
+- Detailed WSL setup instructions
+- Node.js installation in WSL
+- Claude Code installation and configuration
+- Troubleshooting common Windows-specific issues
+- Tips for optimal performance
+
+::: {.callout-important}
+## Windows Setup Requirements
+- Windows 10 (version 2004+) or Windows 11
+- Administrator access
+- Approximately 30-45 minutes for complete setup
+- After installation, you'll launch Claude Code using: `wsl claude` from your Documents folder
 :::
 :::
 
@@ -270,16 +275,8 @@ If you encounter any issues during setup:
 - Ensure Node.js is installed first (version 18+)
 - Do NOT use `sudo` with npm install on macOS/Linux
 - If permission errors occur, see [npm's guide on fixing permissions](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
-- Windows users: If the standard installation fails, you may need to use WSL:
-  1. Install WSL: `wsl --install` (in PowerShell as Administrator)
-  2. Restart your computer
-  3. Open WSL (Ubuntu) from Start menu
-  4. Install Node.js in WSL:
-     ```bash
-     curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
-     sudo apt-get install -y nodejs
-     ```
-  5. Install Claude Code: `npm install -g @anthropic-ai/claude-code`
+- Windows users: Follow the [Complete Windows Installation Guide](https://github.com/VonHoltenCodes/CLAUDECODE_COMPLETE_WINDOWS_INSTALL_GUIDE/blob/main/docs/INSTALLATION.md)
+- The Windows guide includes troubleshooting for common WSL and permission issues
 
 **Python command not found**
 

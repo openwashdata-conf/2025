@@ -16,13 +16,45 @@ We'll verify each prerequisite step by step:
 
 ### 1. Claude Code Access
 
+First, let's start Claude Code:
+
+::: {.panel-tabset}
+## macOS/Linux
+
 ```bash
-# In your terminal, verify Claude Code is accessible
-# Try a simple command with Claude Code
+# Navigate to your working directory
+cd ~/Documents/gitrepos
+
+# Start Claude Code
+claude
 ```
 
+## Windows
+
+```bash
+# From Windows Terminal or Command Prompt
+# Navigate to your working directory
+cd C:\Users\%USERNAME%\Documents\gitrepos
+
+# Start Claude Code through WSL
+wsl claude
+```
+
+::: {.callout-tip}
+## Windows Pro Tip
+Create a batch file `claude.bat` for easy launching:
+```batch
+@echo off
+cd C:\Users\%USERNAME%\Documents
+wsl claude %*
+```
+Save this in a directory that's in your PATH for quick access from anywhere.
+:::
+:::
+
+Once Claude Code starts:
 - Confirm Max plan is active
-- Test basic functionality
+- Test basic functionality by asking Claude a simple question
 - Troubleshoot any access issues
 
 ### 2. Terminal/Command Line
@@ -98,10 +130,20 @@ Verify you can access the openwashdata-conf organization:
 
 ### Claude Code Not Working
 
-- Verify subscription status
-- Check internet connection
-- Try logging out and back in
-- Contact support if needed
+::: {.panel-tabset}
+## macOS/Linux
+- Verify Claude Code is installed: `claude --version`
+- Check Node.js version: `node --version` (should be 18+)
+- Try reinstalling: `npm install -g @anthropic-ai/claude-code`
+- Verify subscription status at [claude.ai](https://claude.ai)
+
+## Windows
+- Ensure WSL is running: `wsl --status`
+- Inside WSL, check installation: `which claude`
+- Verify Node.js in WSL: `node --version`
+- Try the direct command: `wsl /usr/local/bin/claude`
+- Check the [Windows Installation Guide](https://github.com/VonHoltenCodes/CLAUDECODE_COMPLETE_WINDOWS_INSTALL_GUIDE/blob/main/docs/INSTALLATION.md) for troubleshooting
+:::
 
 ### Python Command Not Found
 

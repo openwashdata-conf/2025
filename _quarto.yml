@@ -30,6 +30,16 @@ website:
         contents:
           - text: "Overview"
             href: day1/index.qmd
+          - text: "Warm-up"
+            href: day1/warmup/index.qmd
+          - text: "Governance"
+            href: day1/governance/index.qmd
+          - text: "Ideation"
+            href: day1/ideation/index.qmd
+          - text: "openwashdata"
+            href: day1/openwashdata/index.qmd
+          - text: "Lean Coffee"
+            href: day1/lean-coffee/index.qmd
       - section: "Day 2 - July 16"
         contents:
           - text: "Overview"

@@ -473,7 +473,7 @@
     "href": "prerequisites/index.html#required-setup-steps",
     "title": "Day 2 Prerequisites",
     "section": "Required Setup Steps",
-    "text": "Required Setup Steps\n\n1. Get Claude Code Max Plan\nClaude Code requires a subscription to the Max plan for full functionality.\n\nVisit Claude.ai\nSign up or log in to your account\nSubscribe to the Claude Max plan ($100/month)\nSend your invoice to Lars\n\n\n\n\n\n\n\nTip\n\n\n\nYou can cancel the subscription after the conference if you don’t wish to continue using it. You will have access to it for 1 month.\n\n\n\n\n2. Verify Terminal Access\nYou’ll need to use the terminal/command line during the hackathon.\n\nmacOSWindows\n\n\n\nPress Cmd + Space to open Spotlight\nType “Terminal” and press Enter\nYou should see a window with a command prompt\nType echo \"Terminal works!\" and press Enter\nIf you see “Terminal works!” printed, you’re all set\n\n\n\nRecommended: Windows Terminal\n\nInstall Windows Terminal from the Microsoft Store\nOnce installed, press Win key and type “Windows Terminal”\nClick to open Windows Terminal\nIn the terminal, type echo Terminal works! and press Enter\nIf you see “Terminal works!” printed, you’re all set\n\n\n\n\n\n\n3. Install Node.js\nNode.js is required for many modern web development tools and Claude Code extensions.\n\nmacOSWindows\n\n\n\nCheck if Node.js is already installed:\nnode --version\nIf not installed, install using Homebrew:\n# Install Homebrew first if you don't have it\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# Then install Node.js\nbrew install node\nVerify installation:\nnode --version\nnpm --version\n\n\n\n\nDownload Node.js from nodejs.org\nChoose the LTS version (recommended)\nRun the installer\nImportant: Keep all default settings, including “Add to PATH”\nOpen a new Command Prompt and verify:\nnode --version\nnpm --version\n\n\n\n\n\n\n4. Install Claude Code\nClaude Code is the AI coding assistant we’ll use throughout the hackathon.\n\nmacOSWindows\n\n\n\nOpen Terminal\nInstall Claude Code using npm (Node.js must be installed first):\nnpm install -g @anthropic-ai/claude-code\nImportant: Do NOT use sudo with this command\nAfter installation, verify by running:\nclaude doctor\nYou should see a successful setup confirmation\n\n\n\nImportant: Claude Code requires Windows Subsystem for Linux (WSL) on Windows.\n\nInstall WSL if not already installed:\nwsl --install\nRestart your computer after WSL installation\nOpen WSL (Ubuntu) from Start menu\nIn WSL, install Node.js:\ncurl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -\nsudo apt-get install -y nodejs\nInstall Claude Code:\nnpm install -g @anthropic-ai/claude-code\nVerify installation:\nclaude doctor\n\n\n\n\n\n\n5. Install Python\nPython is required for many data processing tasks.\n\nmacOSWindows\n\n\n\nCheck if Python is installed:\npython3 --version\nIf not installed, install using Homebrew:\n# Install Homebrew first if you don't have it\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# Then install Python\nbrew install python\nVerify installation:\npython3 --version\npip3 --version\n\n\n\n\nDownload Python from python.org\nRun the installer\nImportant: Check “Add Python to PATH” during installation\nOpen a new command prompt and verify:\npython --version\npip --version\n\n\n\n\n\n\n6. GitHub Account Setup\nEnsure you can access your GitHub account:\n\nGo to github.com\nLog in to your account\nVerify you can access your profile and repositories\nRecommended: Set up two-factor authentication\n\n\n\n7. Create Local Working Directory\nCreate a dedicated folder for storing code repositories locally (not in cloud-synced folders). The recommended location is in your Documents folder, named gitrepos. Use your preferred way of creating directories (Finder, File Explorer, or terminal/command line).\nBelow are the terminal commands for both macOS and Windows users.\n\nmacOSWindows\n\n\n# Create the directory in Documents\nmkdir -p ~/Documents/gitrepos\n\n# Navigate to it\ncd ~/Documents/gitrepos\n\n# Verify it exists\npwd\nYou should see: /Users/yourusername/Documents/gitrepos\n\n\n# Create the directory in Documents\nmkdir %USERPROFILE%\\Documents\\gitrepos\n\n# Navigate to it\ncd %USERPROFILE%\\Documents\\gitrepos\n\n# Verify it exists\ncd\nYou should see: C:\\Users\\yourusername\\Documents\\gitrepos\n\n\n\n\n\n\n\n\n\nImportant: Avoid Cloud-Synced Folders\n\n\n\nDo not create your gitrepos folder inside: - OneDrive - Google Drive - Dropbox - iCloud Drive\nThese services can interfere with Git operations.\n\n\n\n\n8. Accept GitHub Organization Invitation\nBefore the conference, you’ll receive an invitation to join the openwashdata-conf GitHub organization.\n\nCheck your email for the invitation\nClick the invitation link\nAccept the invitation to join the organization\nVerify access at: github.com/openwashdata-conf\n\n\n\n\n\n\n\nNote\n\n\n\nIf you haven’t received an invitation by July 10, please contact the organizing team.",
+    "text": "Required Setup Steps\n\n1. Get Claude Code Max Plan\nClaude Code requires a subscription to the Max plan for full functionality.\n\nVisit Claude.ai\nSign up or log in to your account\nImportant: You must create an individual account (not a collaborative/team account)\nSubscribe to the Claude Max plan ($100/month)\nSend your invoice to Lars\n\n\n\n\n\n\n\nTip\n\n\n\nYou can cancel the subscription after the conference if you don’t wish to continue using it. You will have access to it for 1 month.\n\n\n\n\n2. Verify Terminal Access\nYou’ll need to use the terminal/command line during the hackathon.\n\nmacOSWindows\n\n\n\nPress Cmd + Space to open Spotlight\nType “Terminal” and press Enter\nYou should see a window with a command prompt\nType echo \"Terminal works!\" and press Enter\nIf you see “Terminal works!” printed, you’re all set\n\n\n\nRecommended: Windows Terminal\n\nInstall Windows Terminal from the Microsoft Store\nOnce installed, press Win key and type “Windows Terminal”\nClick to open Windows Terminal\nIn the terminal, type echo Terminal works! and press Enter\nIf you see “Terminal works!” printed, you’re all set\n\n\n\n\n\n\n3. Install Node.js\nNode.js is required for many modern web development tools and Claude Code extensions.\n\nmacOSWindows\n\n\n\nCheck if Node.js is already installed:\nnode --version\nIf not installed, install using Homebrew:\n# Install Homebrew first if you don't have it\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# Then install Node.js\nbrew install node\nVerify installation:\nnode --version\nnpm --version\n\n\n\n\nDownload Node.js from nodejs.org\nChoose the LTS version (recommended)\nRun the installer\nImportant: Keep all default settings, including “Add to PATH”\nOpen a new Command Prompt and verify:\nnode --version\nnpm --version\n\n\n\n\n\n\n4. Install Claude Code\nClaude Code is the AI coding assistant we’ll use throughout the hackathon.\n\nmacOSWindows\n\n\n\nOpen Terminal\nInstall Claude Code using npm (Node.js must be installed first):\nnpm install -g @anthropic-ai/claude-code\nImportant: Do NOT use sudo with this command\nAfter installation, verify by running:\nclaude doctor\nYou should see a successful setup confirmation\n\n\n\nClaude Code on Windows requires Windows Subsystem for Linux (WSL). Due to the complexity of the Windows setup, please follow the comprehensive installation guide:\nComplete Windows Installation Guide for Claude Code\nThis guide includes: - Detailed WSL setup instructions - Node.js installation in WSL - Claude Code installation and configuration - Troubleshooting common Windows-specific issues - Tips for optimal performance\n\n\n\n\n\n\nWindows Setup Requirements\n\n\n\n\nWindows 10 (version 2004+) or Windows 11\nAdministrator access\nApproximately 30-45 minutes for complete setup\nAfter installation, you’ll launch Claude Code using: wsl claude from your Documents folder\n\n\n\n\n\n\n\n\n5. Install Python\nPython is required for many data processing tasks.\n\nmacOSWindows\n\n\n\nCheck if Python is installed:\npython3 --version\nIf not installed, install using Homebrew:\n# Install Homebrew first if you don't have it\n/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# Then install Python\nbrew install python\nVerify installation:\npython3 --version\npip3 --version\n\n\n\n\nDownload Python from python.org\nRun the installer\nImportant: Check “Add Python to PATH” during installation\nOpen a new command prompt and verify:\npython --version\npip --version\n\n\n\n\n\n\n6. GitHub Account Setup\nEnsure you can access your GitHub account:\n\nGo to github.com\nLog in to your account\nVerify you can access your profile and repositories\nRecommended: Set up two-factor authentication\n\n\n\n7. Create Local Working Directory\nCreate a dedicated folder for storing code repositories locally (not in cloud-synced folders). The recommended location is in your Documents folder, named gitrepos. Use your preferred way of creating directories (Finder, File Explorer, or terminal/command line).\nBelow are the terminal commands for both macOS and Windows users.\n\nmacOSWindows\n\n\n# Create the directory in Documents\nmkdir -p ~/Documents/gitrepos\n\n# Navigate to it\ncd ~/Documents/gitrepos\n\n# Verify it exists\npwd\nYou should see: /Users/yourusername/Documents/gitrepos\n\n\n# Create the directory in Documents\nmkdir %USERPROFILE%\\Documents\\gitrepos\n\n# Navigate to it\ncd %USERPROFILE%\\Documents\\gitrepos\n\n# Verify it exists\ncd\nYou should see: C:\\Users\\yourusername\\Documents\\gitrepos\n\n\n\n\n\n\n\n\n\nImportant: Avoid Cloud-Synced Folders\n\n\n\nDo not create your gitrepos folder inside:\n\nOneDrive\nGoogle Drive\nDropbox\niCloud Drive\n\nThese services can interfere with Git operations.\n\n\n\n\n8. Accept GitHub Organization Invitation\nBefore the conference, you’ll receive an invitation to join the openwashdata-conf GitHub organization.\n\nCheck your email for the invitation\nClick the invitation link\nAccept the invitation to join the organization\nVerify access at: github.com/openwashdata-conf\n\n\n\n\n\n\n\nNote\n\n\n\nIf you haven’t received an invitation by July 10, please contact the organizing team.",
     "crumbs": [
       "Prerequisites (Day 2)",
       "Hackathon Preparation"
@@ -506,7 +506,7 @@
     "href": "prerequisites/index.html#troubleshooting",
     "title": "Day 2 Prerequisites",
     "section": "Troubleshooting",
-    "text": "Troubleshooting\n\nCommon Issues\nClaude Code won’t install\n\nEnsure Node.js is installed first (version 18+)\nDo NOT use sudo with npm install\nIf permission errors occur, see npm’s guide on fixing permissions\nOn Windows, ensure WSL is properly installed and running\n\nPython command not found\n\nRestart your terminal after installation\nEnsure Python was added to PATH during installation\nTry python3 instead of python on macOS/Linux\n\nCan’t create gitrepos folder\n\nEnsure you have write permissions\nTry creating in your user home directory\nAvoid special characters in the path\n\nGitHub invitation not received\n\nCheck spam/junk folders\nVerify your email address with organizers\nRequest a resend if needed",
+    "text": "Troubleshooting\n\nCommon Issues\nClaude Code won’t install\n\nEnsure Node.js is installed first (version 18+)\nDo NOT use sudo with npm install on macOS/Linux\nIf permission errors occur, see npm’s guide on fixing permissions\nWindows users: Follow the Complete Windows Installation Guide\nThe Windows guide includes troubleshooting for common WSL and permission issues\n\nPython command not found\n\nRestart your terminal after installation\nEnsure Python was added to PATH during installation\nTry python3 instead of python on macOS/Linux\n\nCan’t create gitrepos folder\n\nEnsure you have write permissions\nTry creating in your user home directory\nAvoid special characters in the path\n\nGitHub invitation not received\n\nCheck spam/junk folders\nVerify your email address with organizers\nRequest a resend if needed",
     "crumbs": [
       "Prerequisites (Day 2)",
       "Hackathon Preparation"
@@ -839,14 +839,14 @@
     "href": "day2/setup-check.html#checklist-verification",
     "title": "Setup Check",
     "section": "Checklist Verification",
-    "text": "Checklist Verification\nWe’ll verify each prerequisite step by step:\n\n1. Claude Code Access\n# In your terminal, verify Claude Code is accessible\n# Try a simple command with Claude Code\n\nConfirm Max plan is active\nTest basic functionality\nTroubleshoot any access issues\n\n\n\n2. Terminal/Command Line\n# Test basic commands\necho \"Hello, openwashdata!\"\npwd\nls -la\n\n\n3. Python Environment\n# Check Python installation\npython3 --version\npip3 --version\n\n# Test Python functionality\npython3 -c \"print('Python is working!')\"\n\n\n4. Git Configuration\n# Check Git installation\ngit --version\n\n# Verify Git configuration\ngit config --global user.name\ngit config --global user.email\nIf not configured:\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your.email@example.com\"\n\n\n5. GitHub Access\n# Test GitHub SSH connection (if using SSH)\nssh -T git@github.com\n\n# Or test with HTTPS\ngit ls-remote https://github.com/openwashdata-conf/test-repo.git\n\n\n6. Working Directory\n# Navigate to your gitrepos folder\ncd ~/gitrepos  # macOS/Linux\n# or\ncd C:\\gitrepos  # Windows\n\n# Create a test repository\nmkdir test-setup\ncd test-setup\ngit init\n\n\n7. Organization Access\nVerify you can access the openwashdata-conf organization:\n\nVisit github.com/openwashdata-conf\nConfirm you see member access\nCheck for any pending invitations"
+    "text": "Checklist Verification\nWe’ll verify each prerequisite step by step:\n\n1. Claude Code Access\nFirst, let’s start Claude Code:\n\nmacOS/LinuxWindows\n\n\n# Navigate to your working directory\ncd ~/Documents/gitrepos\n\n# Start Claude Code\nclaude\n\n\n# From Windows Terminal or Command Prompt\n# Navigate to your working directory\ncd C:\\Users\\%USERNAME%\\Documents\\gitrepos\n\n# Start Claude Code through WSL\nwsl claude\n\n\n\n\n\n\nWindows Pro Tip\n\n\n\nCreate a batch file claude.bat for easy launching:\n@echo off\ncd C:\\Users\\%USERNAME%\\Documents\nwsl claude %*\nSave this in a directory that’s in your PATH for quick access from anywhere.\n\n\n\n\n\nOnce Claude Code starts: - Confirm Max plan is active - Test basic functionality by asking Claude a simple question - Troubleshoot any access issues\n\n\n2. Terminal/Command Line\n# Test basic commands\necho \"Hello, openwashdata!\"\npwd\nls -la\n\n\n3. Python Environment\n# Check Python installation\npython3 --version\npip3 --version\n\n# Test Python functionality\npython3 -c \"print('Python is working!')\"\n\n\n4. Git Configuration\n# Check Git installation\ngit --version\n\n# Verify Git configuration\ngit config --global user.name\ngit config --global user.email\nIf not configured:\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your.email@example.com\"\n\n\n5. GitHub Access\n# Test GitHub SSH connection (if using SSH)\nssh -T git@github.com\n\n# Or test with HTTPS\ngit ls-remote https://github.com/openwashdata-conf/test-repo.git\n\n\n6. Working Directory\n# Navigate to your gitrepos folder\ncd ~/gitrepos  # macOS/Linux\n# or\ncd C:\\gitrepos  # Windows\n\n# Create a test repository\nmkdir test-setup\ncd test-setup\ngit init\n\n\n7. Organization Access\nVerify you can access the openwashdata-conf organization:\n\nVisit github.com/openwashdata-conf\nConfirm you see member access\nCheck for any pending invitations"
   },
   {
     "objectID": "day2/setup-check.html#common-issues-and-solutions",
     "href": "day2/setup-check.html#common-issues-and-solutions",
     "title": "Setup Check",
     "section": "Common Issues and Solutions",
-    "text": "Common Issues and Solutions\n\nClaude Code Not Working\n\nVerify subscription status\nCheck internet connection\nTry logging out and back in\nContact support if needed\n\n\n\nPython Command Not Found\n\nmacOS/LinuxWindows\n\n\n# Try python3 instead of python\npython3 --version\n\n# Add to PATH if needed\necho 'export PATH=\"/usr/local/bin:$PATH\"' &gt;&gt; ~/.zshrc\nsource ~/.zshrc\n\n\n# Verify Python is in PATH\nwhere python\n\n# If not found, add to PATH through System Properties\n# Or reinstall Python with \"Add to PATH\" checked\n\n\n\n\n\nGit Push/Pull Issues\n\nCheck authentication (SSH vs HTTPS)\nVerify repository permissions\nEnsure correct remote URL\nUpdate credentials if needed"
+    "text": "Common Issues and Solutions\n\nClaude Code Not Working\n\nmacOS/LinuxWindows\n\n\n\nVerify Claude Code is installed: claude --version\nCheck Node.js version: node --version (should be 18+)\nTry reinstalling: npm install -g @anthropic-ai/claude-code\nVerify subscription status at claude.ai\n\n\n\n\nEnsure WSL is running: wsl --status\nInside WSL, check installation: which claude\nVerify Node.js in WSL: node --version\nTry the direct command: wsl /usr/local/bin/claude\nCheck the Windows Installation Guide for troubleshooting\n\n\n\n\n\n\nPython Command Not Found\n\nmacOS/LinuxWindows\n\n\n# Try python3 instead of python\npython3 --version\n\n# Add to PATH if needed\necho 'export PATH=\"/usr/local/bin:$PATH\"' &gt;&gt; ~/.zshrc\nsource ~/.zshrc\n\n\n# Verify Python is in PATH\nwhere python\n\n# If not found, add to PATH through System Properties\n# Or reinstall Python with \"Add to PATH\" checked\n\n\n\n\n\nGit Push/Pull Issues\n\nCheck authentication (SSH vs HTTPS)\nVerify repository permissions\nEnsure correct remote URL\nUpdate credentials if needed"
   },
   {
     "objectID": "day2/setup-check.html#team-formation-check",
@@ -1610,5 +1610,1315 @@
     "title": "Hackathon Ideation",
     "section": "Slides",
     "text": "Slides"
+  },
+  {
+    "objectID": "day1/openwashdata/index.html",
+    "href": "day1/openwashdata/index.html",
+    "title": "Session 1",
+    "section": "",
+    "text": "Learn about the openwashdata initiative, its mission, current state, and future direction. Discover how you can contribute to making water and sanitation data more accessible and impactful.\nThis session presents the opportunity for open data in WASH, introduces the openwashdata community framework (VMOST), shares future plans, and engages participants in collaborative activities.",
+    "crumbs": [
+      "Day 1 - July 15",
+      "openwashdata"
+    ]
+  },
+  {
+    "objectID": "day1/openwashdata/index.html#session-overview",
+    "href": "day1/openwashdata/index.html#session-overview",
+    "title": "Session 1",
+    "section": "",
+    "text": "Learn about the openwashdata initiative, its mission, current state, and future direction. Discover how you can contribute to making water and sanitation data more accessible and impactful.\nThis session presents the opportunity for open data in WASH, introduces the openwashdata community framework (VMOST), shares future plans, and engages participants in collaborative activities.",
+    "crumbs": [
+      "Day 1 - July 15",
+      "openwashdata"
+    ]
+  },
+  {
+    "objectID": "day1/openwashdata/index.html#learning-objectives",
+    "href": "day1/openwashdata/index.html#learning-objectives",
+    "title": "Session 1",
+    "section": " Learning Objectives",
+    "text": "Learning Objectives\nBy the end of this session, you will be able to:\n\nUnderstand the current state of data sharing in WASH publications\nExplain the vision, mission, and objectives of openwashdata\nIdentify strategies and tactics for building open data culture\nRecognize opportunities for collaboration and funding\nContribute ideas for community expansion",
+    "crumbs": [
+      "Day 1 - July 15",
+      "openwashdata"
+    ]
+  },
+  {
+    "objectID": "day1/openwashdata/index.html#slides",
+    "href": "day1/openwashdata/index.html#slides",
+    "title": "Session 1",
+    "section": " Slides",
+    "text": "Slides\nView slides in full screen | Download slides as PDF",
+    "crumbs": [
+      "Day 1 - July 15",
+      "openwashdata"
+    ]
+  },
+  {
+    "objectID": "day1/openwashdata/index.html#resources",
+    "href": "day1/openwashdata/index.html#resources",
+    "title": "Session 1",
+    "section": " Resources",
+    "text": "Resources\n\nResearch & Publications\n\nR Package: washopenresearch - Analysis of data availability in WASH publications\nFAIR Principles: Wilkinson et al. (2016) - The FAIR Guiding Principles for scientific data management\n\n\n\nCommunity Resources\n\nMain Website: openwashdata.org\nGitHub Organization: github.com/openwashdata\nVMOST Framework: openwashdata.org/pages/gallery/vmost/\nPhase 2 Proposal: openwashdata.org/pages/gallery/proposal-02/\n\n\n\nCourse & Training\n\nNext Course Iteration: ds4owd-002.github.io/website/\nCourse Registration: Sign up for ds4owd-002\n\n\n\nTools & Packages (In Development)\n\nwashr - R package for FAIR data publication\nfairenough - Tool for assessing FAIR compliance\n\n\n\nFunding Opportunities\n\nETH Open Research Data Program - Due date: 2025-09-01\nSwiss Leading House Africa - Due date: 2025-09-30\nCongressi Stefano Franscini - Due date: 2025-10-31\nETH Foundation",
+    "crumbs": [
+      "Day 1 - July 15",
+      "openwashdata"
+    ]
+  },
+  {
+    "objectID": "day1/warmup/index.html",
+    "href": "day1/warmup/index.html",
+    "title": "Warm-up",
+    "section": "",
+    "text": "This warm-up session sets the tone for our conference by creating connections among participants and establishing a collaborative atmosphere. Through structured activities, we’ll build trust, learn about each other’s backgrounds, and align on shared goals for the three days ahead.",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Warm-up"
+    ]
+  },
+  {
+    "objectID": "day1/warmup/index.html#session-overview",
+    "href": "day1/warmup/index.html#session-overview",
+    "title": "Warm-up",
+    "section": "",
+    "text": "This warm-up session sets the tone for our conference by creating connections among participants and establishing a collaborative atmosphere. Through structured activities, we’ll build trust, learn about each other’s backgrounds, and align on shared goals for the three days ahead.",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Warm-up"
+    ]
+  },
+  {
+    "objectID": "day1/warmup/index.html#learning-objectives",
+    "href": "day1/warmup/index.html#learning-objectives",
+    "title": "Warm-up",
+    "section": " Learning Objectives",
+    "text": "Learning Objectives\nBy the end of this session, you will be able to:\n\nConnect names and faces with fellow participants\nUnderstand the diverse backgrounds and expertise in the room\nPractice giving and receiving constructive feedback\nEstablish a collaborative atmosphere for the conference\nAlign on shared expectations and goals",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Warm-up"
+    ]
+  },
+  {
+    "objectID": "day1/warmup/index.html#resources",
+    "href": "day1/warmup/index.html#resources",
+    "title": "Warm-up",
+    "section": " Resources",
+    "text": "Resources\n\nIcebreaker Methodologies\n\nLiberating Structures - Collection of interaction methods\nPositive Feedback Techniques - Constructive feedback guide\nTeam Building Activities - Facilitation resources\n\n\n\nConference Materials\n\nCode of Conduct - Community guidelines\nConference Schedule - Three-day overview\nParticipant Directory - Connect with attendees",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Warm-up"
+    ]
+  },
+  {
+    "objectID": "day1/warmup/index.html#planned-activities",
+    "href": "day1/warmup/index.html#planned-activities",
+    "title": "Warm-up",
+    "section": " Planned Activities",
+    "text": "Planned Activities\n\n1. Positive Feedback Exercise (10 minutes)\nA structured activity to practice giving and receiving constructive feedback: - Pair up with someone you don’t know well - Share one professional achievement you’re proud of - Partner provides specific, positive feedback - Switch roles and repeat\n\n\n2. Speed Introductions (10 minutes)\nQuick rounds to meet multiple participants: - 60-second introductions per person - Share: Name, organization, one goal for the conference - Rotate to new partner every 2 minutes - Aim to meet 5-6 people\n\n\n3. Expectations Alignment (10 minutes)\nCollective discussion on conference goals: - What brought you here? - What do you hope to learn? - What can you contribute? - How can we support each other?",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Warm-up"
+    ]
+  },
+  {
+    "objectID": "day1/warmup/index.html#creating-psychological-safety",
+    "href": "day1/warmup/index.html#creating-psychological-safety",
+    "title": "Warm-up",
+    "section": " Creating Psychological Safety",
+    "text": "Creating Psychological Safety\n\nKey Principles\n\nEveryone belongs here - All perspectives are valuable\nQuestions are welcome - No question is too basic\nMistakes are learning - We’re all here to grow\nSupport each other - Success is collective\n\n\n\nGround Rules\n\nBe present and engaged\nListen with curiosity\nShare the air time\nHonor confidentiality when requested\nEmbrace different perspectives",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Warm-up"
+    ]
+  },
+  {
+    "objectID": "day1/warmup/index.html#tips-for-networking",
+    "href": "day1/warmup/index.html#tips-for-networking",
+    "title": "Warm-up",
+    "section": " Tips for Networking",
+    "text": "Tips for Networking\n\nDuring the Conference\n\nUse name tags consistently\nJoin conversations openly\nAsk “How can I help?”\nShare contact information\nTake notes on connections\n\n\n\nAfter Sessions\n\nFollow up on conversations\nConnect on GitHub/LinkedIn\nShare relevant resources\nCollaborate on projects\nStay engaged with openwashdata",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Warm-up"
+    ]
+  },
+  {
+    "objectID": "day1/warmup/index.html#session-details",
+    "href": "day1/warmup/index.html#session-details",
+    "title": "Warm-up",
+    "section": " Session Details",
+    "text": "Session Details\nTime: 09:00-09:30\nDuration: 30 minutes\nFormat: Interactive ice-breakers and introductions\nFacilitator: Lars Schöbitz",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Warm-up"
+    ]
+  },
+  {
+    "objectID": "day1/warmup/index.html#setting-the-tone",
+    "href": "day1/warmup/index.html#setting-the-tone",
+    "title": "Warm-up",
+    "section": " Setting the Tone",
+    "text": "Setting the Tone\nThis session establishes the collaborative, supportive environment that will characterize our entire conference. By starting with positive interactions and clear expectations, we create the foundation for productive learning and meaningful connections.",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Warm-up"
+    ]
+  },
+  {
+    "objectID": "day1/warmup/index.html#quick-links",
+    "href": "day1/warmup/index.html#quick-links",
+    "title": "Warm-up",
+    "section": " Quick Links",
+    "text": "Quick Links\n\n Full Conference Agenda\n openwashdata Community\n Conference Repository",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Warm-up"
+    ]
+  },
+  {
+    "objectID": "day1/lean-coffee/slides.html",
+    "href": "day1/lean-coffee/slides.html",
+    "title": "Lean Coffee Session",
+    "section": "",
+    "text": "Time: TBD (Afternoon session)\nFormat: Lean Coffee methodology"
+  },
+  {
+    "objectID": "day1/lean-coffee/slides.html#what-is-lean-coffee",
+    "href": "day1/lean-coffee/slides.html#what-is-lean-coffee",
+    "title": "Lean Coffee Session",
+    "section": "What is Lean Coffee?",
+    "text": "What is Lean Coffee?\nLean Coffee is a structured, but agenda-less meeting format. Participants gather, build an agenda, and begin conversing. Conversations are directed and productive because the agenda for the meeting was democratically generated."
+  },
+  {
+    "objectID": "day1/lean-coffee/slides.html#how-it-works",
+    "href": "day1/lean-coffee/slides.html#how-it-works",
+    "title": "Lean Coffee Session",
+    "section": "How It Works",
+    "text": "How It Works\n\n1. Setup (5 minutes)\nThree columns are created:\n\nTo Discuss: Topics waiting to be discussed\nDiscussing: Current topic\nDiscussed: Completed topics\n\n\n\n2. Generate Topics (5-10 minutes)\nEveryone writes topics on sticky notes:\n\nOne topic per note\nBrief, clear descriptions\nQuestions, concerns, or ideas\nRelated to openwashdata\n\n\n\n3. Vote on Topics (5 minutes)\nDemocratic prioritization:\n\nEach person gets 2-3 votes\nVote for topics of interest\nCan use multiple votes on one topic\nTopics ranked by vote count\n\n\n\n4. Discuss Topics (45-60 minutes)\nStructured conversations:\n\nStart with highest-voted topic\nSet timer for 5 minutes\nWhen timer ends, vote to continue or move on\nIf continuing, add 3 more minutes\nMove completed topics to “Discussed”\n\n\n\n5. Close and Actions (5 minutes)\nWrap up the session:\n\nSummarize key insights\nIdentify action items\nAssign owners to actions\nShare notes with group"
+  },
+  {
+    "objectID": "day1/lean-coffee/slides.html#why-lean-coffee",
+    "href": "day1/lean-coffee/slides.html#why-lean-coffee",
+    "title": "Lean Coffee Session",
+    "section": "Why Lean Coffee?",
+    "text": "Why Lean Coffee?\n\nBenefits\n\nDemocratic: Everyone has equal voice\nEfficient: Time-boxed discussions\nFlexible: Addresses current concerns\nEngaging: Active participation\n\n\n\nPerfect For\n\nSurfacing community concerns\nGenerating new ideas\nProblem-solving\nKnowledge sharing"
+  },
+  {
+    "objectID": "day1/lean-coffee/slides.html#potential-topics",
+    "href": "day1/lean-coffee/slides.html#potential-topics",
+    "title": "Lean Coffee Session",
+    "section": "Potential Topics",
+    "text": "Potential Topics\nPast Lean Coffee sessions have covered:\n\nTechnical challenges in data collection\nCommunity engagement strategies\nFunding and sustainability\nTool development priorities\nPartnership opportunities\nTraining and capacity building"
+  },
+  {
+    "objectID": "day1/lean-coffee/slides.html#tips-for-success",
+    "href": "day1/lean-coffee/slides.html#tips-for-success",
+    "title": "Lean Coffee Session",
+    "section": "Tips for Success",
+    "text": "Tips for Success\n\nKeep topics focused and specific\nBe concise in discussions\nListen actively to others\nBuild on others’ ideas\nFocus on actionable outcomes\n\n\n\n\n\n\n\nCome Prepared\n\n\n\nThink about topics you’d like to discuss with the community. The best Lean Coffee sessions address real, current challenges and opportunities."
+  },
+  {
+    "objectID": "day1/governance/slides.html",
+    "href": "day1/governance/slides.html",
+    "title": "Governance & Decision Making",
+    "section": "",
+    "text": "Introduction & Context (~10 min)\n Governance Models (~15 min) - Including Martha’s Rules\n Activity 1 (5 min) - Project Assessment\n Roles & Code of Conduct (~10 min)\n Meeting Management (~15 min) - 10 rules for better meetings\n Activities 2-4 (15 min) - Decision making, roles, governance\n\n\n\nThis is our afternoon session on governance - More in-depth than morning session - Focus on practical tools and frameworks - Multiple activities to apply concepts"
+  },
+  {
+    "objectID": "day1/governance/slides.html#session-roadmap-70-min",
+    "href": "day1/governance/slides.html#session-roadmap-70-min",
+    "title": "Governance & Decision Making",
+    "section": "",
+    "text": "Introduction & Context (~10 min)\n Governance Models (~15 min) - Including Martha’s Rules\n Activity 1 (5 min) - Project Assessment\n Roles & Code of Conduct (~10 min)\n Meeting Management (~15 min) - 10 rules for better meetings\n Activities 2-4 (15 min) - Decision making, roles, governance\n\n\n\nThis is our afternoon session on governance - More in-depth than morning session - Focus on practical tools and frameworks - Multiple activities to apply concepts"
+  },
+  {
+    "objectID": "day1/governance/slides.html#starting-point",
+    "href": "day1/governance/slides.html#starting-point",
+    "title": "Governance & Decision Making",
+    "section": "Starting point",
+    "text": "Starting point\n\n\nA 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding and rough consensus of the problem being solved and work that needs to be done.\n— Lorin Hochstein\n\n\nIn this house we call them “project managers”.\n— Greg Wilson"
+  },
+  {
+    "objectID": "day1/governance/slides.html#research-software-because-that-is-what-we-create",
+    "href": "day1/governance/slides.html#research-software-because-that-is-what-we-create",
+    "title": "Governance & Decision Making",
+    "section": " Research software (because that is what we create)",
+    "text": "Research software (because that is what we create)\n\nSoftware is created and run to answer a question\nPapers, theses, and other reports are the product\nThe software is “just” a tool\nShades into projects that produce software for other researchers to use"
+  },
+  {
+    "objectID": "day1/governance/slides.html#you",
+    "href": "day1/governance/slides.html#you",
+    "title": "Governance & Decision Making",
+    "section": " You",
+    "text": "You\n\nDegree(s) in some research domain\nLittle or no formal training in software development\nIn a team of 1–12 people\nTimelines of weeks to months\n\n\n\n\nXKCD Dependency cartoon"
+  },
+  {
+    "objectID": "day1/governance/slides.html#me",
+    "href": "day1/governance/slides.html#me",
+    "title": "Governance & Decision Making",
+    "section": " Me",
+    "text": "Me\n\nDon’t remember much statistics…\n…but I have programmed a bit in R,\n…I’ve managed a few software projects,\n…and I’ve been lucky enough to hang out with some very smart people"
+  },
+  {
+    "objectID": "day1/governance/slides.html#where-weve-been-where-were-going",
+    "href": "day1/governance/slides.html#where-weve-been-where-were-going",
+    "title": "Governance & Decision Making",
+    "section": "Where we’ve been, where we’re going",
+    "text": "Where we’ve been, where we’re going\n\n\n\nThen\nNow\nNext\n\n\n\n\nDropbox\nGit repository\nBranching workflow\n\n\n“Just do it”\nSlack / mailing list\nMartha’s Rules\n\n\nInteractive analysis\nA big pile of scripts\nBuild tools / CI\n\n\nWord / Google Docs\nNotebooks / LaTeX\nSite builder\n\n\n“It doesn’t crash”\n“Are there any NAs?”\nAssertions / unit tests\n\n\n“Um, hi?”\nREADME + LICENSE\nCONTRIBUTING + CoC"
+  },
+  {
+    "objectID": "day1/governance/slides.html#acknowledgments",
+    "href": "day1/governance/slides.html#acknowledgments",
+    "title": "Governance & Decision Making",
+    "section": " Acknowledgments",
+    "text": "Acknowledgments\n\nOriginal workshop: Daniel Standage and Greg Wilson\nProducing Open Source Software: Karl Fogel\nResearch Software Engineering with Python: Damien Irving, Kate Hertweck, Luke Johnston, Joel Ostblom, Charlotte Wickham, and Greg Wilson\n\n\n\n\nCover of ‘Research Software Engineering with Python’"
+  },
+  {
+    "objectID": "day1/governance/slides.html#activity-project-assessment-5-minutes",
+    "href": "day1/governance/slides.html#activity-project-assessment-5-minutes",
+    "title": "Governance & Decision Making",
+    "section": " Activity: Project Assessment (5 minutes)",
+    "text": "Activity: Project Assessment (5 minutes)\nIn our shared Google Doc, Section: “Governance Assessment”\nReflect on your current project:\n\nWho uses your software / your work?\nHow do they find it?\nWho decides what will happen next?\nHow is that communicated?\nWho can make what kinds of changes?\nWhat happens automatically?\nHow are newcomers brought on board?\n\n\n⏱️ START: 0:20 | DURATION: 5 minutes | END: 0:25 - Give participants 4 minutes to write - 1 minute for quick sharing - This sets the context for why governance matters"
+  },
+  {
+    "objectID": "day1/governance/slides.html#what-problems-are-we-trying-to-solve",
+    "href": "day1/governance/slides.html#what-problems-are-we-trying-to-solve",
+    "title": "Governance & Decision Making",
+    "section": " What problems are we trying to solve?",
+    "text": "What problems are we trying to solve?\n\nLow productivity\n\n“Oh no: not another meeting…”\n\nOpaque decision making\n\n“Did we decide that?”\n“It’s not what you know, it’s who you know.”"
+  },
+  {
+    "objectID": "day1/governance/slides.html#the-good-news",
+    "href": "day1/governance/slides.html#the-good-news",
+    "title": "Governance & Decision Making",
+    "section": " The good news",
+    "text": "The good news\n\nYou don’t have to invent this yourself\nLearn from others who’ve solved these problems\nhttps://www.askamanager.org/ - Great resource for management advice\n\n\nExample insights: - “Consensus doesn’t mean everyone agrees - it means everyone can live with the decision” - “Document decisions immediately, or they didn’t happen”\n\n\n\n\nAsk a Manager logo"
+  },
+  {
+    "objectID": "day1/governance/slides.html#governance-models",
+    "href": "day1/governance/slides.html#governance-models",
+    "title": "Governance & Decision Making",
+    "section": " Governance models",
+    "text": "Governance models\n\nhttps://communityrule.info/ describes lots of options\nBenevolent dictator (often the project founder)\n\nCommon in young projects\nBrittle (founder can move on)\nUsually leads to emergence of unofficial (i.e., unaccountable) leaders\n\nElected representation\n\nExplicit rules for suffrage\n\nConsensus-based\n\nIf most people agree on most things most of the time"
+  },
+  {
+    "objectID": "day1/governance/slides.html#hero-programmers",
+    "href": "day1/governance/slides.html#hero-programmers",
+    "title": "Governance & Decision Making",
+    "section": " “Hero” programmers",
+    "text": "“Hero” programmers\n\nBrooks advocated a chief programmer model in the 1970s [@brooksjr.1995mythical]\n\nDisparaged since then\n\nBut 80% of projects on GitHub are hero projects [@majumder2019why]\n\n5% or less of people responsible for 95% or more of interactions\n“Heroes” commit far fewer bugs than other contributors\n\nDespite terminology, not a bad model for research projects\n\n[@petre2014code] found that people without domain knowledge couldn’t review scientific code effectively"
+  },
+  {
+    "objectID": "day1/governance/slides.html#marthas-rules",
+    "href": "day1/governance/slides.html#marthas-rules",
+    "title": "Governance & Decision Making",
+    "section": " Martha’s Rules",
+    "text": "Martha’s Rules\n\n\nThis is our recommended governance framework\nSimple enough to implement immediately\nClear enough to avoid ambiguity\n\n\n\nAnyone can put forward a proposal by filing it at least 24 hours before a scheduled meeting\n\nOne-line summary\nBackground information\nConcrete proposal\nPros and cons\nAlternatives\n\nAt most two pages\n\nPreferably shorter"
+  },
+  {
+    "objectID": "day1/governance/slides.html#establishing-a-quorum",
+    "href": "day1/governance/slides.html#establishing-a-quorum",
+    "title": "Governance & Decision Making",
+    "section": " Establishing a quorum",
+    "text": "Establishing a quorum\n\nA quorum is established if half or more of voting members are present\nWhich means there must be:\n\nA rule about how to become a member\nA rule about when and how someone stops being a member\n\nThe meeting may not discuss or vote on a proposal unless its sponsor (or their delegate) is present."
+  },
+  {
+    "objectID": "day1/governance/slides.html#presenting-a-proposal",
+    "href": "day1/governance/slides.html#presenting-a-proposal",
+    "title": "Governance & Decision Making",
+    "section": " Presenting a proposal",
+    "text": "Presenting a proposal\n\nThe sponsor has 5 minutes to present the proposal\nMembers cast a sense vote: support, neutral, or oppose\n\nIf everyone supports or is neutral, go immediately to a binary vote with no further discussion\nIf a majority is opposed or neutral, send proposal back to sponsor for further work\n\nIf a minority of members oppose, set a timer for 10 minutes of moderated discussion\nThen call a final binary vote in which everyone must support or oppose (no neutral votes allowed)\nIf a majority support, the proposal is accepted\n\nOtherwise, it is returned to the sponsor for further work"
+  },
+  {
+    "objectID": "day1/governance/slides.html#roles-and-responsibilities",
+    "href": "day1/governance/slides.html#roles-and-responsibilities",
+    "title": "Governance & Decision Making",
+    "section": " Roles and responsibilities",
+    "text": "Roles and responsibilities\n\n\n\nPeople & Their Roles\n\n\n\nPerson\nRoles\n\n\n\n\nghopper\nadmin\n\n\nkjohnson\nadmin, commit\n\n\naturing\ncommit\n\n\nbwk\ncommit\n\n\n\n\n\n\nRoles & Their Tasks\n\n\n\nRole\nTasks\n\n\n\n\nadmin\nmerge PRs, assign issues\n\n\ncommit\npublish posts, file issues\n\n\n\n\n\n\nBenefits:\n\nGives you a list of what actually needs to be done\n\nIt’s always longer than you first expect\n\nTells everyone who to go to for what\n\nParticularly when their first choice is on holiday\n\nHelps with succession planning\n\n“We don’t have anyone who does that any more…”"
+  },
+  {
+    "objectID": "day1/governance/slides.html#code-of-conduct",
+    "href": "day1/governance/slides.html#code-of-conduct",
+    "title": "Governance & Decision Making",
+    "section": " Code of Conduct",
+    "text": "Code of Conduct\n\nDiverse communities need explicit norms\n\n“I didn’t realize someone would find that offensive”\nWhich is sometimes used dishonestly…\n\nAdopt a Code of Conduct (e.g., Python’s)\n\nIts mere existence is a strong signal about the kind of community you are\n\nDon’t write one yourself\n\nYou won’t think of all the edge cases\nUsing someone else’s makes misunderstandings less likely\n\nUse the Contributor Covenant"
+  },
+  {
+    "objectID": "day1/governance/slides.html#code-of-conduct-continued",
+    "href": "day1/governance/slides.html#code-of-conduct-continued",
+    "title": "Governance & Decision Making",
+    "section": " Code of Conduct (continued)",
+    "text": "Code of Conduct (continued)\n\nA Code of Conduct is only useful if it is enforced\n\nAnd if there is a clear reporting mechanism that community members trust\n\nBe explicit about enforcement mechanisms and consequences\nDesignate an independent third party to handle complaints\n\nTrade off with another project lead\nDo the background reading [@aurora2019howa]"
+  },
+  {
+    "objectID": "day1/governance/slides.html#meetings",
+    "href": "day1/governance/slides.html#meetings",
+    "title": "Governance & Decision Making",
+    "section": " Meetings",
+    "text": "Meetings\n\n⏱️ START: 0:40 | DURATION: 15 minutes | END: 0:55 - 10 practical rules for better meetings - Each rule gets about 1.5 minutes\n\n\nOn par with interruptions for “things people wish they could have less of”\nUnlike interruptions, can be done well\nAs with governance, having rules is the first and biggest step toward efficiency"
+  },
+  {
+    "objectID": "day1/governance/slides.html#does-there-actually-need-to-be-a-meeting",
+    "href": "day1/governance/slides.html#does-there-actually-need-to-be-a-meeting",
+    "title": "Governance & Decision Making",
+    "section": " 1. Does there actually need to be a meeting?",
+    "text": "1. Does there actually need to be a meeting?\n\nTo inform? Only if you are expecting questions\nTo consult? Only if people get a vote\n\nOtherwise it’s just informing with pretense\n\nTo discuss and make decisions? Yes\n\nBut only in small groups\nOr with well-defined procedural rules\n\nTo brainstorm or collaborate?\n\nThat’s a very different kind of meeting"
+  },
+  {
+    "objectID": "day1/governance/slides.html#create-an-agenda",
+    "href": "day1/governance/slides.html#create-an-agenda",
+    "title": "Governance & Decision Making",
+    "section": " 2. Create an agenda",
+    "text": "2. Create an agenda\n\nIf you don’t care enough to make a list, you don’t need a meeting\nInclude timings\nPrioritize\nPlan to end early\n\n“The most fundamental unit of time is the bladder”"
+  },
+  {
+    "objectID": "day1/governance/slides.html#have-clear-rules-for-making-decisions",
+    "href": "day1/governance/slides.html#have-clear-rules-for-making-decisions",
+    "title": "Governance & Decision Making",
+    "section": " 3. Have clear rules for making decisions",
+    "text": "3. Have clear rules for making decisions\n\n“The Tyranny of Structurelessness” [@freeman1972tyrannya]\nIf you need Robert’s Rules, you need training"
+  },
+  {
+    "objectID": "day1/governance/slides.html#put-someone-in-charge",
+    "href": "day1/governance/slides.html#put-someone-in-charge",
+    "title": "Governance & Decision Making",
+    "section": " 4. Put someone in charge",
+    "text": "4. Put someone in charge\n\nThe moderator should not do most of the talking\n\nAny more than the conductor plays most of the notes\n\nCall on specific people in order\nAllow them one point at a time\nKeep a backlog"
+  },
+  {
+    "objectID": "day1/governance/slides.html#require-politeness",
+    "href": "day1/governance/slides.html#require-politeness",
+    "title": "Governance & Decision Making",
+    "section": " 5. Require politeness",
+    "text": "5. Require politeness\n\nAll the other rules are special cases of this…\nNo technology during in-person meeting\n\nExcept for assistive technology or family need\n“Please put your devices in politeness mode”\n\nNo interruptions\n\nExcept by moderator\n\nNo rambling\nYou do have a Code of Conduct, right?"
+  },
+  {
+    "objectID": "day1/governance/slides.html#record-minutes",
+    "href": "day1/governance/slides.html#record-minutes",
+    "title": "Governance & Decision Making",
+    "section": " 6. Record minutes",
+    "text": "6. Record minutes\n\nSo people who weren’t there know what happened\nSo people who were there agree what happened\nSo people can be held accountable at later meetings"
+  },
+  {
+    "objectID": "day1/governance/slides.html#manage-that-guy",
+    "href": "day1/governance/slides.html#manage-that-guy",
+    "title": "Governance & Decision Making",
+    "section": " 7. Manage “that guy”",
+    "text": "7. Manage “that guy”\n\n\n\n\n\nNOAA categorization of disruptive behavior types\n\n\n\n\nThe moderator’s other job…\nThree stickies\nInterruption bingo\nhttps://coast.noaa.gov/ddb/"
+  },
+  {
+    "objectID": "day1/governance/slides.html#be-an-active-participant",
+    "href": "day1/governance/slides.html#be-an-active-participant",
+    "title": "Governance & Decision Making",
+    "section": " 8. Be an active participant",
+    "text": "8. Be an active participant\n\nDecline invitations\n\nIf you agree to abide by what the meeting decides\n\nRead the agenda and material before the meeting\nTake your own notes\nUse participants’ names\nPause before speaking\nPut down your hand"
+  },
+  {
+    "objectID": "day1/governance/slides.html#life-online",
+    "href": "day1/governance/slides.html#life-online",
+    "title": "Governance & Decision Making",
+    "section": " 9. Life online",
+    "text": "9. Life online\n\nNo mixed-mode meetings\n\nAll in person or all online\n\nDo not record the meeting without willing consent\nReview meeting protocol at the start if necessary\nTake minutes in a shared document\nRaise hands digitally\n\n/hand in the chat is good\n/hand another budget item is better"
+  },
+  {
+    "objectID": "day1/governance/slides.html#seek-truth-not-victory",
+    "href": "day1/governance/slides.html#seek-truth-not-victory",
+    "title": "Governance & Decision Making",
+    "section": " 10. Seek truth, not victory",
+    "text": "10. Seek truth, not victory\n\nNo social dominance displays\n\n“Well actually…”\n\nDon’t raise points you don’t actually believe in\n\nThe devil doesn’t need more advocates\n\nDon’t make excuses for your questions or opinions\n\n“This is probably stupid, but…”"
+  },
+  {
+    "objectID": "day1/governance/slides.html#recommended-reading",
+    "href": "day1/governance/slides.html#recommended-reading",
+    "title": "Governance & Decision Making",
+    "section": " Recommended reading",
+    "text": "Recommended reading\n\n[@brookfield2016discussiona] has a lot of good ideas for managing discussion\nProducing Open Source Software by Karl Fogel\nThe Tyranny of Structurelessness by Jo Freeman"
+  },
+  {
+    "objectID": "day1/governance/slides.html#key-takeaways",
+    "href": "day1/governance/slides.html#key-takeaways",
+    "title": "Governance & Decision Making",
+    "section": " Key Takeaways",
+    "text": "Key Takeaways\n\n\nGovernance is not bureaucracy - it’s clarity\nStart with Martha’s Rules for decision making\nDocument roles and responsibilities explicitly\nMake meetings count with clear structure\nCode of Conduct is non-negotiable\n\n\n\n\nWrap up with actionable items\nEncourage participants to implement one governance improvement"
+  },
+  {
+    "objectID": "day1/governance/slides.html#activity-decision-making-5-minutes",
+    "href": "day1/governance/slides.html#activity-decision-making-5-minutes",
+    "title": "Governance & Decision Making",
+    "section": " Activity: Decision Making (5 minutes)",
+    "text": "Activity: Decision Making (5 minutes)\nIn our shared Google Doc, Section: “Decision Making”\n\n\nWhat decisions has your project made recently?\nWho made them?\nWhere are they recorded?\n\n\n\n⏱️ START: 0:55 | DURATION: 5 minutes | END: 1:00 - This helps identify gaps in decision documentation"
+  },
+  {
+    "objectID": "day1/governance/slides.html#activity-roles-responsibilities-5-minutes",
+    "href": "day1/governance/slides.html#activity-roles-responsibilities-5-minutes",
+    "title": "Governance & Decision Making",
+    "section": " Activity: Roles & Responsibilities (5 minutes)",
+    "text": "Activity: Roles & Responsibilities (5 minutes)\nIn our shared Google Doc, Section: “Roles Matrix”\n\n\nColumn A: Tasks List things people do to keep your project going\n\nColumn B: People List contributors to the project\n\n\nThen: Draw connections - what patterns emerge?\n\n⏱️ START: 1:00 | DURATION: 5 minutes | END: 1:05 - Reveals informal structures and gaps"
+  },
+  {
+    "objectID": "day1/governance/slides.html#activity-governance-structure-5-minutes",
+    "href": "day1/governance/slides.html#activity-governance-structure-5-minutes",
+    "title": "Governance & Decision Making",
+    "section": " Activity: Governance Structure (5 minutes)",
+    "text": "Activity: Governance Structure (5 minutes)\nIn our shared Google Doc, Section: “Governance Rules”\n\n\nWho gets a vote in your group?\nHow are new people added to that pool?\nWhen and how do people lose their votes?\nWhere do people find out what has been decided?\nHow can non-voters raise issues?\n\n\n\n⏱️ START: 1:05 | DURATION: 5 minutes | END: 1:10 - Often reveals informal or unclear processes - Wrap up with key takeaways"
+  },
+  {
+    "objectID": "day1/governance/slides.html#references",
+    "href": "day1/governance/slides.html#references",
+    "title": "Governance & Decision Making",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html",
+    "href": "day1/openwashdata/slides.html",
+    "title": "openwashdata conf 2025",
+    "section": "",
+    "text": "library(washopenresearch)\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.2     ✔ tibble    3.3.0\n✔ lubridate 1.9.4     ✔ tidyr     1.3.1\n✔ purrr     1.0.4     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(ggthemes)\nlibrary(ggtext)\nlibrary(gt)\n\n# set ggplot theme --------------------------------------------------------\n\nggplot2::theme_set(\n    # Pick a starting theme\n    ggplot2::theme_gray(base_size = 14) +\n        # Add your favourite elements\n        ggplot2::theme(\n            axis.line = element_line(),\n            panel.background = element_rect(fill = \"white\"),\n            panel.grid.major = element_line(\"grey95\", linewidth = 0.25),\n            legend.key  = element_rect(fill = NA) \n        )\n)\nagenda &lt;- read_csv(here::here(\"data/tbl-openwashdata-conference-agenda.csv\")) \n\nRows: 26 Columns: 9\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (6): title, speaker, speaker_link, affiliation, affiliation_link, time\ndbl  (1): day\ntime (2): start_time, end_time\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\nagenda_final &lt;- agenda  |&gt;\n  select(-start_time, -end_time, -speaker_link, -affiliation_link) |&gt;\n  relocate(time) |&gt;\n  mutate(speaker = case_when(\n    str_detect(speaker, \"NA\") == TRUE ~ \" - \",\n    TRUE ~ speaker\n  )) |&gt;\n  mutate(affiliation = case_when(\n    str_detect(affiliation, \"NA\") == TRUE ~ \" - \",\n    TRUE ~ affiliation\n  ))\n# data preparation\n\nwashdev_das_type &lt;- washdev |&gt; \n    mutate(das_policy = case_when(\n        published_year &lt; 2020 ~ \"pre-2020\",\n        TRUE ~ \"2020 or later\"\n    )) |&gt; \n    mutate(das_type = case_when(\n        das_type == \"in paper\" ~ \"available in paper\",\n        das_type == \"on request\" ~ \"available on request\",\n        TRUE ~ das_type\n    ))  |&gt;     \n    mutate(das_type = case_when(\n        is.na(das_type) ~ \"missing\",\n        TRUE ~ das_type\n    ))\n## summary for data availability statement (DAS) type and policy year\n\nwashdev_das_type_n &lt;- washdev_das_type |&gt; \n    count(das_policy, das_type) \n\n\nfig_das_type &lt;- washdev_das_type_n |&gt; \n    ggplot(aes(x = reorder(das_type, n), y = n, fill = das_policy)) +\n    geom_col(position = position_dodge(), width = 0.6) +\n    geom_text(aes(label = n), \n              vjust = 0.5, \n              hjust = -0.5,  \n              size = 3,\n              position = position_dodge(width = 0.5)\n    ) +\n    coord_flip() +\n    annotate(\"text\", \n             x = 3.77, \n             y = 150, \n             size = 3, \n             label = \"after introducing policy\\nfor data availability statement\", \n             color = \"gray20\") +\n    geom_curve(aes(x = 3.95, y = 142, xend = 3.95, yend = 70), \n               curvature = 0.5, \n               arrow = arrow(type = \"closed\", length = unit(0.1, \"inches\")),\n               color = \"gray20\") +\n    labs(\n        title = \"Data Availability Statement\",\n        subtitle = \"Analysis of 924 articles published in Journal of Water, Sanitation and Hygiene for Development (2011 to 2023)\",\n        fill = \"published year\",\n        y = \"number of publications\",\n        x = \"data availability statement\") +\n    scale_y_continuous(breaks = seq(0, 600, 100), limits = c(0,600)) +\n    scale_fill_colorblind() +\n    theme(panel.grid.major.y = element_blank(),\n          plot.subtitle = element_text(size = 10))\n\n# https://www.iwapublishing.com/news/iwa-publishing-2020-annual-review\n## summary for data availability statement (DAS) type and supp file type\n\nwashdev_supp_file_type_n &lt;- washdev_das_type |&gt; \n    filter(das_policy == \"2020 or later\") |&gt; \n    select(paperid, das_type, supp_file_type) |&gt; \n    unnest(supp_file_type) |&gt; \n    mutate(supp_file_type = case_when(\n        is.na(supp_file_type) ~ \"missing\",\n        TRUE ~ supp_file_type\n    )) |&gt;\n    count(das_type, supp_file_type) \n\ntbl_supp_type &lt;- washdev_supp_file_type_n |&gt; \n    group_by(supp_file_type) |&gt; \n    summarise(n = sum(n)) |&gt; \n    arrange(desc(n)) |&gt; \n    mutate(perc = n / sum(n) * 100)"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#programme",
+    "href": "day1/openwashdata/slides.html#programme",
+    "title": "openwashdata conf 2025",
+    "section": "Programme",
+    "text": "Programme\n\n\n\n\n\nTime\nTitle\nSpeaker\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n\n\n09:30 - 10:00\nWarm-up activity\nLars\n\n\n10:00 - 10:45\nopenwashdata community - past and future\nLars\n\n\n10:45 - 11:00\nBreak\n-\n\n\n11:00 - 12:00\nData stewardship at BASEflow Malawi\nEmmanuel\n\n\n12:00 - 13:00\nLunch break\n-\n\n\n13:00 - 13:30\nWarm-up - Positive Gossip\n-\n\n\n13:30 - 14:00\nGovernance Part 1\nLars\n\n\n14:00 - 14:15\nBreak\n-\n\n\n14:15 - 15:00\nGovernance Part 2\nLars\n\n\n15:00 - 15:30\nHackathon Ideation\n-\n\n\n15:30 - 15:45\nBreak with small cakes\n-\n\n\n15:45 - 16:30\nLean Coffee\n-"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#session-roadmap-45-min",
+    "href": "day1/openwashdata/slides.html#session-roadmap-45-min",
+    "title": "openwashdata conf 2025",
+    "section": " Session Roadmap (45 min)",
+    "text": "Session Roadmap (45 min)\n\n\n The Opportunity (~10 min) - Why open data matters in WASH\n openwashdata Journey (~10 min) - Our story and framework\n Activity 1 (5 min) - Your strategies & tactics\n Future Plans (~10 min) - WP2/WP3 & ds4owd-002\n Funding & Collaboration (~5 min)\n Activity 2 (5 min) - Building together\n Wrap-up (~2 min)\n\n\n\nThis roadmap helps participants know what to expect and where we are in the journey"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#detailed-timing-breakdown",
+    "href": "day1/openwashdata/slides.html#detailed-timing-breakdown",
+    "title": "openwashdata conf 2025",
+    "section": " Detailed Timing Breakdown",
+    "text": "Detailed Timing Breakdown\n\n\n\n\n\n\n\n\n\nTime\nDuration\nSection\nKey Activities\n\n\n\n\n0:00\n3 min\nIntroduction & Programme\nWelcome, session overview\n\n\n0:03\n10 min\n The Opportunity\nJournal data analysis, FAIR principles\n\n\n0:13\n10 min\n openwashdata & VMOST\nCommunity intro, Vision, Mission, Objectives\n\n\n0:23\n5 min\n Activity 1\nStrategies & tactics brainstorming\n\n\n0:28\n5 min\n Future (WP2/WP3)\nGovernance & expansion plans\n\n\n0:33\n5 min\n ds4owd-002\nCourse plans & preparation\n\n\n0:38\n2 min\n Organogram\nCommunity structure evolution\n\n\n0:40\n3 min\n Funding & Papers\nOpportunities & publications\n\n\n0:43\n5 min\n Activity 2\nFunding ideas & collaborations\n\n\n0:48\n2 min\n Wrap-up\nKey takeaways, next steps\n\n\n\n\n⏱️ This detailed breakdown helps you pace the session and ensures all content fits within 45 minutes"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#journal-articles",
+    "href": "day1/openwashdata/slides.html#journal-articles",
+    "title": "openwashdata conf 2025",
+    "section": "Journal articles",
+    "text": "Journal articles\n\n\nData: R package washopenresearch to be published at https://github.com/openwashdata/washopenresearch\n\n\n\nThe first missed opportunity are journal articles and data from researchers\nWe looked at the Data Availability Statements in 924 articles published in the Journal of Water, Sanitation and Hygiene for Development from 2011 to 2023.\nYou can see the data availability statements on the vertical axis and the number of publications on the horizontal axis\nColors differentiate between papers published before 2020 and in 2020 or later, when a policy was introduced that requires authors to select one of the three data availability statements\nAfter that policy was introduced, we still found 15% of papers without a data availability statement, while 60% of articles stated that data was available in the paper, which could also be as supplementary material"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#journal-articles-1",
+    "href": "day1/openwashdata/slides.html#journal-articles-1",
+    "title": "openwashdata conf 2025",
+    "section": "Journal articles",
+    "text": "Journal articles\nSupplementary Material\n\n\nTake-away: Not a single file is in machine-readable, non-proprietary file type format that would qualify for following FAIR principles for data sharing [@wilkinson2016].\nGood practice: CSV file (comma-separated values), including a data dictionary for all variables/columns in the data\n\n\n\n\n\n\n\n\n\nSupplementary Material\n\n\nArticles published 2020 or later\n\n\nfile type\nn1\n%\n\n\n\n\nmissing\n202\n51.4\n\n\ndocx\n149\n37.9\n\n\nxlsx\n24\n6.1\n\n\npdf\n13\n3.3\n\n\npptx\n4\n1.0\n\n\npng\n1\n0.3\n\n\n\n1 One article can have multiple files.\n\n\n\n\n\n\n\n\n\n\nData: R package washopenresearch to be published at https://github.com/openwashdata/washopenresearch\n\n\n\nWe then looked at the Supplementary Material of all articles published in 2020 or later and found that have half of the published articles still had no data published alongside the article\nBut, the most insightful take-away is that not a single file was shared in a file type format that would qualify for following FAIR principles for data sharing.\nThat is something we are hoping to change, where sharing data as CSV files would already go a long way."
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#openwashdata-community-1",
+    "href": "day1/openwashdata/slides.html#openwashdata-community-1",
+    "title": "openwashdata conf 2025",
+    "section": "openwashdata community",
+    "text": "openwashdata community\n\nLaunched 10 March 2023\nSupported by four projects worth 340’000 CHF (50% in-kind contribution)\nEnds in July 2026\nSo many outputs to write about (from 2026 to 2027)"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#vision",
+    "href": "day1/openwashdata/slides.html#vision",
+    "title": "openwashdata conf 2025",
+    "section": " Vision",
+    "text": "Vision\nAn active global community that applies FAIR principles [@wilkinson2016] to data generated in the greater water, sanitation, and hygiene sector."
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#mission",
+    "href": "day1/openwashdata/slides.html#mission",
+    "title": "openwashdata conf 2025",
+    "section": " Mission",
+    "text": "Mission\nEmpower WASH professionals to engage with tools and workflows for open data and code.\n\nFrom: openwashdata.org/pages/gallery/vmost/"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#vmost",
+    "href": "day1/openwashdata/slides.html#vmost",
+    "title": "openwashdata conf 2025",
+    "section": "VMOST",
+    "text": "VMOST\n\n Vision\n Mission\n Objectives\n Strategy\n Tactics\n\n\n⏱️ START: 0:16 | DURATION: 7 minutes | END: 0:23 VMOST analysis is a tool used to evaluate if an overall strategy and supporting activities are in alignment. It can be used for current or future plans, and it breaks down a strategy and its core components into an easy-to-consume format - Vision & Mission: 2 minutes - Objectives: 2 minutes\n- Strategies & Tactics: 3 minutes"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#objectives-indicators",
+    "href": "day1/openwashdata/slides.html#objectives-indicators",
+    "title": "openwashdata conf 2025",
+    "section": "Objectives (Indicators)",
+    "text": "Objectives (Indicators)\nBy the end of March 2024\n\n\nIncrease the number of datasets published on the website to 20 R data packages.\nIncrease the number of datasets that are donated for publication to 50 datasets.\nIncrease the number of people that have donated, cleaned, and published data independently with support of the openwashdata team to 5.\nIncrease the number of unique visitors to the website to 10 visitors/day.\nIncrease global coverage of visitors to the website to 50% of countries globally.\nIncrease the number of data users who report having used data published through openwashdata community to 2 uses per dataset on average.\nIncrease the number of subscribers to the openwashdata newsletter to250 subscribers from 50 countries.\nIncrease the number of participants in live coding events to 5 participants on average."
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#strategies",
+    "href": "day1/openwashdata/slides.html#strategies",
+    "title": "openwashdata conf 2025",
+    "section": "Strategies",
+    "text": "Strategies\n\n\nDevelop and maintain a data warehouse on the openwashdata website that provides an overview of published datasets.\nDevelop a guide as a companion to workshops, live coding events, etc. that documents how to participate in the community and publish data following FAIR principles.\nBuild a cohort of students, scientists, practitioners, and civil servants, that are comfortable using R statistical software for exploratory data analysis and Git version control and GitHub for communication and collaboration.\nPrepare all communication material for openwashdata using Quarto publishing framework1 and R statistical software.\nProvide tools and resources to promote the use of open data in the WASH sector\nPublish workshops as open educational material.\nIntroduce people to the concept of “open by default”, as well as the use of open source software, the concept of open science, and benefits of open government (data).\nBuild material always in mind with learner personas3 that were defined for the community.\nCommunication material does not refer to openwashdata as a project, but as a community.\nDesign a common corporate identity using defined color palettes, fonts, etc.\nEnsure that material developed for openwashdata follows best practices for accessibility.\n\n\n\nCheck: openwashdata.org/pages/gallery/vmost/\n\nhttps://quarto.org/"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#tactics",
+    "href": "day1/openwashdata/slides.html#tactics",
+    "title": "openwashdata conf 2025",
+    "section": "Tactics",
+    "text": "Tactics\n\n\nProvide a 10-week online workshop for a selected group of participants to share tools and workflows that support publishing of open data following FAIR principles.\nPublish monthly blog posts on the openwashdata website about selected open datasets, community stories, workflows, insights into community management, use cases, etc.\nPublish monthly issues of the openwashdata newsletter.\nHost quarterly community meetups with invited speakers that share stories from their organisations related to data management, data analysis, open data, etc.\nVisualize and disseminate published open data using interactive dashboards, maps, articles, etc.\n\n\n\nCheck: openwashdata.org/pages/gallery/vmost/"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#get-ready-to-share",
+    "href": "day1/openwashdata/slides.html#get-ready-to-share",
+    "title": "openwashdata conf 2025",
+    "section": " Get Ready to Share!",
+    "text": "Get Ready to Share!\n\nIn a moment, I’ll pause to hear your ideas\n\n\n\n Think about strategies & tactics for your context\n Consider your (local) challenges & opportunities\n\n What partnerships could accelerate progress?\n\n\n\n⏱️ This transition slide prepares participants for the upcoming activity - Give them a moment to think before opening the Google Doc - Emphasize we want practical, actionable ideas"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#activity-your-ideas-matter-5-minutes",
+    "href": "day1/openwashdata/slides.html#activity-your-ideas-matter-5-minutes",
+    "title": "openwashdata conf 2025",
+    "section": " Activity: Your Ideas Matter (5 minutes)",
+    "text": "Activity: Your Ideas Matter (5 minutes)\nIn our shared Google Doc, please add:\nWhat other strategies or tactics could help build an open data culture in WASH?\nThink about:\n\n🎯 Your (local) context\n🤝 Partnerships you could leverage\n🛠️ Tools or resources you need\n\n\n⏱️ START: 0:23 | DURATION: 5 minutes | END: 0:28 - Give clear instructions (1 min) - Silent writing time (3 min) - Quick verbal share of 1-2 ideas (1 min) This builds on the VMOST framework they just learned. Watch for innovative ideas that could expand our approach. Highlight connections to their suggestions when discussing WP3."
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#wp2-governance-what-today-is-all-about",
+    "href": "day1/openwashdata/slides.html#wp2-governance-what-today-is-all-about",
+    "title": "openwashdata conf 2025",
+    "section": " WP2: Governance (what today is all about)",
+    "text": "WP2: Governance (what today is all about)\n\nActivity 2.1: Develop a governance structure for a community organization and decision-making processes.\nActivity 2.2: Form a sounding board comprising community members to provide directional feedback.\nActivity 2.3: Create a long-term funding strategy for the openwashdata community.\n\nOpen question: What is the medium-term future of openwashdata and what does it look like?\n\n⏱️ START: 0:28 | DURATION: 5 minutes | END: 0:33 - WP2 Governance: 2 minutes - WP3 Community expansion: 3 minutes - Reference back to participant ideas from Activity 1"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#wp3-community-expansion-what-i-need-your-support-for",
+    "href": "day1/openwashdata/slides.html#wp3-community-expansion-what-i-need-your-support-for",
+    "title": "openwashdata conf 2025",
+    "section": " WP3: Community expansion (What I need your support for)",
+    "text": "WP3: Community expansion (What I need your support for)\n\n Activity 3.1: Offer advanced data science training and workshops to community members.\n Activity 3.2: Develop a mentorship program to support new members in adopting ORD practices.\n Activity 3.3: Organize community events to foster networking and collaboration.\n\nPriority: Strong focus on WP3 for the remainder of the project."
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#building-on-your-ideas",
+    "href": "day1/openwashdata/slides.html#building-on-your-ideas",
+    "title": "openwashdata conf 2025",
+    "section": " Building on Your Ideas",
+    "text": "Building on Your Ideas\n\n\nYour strategies from Activity 1 directly inform WP3 planning\nLocal contexts you shared help shape regional initiatives\nPartnership ideas guide our collaboration approach\n\n\n\n⏱️ Callback to Activity 1 - reference specific ideas if they shared good ones - This shows we value their input and it directly influences our work"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#data-science-for-openwashdata-002",
+    "href": "day1/openwashdata/slides.html#data-science-for-openwashdata-002",
+    "title": "openwashdata conf 2025",
+    "section": "data science for openwashdata 002",
+    "text": "data science for openwashdata 002\nAll efforts into the next iteration of the course.\n\n⏱️ START: 0:33 | DURATION: 5 minutes | END: 0:38 - Course overview and goals: 2 minutes - Communication campaign: 1.5 minutes - Course preparation: 1.5 minutes\n\n\nfree, live, online, 9 module programme (goal: new AI module)\n200 registrations for 2023 iteration (goal 2025: 500)\n100 show-ups (goal 2025: 250)\n20 participants completed capstone project (goal: 100)\n5 participants published data packages (goal: 50)\nnext iteration: from 11th September 2025, sign-up link: https://ee-eu.kobotoolbox.org/x/7V3qeDYD\n\n\nds4owd-002.github.io/website/"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#ds4owd-002-communication-campaign-strategy-from-early-june",
+    "href": "day1/openwashdata/slides.html#ds4owd-002-communication-campaign-strategy-from-early-june",
+    "title": "openwashdata conf 2025",
+    "section": "ds4owd-002 communication campaign (strategy from early June)",
+    "text": "ds4owd-002 communication campaign (strategy from early June)\n\n\n🌕 restart monthly newsletter editions (now)\n🌕 publish a blog post on ds4owd-001 (July) (Thanks, Adriana)\n🌗 start publishing a LinkedIn post every Thursday (openwashdata thursday)\n🌑 host an information event (late August)\n🌑 host a series of workshops for washr / fairenough (from October 2025 to March 2026)"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#ds4owd-002-course-preparation",
+    "href": "day1/openwashdata/slides.html#ds4owd-002-course-preparation",
+    "title": "openwashdata conf 2025",
+    "section": "ds4owd-002 course preparation",
+    "text": "ds4owd-002 course preparation\n\n\n🌕 Platform for access to recordings through authentication (Zoom with registration for each session and detailed usage statistics)\n🌗 Prepare quizzes for each module for participants to complete each module (with feedback on whether participants watched recording or joined live module)\n🌗 Share information about course through personal channels, newsletters, etc.\n🌑 Write templates / R function / Claude Code Slash commands for reviewing homework assignments, capstone projects, data packages, etc.\n🌑 Establish mentorship programme"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#starting-point",
+    "href": "day1/openwashdata/slides.html#starting-point",
+    "title": "openwashdata conf 2025",
+    "section": "Starting Point",
+    "text": "Starting Point\n\n\nRead full proposal for Phase 2 at: openwashdata.org/pages/gallery/proposal-02/\n\n\n⏱️ START: 0:38 | DURATION: 2 minutes | END: 0:40 - 30 seconds per slide (4 slides = 2 minutes) - Emphasize evolution and growth - Quick visual journey through phases"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#mid-development",
+    "href": "day1/openwashdata/slides.html#mid-development",
+    "title": "openwashdata conf 2025",
+    "section": "Mid-development",
+    "text": "Mid-development\n\n\nFull evolution available at: openwashdata.org/pages/gallery/proposal-02/"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#community-integration",
+    "href": "day1/openwashdata/slides.html#community-integration",
+    "title": "openwashdata conf 2025",
+    "section": "Community Integration",
+    "text": "Community Integration\n\n\nFull evolution available at: openwashdata.org/pages/gallery/proposal-02/"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#future-vision",
+    "href": "day1/openwashdata/slides.html#future-vision",
+    "title": "openwashdata conf 2025",
+    "section": "Future Vision",
+    "text": "Future Vision\n\n\nRead full proposal for Phase 2 at: openwashdata.org/pages/gallery/proposal-02/"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#on-the-list",
+    "href": "day1/openwashdata/slides.html#on-the-list",
+    "title": "openwashdata conf 2025",
+    "section": "On the list",
+    "text": "On the list\n\n2025-09-01: ETH Open Research Data Program - Creating and publishing open educational resources on research data management. CHF 10,000 – CHF 25,000. (10 months)\n2025-09-30: Swiss Leading House Africa - Call for Research Partnership Grant. CHF 15,000 – CHF 40,000 (3 to 12 months).\n2025-10-31: Congressi Stefano Franscini. 2nd open(wash)data / conference in July 2027.\nTBD: ETH Foundation\n\n\n⏱️ START: 0:40 | DURATION: 3 minutes | END: 0:43 - List funding opportunities: 2 minutes - Transition slide: 30 seconds - Set up for Activity 2: 30 seconds"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#activity-2-coming-up",
+    "href": "day1/openwashdata/slides.html#activity-2-coming-up",
+    "title": "openwashdata conf 2025",
+    "section": " Activity 2 Coming Up",
+    "text": "Activity 2 Coming Up\n\nPrepare to share your knowledge about:\n\n\n\n Funding\nWhat opportunities exist in your region/sector?\n\n Collaboration\nWho would you partner with?\n\n\n⏱️ Quick transition to prepare them for the second activity - This helps them start thinking before we open the Google Doc"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#activity-building-together-5-minutes",
+    "href": "day1/openwashdata/slides.html#activity-building-together-5-minutes",
+    "title": "openwashdata conf 2025",
+    "section": " Activity: Building Together (5 minutes)",
+    "text": "Activity: Building Together (5 minutes)\nIn our shared Google Doc, please share:\n\nWhat other funding opportunities exist for open data initiatives?\nWho would you want to collaborate with on an open(wash)data project?\n\n\n⏱️ START: 0:43 | DURATION: 5 minutes | END: 0:48 - Instructions: 1 minute - Writing time: 3 minutes\n- Quick share: 1 minute This helps identify potential funding sources we haven’t considered. Also helps with networking - participants can see shared interests. Use this to transition to papers/impact discussion."
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#your-contributions-matter",
+    "href": "day1/openwashdata/slides.html#your-contributions-matter",
+    "title": "openwashdata conf 2025",
+    "section": " Your Contributions Matter",
+    "text": "Your Contributions Matter\nFrom today’s activities, we heard:\n\n\nNew strategies: [Reference 1-2 participant ideas]\nFunding opportunities: [Reference specific suggestions]\nCollaboration ideas: [Reference partnership suggestions]\n\n\nThese directly shape our Phase 3 planning!\n\n⏱️ Callback slide - fill in with actual participant contributions during session - This validates their input and shows immediate impact"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#months-4-papers",
+    "href": "day1/openwashdata/slides.html#months-4-papers",
+    "title": "openwashdata conf 2025",
+    "section": "12 months, 4 papers",
+    "text": "12 months, 4 papers\n\n⏱️ START: 0:48 | DURATION: 2 minutes | END: 0:50 - Callback slide: 30 seconds - Papers overview: 1 minute - Thank you & closing: 30 seconds - Allow buffer time for questions if ahead of schedule\n\n\n\nSetting the baseline: FAIR / Open Data practices in the WASH sector\nIncreasing competency: Data from two iterations of data science for openwashdata course\nStreamlining workflows: Development of an R package for FAIR data publication (washr / fairenough)\nTracking impact: Analytics from published data packages\nWhat else?"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#thanks",
+    "href": "day1/openwashdata/slides.html#thanks",
+    "title": "openwashdata conf 2025",
+    "section": "Thanks 🌻",
+    "text": "Thanks 🌻\nThis project was supported by the Open Research Data Program of the ETH Board.\nThe slides were created via revealjs and Quarto: https://quarto.org/docs/presentations/revealjs/\nYou can view source code of slides on GitHub\nOr you can download slides in PDF format\nThis material is licensed under Creative Commons Attribution Share Alike 4.0 International.\n\n\n\n\n openwashdata-conf.github.io/2025/day1/openwashdata.html"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#footnotes",
+    "href": "day1/openwashdata/slides.html#footnotes",
+    "title": "openwashdata conf 2025",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nhttps://quarto.org/↩︎"
+  },
+  {
+    "objectID": "day1/ideation/index.html",
+    "href": "day1/ideation/index.html",
+    "title": "Ideation for Hackathon",
+    "section": "",
+    "text": "Prepare for Day 2’s hackathon by generating and refining project ideas. This session will help form teams and define project scopes that can be realistically achieved during the hackathon. We’ll use collaborative brainstorming techniques to identify challenges in the WASH data space and develop innovative solutions.",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Ideation"
+    ]
+  },
+  {
+    "objectID": "day1/ideation/index.html#session-overview",
+    "href": "day1/ideation/index.html#session-overview",
+    "title": "Ideation for Hackathon",
+    "section": "",
+    "text": "Prepare for Day 2’s hackathon by generating and refining project ideas. This session will help form teams and define project scopes that can be realistically achieved during the hackathon. We’ll use collaborative brainstorming techniques to identify challenges in the WASH data space and develop innovative solutions.",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Ideation"
+    ]
+  },
+  {
+    "objectID": "day1/ideation/index.html#learning-objectives",
+    "href": "day1/ideation/index.html#learning-objectives",
+    "title": "Ideation for Hackathon",
+    "section": " Learning Objectives",
+    "text": "Learning Objectives\nBy the end of this session, you will be able to:\n\nIdentify key challenges in water and sanitation data management\nGenerate innovative project ideas using structured brainstorming\nEvaluate project feasibility for a one-day hackathon\nForm balanced teams with complementary skills\nDefine clear project scopes and deliverables",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Ideation"
+    ]
+  },
+  {
+    "objectID": "day1/ideation/index.html#resources",
+    "href": "day1/ideation/index.html#resources",
+    "title": "Ideation for Hackathon",
+    "section": " Resources",
+    "text": "Resources\n\nHackathon Materials\n\nHackathon Ideas List - Comprehensive list of project ideas\nDay 2 Prerequisites - Technical setup requirements\nClaude Code Documentation - AI assistant for coding\n\n\n\nopenwashdata Resources\n\nData Packages - Available datasets for projects\nPackage Templates - R package template\nContributing Guide - How to contribute\n\n\n\nProject Management\n\nGitHub Project Boards - For tracking progress\nGit Collaboration - GitHub flow guide",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Ideation"
+    ]
+  },
+  {
+    "objectID": "day1/ideation/index.html#slides",
+    "href": "day1/ideation/index.html#slides",
+    "title": "Ideation for Hackathon",
+    "section": " Slides",
+    "text": "Slides\n\n  View Slides Fullscreen    View Ideas List",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Ideation"
+    ]
+  },
+  {
+    "objectID": "day1/ideation/index.html#project-categories",
+    "href": "day1/ideation/index.html#project-categories",
+    "title": "Ideation for Hackathon",
+    "section": " Project Categories",
+    "text": "Project Categories\nBased on the hackathon ideas list, projects fall into these categories:\n\nData Package & Analysis\n\nHistorical data digitization\nCreating data processing pipelines\nBuilding analysis tools\n\n\n\nBranding & Design\n\nVisual identity development\nDocumentation templates\nUser interface improvements\n\n\n\nTeaching & Assessment\n\nEducational materials\nAutomated grading systems\nCourse content development\n\n\n\nContent Creation\n\nDocumentation improvements\nTutorial development\nData visualization dashboards",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Ideation"
+    ]
+  },
+  {
+    "objectID": "day1/ideation/index.html#team-formation-process",
+    "href": "day1/ideation/index.html#team-formation-process",
+    "title": "Ideation for Hackathon",
+    "section": " Team Formation Process",
+    "text": "Team Formation Process\n\n1. Problem Identification (20 min)\n\nReview challenges in WASH data\nIdentify personal interests and skills\nConsider available resources\n\n\n\n2. Solution Brainstorming (30 min)\n\nGenerate multiple solutions per challenge\nUse rapid prototyping sketches\nConsider technology requirements\n\n\n\n3. Project Pitches (30 min)\n\n2-minute pitches per idea\nClear problem statement\nProposed solution approach\nRequired team skills\n\n\n\n4. Team Formation (20 min)\n\nMatch skills to project needs\nBalance team sizes (3-5 people)\nExchange contact information\nDesignate project lead",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Ideation"
+    ]
+  },
+  {
+    "objectID": "day1/ideation/index.html#good-hackathon-projects",
+    "href": "day1/ideation/index.html#good-hackathon-projects",
+    "title": "Ideation for Hackathon",
+    "section": " Good Hackathon Projects",
+    "text": "Good Hackathon Projects\nProjects should be:\n\nAchievable: Can be completed in one day\nRelevant: Addresses real openwashdata needs\nCollaborative: Requires diverse skills\nDemonstrable: Has clear outputs to showcase\nSustainable: Can be continued after the hackathon",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Ideation"
+    ]
+  },
+  {
+    "objectID": "day1/ideation/index.html#available-support",
+    "href": "day1/ideation/index.html#available-support",
+    "title": "Ideation for Hackathon",
+    "section": " Available Support",
+    "text": "Available Support\n\nTechnical Resources\n\nClaude Code for development assistance\nGitHub Copilot (if you have access)\nTechnical mentors throughout the day\n\n\n\nData Resources\n\nopenwashdata packages for testing\nExample datasets in various formats\nData documentation templates\n\n\n\nInfrastructure\n\nGitHub organization access\nCollaborative workspaces\nCloud development environments",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Ideation"
+    ]
+  },
+  {
+    "objectID": "day1/ideation/index.html#session-details",
+    "href": "day1/ideation/index.html#session-details",
+    "title": "Ideation for Hackathon",
+    "section": " Session Details",
+    "text": "Session Details\nTime: 11:30-12:30\nDuration: 60 minutes\nFormat: Interactive brainstorming and team formation\nFacilitator: Conference organizers",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Ideation"
+    ]
+  },
+  {
+    "objectID": "day1/ideation/index.html#next-steps",
+    "href": "day1/ideation/index.html#next-steps",
+    "title": "Ideation for Hackathon",
+    "section": " Next Steps",
+    "text": "Next Steps\nAfter this session:\n\nFinalize project scopes - Document clear objectives\nSet up repositories - Create GitHub repos in openwashdata-conf\nPrepare environments - Complete technical setup\nReview prerequisites - Ensure all tools are working\nCreate project plan - Break down tasks for Day 2",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Ideation"
+    ]
+  },
+  {
+    "objectID": "day1/ideation/index.html#quick-links",
+    "href": "day1/ideation/index.html#quick-links",
+    "title": "Ideation for Hackathon",
+    "section": " Quick Links",
+    "text": "Quick Links\n\n openwashdata-conf Organization\n Hackathon Guidelines\n Day 2 Setup Check",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Ideation"
+    ]
+  },
+  {
+    "objectID": "day2/index.html#resources",
+    "href": "day2/index.html#resources",
+    "title": "Day 2: Claude Code Hackathon",
+    "section": "Resources",
+    "text": "Resources\n\nhttps://github.com/VonHoltenCodes/CLAUDECODE_COMPLETE_WINDOWS_INSTALL_GUIDE?tab=readme-ov-file#-quick-start",
+    "crumbs": [
+      "Day 2 - July 16",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "day1/ideation/slides.html",
+    "href": "day1/ideation/slides.html",
+    "title": "Hackathon Ideation",
+    "section": "",
+    "text": "Time: TBD (Afternoon session)\nFormat: Collaborative brainstorming"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#session-overview",
+    "href": "day1/ideation/slides.html#session-overview",
+    "title": "Hackathon Ideation",
+    "section": "Session Overview",
+    "text": "Session Overview\nPrepare for Day 2’s hackathon by generating and refining project ideas. This session will help form teams and define project scopes that can be realistically achieved during the hackathon."
+  },
+  {
+    "objectID": "day1/ideation/slides.html#slides",
+    "href": "day1/ideation/slides.html#slides",
+    "title": "Hackathon Ideation",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#ideation-process",
+    "href": "day1/ideation/slides.html#ideation-process",
+    "title": "Hackathon Ideation",
+    "section": "Ideation Process",
+    "text": "Ideation Process\nWe’ll be using a collaborative Google Doc to capture and organize ideas throughout this session."
+  },
+  {
+    "objectID": "day1/ideation/slides.html#resources-for-teams",
+    "href": "day1/ideation/slides.html#resources-for-teams",
+    "title": "Hackathon Ideation",
+    "section": "Resources for Teams",
+    "text": "Resources for Teams\n\nClaude Code for development assistance\nopenwashdata datasets for testing\nGitHub repositories for collaboration\nTechnical mentors available"
+  },
+  {
+    "objectID": "day1/ideation/slides.html#next-steps",
+    "href": "day1/ideation/slides.html#next-steps",
+    "title": "Hackathon Ideation",
+    "section": "Next Steps",
+    "text": "Next Steps\nAfter this session:\n\nTeams finalize project scopes\nSet up GitHub repositories\nPrepare development environments\nReview Day 2 prerequisites\n\n\n\n\n\n\n\nPro Tip\n\n\n\nDon’t aim for perfection! Focus on creating a working prototype that demonstrates your idea."
+  },
+  {
+    "objectID": "day1/ideation/ideation.html",
+    "href": "day1/ideation/ideation.html",
+    "title": "Hackathon Ideas for Day 2",
+    "section": "",
+    "text": "Historical Data Digitization: Digitize scanned historical records/papers, add images to folder, have Claude read and analyze the data\nOpen Wash Data Package Workflow: Clone an existing package, use Claude to write an article in the vignette folder using the data, add your own notes and templates\n\n\n\n\n\nCreate Brand Guidelines: Develop comprehensive branding for all openwashdata projects including:\n\nColor palettes (with colorblindness considerations)\nCommon design elements for packages, websites, and marketing materials\nBrand YAML/package YAML templates\nImplementation across all data packages via pull requests\n\n\n\n\n\n\nIdentify New Data Sources: Find additional WASH data sources and create data packages for them\nReview Course Materials: Prepare command lists for reviewing module content and assignments for next iteration of data science course\nSFD Report Analysis:\n\nCollect all SFD PDF reports into a folder\nUse Claude to review reports and categorize data sources as primary or secondary\nFor primary data sources, analyze methods used (key informant interviews, FGDs, observations, lab analysis, etc.)\n\nSFD Data Validation:\n\nCollect all SFD JSON files\nCross-check and verify how many data points contain actual data vs placeholders\n\n\n\n\n\n\nAssignment Templates: Create templates for responding to student assignments, implement as slash commands\nDocument Conversion: Transform existing Word reports into Quarto slides\nGrading Rubrics: Develop grading rubrics for courses, test on previous student assignments using Claude\nGit-based Submissions: Implement workflow for students to submit assignments via Git/GitHub instead of Google Docs/email\n\n\n\n\n\nTalk Transcription: Find talks you like, have Claude transcribe them and convert to slides\nCV Updates: Update existing CVs and have Claude create Quarto document versions\nMentorship Program Page: Generate page featuring mentor/mentee profiles with clickable elements linking to their work\n\n\n\n\n\nGit/GitHub/Quarto Training: Provide 2-hour basic introduction for students on using these tools for essay writing\nQuarto Assignment Requirements: Expect and require students to submit assignments written in Quarto\nAutomated Grading: Define grading rubrics and run Claude Code to evaluate student assignments\nCONTRIBUTING.md: Prepare contribution guidelines for the project\nGitHub Project Management: Organize issues into a GitHub project kanban board"
+  },
+  {
+    "objectID": "day1/ideation/ideation.html#data-package-analysis-ideas",
+    "href": "day1/ideation/ideation.html#data-package-analysis-ideas",
+    "title": "Hackathon Ideas for Day 2",
+    "section": "",
+    "text": "Historical Data Digitization: Digitize scanned historical records/papers, add images to folder, have Claude read and analyze the data\nOpen Wash Data Package Workflow: Clone an existing package, use Claude to write an article in the vignette folder using the data, add your own notes and templates"
+  },
+  {
+    "objectID": "day1/ideation/ideation.html#branding-design",
+    "href": "day1/ideation/ideation.html#branding-design",
+    "title": "Hackathon Ideas for Day 2",
+    "section": "",
+    "text": "Create Brand Guidelines: Develop comprehensive branding for all openwashdata projects including:\n\nColor palettes (with colorblindness considerations)\nCommon design elements for packages, websites, and marketing materials\nBrand YAML/package YAML templates\nImplementation across all data packages via pull requests"
+  },
+  {
+    "objectID": "day1/ideation/ideation.html#data-discovery-documentation",
+    "href": "day1/ideation/ideation.html#data-discovery-documentation",
+    "title": "Hackathon Ideas for Day 2",
+    "section": "",
+    "text": "Identify New Data Sources: Find additional WASH data sources and create data packages for them\nReview Course Materials: Prepare command lists for reviewing module content and assignments for next iteration of data science course\nSFD Report Analysis:\n\nCollect all SFD PDF reports into a folder\nUse Claude to review reports and categorize data sources as primary or secondary\nFor primary data sources, analyze methods used (key informant interviews, FGDs, observations, lab analysis, etc.)\n\nSFD Data Validation:\n\nCollect all SFD JSON files\nCross-check and verify how many data points contain actual data vs placeholders"
+  },
+  {
+    "objectID": "day1/ideation/ideation.html#teaching-assessment-tools",
+    "href": "day1/ideation/ideation.html#teaching-assessment-tools",
+    "title": "Hackathon Ideas for Day 2",
+    "section": "",
+    "text": "Assignment Templates: Create templates for responding to student assignments, implement as slash commands\nDocument Conversion: Transform existing Word reports into Quarto slides\nGrading Rubrics: Develop grading rubrics for courses, test on previous student assignments using Claude\nGit-based Submissions: Implement workflow for students to submit assignments via Git/GitHub instead of Google Docs/email"
+  },
+  {
+    "objectID": "day1/ideation/ideation.html#content-creation-conversion",
+    "href": "day1/ideation/ideation.html#content-creation-conversion",
+    "title": "Hackathon Ideas for Day 2",
+    "section": "",
+    "text": "Talk Transcription: Find talks you like, have Claude transcribe them and convert to slides\nCV Updates: Update existing CVs and have Claude create Quarto document versions\nMentorship Program Page: Generate page featuring mentor/mentee profiles with clickable elements linking to their work"
+  },
+  {
+    "objectID": "day1/ideation/ideation.html#additional-hubris-to-hope-ideas",
+    "href": "day1/ideation/ideation.html#additional-hubris-to-hope-ideas",
+    "title": "Hackathon Ideas for Day 2",
+    "section": "",
+    "text": "Git/GitHub/Quarto Training: Provide 2-hour basic introduction for students on using these tools for essay writing\nQuarto Assignment Requirements: Expect and require students to submit assignments written in Quarto\nAutomated Grading: Define grading rubrics and run Claude Code to evaluate student assignments\nCONTRIBUTING.md: Prepare contribution guidelines for the project\nGitHub Project Management: Organize issues into a GitHub project kanban board"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html",
+    "href": "day1/governance/governance-keep.html",
+    "title": "Governance",
+    "section": "",
+    "text": "Time: 14:00-15:00\nFormat: Interactive discussion with presentations\nToday we’ll explore governance models for open research software communities, drawing from best practices and adapting them to openwashdata’s needs.\n\n\n“A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding”"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#session-overview",
+    "href": "day1/governance/governance-keep.html#session-overview",
+    "title": "Governance",
+    "section": "",
+    "text": "Time: 14:00-15:00\nFormat: Interactive discussion with presentations\nToday we’ll explore governance models for open research software communities, drawing from best practices and adapting them to openwashdata’s needs.\n\n\n“A 10X engineer is one who can bring together ten other engineers and emerge with a shared understanding”"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#why-governance-matters",
+    "href": "day1/governance/governance-keep.html#why-governance-matters",
+    "title": "Governance",
+    "section": "Why Governance Matters",
+    "text": "Why Governance Matters\n\n\nWithout Good Governance:\n\nLow productivity\nOpaque decision-making\nUnclear leadership\nFrustration and conflicts\nDifficulty scaling\n\n\nWith Good Governance:\n\nClear processes\nTransparent decisions\nDefined roles\nSustainable growth\nCommunity trust"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#governance-evolution-stages",
+    "href": "day1/governance/governance-keep.html#governance-evolution-stages",
+    "title": "Governance",
+    "section": "Governance Evolution Stages",
+    "text": "Governance Evolution Stages\n\n\nEarly Stage (1-3 people)\n\n“Just do it” approach\nMinimal formal process\nDirect communication\n\nGrowing Stage (4-8 people)\n\nNeed for coordination\nEmerging documentation\nBasic collaboration tools\n\nMature Stage (9+ people)\n\nFormal decision-making\nComprehensive documentation\nStructured contribution process"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#where-is-openwashdata-today",
+    "href": "day1/governance/governance-keep.html#where-is-openwashdata-today",
+    "title": "Governance",
+    "section": "Where is openwashdata Today?",
+    "text": "Where is openwashdata Today?\n\n\nCurrent State: - Growing community - Multiple contributors - Various projects - Informal coordination\n\nNext Steps: - Define governance model - Document processes - Clarify roles - Establish standards\n\n\n\n\nReflection Exercise (5 min)\nThink about: Where do you see openwashdata in this evolution?"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#common-governance-models",
+    "href": "day1/governance/governance-keep.html#common-governance-models",
+    "title": "Governance",
+    "section": "Common Governance Models",
+    "text": "Common Governance Models\n\n\nBenevolent Dictator\n\nSingle leader makes final decisions\nCommon in early projects\n\nElected Representatives\n\nCommunity elects leaders\nFixed terms and rotation\n\nConsensus-Based\n\nAll members have equal say\nDecisions by agreement\n\nHybrid Models\n\nCombine elements\nAdapt to community needs"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#decision-making-marthas-rules",
+    "href": "day1/governance/governance-keep.html#decision-making-marthas-rules",
+    "title": "Governance",
+    "section": "Decision-Making: Martha’s Rules",
+    "text": "Decision-Making: Martha’s Rules\nA lightweight framework for inclusive decision-making:\n\nProposal Submission\n\nAnyone can propose\nWritten in advance\nClear and specific\n\nPreliminary Vote\n\nThumbs up: Agree\nThumbs sideways: Discuss more\nThumbs down: Serious concerns\n\nDiscussion & Revision\n\nAddress concerns\nModify proposal\n\nFinal Vote\n\nClear majority needed\nDocument decision"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#key-governance-components",
+    "href": "day1/governance/governance-keep.html#key-governance-components",
+    "title": "Governance",
+    "section": "Key Governance Components",
+    "text": "Key Governance Components\n\n1. Roles & Responsibilities\n\n\nMaintainers: Technical decisions, code review\nContributors: Submit data, code, documentation\nStewards: Community management, outreach\nUsers: Feedback, bug reports\n\n\n\nQuestion: What roles do we need in openwashdata?"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#key-governance-components-1",
+    "href": "day1/governance/governance-keep.html#key-governance-components-1",
+    "title": "Governance",
+    "section": "Key Governance Components",
+    "text": "Key Governance Components\n\n2. Communication Channels\n\n\nInternal: - Slack/Discord - Regular meetings - Email lists - GitHub discussions\n\nExternal: - Website - Blog posts - Social media - Conference talks"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#key-governance-components-2",
+    "href": "day1/governance/governance-keep.html#key-governance-components-2",
+    "title": "Governance",
+    "section": "Key Governance Components",
+    "text": "Key Governance Components\n\n3. Documentation\nEssential documents for any open community:\n\n\nREADME: Project overview\nCONTRIBUTING: How to participate\nCODE_OF_CONDUCT: Community standards\nLICENSE: Legal framework\nGOVERNANCE: Decision processes"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#community-standards",
+    "href": "day1/governance/governance-keep.html#community-standards",
+    "title": "Governance",
+    "section": "Community Standards",
+    "text": "Community Standards\n\nCode of Conduct Essentials\n\n\nClear expectations for behavior\nSpecific examples of unacceptable conduct\nEnforcement mechanisms that are fair\nReporting process that is safe\nConsequences that are proportionate\n\n\n\nRemember: A code without enforcement is just decoration"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#meeting-management-best-practices",
+    "href": "day1/governance/governance-keep.html#meeting-management-best-practices",
+    "title": "Governance",
+    "section": "Meeting Management Best Practices",
+    "text": "Meeting Management Best Practices\n\n\nBefore: - Is meeting necessary? - Clear agenda - Shared in advance - Assigned moderator\n\nDuring: - Start on time - Follow agenda - Encourage participation - Take minutes\n\n\n\nAfter: Share minutes, action items, deadlines"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#interactive-exercise-governance-assessment",
+    "href": "day1/governance/governance-keep.html#interactive-exercise-governance-assessment",
+    "title": "Governance",
+    "section": "Interactive Exercise: Governance Assessment",
+    "text": "Interactive Exercise: Governance Assessment\n15 minutes - Small Groups\nDiscuss and answer:\n\nWho are our users? How do they find us?\nHow do we make decisions currently?\nWhat gets in the way of contributions?\nHow do we handle conflicts?\nHow do we welcome newcomers?\nWhat could we automate?\n\n\nShare: Each group presents one key insight"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#proposed-governance-framework",
+    "href": "day1/governance/governance-keep.html#proposed-governance-framework",
+    "title": "Governance",
+    "section": "Proposed Governance Framework",
+    "text": "Proposed Governance Framework\nBased on best practices and community needs:\n\n\nSteering Committee (3-5 members, rotating)\nWorking Groups (data quality, tools, outreach)\nDecision Process (Martha’s Rules for major decisions)\nDocumentation (all five essential documents)\nRegular Reviews (quarterly governance check-ins)"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#action-planning",
+    "href": "day1/governance/governance-keep.html#action-planning",
+    "title": "Governance",
+    "section": "Action Planning",
+    "text": "Action Planning\n\nImmediate Actions (Next 30 days)\n\n\nDraft CODE_OF_CONDUCT\nCreate CONTRIBUTING guide\nDefine initial roles\nSet up communication channels\n\n\n\n\nMedium-term (3-6 months)\n\n\nImplement decision process\nForm working groups\nRegular community calls\nDocument all processes"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#small-group-discussion-20-min",
+    "href": "day1/governance/governance-keep.html#small-group-discussion-20-min",
+    "title": "Governance",
+    "section": "Small Group Discussion (20 min)",
+    "text": "Small Group Discussion (20 min)\nBreak into groups of 3-4 to discuss:\n\nWhich governance model fits openwashdata best?\nWhat roles do we need to define first?\nWhat decisions need a formal process?\nHow do we ensure inclusive participation?\n\n\nReport Back: Each group shares top priority"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#synthesis-next-steps",
+    "href": "day1/governance/governance-keep.html#synthesis-next-steps",
+    "title": "Governance",
+    "section": "Synthesis & Next Steps",
+    "text": "Synthesis & Next Steps\n\nKey Takeaways\n\n\nGovernance enables growth\nStart simple, evolve as needed\nDocument everything\nBe inclusive by design\nReview and adapt regularly"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#your-commitment",
+    "href": "day1/governance/governance-keep.html#your-commitment",
+    "title": "Governance",
+    "section": "Your Commitment",
+    "text": "Your Commitment\nBefore we close, consider:\n\n\nWhat governance aspect excites you most?\nWhere could you contribute?\nWhat concerns do you have?\nWhat support do you need?\n\n\n\nShare: One commitment or question with the group"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#resources",
+    "href": "day1/governance/governance-keep.html#resources",
+    "title": "Governance",
+    "section": "Resources",
+    "text": "Resources\n\nThe Turing Way - Guide for Collaboration\nOpen Source Guides - Leadership & Governance\nApache Software Foundation - How it Works\nResearch Software Engineering Handbook"
+  },
+  {
+    "objectID": "day1/governance/governance-keep.html#thank-you",
+    "href": "day1/governance/governance-keep.html#thank-you",
+    "title": "Governance",
+    "section": "Thank You!",
+    "text": "Thank You!\n\n\nLet’s build a sustainable, inclusive governance model together!\nQuestions? Thoughts? Concerns?"
+  },
+  {
+    "objectID": "day1/governance/index.html",
+    "href": "day1/governance/index.html",
+    "title": "Governance & Decision Making",
+    "section": "",
+    "text": "Explore governance models and best practices for open source projects, with a focus on creating inclusive and sustainable communities. This session introduces practical frameworks like Martha’s Rules, covers meeting management techniques, and provides hands-on activities to assess and improve your project’s governance structure.",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance/index.html#session-overview",
+    "href": "day1/governance/index.html#session-overview",
+    "title": "Governance & Decision Making",
+    "section": "",
+    "text": "Explore governance models and best practices for open source projects, with a focus on creating inclusive and sustainable communities. This session introduces practical frameworks like Martha’s Rules, covers meeting management techniques, and provides hands-on activities to assess and improve your project’s governance structure.",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance/index.html#learning-objectives",
+    "href": "day1/governance/index.html#learning-objectives",
+    "title": "Governance & Decision Making",
+    "section": " Learning Objectives",
+    "text": "Learning Objectives\nBy the end of this session, you will be able to:\n\nUnderstand different governance models for open source projects\nApply Martha’s Rules for effective decision-making\nImplement the 10 rules for better meetings\nCreate clear roles and responsibilities matrices\nEstablish and enforce codes of conduct\nAssess your project’s current governance gaps",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance/index.html#resources",
+    "href": "day1/governance/index.html#resources",
+    "title": "Governance & Decision Making",
+    "section": " Resources",
+    "text": "Resources\n\nBooks & Publications\n\nProducing Open Source Software by Karl Fogel - Comprehensive guide to running open source projects\nResearch Software Engineering with Python by Irving et al. - Includes governance practices for research software\nThe Mythical Man-Month by Brooks (1995) - Classic on software project management\nThe Discussion Book by Brookfield & Preskill (2016) - Techniques for managing discussions\n\n\n\nArticles & Essays\n\nThe Tyranny of Structurelessness by Jo Freeman - Why informal structures can be problematic\nHow to Respond to Code of Conduct Reports by Aurora & Gardiner (2019) - Enforcement guide\n\n\n\nWebsites & Tools\n\nAsk a Manager - Practical management advice\nCommunity Rule - Governance toolkit with multiple models\nNOAA Disruptive Behavior - Guide for managing difficult participants\nContributor Covenant - Standard code of conduct template\n\n\n\nResearch Papers\n\nMajumder et al. (2019) - “Why do people give up FLOSSing? A study of contributor abandonment”\nPetre (2014) - “Nobody can read your code” - On code review in scientific software",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance/index.html#slides",
+    "href": "day1/governance/index.html#slides",
+    "title": "Governance & Decision Making",
+    "section": " Slides",
+    "text": "Slides\n\n  View Slides Fullscreen    Additional Resources",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance/index.html#marthas-rules-framework",
+    "href": "day1/governance/index.html#marthas-rules-framework",
+    "title": "Governance & Decision Making",
+    "section": " Martha’s Rules Framework",
+    "text": "Martha’s Rules Framework\n\nKey Components:\n\nProposal Requirements (24 hours before meeting):\n\nOne-line summary\nBackground information\nConcrete proposal\nPros and cons\nAlternatives\nMaximum 2 pages\n\nVoting Process:\n\nSense vote: support/neutral/oppose\nDiscussion: 10 minutes if minority opposes\nFinal vote: binary (no neutrals)\n\nQuorum & Membership:\n\n50% attendance required\nClear membership rules\nSponsor must be present",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance/index.html#rules-for-better-meetings",
+    "href": "day1/governance/index.html#rules-for-better-meetings",
+    "title": "Governance & Decision Making",
+    "section": " 10 Rules for Better Meetings",
+    "text": "10 Rules for Better Meetings\n\nDoes there need to be a meeting? - Only for decisions and discussions\nCreate an agenda - Include timings and priorities\nHave clear decision rules - Avoid structurelessness\nPut someone in charge - Moderator manages flow\nRequire politeness - No interruptions, devices in politeness mode\nRecord minutes - Document decisions immediately\nManage disruptive behavior - Use three-sticky system\nBe an active participant - Read materials beforehand\nLife online - No mixed-mode meetings\nSeek truth, not victory - No dominance displays",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance/index.html#interactive-activities",
+    "href": "day1/governance/index.html#interactive-activities",
+    "title": "Governance & Decision Making",
+    "section": " Interactive Activities",
+    "text": "Interactive Activities\n\nActivity 1: Project Assessment (5 minutes)\nReflect on your current project: 1. Who uses your software/work? 2. How do they find it? 3. Who decides what happens next? 4. How is that communicated? 5. Who can make what kinds of changes? 6. What happens automatically? 7. How are newcomers brought on board?\n\n\nActivity 2: Decision Making (5 minutes)\nDocument recent decisions: 1. What decisions has your project made recently? 2. Who made them? 3. Where are they recorded?\n\n\nActivity 3: Roles & Responsibilities (5 minutes)\nCreate a matrix of: - Column A: Tasks that keep your project going - Column B: People who contribute - Draw connections to identify patterns and gaps\n\n\nActivity 4: Governance Structure (5 minutes)\nDefine your voting process: 1. Who gets a vote in your group? 2. How are new people added to that pool? 3. When and how do people lose their votes? 4. Where do people find out what has been decided? 5. How can non-voters raise issues?",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance/index.html#session-details",
+    "href": "day1/governance/index.html#session-details",
+    "title": "Governance & Decision Making",
+    "section": " Session Details",
+    "text": "Session Details\nTime: 09:30-10:30\nDuration: 70 minutes\nFormat: Presentation with multiple interactive activities\nFacilitator: Lars Schöbitz",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance/index.html#key-takeaways",
+    "href": "day1/governance/index.html#key-takeaways",
+    "title": "Governance & Decision Making",
+    "section": " Key Takeaways",
+    "text": "Key Takeaways\n\nGovernance is not bureaucracy - it’s clarity\nStart with Martha’s Rules for decision making\nDocument roles and responsibilities explicitly\nMake meetings count with clear structure\nCode of Conduct is non-negotiable",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/governance/index.html#quick-links",
+    "href": "day1/governance/index.html#quick-links",
+    "title": "Governance & Decision Making",
+    "section": " Quick Links",
+    "text": "Quick Links\n\n Governance Models PDF\n View Source Code\n Licensed under CC BY-SA 4.0",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Governance"
+    ]
+  },
+  {
+    "objectID": "day1/lean-coffee/index.html",
+    "href": "day1/lean-coffee/index.html",
+    "title": "Lean Coffee",
+    "section": "",
+    "text": "Lean Coffee is a structured, but agenda-less meeting format where participants gather, build an agenda democratically, and engage in productive conversations. This format ensures everyone has an equal voice and that discussions address the community’s most pressing concerns.",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Lean Coffee"
+    ]
+  },
+  {
+    "objectID": "day1/lean-coffee/index.html#session-overview",
+    "href": "day1/lean-coffee/index.html#session-overview",
+    "title": "Lean Coffee",
+    "section": "",
+    "text": "Lean Coffee is a structured, but agenda-less meeting format where participants gather, build an agenda democratically, and engage in productive conversations. This format ensures everyone has an equal voice and that discussions address the community’s most pressing concerns.",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Lean Coffee"
+    ]
+  },
+  {
+    "objectID": "day1/lean-coffee/index.html#learning-objectives",
+    "href": "day1/lean-coffee/index.html#learning-objectives",
+    "title": "Lean Coffee",
+    "section": " Learning Objectives",
+    "text": "Learning Objectives\nBy the end of this session, you will be able to:\n\nApply the Lean Coffee methodology for democratic discussions\nSurface and prioritize community concerns effectively\nEngage in time-boxed, focused conversations\nGenerate actionable outcomes from group discussions\nBuild connections with fellow community members",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Lean Coffee"
+    ]
+  },
+  {
+    "objectID": "day1/lean-coffee/index.html#resources",
+    "href": "day1/lean-coffee/index.html#resources",
+    "title": "Lean Coffee",
+    "section": " Resources",
+    "text": "Resources\n\nLean Coffee Methodology\n\nLean Coffee Official Site - Original methodology\nAgile Coffee Guide - Detailed implementation guide\nRemote Lean Coffee Tips - For virtual sessions\n\n\n\nRelated Formats\n\nOpen Space Technology - Similar participant-driven format\nWorld Café Method - Conversational process\nUnconference Format - Self-organizing meetings",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Lean Coffee"
+    ]
+  },
+  {
+    "objectID": "day1/lean-coffee/index.html#slides",
+    "href": "day1/lean-coffee/index.html#slides",
+    "title": "Lean Coffee",
+    "section": " Slides",
+    "text": "Slides\n\n  View Slides Fullscreen",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Lean Coffee"
+    ]
+  },
+  {
+    "objectID": "day1/lean-coffee/index.html#the-lean-coffee-process",
+    "href": "day1/lean-coffee/index.html#the-lean-coffee-process",
+    "title": "Lean Coffee",
+    "section": " The Lean Coffee Process",
+    "text": "The Lean Coffee Process\n\n1. Setup (5 minutes)\nCreate three columns: - To Discuss: Topics waiting to be discussed - Discussing: Current topic under discussion - Discussed: Completed topics\n\n\n2. Generate Topics (5-10 minutes)\n\nWrite one topic per sticky note\nKeep descriptions brief and clear\nFocus on questions, concerns, or ideas\nConsider openwashdata-related themes\n\n\n\n3. Vote on Topics (5 minutes)\n\nEach participant gets 2-3 votes\nVote for topics that interest you most\nCan use multiple votes on one topic\nTopics ranked by total vote count\n\n\n\n4. Discuss Topics (45-60 minutes)\n\nStart with highest-voted topic\nSet timer for 5 minutes initial discussion\nWhen timer ends, thumbs vote:\n\n👍 Continue (add 3 minutes)\n👎 Move to next topic\n👊 Neutral\n\nMove completed topics to “Discussed”\n\n\n\n5. Close and Actions (5 minutes)\n\nSummarize key insights\nIdentify specific action items\nAssign owners to actions\nShare notes with the group",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Lean Coffee"
+    ]
+  },
+  {
+    "objectID": "day1/lean-coffee/index.html#why-lean-coffee-works",
+    "href": "day1/lean-coffee/index.html#why-lean-coffee-works",
+    "title": "Lean Coffee",
+    "section": " Why Lean Coffee Works",
+    "text": "Why Lean Coffee Works\n\nBenefits\n\nDemocratic: Everyone has equal voice in agenda setting\nEfficient: Time-boxing prevents discussion drift\nFlexible: Addresses current, relevant concerns\nEngaging: High participation and energy\n\n\n\nPerfect For\n\nSurfacing hidden community issues\nGenerating innovative solutions\nCross-functional problem-solving\nBuilding shared understanding",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Lean Coffee"
+    ]
+  },
+  {
+    "objectID": "day1/lean-coffee/index.html#potential-discussion-topics",
+    "href": "day1/lean-coffee/index.html#potential-discussion-topics",
+    "title": "Lean Coffee",
+    "section": " Potential Discussion Topics",
+    "text": "Potential Discussion Topics\nBased on past sessions, topics often include:\n\nTechnical Challenges\n\nData collection methodologies\nQuality assurance processes\nTool integration issues\nScalability concerns\n\n\n\nCommunity Development\n\nEngagement strategies\nOnboarding new contributors\nRecognition systems\nCommunication channels\n\n\n\nSustainability\n\nFunding models\nResource allocation\nLong-term planning\nImpact measurement\n\n\n\nCollaboration\n\nPartnership opportunities\nCross-project integration\nKnowledge sharing\nBest practices",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Lean Coffee"
+    ]
+  },
+  {
+    "objectID": "day1/lean-coffee/index.html#tips-for-participants",
+    "href": "day1/lean-coffee/index.html#tips-for-participants",
+    "title": "Lean Coffee",
+    "section": " Tips for Participants",
+    "text": "Tips for Participants\n\nWriting Topics\n\nBe specific rather than general\nFrame as questions when possible\nFocus on actionable items\nConsider multiple perspectives\n\n\n\nDuring Discussion\n\nListen actively to others\nBuild on ideas constructively\nStay focused on the topic\nShare concrete examples\n\n\n\nCreating Actions\n\nMake them specific and measurable\nAssign clear ownership\nSet realistic timelines\nFollow up after the session",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Lean Coffee"
+    ]
+  },
+  {
+    "objectID": "day1/lean-coffee/index.html#session-details",
+    "href": "day1/lean-coffee/index.html#session-details",
+    "title": "Lean Coffee",
+    "section": " Session Details",
+    "text": "Session Details\nTime: 16:00-17:00\nDuration: 60 minutes\nFormat: Participant-driven structured discussion\nFacilitator: Self-facilitated by participants",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Lean Coffee"
+    ]
+  },
+  {
+    "objectID": "day1/lean-coffee/index.html#come-prepared",
+    "href": "day1/lean-coffee/index.html#come-prepared",
+    "title": "Lean Coffee",
+    "section": " Come Prepared",
+    "text": "Come Prepared\nThink about topics you’d like to discuss, such as: - Current challenges you’re facing - Ideas for community improvement - Questions about openwashdata - Opportunities for collaboration - Success stories to share",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Lean Coffee"
+    ]
+  },
+  {
+    "objectID": "day1/lean-coffee/index.html#quick-links",
+    "href": "day1/lean-coffee/index.html#quick-links",
+    "title": "Lean Coffee",
+    "section": " Quick Links",
+    "text": "Quick Links\n\n Bring your topics and questions\n Be ready to engage actively\n Respect the time boxes",
+    "crumbs": [
+      "Day 1 - July 15",
+      "Lean Coffee"
+    ]
   }
 ]

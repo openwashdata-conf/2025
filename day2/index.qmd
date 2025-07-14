@@ -41,7 +41,18 @@ agenda_final |>
     knitr::kable()
 ```
 
+
+
 ## Tips & Workflow
 
-- Work in progress
+```{bash}
 
+```
+
+
+- Work in progress
+- 
+
+## Resources
+
+- https://github.com/VonHoltenCodes/CLAUDECODE_COMPLETE_WINDOWS_INSTALL_GUIDE?tab=readme-ov-file#-quick-start

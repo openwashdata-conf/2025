@@ -1,0 +1,144 @@
+---
+title: "Governance & Decision Making"
+subtitle: "Building Effective Structures for Open Projects"
+editor: source
+---
+
+## {{< fa info-circle >}} Session Overview
+
+Explore governance models and best practices for open source projects, with a focus on creating inclusive and sustainable communities. This session introduces practical frameworks like Martha's Rules, covers meeting management techniques, and provides hands-on activities to assess and improve your project's governance structure.
+
+## {{< fa bullseye >}} Learning Objectives
+
+By the end of this session, you will be able to:
+
+- Understand different governance models for open source projects
+- Apply Martha's Rules for effective decision-making
+- Implement the 10 rules for better meetings
+- Create clear roles and responsibilities matrices
+- Establish and enforce codes of conduct
+- Assess your project's current governance gaps
+
+## {{< fa book >}} Resources
+
+### Books & Publications
+- **[Producing Open Source Software](https://producingoss.com)** by Karl Fogel - Comprehensive guide to running open source projects
+- **[Research Software Engineering with Python](https://merely-useful.tech/py-rse/)** by Irving et al. - Includes governance practices for research software
+- **[The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)** by Brooks (1995) - Classic on software project management
+- **[The Discussion Book](https://www.wiley.com/en-us/The+Discussion+Book%3A+50+Great+Ways+to+Get+People+Talking-p-9781119049715)** by Brookfield & Preskill (2016) - Techniques for managing discussions
+
+### Articles & Essays
+- **[The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm)** by Jo Freeman - Why informal structures can be problematic
+- **[How to Respond to Code of Conduct Reports](https://files.frameshiftconsulting.com/books/cocguide.pdf)** by Aurora & Gardiner (2019) - Enforcement guide
+
+### Websites & Tools
+- **[Ask a Manager](https://www.askamanager.org/)** - Practical management advice
+- **[Community Rule](https://communityrule.info/)** - Governance toolkit with multiple models
+- **[NOAA Disruptive Behavior](https://coast.noaa.gov/ddb/)** - Guide for managing difficult participants
+- **[Contributor Covenant](https://www.contributor-covenant.org/)** - Standard code of conduct template
+
+### Research Papers
+- Majumder et al. (2019) - "Why do people give up FLOSSing? A study of contributor abandonment"
+- Petre (2014) - "Nobody can read your code" - On code review in scientific software
+
+## {{< fa presentation >}} Slides
+
+<div class="slide-buttons">
+  <a href="slides.qmd" class="btn btn-primary btn-sm" target="_blank">
+    {{< fa expand >}} View Slides Fullscreen
+  </a>
+  <a href="governance-keep.qmd" class="btn btn-secondary btn-sm">
+    {{< fa file-alt >}} Additional Resources
+  </a>
+</div>
+
+<div class="slide-embed">
+  <iframe src="slides.qmd" width="100%" height="475" style="border:1px solid #123233;"></iframe>
+</div>
+
+## {{< fa gavel >}} Martha's Rules Framework
+
+### Key Components:
+1. **Proposal Requirements** (24 hours before meeting):
+   - One-line summary
+   - Background information
+   - Concrete proposal
+   - Pros and cons
+   - Alternatives
+   - Maximum 2 pages
+
+2. **Voting Process**:
+   - Sense vote: support/neutral/oppose
+   - Discussion: 10 minutes if minority opposes
+   - Final vote: binary (no neutrals)
+
+3. **Quorum & Membership**:
+   - 50% attendance required
+   - Clear membership rules
+   - Sponsor must be present
+
+## {{< fa calendar-check >}} 10 Rules for Better Meetings
+
+1. **Does there need to be a meeting?** - Only for decisions and discussions
+2. **Create an agenda** - Include timings and priorities
+3. **Have clear decision rules** - Avoid structurelessness
+4. **Put someone in charge** - Moderator manages flow
+5. **Require politeness** - No interruptions, devices in politeness mode
+6. **Record minutes** - Document decisions immediately
+7. **Manage disruptive behavior** - Use three-sticky system
+8. **Be an active participant** - Read materials beforehand
+9. **Life online** - No mixed-mode meetings
+10. **Seek truth, not victory** - No dominance displays
+
+## {{< fa users >}} Interactive Activities
+
+### Activity 1: Project Assessment (5 minutes)
+Reflect on your current project:
+1. Who uses your software/work?
+2. How do they find it?
+3. Who decides what happens next?
+4. How is that communicated?
+5. Who can make what kinds of changes?
+6. What happens automatically?
+7. How are newcomers brought on board?
+
+### Activity 2: Decision Making (5 minutes)
+Document recent decisions:
+1. What decisions has your project made recently?
+2. Who made them?
+3. Where are they recorded?
+
+### Activity 3: Roles & Responsibilities (5 minutes)
+Create a matrix of:
+- **Column A**: Tasks that keep your project going
+- **Column B**: People who contribute
+- Draw connections to identify patterns and gaps
+
+### Activity 4: Governance Structure (5 minutes)
+Define your voting process:
+1. Who gets a vote in your group?
+2. How are new people added to that pool?
+3. When and how do people lose their votes?
+4. Where do people find out what has been decided?
+5. How can non-voters raise issues?
+
+## {{< fa clock >}} Session Details
+
+**Time**: 09:30-10:30  
+**Duration**: 70 minutes  
+**Format**: Presentation with multiple interactive activities  
+**Facilitator**: Lars Schöbitz
+
+## {{< fa key >}} Key Takeaways
+
+- Governance is not bureaucracy - it's clarity
+- Start with Martha's Rules for decision making
+- Document roles and responsibilities explicitly
+- Make meetings count with clear structure
+- Code of Conduct is non-negotiable
+
+## {{< fa link >}} Quick Links
+
+- {{< fa file-pdf >}} [Governance Models PDF](./images/gov-booklet-MASTER.pdf)
+- {{< fa github >}} [View Source Code](https://github.com/openwashdata-conf/2025/blob/main/day1/governance/slides.qmd)
+- {{< fa creative-commons >}} Licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)

@@ -1,0 +1,162 @@
+---
+title: "Lean Coffee"
+subtitle: "Participant-Driven Discussion"
+editor: source
+---
+
+## {{< fa info-circle >}} Session Overview
+
+Lean Coffee is a structured, but agenda-less meeting format where participants gather, build an agenda democratically, and engage in productive conversations. This format ensures everyone has an equal voice and that discussions address the community's most pressing concerns.
+
+## {{< fa bullseye >}} Learning Objectives
+
+By the end of this session, you will be able to:
+
+- Apply the Lean Coffee methodology for democratic discussions
+- Surface and prioritize community concerns effectively
+- Engage in time-boxed, focused conversations
+- Generate actionable outcomes from group discussions
+- Build connections with fellow community members
+
+## {{< fa book >}} Resources
+
+### Lean Coffee Methodology
+- **[Lean Coffee Official Site](http://leancoffee.org/)** - Original methodology
+- **[Agile Coffee Guide](https://agilecoffee.com/leancoffee/)** - Detailed implementation guide
+- **[Remote Lean Coffee Tips](https://www.agilealliance.org/resources/experience-reports/lean-coffee/)** - For virtual sessions
+
+### Related Formats
+- **[Open Space Technology](https://openspaceworld.org/)** - Similar participant-driven format
+- **[World Café Method](http://www.theworldcafe.com/)** - Conversational process
+- **[Unconference Format](https://en.wikipedia.org/wiki/Unconference)** - Self-organizing meetings
+
+## {{< fa presentation >}} Slides
+
+<div class="slide-buttons">
+  <a href="slides.qmd" class="btn btn-primary btn-sm" target="_blank">
+    {{< fa expand >}} View Slides Fullscreen
+  </a>
+</div>
+
+<div class="slide-embed">
+  <iframe src="slides.qmd" width="100%" height="475" style="border:1px solid #123233;"></iframe>
+</div>
+
+## {{< fa coffee >}} The Lean Coffee Process
+
+### 1. Setup (5 minutes)
+Create three columns:
+- **To Discuss**: Topics waiting to be discussed
+- **Discussing**: Current topic under discussion
+- **Discussed**: Completed topics
+
+### 2. Generate Topics (5-10 minutes)
+- Write one topic per sticky note
+- Keep descriptions brief and clear
+- Focus on questions, concerns, or ideas
+- Consider openwashdata-related themes
+
+### 3. Vote on Topics (5 minutes)
+- Each participant gets 2-3 votes
+- Vote for topics that interest you most
+- Can use multiple votes on one topic
+- Topics ranked by total vote count
+
+### 4. Discuss Topics (45-60 minutes)
+- Start with highest-voted topic
+- Set timer for 5 minutes initial discussion
+- When timer ends, thumbs vote:
+  - 👍 Continue (add 3 minutes)
+  - 👎 Move to next topic
+  - 👊 Neutral
+- Move completed topics to "Discussed"
+
+### 5. Close and Actions (5 minutes)
+- Summarize key insights
+- Identify specific action items
+- Assign owners to actions
+- Share notes with the group
+
+## {{< fa users >}} Why Lean Coffee Works
+
+### Benefits
+- **Democratic**: Everyone has equal voice in agenda setting
+- **Efficient**: Time-boxing prevents discussion drift
+- **Flexible**: Addresses current, relevant concerns
+- **Engaging**: High participation and energy
+
+### Perfect For
+- Surfacing hidden community issues
+- Generating innovative solutions
+- Cross-functional problem-solving
+- Building shared understanding
+
+## {{< fa comment >}} Potential Discussion Topics
+
+Based on past sessions, topics often include:
+
+### Technical Challenges
+- Data collection methodologies
+- Quality assurance processes
+- Tool integration issues
+- Scalability concerns
+
+### Community Development
+- Engagement strategies
+- Onboarding new contributors
+- Recognition systems
+- Communication channels
+
+### Sustainability
+- Funding models
+- Resource allocation
+- Long-term planning
+- Impact measurement
+
+### Collaboration
+- Partnership opportunities
+- Cross-project integration
+- Knowledge sharing
+- Best practices
+
+## {{< fa lightbulb >}} Tips for Participants
+
+### Writing Topics
+- Be specific rather than general
+- Frame as questions when possible
+- Focus on actionable items
+- Consider multiple perspectives
+
+### During Discussion
+- Listen actively to others
+- Build on ideas constructively
+- Stay focused on the topic
+- Share concrete examples
+
+### Creating Actions
+- Make them specific and measurable
+- Assign clear ownership
+- Set realistic timelines
+- Follow up after the session
+
+## {{< fa clock >}} Session Details
+
+**Time**: 16:00-17:00  
+**Duration**: 60 minutes  
+**Format**: Participant-driven structured discussion  
+**Facilitator**: Self-facilitated by participants
+
+## {{< fa rocket >}} Come Prepared
+
+Think about topics you'd like to discuss, such as:
+- Current challenges you're facing
+- Ideas for community improvement
+- Questions about openwashdata
+- Opportunities for collaboration
+- Success stories to share
+
+## {{< fa link >}} Quick Links
+
+- {{< fa sticky-note >}} Bring your topics and questions
+- {{< fa users >}} Be ready to engage actively
+- {{< fa clock >}} Respect the time boxes
