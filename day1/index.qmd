@@ -32,16 +32,6 @@ agenda_final <- agenda  |>
 - **Google Doc access**: We will take notes in a shared Google Doc. You will receive an email to test if you can access it. If you did not receive an email, please contact the organizers.
 - **Ideas for Hackathon**: Think about potential projects or topics you or somene else could  work on during the hackathon on Day 2.
 
-## Schedule Overview
-
-```{r}
-agenda_final |> 
-    filter(day == 1) |> 
-    select(-day, -speaker) |> 
-    rename_with(~stringr::str_to_title(.x), everything()) |> 
-    knitr::kable() 
-```
-
 ## Session Details
 
 ```{r}
@@ -49,12 +39,10 @@ agenda_sessions <- agenda_final |>
   filter(day == 1) |> 
   select(-day, -speaker) |> 
   mutate(title = case_when(
-    str_detect(title, "Warm-up activity") ~ "[Warm-up activity](warmup/)",
     str_detect(title, "openwashdata community") ~ "[openwashdata community - past and future](openwashdata/)",
     str_detect(title, "Governance Part 1") ~ "[Governance Part 1](governance/)",
     str_detect(title, "Governance Part 2") ~ "[Governance Part 2](governance/)",
     str_detect(title, "Hackathon Ideation") ~ "[Hackathon Ideation](ideation/)",
-    str_detect(title, "Buffer") & str_detect(title, "Hackathon") ~ "[Hackathon Ideation](ideation/)",
     TRUE ~ title
   )) |> 
   rename_with(~stringr::str_to_title(.x), everything())
