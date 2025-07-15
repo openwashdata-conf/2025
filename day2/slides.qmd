@@ -343,6 +343,30 @@ Awesome-List on GitHub: https://github.com/punkpeye/awesome-mcp-servers
 If you'd like to connect Claude with your Zotero library to search papers, manage references, or extract annotations, let me know and I'll help you set it up!
 :::
 
+## Just in (yesterday): Claude Directory
+
+[Claude Directory](https://claude.ai/directory) - A new way to discover and connect tools
+
+:::: {.columns}
+::: {.column width="50%"}
+**What it is:**
+- Curated collection of MCP servers
+- One-click installation
+- No manual configuration needed
+:::
+
+::: {.column width="50%"}
+**Benefits:**
+- Connect tools directly in Claude
+- Verified and tested integrations
+- Growing library of connections
+:::
+::::
+
+::: {.callout-note}
+This simplifies the MCP setup process significantly - browse, click, and connect!
+:::
+
 ## Recommended Videos
 
 ::: {.smaller}
