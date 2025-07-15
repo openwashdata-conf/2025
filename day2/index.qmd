@@ -57,6 +57,10 @@ knitr::kable(agenda_sessions)
 
 ## Resources
 
+### Hackathon Handouts
+- [Claude Code Workflow Cheatsheet](workflow-cheatsheet.pdf) - One-page reference guide for the complete workflow
+- [Claude Code Tips Cheatsheet](tips-cheatsheet.pdf) - Quick reference for tips, tools, and best practices
+
 ### Documentation & Guides
 - [Claude Code Overview](https://docs.anthropic.com/en/docs/claude-code/overview) - Official documentation
 - [Greg Wilson's Blog: Tooling for Snailz](https://third-bit.com/2025/03/29/tooling-for-snailz/) - Real-world experience with Claude Code

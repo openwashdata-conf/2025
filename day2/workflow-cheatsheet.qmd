@@ -1,0 +1,89 @@
+---
+title: "Claude Code Workflow"
+format:
+  typst:
+    mainfont: "Arial"
+    fontsize: 10pt
+    margin:
+      x: 1.5cm
+      y: 1.5cm
+    columns: 2
+---
+
+# Workflow - Get started
+
+1. Think of a name for your project
+    - naming convention: all small letters, use dashes between words (unless it's an R package), max three words
+2. Create a new repository in: github.com/openwashdata-conf
+3. Clone the repository to your `gitrepos` folder
+4. Open your Terminal on the project folder or navigate to it in your Terminal
+5. In parallel, open the project folder in your preferred IDE (e.g., RStudio, VSCode)
+
+# Workflow - Start Claude
+
+1. In the Terminal has its working directory on the project folder, type `claude` and press Enter
+2. Claude will start in the Terminal, and you can interact with it
+3. Every time, after Claude has created something, you use the command `> commit & push` to save your work
+  - the first time you use this command, Claude will ask you to authorize access to your GitHub account
+
+# Workflow - Provide context
+
+1. Add files to your folder that are relevant for your project or could help Claude learn about your context:
+   - `data.csv` downloaded from the web or exported from a Google Sheet on our Drive
+   - `report.pdf` PDFs you want to work with 
+   - `bibliograph.bib` file for your references
+   - `*.docx, *.xlsx, *.pptx` etc. (Claude converts everything to `.md`) files that you want to use as context
+   - any other files that are relevant for your project
+2. Use your IDE to create a new file inside your folder and name it: `initial-prompt.md`
+3. In `initial-prompt.md`, write a detailed prompt for Claude to start with. Include links to websites and tell Claude what you need from them. Add YouTube Video links (Claude can also transcribe them). 
+
+# Workflow - Start creating
+
+```
+> Use @initial-prompt.md and make a plan for this project. Run it by me. Think hard.
+```
+
+# Workflow - Accept permission
+
+Claude will ask for permission when accessing files:
+
+**Always allow** 
+- Speeds up workflow
+- Often my default choice
+- Hard to know trusted operations
+
+**Allow once**
+- Good for testing
+- A more cautious approach
+
+**Deny**
+- Stop the operation
+- Reconsider approach
+
+# Workflow - CLAUDE.md
+
+1. After working some time, create the CLAUDE.md using the slash command `/init`
+2. Review it. Add things. Adapt things.
+
+# Workflow - Review & Refine
+
+- Review Claude's work in your IDE (use the diff tool to see changes)
+- Edit files yourself as needed
+- Run Claude again for improvements
+- Run through a file, add `TODO: ` comments for Claude to address and then tell Claude to:
+
+```
+> Work on the TODOs that I have outlined for your in @slides.qmd
+```
+
+# Workflow - README.md
+
+If you:
+
+- have had enough of that project (any time from minutes to hours) and you want to do something else
+- think it's "finished" and you want to do something else
+- don't even like it
+
+```bash
+> create a README.md of this project. do not focus on how to run, install, or deploy the software in here. Provide a high level summary of what I wanted to achieve and what I have done so far. Add the directory tree of the project folder.
+```

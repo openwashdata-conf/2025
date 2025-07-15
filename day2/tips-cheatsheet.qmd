@@ -1,0 +1,144 @@
+---
+title: "Claude Code Tips"
+format:
+  typst:
+    mainfont: "Arial"
+    fontsize: 9pt
+    margin:
+      x: 1.5cm
+      y: 1.5cm
+    columns: 2
+---
+
+# Tips - Slash commands
+
+```
+> /init
+```
+
+Creates a `CLAUDE.md` file in your project folder
+
+- **Add context**: Include anything Claude should know about your project
+- **Keep it updated**: Evolve the file as your project grows
+- **Use templates**: Find examples for your specific type of work
+- **Quick additions**: Use `# comment` to add notes during your session
+
+# Tips - PLAN -> CREATE -> TEST -> DEPLOY
+
+- Claude excels when it can plan first
+- Ask to check-in with you, run the plan by you, or use "plan mode"
+- Tell Claude to "think" "think harder" "ultrathink"
+- Once you are happy with the plan, tell Claude to work on it, either bit by bit, or everything at once
+
+# Tips - Working Style
+
+- Claude doesn't get tired. Hit `Esc` if you don't like what you see and want Claude to stop. Start over.
+- Tell Claude to revert to a previous commit if you don't like the current state of your project. That's why `> commit & push` is so important after every round of changes Claude has made.
+
+# Tips - Claude's Tools
+
+Claude can use these tools to help you:
+
+**File Operations**
+- Read/Write/Edit files
+- Search with grep/glob
+- Navigate directories
+
+**Development**
+- Run bash commands
+- Web search & fetch
+- GitHub integration
+
+Claude will write code scripts (mostly in Python) and can install tools on your behalf.
+
+# Tips - Shift + Tab
+
+Switch between:
+
+- auto-accept edits on
+- plan mode on
+
+# Tips - Organization
+
+```
+> Use best practices for folder organization and 
+  clean up this project folder. 
+```
+
+Or
+
+```
+> Use the practices described in this paper LINK to 
+  re-organize the structure in this project folder.
+```
+
+# Tips - Learning
+
+- Try and experiment as much as you can.
+- Keep some notes of your experiences
+- Watch Videos on YouTube about Claude Code
+
+# Tips - Critical Thinking
+
+- Be careful with "Study claims..." statements out there.
+
+> Study finds AI code assistants slow developer productivity by 19%
+
+See also: Claus Wilke's analysis
+
+# Tips - Trusted Sources
+
+- But read newsletter or organizations and people you trust
+
+> Open‑source projects are increasingly cautious about accepting AI-generated code, while new fees on data scraping are pushing teams to reconsider how they build AI workflows. Here's how your team can adapt, keeping velocity high without compromising security or compliance.
+
+--- GitPod Newsletter
+
+# Tips - AI Claims
+
+> AI companies love to tout that their models are approaching—or have reached—PhD-level intelligence. This is blatant nonsensical marketing geared towards an audience that deeply misunderstands what a PhD is and what it takes to get one. Hearing it makes me cringe. PhD-level intelligence is not a thing.
+
+--- Claus Wilke
+
+PhD-level intelligence, or the graduate student's lament
+
+# Model Context Protocol (MCP clients/server)
+
+This is levelling up by integrating other tools into Claude Code.
+
+- Google Workspace
+- Zotero 
+- Perplexity Search
+- OpenStreetMap
+- Asana
+- 100s are being developed every day
+
+My personal favourites so far: https://github.com/stars/larnsce/lists/mcps
+Awesome-List on GitHub: https://github.com/punkpeye/awesome-mcp-servers
+
+**Want to try Zotero integration?**
+
+If you'd like to connect Claude with your Zotero library to search papers, manage references, or extract annotations, let me know and I'll help you set it up!
+
+# Just in (yesterday): Claude Directory
+
+Claude Directory (https://claude.ai/directory) - A new way to discover and connect tools to Claude Chat Interface (haven't learned yet how to do it for Claude Code)
+
+**What it is:**
+- Curated collection of MCP servers
+- One-click installation
+- No manual configuration needed
+
+**Benefits:**
+- Connect tools directly in Claude
+- Verified and tested integrations
+- Growing library of connections
+
+This simplifies the MCP setup process significantly - browse, click, and connect!
+
+# Recommended Videos
+
+- **Getting Started with Claude Code** (https://www.youtube.com/watch?v=6eBSHbLKuN0) - Official Anthropic tutorial
+- **History and Concepts of Claude Code** (https://www.youtube.com/watch?v=Lue8K2jqfKk) - Understanding the why behind Claude Code
+- **Advanced Claude Code Workflows** (https://www.youtube.com/watch?v=TiNpzxoBPz0&list=LL&index=2&t=4s) - Power user tips and tricks
+- **Building Projects with Claude Code** (https://www.youtube.com/watch?v=aHTXccrfXC8&t=1223s) - Real-world project walkthrough
