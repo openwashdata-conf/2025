@@ -41,10 +41,36 @@ agenda_final |>
     knitr::kable()
 ```
 
-## Slides
+## Session Details
 
-TODO: layout this index.qmd to include @day2/slides.qmd the same way as I have done for day1
+```{r}
+agenda_sessions <- agenda_final |> 
+  filter(day == 2) |> 
+  select(-day, -speaker) |> 
+  mutate(title = case_when(
+    str_detect(title, "Claude Code") ~ "[Why Claude Code - AI-Assisted Creation for GHE](slides/)",
+    TRUE ~ title
+  )) |> 
+  rename_with(~stringr::str_to_title(.x), everything())
+
+knitr::kable(agenda_sessions)
+```
 
 ## Resources
 
-TODO: extract the resources that I link to in my slides.qmd
+### Documentation & Guides
+- [Claude Code Overview](https://docs.anthropic.com/en/docs/claude-code/overview) - Official documentation
+- [Greg Wilson's Blog: Tooling for Snailz](https://third-bit.com/2025/03/29/tooling-for-snailz/) - Real-world experience with Claude Code
+- [PhD-level intelligence, or the graduate student's lament](https://clauswilke.substack.com/p/phd-level-intelligence-or-the-graduate) - Critical perspective on AI claims
+- [Claude Directory](https://claude.ai/directory) - Discover and connect tools to Claude
+
+### Tools & Integrations
+- [ccusage](https://github.com/ryoppippi/ccusage) - Track your Claude Code token usage
+- [Awesome MCP servers](https://github.com/punkpeye/awesome-mcp-servers) - Community-curated list of Model Context Protocol integrations
+- [Lars's favorite MCPs](https://github.com/stars/larnsce/lists/mcps) - Curated MCP recommendations
+
+### Video Tutorials
+- [Getting Started with Claude Code](https://www.youtube.com/watch?v=6eBSHbLKuN0) - Official Anthropic tutorial
+- [History and Concepts of Claude Code](https://www.youtube.com/watch?v=Lue8K2jqfKk) - Understanding the why behind Claude Code
+- [Advanced Claude Code Workflows](https://www.youtube.com/watch?v=TiNpzxoBPz0&list=LL&index=2&t=4s) - Power user tips and tricks
+- [Building Projects with Claude Code](https://www.youtube.com/watch?v=aHTXccrfXC8&t=1223s) - Real-world project walkthrough
