@@ -29,6 +29,10 @@ By the end of this session, you will be able to:
 
 ## {{< fa book >}} Resources
 
+### Running a Meeting
+
+- **[github.com/gvwilson/change/](https://github.com/gvwilson/change/blob/main/02_meeting/index.md)** - "Running a Meeting" - A guide by [Greg Wilson](https://third-bit.com/) on effective meeting management
+
 ### Books & Publications
 
 - **[Producing Open Source Software](https://producingoss.com)** by Karl Fogel - Comprehensive guide to running open source projects
