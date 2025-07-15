@@ -1381,7 +1381,7 @@
     "href": "day1/governance/slides.html#presenting-a-proposal",
     "title": "Governance & Decision Making",
     "section": " Presenting a proposal",
-    "text": "Presenting a proposal\n\nThe sponsor has 5 minutes to present the proposal\nMembers cast a sense vote: support, neutral, or oppose\n\nIf everyone supports or is neutral, go immediately to a binary vote with no further discussion\nIf a majority is opposed or neutral, send proposal back to sponsor for further work\n\nIf a minority of members oppose, set a timer for 10 minutes of moderated discussion\nThen call a final binary vote in which everyone must support or oppose (no neutral votes allowed)\nIf a majority support, the proposal is accepted\n\nOtherwise, it is returned to the sponsor for further work"
+    "text": "Presenting a proposal\n\n\nThe sponsor has 5 minutes to present the proposal\nMembers cast a sense vote: support, neutral, or oppose\n\nIf everyone supports or is neutral, go immediately to a binary vote with no further discussion\nIf a majority is opposed or neutral, send proposal back to sponsor for further work\n\nIf a minority of members oppose, set a timer for 10 minutes of moderated discussion\nThen call a final binary vote in which everyone must support or oppose (no neutral votes allowed)\nIf a majority support, the proposal is accepted\n\nOtherwise, it is returned to the sponsor for further work"
   },
   {
     "objectID": "day1/governance/slides.html#activity-decision-making-5-minutes",

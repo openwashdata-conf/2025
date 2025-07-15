@@ -231,6 +231,8 @@ Reflect on your current project:
 
 ## {{< fa presentation >}} Presenting a proposal
 
+::: incremental
+
 - The sponsor has 5 minutes to present the proposal
 - Members cast a sense vote: support, neutral, or oppose
   - If everyone supports or is neutral, go immediately to a binary vote with no further discussion
@@ -239,6 +241,8 @@ Reflect on your current project:
 - Then call a final binary vote in which everyone must support or oppose (no neutral votes allowed)
 - If a majority support, the proposal is accepted
   - Otherwise, it is returned to the sponsor for further work
+
+:::
 
 ---
 
