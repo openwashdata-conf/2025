@@ -265,6 +265,13 @@
     "text": "Tactics\n\n\nProvide a 10-week online workshop for a selected group of participants to share tools and workflows that support publishing of open data following FAIR principles.\nPublish monthly blog posts on the openwashdata website about selected open datasets, community stories, workflows, insights into community management, use cases, etc.\nPublish monthly issues of the openwashdata newsletter.\nHost quarterly community meetups with invited speakers that share stories from their organisations related to data management, data analysis, open data, etc.\nVisualize and disseminate published open data using interactive dashboards, maps, articles, etc.\n\n\n\nCheck: openwashdata.org/pages/gallery/vmost/"
   },
   {
+    "objectID": "day1/openwashdata/slides.html#terminology",
+    "href": "day1/openwashdata/slides.html#terminology",
+    "title": "openwashdata conf 2025",
+    "section": "Terminology",
+    "text": "Terminology\n\n\nA goal/vision is something you want to accomplish\n\n“Make research fairer, more reliable, and more efficient.”\n\nA strategy is a long-term plan to achieve that\n\n“Increase institutional and individual adoption of open science”\n\nA tactic is a specific action that fits into a larger strategic plan\n\n“Give researchers credit in performance reviews for creating open-access data sets”\n\nOver time, people often confuse strategies with goals\n\nOpen science isn’t the goal: fairness, reliability, and efficiency are\n\nTactics may conflict with or contradict each other\n\nGiving researchers credit for sharing data incentivizes salami slicing and the proliferation of useless data sets\n\n\n\n\nTaken from: github.com/gvwilson/change/"
+  },
+  {
     "objectID": "day1/openwashdata/slides.html#get-ready-to-share",
     "href": "day1/openwashdata/slides.html#get-ready-to-share",
     "title": "openwashdata conf 2025",
@@ -349,11 +356,11 @@
     "text": "On the list\n\n2025-09-01: ETH Open Research Data Program - Creating and publishing open educational resources on research data management. CHF 10,000 – CHF 25,000. (10 months)\n2025-09-30: Swiss Leading House Africa - Call for Research Partnership Grant. CHF 15,000 – CHF 40,000 (3 to 12 months).\n2025-10-31: Congressi Stefano Franscini. 2nd open(wash)data / conference in July 2027.\nTBD: ETH Foundation\n\n\n⏱️ START: 0:40 | DURATION: 3 minutes | END: 0:43 - List funding opportunities: 2 minutes - Transition slide: 30 seconds - Set up for Activity 2: 30 seconds"
   },
   {
-    "objectID": "day1/openwashdata/slides.html#activity-2-coming-up",
-    "href": "day1/openwashdata/slides.html#activity-2-coming-up",
+    "objectID": "day1/openwashdata/slides.html#activity-2",
+    "href": "day1/openwashdata/slides.html#activity-2",
     "title": "openwashdata conf 2025",
-    "section": " Activity 2 Coming Up",
-    "text": "Activity 2 Coming Up\n\nPrepare to share your knowledge about:\n\n\n\n Funding\nWhat opportunities exist in your region/sector?\n\n Collaboration\nWho would you partner with?\n\n\n⏱️ Quick transition to prepare them for the second activity - This helps them start thinking before we open the Google Doc"
+    "section": " Activity 2",
+    "text": "Activity 2\n\nPrepare to share your knowledge about:\n\n\n\n Funding\nWhat opportunities exist in your region/sector?\n\n Collaboration\nWho would you partner with?\n\n\n⏱️ Quick transition to prepare them for the second activity - This helps them start thinking before we open the Google Doc"
   },
   {
     "objectID": "day1/openwashdata/slides.html#activity-building-together-5-minutes",
@@ -608,158 +615,48 @@
     "text": "This is an initial prompt to get you started. Layout a Quarto website for the 2025 openwashdata conference. Use the following website as a template: https://gitforsci-cis.github.io/website/\nYou can find the content of the three days here: https://openwashdata.org/pages/events/2025-openwashdata-conference/\nFor the website layout (https://github.com/gitforsci-cis/website/blob/main/_quarto.yml) create sections:\n\npre-requisites for Day 2\n\nmake the below in one file with more details and links, help MacOS users and Windows users\n\nPreparation for hackathon\nGet Claude Code Max plan\nVerify that you can open terminal app\nInstall python\nVerify that you can log into GitHub account\nCreate a folder on your machine that stores files local (not OneDrive, Google Drive, etc.)\n\nName the folder: gitrepos\n\nAccept the invitation to join GitHub organisation: openwashdata-conf\n\n\nday 1\n\nmake it one subpage (href) per session / module. The WIP sessions are:\n\nWarm-up\n\nPositive feedback\n\nGovernance\nIdeation for hackathon\n[[Lean Coffee]]\n\n\nday 2\n\nmake sub-pages along the agenda\n\nday 3\n\nmake the whole day one subpage\n\n\nMake a detailed plan before you proceed building the website and ultrathink."
   },
   {
-    "objectID": "day2/setup-check.html",
-    "href": "day2/setup-check.html",
-    "title": "Setup Check",
+    "objectID": "day2/index.html",
+    "href": "day2/index.html",
+    "title": "Day 2: Claude Code Hackathon",
     "section": "",
-    "text": "Time: 10:00-10:30\nFormat: Hands-on verification"
+    "text": "Prerequisites Required\n\n\n\nPlease ensure you’ve completed all prerequisite setup before arriving.",
+    "crumbs": [
+      "Day 2 - July 16",
+      "Overview"
+    ]
   },
   {
-    "objectID": "day2/setup-check.html#session-overview",
-    "href": "day2/setup-check.html#session-overview",
-    "title": "Setup Check",
-    "section": "Session Overview",
-    "text": "Session Overview\nBefore we start coding, let’s ensure everyone has their development environment properly configured. This session will help identify and resolve any setup issues."
+    "objectID": "day2/index.html#session-details",
+    "href": "day2/index.html#session-details",
+    "title": "Day 2: Claude Code Hackathon",
+    "section": "Session Details",
+    "text": "Session Details\n\n\n\n\n\nTime\nTitle\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n\n\n09:30 - 10:00\nWhy Claude Code - AI-Assisted Creation for GHE\n\n\n10:00 - 10:30\nWhy Claude Code - AI-Assisted Creation for GHE\n\n\n10:30 - 10:45\nBreak\n\n\n10:45 - 11:15\nWork session\n\n\n12:00 - 13:00\nLunch break\n\n\n13:00 - 14:00\nWork session\n\n\n14:00 - 14:15\nBreak\n\n\n14:15 - 15:00\nWork session\n\n\n15:00 - 15:30\nShowcase round 1\n\n\n15:30 - 15:45\nBreak with small cakes\n\n\n15:45 - 16:15\nShowcase round 2\n\n\n16:15 - 16:30\nClosing",
+    "crumbs": [
+      "Day 2 - July 16",
+      "Overview"
+    ]
   },
   {
-    "objectID": "day2/setup-check.html#checklist-verification",
-    "href": "day2/setup-check.html#checklist-verification",
-    "title": "Setup Check",
-    "section": "Checklist Verification",
-    "text": "Checklist Verification\nWe’ll verify each prerequisite step by step:\n\n1. Claude Code Access\nFirst, let’s start Claude Code:\n\nmacOS/LinuxWindows\n\n\n# Navigate to your working directory\ncd ~/Documents/gitrepos\n\n# Start Claude Code\nclaude\n\n\n# From Windows Terminal or Command Prompt\n# Navigate to your working directory\ncd C:\\Users\\%USERNAME%\\Documents\\gitrepos\n\n# Start Claude Code through WSL\nwsl claude\n\n\n\n\n\n\nWindows Pro Tip\n\n\n\nCreate a batch file claude.bat for easy launching:\n@echo off\ncd C:\\Users\\%USERNAME%\\Documents\nwsl claude %*\nSave this in a directory that’s in your PATH for quick access from anywhere.\n\n\n\n\n\nOnce Claude Code starts: - Confirm Max plan is active - Test basic functionality by asking Claude a simple question - Troubleshoot any access issues\n\n\n2. Terminal/Command Line\n# Test basic commands\necho \"Hello, openwashdata!\"\npwd\nls -la\n\n\n3. Python Environment\n# Check Python installation\npython3 --version\npip3 --version\n\n# Test Python functionality\npython3 -c \"print('Python is working!')\"\n\n\n4. Git Configuration\n# Check Git installation\ngit --version\n\n# Verify Git configuration\ngit config --global user.name\ngit config --global user.email\nIf not configured:\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your.email@example.com\"\n\n\n5. GitHub Access\n# Test GitHub SSH connection (if using SSH)\nssh -T git@github.com\n\n# Or test with HTTPS\ngit ls-remote https://github.com/openwashdata-conf/test-repo.git\n\n\n6. Working Directory\n# Navigate to your gitrepos folder\ncd ~/gitrepos  # macOS/Linux\n# or\ncd C:\\gitrepos  # Windows\n\n# Create a test repository\nmkdir test-setup\ncd test-setup\ngit init\n\n\n7. Organization Access\nVerify you can access the openwashdata-conf organization:\n\nVisit github.com/openwashdata-conf\nConfirm you see member access\nCheck for any pending invitations"
+    "objectID": "day2/index.html#slides",
+    "href": "day2/index.html#slides",
+    "title": "Day 2: Claude Code Hackathon",
+    "section": " Slides",
+    "text": "Slides\nView slides in full screen | Download slides as PDF",
+    "crumbs": [
+      "Day 2 - July 16",
+      "Overview"
+    ]
   },
   {
-    "objectID": "day2/setup-check.html#common-issues-and-solutions",
-    "href": "day2/setup-check.html#common-issues-and-solutions",
-    "title": "Setup Check",
-    "section": "Common Issues and Solutions",
-    "text": "Common Issues and Solutions\n\nClaude Code Not Working\n\nmacOS/LinuxWindows\n\n\n\nVerify Claude Code is installed: claude --version\nCheck Node.js version: node --version (should be 18+)\nTry reinstalling: npm install -g @anthropic-ai/claude-code\nVerify subscription status at claude.ai\n\n\n\n\nEnsure WSL is running: wsl --status\nInside WSL, check installation: which claude\nVerify Node.js in WSL: node --version\nTry the direct command: wsl /usr/local/bin/claude\nCheck the Windows Installation Guide for troubleshooting\n\n\n\n\n\n\nPython Command Not Found\n\nmacOS/LinuxWindows\n\n\n# Try python3 instead of python\npython3 --version\n\n# Add to PATH if needed\necho 'export PATH=\"/usr/local/bin:$PATH\"' &gt;&gt; ~/.zshrc\nsource ~/.zshrc\n\n\n# Verify Python is in PATH\nwhere python\n\n# If not found, add to PATH through System Properties\n# Or reinstall Python with \"Add to PATH\" checked\n\n\n\n\n\nGit Push/Pull Issues\n\nCheck authentication (SSH vs HTTPS)\nVerify repository permissions\nEnsure correct remote URL\nUpdate credentials if needed"
-  },
-  {
-    "objectID": "day2/setup-check.html#team-formation-check",
-    "href": "day2/setup-check.html#team-formation-check",
-    "title": "Setup Check",
-    "section": "Team Formation Check",
-    "text": "Team Formation Check\nWhile we verify setups:\n\nConfirm your team members\nExchange contact information\nDecide on communication channel\nChoose a team name\nDesignate a GitHub repo owner"
-  },
-  {
-    "objectID": "day2/setup-check.html#ready-to-hack",
-    "href": "day2/setup-check.html#ready-to-hack",
-    "title": "Setup Check",
-    "section": "Ready to Hack!",
-    "text": "Ready to Hack!\nOnce all checks pass:\n\n✅ Development environment ready\n✅ Team formed and connected\n✅ Project idea selected\n✅ GitHub repository planned\n✅ Communication channel established"
-  },
-  {
-    "objectID": "day2/setup-check.html#need-help",
-    "href": "day2/setup-check.html#need-help",
-    "title": "Setup Check",
-    "section": "Need Help?",
-    "text": "Need Help?\nIf you encounter issues:\n\nRaise your hand - Mentors will assist\nCheck with teammates - They might have solutions\nUse Slack channel - Post specific error messages\nPair programming - Work together on one machine\n\n\n\n\n\n\n\nDon’t Skip This!\n\n\n\nA properly configured environment is crucial for a productive hackathon. Take the time now to resolve any issues."
-  },
-  {
-    "objectID": "day2/ideation.html",
-    "href": "day2/ideation.html",
-    "title": "Ideation Finalization",
-    "section": "",
-    "text": "Time: 10:45-11:15\nFormat: Team planning session"
-  },
-  {
-    "objectID": "day2/ideation.html#session-overview",
-    "href": "day2/ideation.html#session-overview",
-    "title": "Ideation Finalization",
-    "section": "Session Overview",
-    "text": "Session Overview\nTransform yesterday’s ideas into concrete hackathon projects. This session helps teams finalize their project scopes and create actionable development plans."
-  },
-  {
-    "objectID": "day2/ideation.html#project-planning-framework",
-    "href": "day2/ideation.html#project-planning-framework",
-    "title": "Ideation Finalization",
-    "section": "Project Planning Framework",
-    "text": "Project Planning Framework\n\n1. Define the Problem (5 minutes)\nAnswer these questions:\n\nWhat specific problem are we solving?\nWho will benefit from our solution?\nWhat’s the current pain point?\nHow will we measure success?\n\nExample: &gt; “Field workers struggle to validate water quality data in real-time, leading to errors that are discovered weeks later during analysis.”\n\n\n2. Scope the Solution (10 minutes)\nMinimum Viable Product (MVP):\n\nCore functionality only\nWhat can we demo by 15:30?\nWhat would make this “working”?\nWhat can we skip for now?\n\nNice-to-have features:\n\nList for future development\nPrioritize by impact\nDocument for showcase\n\n\n\n3. Technical Planning (10 minutes)\nArchitecture decisions:\n\nProgramming language(s)\nKey libraries/frameworks\nData sources needed\nOutput format\n\nTask breakdown:\n\nSetup and configuration\nCore functionality\nUser interface (if applicable)\nTesting and validation\nDocumentation\n\n\n\n4. Team Roles (5 minutes)\nAssign responsibilities:\n\nLead Developer: Core logic implementation\nUI/UX Developer: Interface and user experience\nData Wrangler: Sample data and testing\nDocumentation: README and demo prep\nProject Manager: Timeline and coordination\n\nNote: Roles can overlap in small teams"
-  },
-  {
-    "objectID": "day2/ideation.html#project-templates",
-    "href": "day2/ideation.html#project-templates",
-    "title": "Ideation Finalization",
-    "section": "Project Templates",
-    "text": "Project Templates\n\nData Processing Tool\n**Problem:** [Specific data challenge]\n**Solution:** Script/tool that [processes/validates/transforms] data\n**Input:** [Data format/source]\n**Output:** [Cleaned/processed data format]\n**Tech Stack:** Python/R + relevant libraries\n\n\nVisualization Dashboard\n**Problem:** [What insights are hidden?]\n**Solution:** Interactive dashboard showing [metrics/trends]\n**Data Source:** [openwashdata API/CSV files]\n**Features:** [Charts/filters/exports]\n**Tech Stack:** JavaScript/Python + visualization library\n\n\nAPI/Integration\n**Problem:** [Integration/access challenge]\n**Solution:** API that [connects/serves/processes]\n**Endpoints:** [List key endpoints]\n**Authentication:** [Method if needed]\n**Tech Stack:** FastAPI/Express + database"
-  },
-  {
-    "objectID": "day2/ideation.html#github-repository-setup",
-    "href": "day2/ideation.html#github-repository-setup",
-    "title": "Ideation Finalization",
-    "section": "GitHub Repository Setup",
-    "text": "GitHub Repository Setup\nCreate your team repository:\n# Navigate to your gitrepos folder\ncd ~/gitrepos\n\n# Create and enter project directory\nmkdir openwashdata-[project-name]\ncd openwashdata-[project-name]\n\n# Initialize Git repository\ngit init\n\n# Create initial README\necho \"# [Project Name]\" &gt; README.md\necho \"\" &gt;&gt; README.md\necho \"## Problem Statement\" &gt;&gt; README.md\necho \"[Your problem description]\" &gt;&gt; README.md\necho \"\" &gt;&gt; README.md\necho \"## Solution\" &gt;&gt; README.md\necho \"[Your solution approach]\" &gt;&gt; README.md\necho \"\" &gt;&gt; README.md\necho \"## Team\" &gt;&gt; README.md\necho \"- Member 1: Role\" &gt;&gt; README.md\necho \"- Member 2: Role\" &gt;&gt; README.md\n\n# Initial commit\ngit add README.md\ngit commit -m \"Initial commit: Project setup\""
-  },
-  {
-    "objectID": "day2/ideation.html#success-criteria",
-    "href": "day2/ideation.html#success-criteria",
-    "title": "Ideation Finalization",
-    "section": "Success Criteria",
-    "text": "Success Criteria\nBy the end of this session, each team should have:\n\n✅ Clear problem statement\n✅ Defined MVP scope\n✅ Technical approach decided\n✅ Tasks assigned to team members\n✅ GitHub repository created\n✅ README with project overview"
-  },
-  {
-    "objectID": "day2/ideation.html#tips-for-success",
-    "href": "day2/ideation.html#tips-for-success",
-    "title": "Ideation Finalization",
-    "section": "Tips for Success",
-    "text": "Tips for Success\n\nStart small: Better to have a working simple solution than an incomplete complex one\nUse existing data: Don’t spend time creating test data - use openwashdata resources\nLeverage Claude Code: Use AI assistance for boilerplate and complex algorithms\nCommunicate constantly: Regular check-ins prevent duplicate work\nDocument as you go: Update README throughout the day"
-  },
-  {
-    "objectID": "day2/ideation.html#ready-to-start-hacking",
-    "href": "day2/ideation.html#ready-to-start-hacking",
-    "title": "Ideation Finalization",
-    "section": "Ready to Start Hacking?",
-    "text": "Ready to Start Hacking?\nOnce planning is complete:\n\nShare your repository link in Slack\nPost your problem statement\nStart with setup and configuration\nBegin implementing core features\nCheck in with mentors early and often\n\n\n\n\n\n\n\nRemember\n\n\n\nThe goal is learning and collaboration, not perfection. Have fun and experiment!"
-  },
-  {
-    "objectID": "day2/work-sessions.html",
-    "href": "day2/work-sessions.html",
-    "title": "Work Sessions",
-    "section": "",
-    "text": "Session\nTime\nFocus\n\n\n\n\nWork Session 1\n11:15-12:30\nSetup & Core Development\n\n\nWork Session 2\n13:30-15:00\nFeature Implementation\n\n\nWork Session 3\n15:00-15:30\nPolish & Documentation"
-  },
-  {
-    "objectID": "day2/work-sessions.html#session-schedule",
-    "href": "day2/work-sessions.html#session-schedule",
-    "title": "Work Sessions",
-    "section": "",
-    "text": "Session\nTime\nFocus\n\n\n\n\nWork Session 1\n11:15-12:30\nSetup & Core Development\n\n\nWork Session 2\n13:30-15:00\nFeature Implementation\n\n\nWork Session 3\n15:00-15:30\nPolish & Documentation"
-  },
-  {
-    "objectID": "day2/work-sessions.html#work-session-guidelines",
-    "href": "day2/work-sessions.html#work-session-guidelines",
-    "title": "Work Sessions",
-    "section": "Work Session Guidelines",
-    "text": "Work Session Guidelines\n\nEffective Collaboration\nCommunication: - Regular team check-ins (every 30 min) - Share progress and blockers - Ask for help early - Update shared documents\nVersion Control:\n# Commit frequently\ngit add .\ngit commit -m \"Add: [feature description]\"\n\n# Push to remote repository\ngit push origin main\n\n# Pull teammate changes\ngit pull origin main\n\n\nUsing Claude Code Effectively\nGood prompts for Claude Code:\n\nSpecific Implementation: &gt; “Create a Python function that validates water quality data against WHO standards. The function should check pH (6.5-8.5), turbidity (&lt;5 NTU), and return validation errors.”\nDebugging Help: &gt; “This function throws a KeyError when processing CSV files. Here’s the code and error message. How can I fix it?”\nCode Improvement: &gt; “Refactor this data processing code to be more efficient and add error handling for missing values.”\nDocumentation: &gt; “Generate comprehensive docstrings for these functions and create a usage example for the README.”\n\n\n\nDevelopment Workflow\n\nSession 1: Foundation (11:15-12:30)\nGoals: - Environment setup complete - Core data structures defined - Basic functionality working - Initial tests passing\nChecklist: - [ ] Dependencies installed - [ ] Project structure created - [ ] Core modules outlined - [ ] Sample data loaded - [ ] First function working\n\n\nSession 2: Features (13:30-15:00)\nGoals: - Main features implemented - User interface functional - Data flow complete - Error handling added\nChecklist: - [ ] Key features working - [ ] Input/output verified - [ ] Basic UI complete - [ ] Edge cases handled - [ ] Integration tested\n\n\nSession 3: Polish (15:00-15:30)\nGoals: - Documentation complete - Demo prepared - Code cleaned up - Repository organized\nChecklist: - [ ] README updated - [ ] Usage examples added - [ ] Code commented - [ ] Demo script ready - [ ] Presentation planned"
-  },
-  {
-    "objectID": "day2/work-sessions.html#available-resources",
-    "href": "day2/work-sessions.html#available-resources",
-    "title": "Work Sessions",
-    "section": "Available Resources",
-    "text": "Available Resources\n\nMentors\nTechnical mentors are circulating to help with: - Architecture decisions - Debugging assistance - Code reviews - Best practices - Tool recommendations\n\n\nData Sources\nopenwashdata resources: - API Documentation - Sample Datasets - Data Schemas\n\n\nQuick References\nPython Data Processing:\nimport pandas as pd\nimport numpy as np\n\n# Load data\ndf = pd.read_csv('water_quality.csv')\n\n# Basic processing\ndf_clean = df.dropna()\ndf_filtered = df[df['ph'] &gt; 6.5]\nJavaScript Visualization:\n// Using Chart.js\nconst ctx = document.getElementById('myChart');\nconst chart = new Chart(ctx, {\n    type: 'line',\n    data: waterQualityData,\n    options: chartOptions\n});\nGit Commands:\n# Check status\ngit status\n\n# Create branch\ngit checkout -b feature-name\n\n# Merge changes\ngit checkout main\ngit merge feature-name"
-  },
-  {
-    "objectID": "day2/work-sessions.html#common-challenges",
-    "href": "day2/work-sessions.html#common-challenges",
-    "title": "Work Sessions",
-    "section": "Common Challenges",
-    "text": "Common Challenges\n\nTime Management\n\nSet mini-deadlines\nFocus on MVP first\nDon’t over-engineer\nLeave time for documentation\n\n\n\nTechnical Issues\n\nImport errors: Check package installation\nAPI limits: Use cached/sample data\nMerge conflicts: Communicate before major changes\nPerformance: Optimize later, functionality first\n\n\n\nTeam Dynamics\n\nAssign clear ownership\nRespect different skill levels\nShare knowledge actively\nCelebrate small wins"
-  },
-  {
-    "objectID": "day2/work-sessions.html#progress-tracking",
-    "href": "day2/work-sessions.html#progress-tracking",
-    "title": "Work Sessions",
-    "section": "Progress Tracking",
-    "text": "Progress Tracking\nUse this template in your repository:\n## Progress Log\n\n### Session 1 (11:15-12:30)\n- [x] Task 1 completed\n- [x] Task 2 completed\n- [ ] Task 3 in progress\n\n### Session 2 (13:30-15:00)\n- [ ] Feature A\n- [ ] Feature B\n\n### Session 3 (15:00-15:30)\n- [ ] Documentation\n- [ ] Demo preparation"
-  },
-  {
-    "objectID": "day2/work-sessions.html#final-push-checklist",
-    "href": "day2/work-sessions.html#final-push-checklist",
-    "title": "Work Sessions",
-    "section": "Final Push Checklist",
-    "text": "Final Push Checklist\nBefore the showcase:\n\nCode: Main functionality working?\nDocs: README explains project?\nDemo: Can you show it working?\nTeam: Everyone knows their part?\nTime: Presentation under 5 minutes?\n\n\n\n\n\n\n\nRemember\n\n\n\nDone is better than perfect! Focus on demonstrating your core idea."
+    "objectID": "day2/index.html#resources",
+    "href": "day2/index.html#resources",
+    "title": "Day 2: Claude Code Hackathon",
+    "section": "Resources",
+    "text": "Resources\n\nHackathon Handouts\n\nClaude Code Workflow Cheatsheet - One-page reference guide for the complete workflow\nClaude Code Tips Cheatsheet - Quick reference for tips, tools, and best practices\n\n\n\nDocumentation & Guides\n\nClaude Code Overview - Official documentation\nGreg Wilson’s Blog: Tooling for Snailz - Real-world experience with Claude Code\nPhD-level intelligence, or the graduate student’s lament - Critical perspective on AI claims\nClaude Directory - Discover and connect tools to Claude\n\n\n\nTools & Integrations\n\nccusage - Track your Claude Code token usage\nAwesome MCP servers - Community-curated list of Model Context Protocol integrations\nLars’s favorite MCPs - Curated MCP recommendations\n\n\n\nVideo Tutorials\n\nGetting Started with Claude Code - Official Anthropic tutorial\nHistory and Concepts of Claude Code - Understanding the why behind Claude Code\nAdvanced Claude Code Workflows - Power user tips and tricks\nBuilding Projects with Claude Code - Real-world project walkthrough",
+    "crumbs": [
+      "Day 2 - July 16",
+      "Overview"
+    ]
   },
   {
     "objectID": "day3/index.html",
@@ -806,174 +703,242 @@
     ]
   },
   {
-    "objectID": "day2/showcase.html",
-    "href": "day2/showcase.html",
-    "title": "Project Showcase",
-    "section": "",
-    "text": "Time: 15:30-16:15\nFormat: Team presentations"
-  },
-  {
-    "objectID": "day2/showcase.html#showcase-overview",
-    "href": "day2/showcase.html#showcase-overview",
-    "title": "Project Showcase",
-    "section": "Showcase Overview",
-    "text": "Showcase Overview\nThe culmination of our hackathon! Each team presents their project to the community, demonstrating solutions built to address openwashdata challenges."
-  },
-  {
-    "objectID": "day2/showcase.html#presentation-format",
-    "href": "day2/showcase.html#presentation-format",
-    "title": "Project Showcase",
-    "section": "Presentation Format",
-    "text": "Presentation Format\n\nTime Allocation\n5 minutes per team: - 3 minutes: Demo and explanation - 1 minute: Technical approach - 1 minute: Q&A and feedback\n\n\nPresentation Structure\n\nProblem Statement (30 seconds)\n\nWhat challenge did you address?\nWhy is it important?\n\nSolution Demo (2 minutes)\n\nLive demonstration preferred\nShow key functionality\nHighlight user benefits\n\nTechnical Approach (1 minute)\n\nTechnologies used\nArchitecture overview\nKey challenges overcome\n\nNext Steps (30 seconds)\n\nFuture development plans\nHow others can contribute\nRepository and documentation\n\nQ&A (1 minute)\n\nAnswer audience questions\nReceive feedback\nNote suggestions"
-  },
-  {
-    "objectID": "day2/showcase.html#presentation-tips",
-    "href": "day2/showcase.html#presentation-tips",
-    "title": "Project Showcase",
-    "section": "Presentation Tips",
-    "text": "Presentation Tips\n\nDo’s\n\nStart with impact: Show what your solution does immediately\nKeep it simple: Focus on core functionality\nBe honest: Share what works and what’s still in progress\nShow enthusiasm: Your passion is contagious\nCredit team: Acknowledge all contributors\n\n\n\nDon’ts\n\nDon’t apologize for incomplete features\nDon’t spend time on setup/installation\nDon’t read from slides\nDon’t exceed time limit\nDon’t forget to breathe!"
-  },
-  {
-    "objectID": "day2/showcase.html#demo-best-practices",
-    "href": "day2/showcase.html#demo-best-practices",
-    "title": "Project Showcase",
-    "section": "Demo Best Practices",
-    "text": "Demo Best Practices\n\nPreparation\n\nTest everything: Run through demo multiple times\nHave backup: Screenshots/video if live demo fails\nPrepare data: Use realistic sample data\nCheck equipment: Test projector/screen connection\nAssign roles: Who presents what?\n\n\n\nDuring Demo\n## Demo Checklist\n- [ ] Start with working state\n- [ ] Explain what you're showing\n- [ ] Go slowly - audience needs time\n- [ ] Highlight key features\n- [ ] Show actual output/results\n\n\nTechnical Setup\n\nClose unnecessary applications\nIncrease font size for visibility\nHave terminal/browser ready\nDisable notifications\nUse presentation mode if available"
-  },
-  {
-    "objectID": "day2/showcase.html#evaluation-criteria",
-    "href": "day2/showcase.html#evaluation-criteria",
-    "title": "Project Showcase",
-    "section": "Evaluation Criteria",
-    "text": "Evaluation Criteria\nWhile this isn’t a competition, we celebrate:\n\nInnovation: Creative approach to problems\nImpact: Potential benefit to community\nTechnical Merit: Code quality and architecture\nCollaboration: Teamwork and knowledge sharing\nDocumentation: Clear explanation and future usability"
-  },
-  {
-    "objectID": "day2/showcase.html#showcase-participation",
-    "href": "day2/showcase.html#showcase-participation",
-    "title": "Project Showcase",
-    "section": "Showcase Participation",
-    "text": "Showcase Participation\n\nAs a Presenter\n\nBe proud of your work\nWelcome feedback gracefully\nNetwork with interested parties\nShare repository links\nFollow up on suggestions\n\n\n\nAs an Audience Member\n\nGive full attention to presenters\nAsk constructive questions\nOffer positive feedback\nNote projects to explore later\nConnect with interesting teams"
-  },
-  {
-    "objectID": "day2/showcase.html#post-showcase",
-    "href": "day2/showcase.html#post-showcase",
-    "title": "Project Showcase",
-    "section": "Post-Showcase",
-    "text": "Post-Showcase\n\nImmediate Actions\n\nShare Resources:\n\nPost repository links in Slack\nShare presentation materials\nDocument feedback received\n\nConnect:\n\nExchange contacts with interested parties\nDiscuss collaboration opportunities\nPlan follow-up meetings\n\nCelebrate:\n\nAcknowledge team effort\nReflect on learning\nEnjoy the achievement\n\n\n\n\nFollow-up Actions\nWithin 1 week: - Update repository with showcase feedback - Create issues for suggested improvements - Write blog post about experience - Thank mentors and organizers\nOngoing: - Continue development if motivated - Contribute to other teams’ projects - Share at local meetups - Integrate into openwashdata ecosystem"
-  },
-  {
-    "objectID": "day2/showcase.html#recognition",
-    "href": "day2/showcase.html#recognition",
-    "title": "Project Showcase",
-    "section": "Recognition",
-    "text": "Recognition\nAll participants receive:\n\nCertificate of participation\nProject featured on openwashdata blog\nRepository in community showcase\nInvitation to present at future events"
-  },
-  {
-    "objectID": "day2/showcase.html#example-presentation-script",
-    "href": "day2/showcase.html#example-presentation-script",
-    "title": "Project Showcase",
-    "section": "Example Presentation Script",
-    "text": "Example Presentation Script\n\n“Hi, we’re Team [Name], and we built [Project] to solve [Problem].\nHere’s how it works: [Demo key feature]\nWe used [Technologies] because [Reasoning].\nThe biggest challenge was [Challenge] which we solved by [Solution].\nNext, we plan to [Future plans].\nYou can find our code at [Repository URL]. We welcome contributions!\nQuestions?”\n\n\n\n\n\n\n\nRemember\n\n\n\nEvery project is valuable! Whether it’s a simple script or complex application, you’ve contributed to the openwashdata mission."
-  },
-  {
-    "objectID": "day2/index.html",
-    "href": "day2/index.html",
-    "title": "Day 2: Claude Code Hackathon",
-    "section": "",
-    "text": "Prerequisites Required\n\n\n\nPlease ensure you’ve completed all prerequisite setup before arriving.",
-    "crumbs": [
-      "Day 2 - July 16",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "day2/index.html#schedule-overview",
-    "href": "day2/index.html#schedule-overview",
-    "title": "Day 2: Claude Code Hackathon",
-    "section": "Schedule Overview",
-    "text": "Schedule Overview\n\n\n\n\n\n\n\n\n\n\nTime\nTitle\nAffiliation\n\n\n\n\n09:00 - 09:30\nArrival at Villa Hatt. Welcome coffee, bread rolls, croissants (Gipfeli).\n-\n\n\n09:30 - 10:00\nWhy Claude Code & Workflow\n-\n\n\n10:00 - 10:30\nClaude Code setup check\n-\n\n\n10:30 - 10:45\nBreak\n-\n\n\n10:45 - 11:15\nWork session\n-\n\n\n12:00 - 13:00\nLunch break\n-\n\n\n13:00 - 14:00\nWork session\n-\n\n\n14:00 - 14:15\nBreak\n-\n\n\n14:15 - 15:00\nWork session\n-\n\n\n15:00 - 15:30\nShowcase round 1\n-\n\n\n15:30 - 15:45\nBreak with small cakes\n-\n\n\n15:45 - 16:15\nShowcase round 2\n-\n\n\n16:15 - 16:30\nClosing\n-",
-    "crumbs": [
-      "Day 2 - July 16",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "day2/index.html#tips-workflow",
-    "href": "day2/index.html#tips-workflow",
-    "title": "Day 2: Claude Code Hackathon",
-    "section": "Tips & Workflow",
-    "text": "Tips & Workflow\n\nWork in progress",
-    "crumbs": [
-      "Day 2 - July 16",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "day2/index.html#resources",
-    "href": "day2/index.html#resources",
-    "title": "Day 2: Claude Code Hackathon",
-    "section": "Resources",
-    "text": "Resources\n\nhttps://github.com/VonHoltenCodes/CLAUDECODE_COMPLETE_WINDOWS_INSTALL_GUIDE?tab=readme-ov-file#-quick-start",
-    "crumbs": [
-      "Day 2 - July 16",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "day2/why-claude.html",
-    "href": "day2/why-claude.html",
+    "objectID": "day2/slides.html#activity-11-check-in",
+    "href": "day2/slides.html#activity-11-check-in",
     "title": "Why Claude Code",
-    "section": "",
-    "text": "Time: 09:30-10:00\nFormat: Presentation and demonstration"
+    "section": " Activity: 1:1 Check-in",
+    "text": "Activity: 1:1 Check-in\nTime: 20 minutes total\n\n10 minutes: 1:1 discussion with your partner (3 to 4 minutes each)\n10 minutes: Share back (1 to 2 minutes per team)\n\nInstructions:\n\nI will pair up by counting\nDiscuss the following questions:\n\nHow has it felt for you so far to use AI tools in your work?\nWhat are your expectations for today?\nWhat are you most excited about?\nWhat are you most nervous about?\n\nEach pair will share one or two key insights with the group"
   },
   {
-    "objectID": "day2/why-claude.html#session-overview",
-    "href": "day2/why-claude.html#session-overview",
+    "objectID": "day2/slides.html#ai-journey-for-me",
+    "href": "day2/slides.html#ai-journey-for-me",
     "title": "Why Claude Code",
-    "section": "Session Overview",
-    "text": "Session Overview\nDiscover how Claude Code can accelerate your development workflow and enable you to build more ambitious projects during today’s hackathon."
+    "section": "AI journey for me",
+    "text": "AI journey for me\n\nPerplexity web app has replaced my search engine\nUsed GitHub Copilot for auto-completing suggestions for code and text in RStudio\nCopy/paste code to Perplexity to help with errors\nFound working with code and those tools not very satisfying"
   },
   {
-    "objectID": "day2/why-claude.html#what-is-claude-code",
-    "href": "day2/why-claude.html#what-is-claude-code",
+    "objectID": "day2/slides.html#and-then",
+    "href": "day2/slides.html#and-then",
     "title": "Why Claude Code",
-    "section": "What is Claude Code?",
-    "text": "What is Claude Code?\nClaude Code is an AI-powered development assistant that can:\n\nWrite, debug, and refactor code\nExplain complex codebases\nGenerate documentation\nSuggest improvements\nHelp with API integrations\nAssist with data processing"
+    "section": "And then…",
+    "text": "And then…\n\nI built a synthetic data generator last year…Over the last week I rewrote it as a way of exploring some new tools:\n\n\n\nThe command-line interface to Claude. I’m disgusted by the amorality of the AI industry, but am now convinced that the coding tools are here to stay: writing tests and refactoring code with Claude’s help was much faster than doing it by hand.\n\n\n— Greg Wilson\n\n\nGreg Wilson’s Blog, 2025-03-29, Tooling for Snailz"
   },
   {
-    "objectID": "day2/why-claude.html#why-use-claude-code-for-openwashdata",
-    "href": "day2/why-claude.html#why-use-claude-code-for-openwashdata",
+    "objectID": "day2/slides.html#am",
+    "href": "day2/slides.html#am",
     "title": "Why Claude Code",
-    "section": "Why Use Claude Code for openwashdata?",
-    "text": "Why Use Claude Code for openwashdata?\n\n1. Rapid Prototyping\n\nQuickly generate boilerplate code\nImplement complex algorithms\nCreate data processing pipelines\nBuild visualization components\n\n\n\n2. Learning Acceleration\n\nUnderstand unfamiliar codebases\nLearn new programming languages\nExplore best practices\nGet instant explanations\n\n\n\n3. Quality Improvement\n\nCatch bugs early\nImprove code structure\nEnsure consistent style\nAdd comprehensive testing\n\n\n\n4. Documentation\n\nGenerate clear documentation\nCreate usage examples\nWrite API references\nExplain complex logic"
+    "section": "2025-05-30 - 10:56 am",
+    "text": "2025-05-30 - 10:56 am\n\nClaude Discovery Screenshot - First encounter with Claude Code"
   },
   {
-    "objectID": "day2/why-claude.html#real-world-examples",
-    "href": "day2/why-claude.html#real-world-examples",
+    "objectID": "day2/slides.html#am-1",
+    "href": "day2/slides.html#am-1",
     "title": "Why Claude Code",
-    "section": "Real-World Examples",
-    "text": "Real-World Examples\nDuring this session, we’ll demonstrate:\n\nData Pipeline Creation\n\nProcessing raw water quality data\nValidation and cleaning\nFormat transformation\n\nVisualization Development\n\nCreating interactive charts\nBuilding dashboards\nResponsive design\n\nAPI Integration\n\nConnecting to openwashdata APIs\nAuthentication handling\nError management"
+    "section": "2025-05-30 - 11:12 am",
+    "text": "2025-05-30 - 11:12 am\n\nClaude Mind-blown Screenshot - Realizing the potential"
   },
   {
-    "objectID": "day2/why-claude.html#best-practices",
-    "href": "day2/why-claude.html#best-practices",
+    "objectID": "day2/slides.html#am-2",
+    "href": "day2/slides.html#am-2",
     "title": "Why Claude Code",
-    "section": "Best Practices",
-    "text": "Best Practices\n\nEffective Prompting\n\nBe specific about requirements\nProvide context and examples\nIterate on responses\nVerify generated code\n\n\n\nWorking with Claude Code\n\nStart with clear problem definition\nBreak down complex tasks\nReview and understand generated code\nTest incrementally\nRefine based on results\n\n\n\nLimitations to Consider\n\nAlways review generated code\nTest thoroughly\nUnderstand what you’re implementing\nUse for assistance, not replacement"
+    "section": "2025-05-30 - 14:55 am",
+    "text": "2025-05-30 - 14:55 am\n\nClaude Ice Cream Screenshot - The reward moment"
   },
   {
-    "objectID": "day2/why-claude.html#hackathon-integration",
-    "href": "day2/why-claude.html#hackathon-integration",
+    "objectID": "day2/slides.html#first-commands",
+    "href": "day2/slides.html#first-commands",
     "title": "Why Claude Code",
-    "section": "Hackathon Integration",
-    "text": "Hackathon Integration\nHow to leverage Claude Code today:\n\nPlanning: Outline project architecture\nImplementation: Generate code snippets\nDebugging: Identify and fix issues\nDocumentation: Create project docs\nLearning: Understand new concepts"
+    "section": "First commands",
+    "text": "First commands\nThe following Monday, I would start teaching the class for University of Colorado, Boulder. I hadn’t prepared a single thing yet.\nI forked the repository from two years ago for a new website and then…"
   },
   {
-    "objectID": "day2/why-claude.html#resources",
-    "href": "day2/why-claude.html#resources",
+    "objectID": "day2/slides.html#first-commands-1",
+    "href": "day2/slides.html#first-commands-1",
     "title": "Why Claude Code",
-    "section": "Resources",
-    "text": "Resources\n\nClaude Code Documentation\nExample prompts for common tasks\nCode templates for openwashdata\nBest practices guide\n\n\n\n\n\n\n\nPro Tip\n\n\n\nClaude Code works best when you maintain a conversation. Build on previous responses and provide feedback for better results."
+    "section": "First commands",
+    "text": "First commands\n&gt; replace filename tbl-02-cven5837-ss23-learning-objectives.csv \n  with tbl-02-learning-objectives.csv in all files\n\n&gt; remove all &lt;script defer \n  data-domain=\"cven5837-ss23.github.io/website\" \n  src=\"https://plausible.io/js/plausible.js\"&gt;&lt;/script&gt;\n\n&gt; Add variables to _variables.yml for homework due dates. \n  Make it the Friday of the same week as found and replace \n  the text in weeks material with dynamic variables.\n\n&gt; Update the link to slides.scss for all slides"
+  },
+  {
+    "objectID": "day2/slides.html#use-case---github",
+    "href": "day2/slides.html#use-case---github",
+    "title": "Why Claude Code",
+    "section": "Use case - GitHub",
+    "text": "Use case - GitHub\nClaude integrates with GitHub. Tell it to &gt; commit and push to GitHub and it will guide you through the process of authorization. After that, you interact with GitHub using commands:\n&gt; commit & push\n&gt; create issue for X problem and prepare a list of todo's"
+  },
+  {
+    "objectID": "day2/slides.html#use-case---ghe-github",
+    "href": "day2/slides.html#use-case---ghe-github",
+    "title": "Why Claude Code",
+    "section": "Use case - GHE GitHub",
+    "text": "Use case - GHE GitHub\n\nHey Lars, your GitHub Organization really needs to be tidied. There are a lot of empty repos. It doesn’t look good to an outsider. - Fiona at the retreat\n\n\n\nHi both! I’m currently going through the GitHub repos and Jakub Tkaczuk reminded me that we wanted to clean them up a few months ago and then never did as we didn’t switch to GitLab. - Colin on Element"
+  },
+  {
+    "objectID": "day2/slides.html#use-case---ghe-github-1",
+    "href": "day2/slides.html#use-case---ghe-github-1",
+    "title": "Why Claude Code",
+    "section": "Use case - GHE GitHub",
+    "text": "Use case - GHE GitHub\n\nGoogle Sheet with list of GitHub repos to delete"
+  },
+  {
+    "objectID": "day2/slides.html#use-case---ghe-github-2",
+    "href": "day2/slides.html#use-case---ghe-github-2",
+    "title": "Why Claude Code",
+    "section": "Use case - GHE GitHub",
+    "text": "Use case - GHE GitHub\n&gt; Work on GitHub organization Global-Health-Engineering. \n  Delete the following repos:\n\n[copy & paste list from Google Sheet]\n…30s later\nDONE"
+  },
+  {
+    "objectID": "day2/slides.html#ccusage",
+    "href": "day2/slides.html#ccusage",
+    "title": "Why Claude Code",
+    "section": "ccusage",
+    "text": "ccusage\n\nccusage - Claude Code usage tracking toolThat’s why we pay 100 USD a month instead of using token credits.\n\nhttps://github.com/ryoppippi/ccusage"
+  },
+  {
+    "objectID": "day2/slides.html#workflow---get-started",
+    "href": "day2/slides.html#workflow---get-started",
+    "title": "Why Claude Code",
+    "section": "Workflow - Get started",
+    "text": "Workflow - Get started\n\nThink of a name for your project\n\nnaming convention: all small letters, use dashes between words (unless it’s an R package), max three words\n\nCreate a new repository in: github.com/openwashdata-conf\nClone the repository to your gitrepos folder\nOpen your Terminal on the project folder or navigate to it in your Terminal\nIn parallel, open the project folder in your preferred IDE (e.g., RStudio, VSCode)"
+  },
+  {
+    "objectID": "day2/slides.html#workflow---start-claude",
+    "href": "day2/slides.html#workflow---start-claude",
+    "title": "Why Claude Code",
+    "section": "Workflow - Start Claude",
+    "text": "Workflow - Start Claude\n\nIn the Terminal has its working directory on the project folder, type claude and press Enter\nClaude will start in the Terminal, and you can interact with it\nEvery time, after Claude has created something, you use the command &gt; commit & push to save your work\n\n\nthe first time you use this command, Claude will ask you to authorize access to your GitHub account"
+  },
+  {
+    "objectID": "day2/slides.html#workflow---provide-context",
+    "href": "day2/slides.html#workflow---provide-context",
+    "title": "Why Claude Code",
+    "section": "Workflow - Provide context",
+    "text": "Workflow - Provide context\n\nAdd files to your folder that are relevant for your project or could help Claude learn about your context:\n\ndata.csv downloaded from the web or exported from a Google Sheet on our Drive\nreport.pdf PDFs you want to work with\nbibliograph.bib file for your references\n*.docx, *.xlsx, *.pptx etc. (Claude converts everything to .md) files that you want to use as context\nany other files that are relevant for your project\n\nUse your IDE to create a new file inside your folder and name it: initial-prompt.md\nIn initial-prompt.md, write a detailed prompt for Claude to start with. Include links to websites and tell Claude what you need from them. Add YouTube Video links (Claude can also transcribe them)."
+  },
+  {
+    "objectID": "day2/slides.html#workflow---start-creating",
+    "href": "day2/slides.html#workflow---start-creating",
+    "title": "Why Claude Code",
+    "section": "Workflow - Start creating",
+    "text": "Workflow - Start creating\nUse @initial-prompt.md and make a plan for this project. Run it by me. Think hard."
+  },
+  {
+    "objectID": "day2/slides.html#workflow---accept-permission",
+    "href": "day2/slides.html#workflow---accept-permission",
+    "title": "Why Claude Code",
+    "section": "Workflow - Accept permission",
+    "text": "Workflow - Accept permission\nClaude will ask for permission when accessing files:\n\n\nAlways allow\n\nSpeeds up workflow\nOften my default choice\nHard to know trusted operations\n\n\nAllow once\n\nGood for testing\nA more cautious approach\n\n\nDeny\n\nStop the operation\nReconsider approach"
+  },
+  {
+    "objectID": "day2/slides.html#workflow---claude.md",
+    "href": "day2/slides.html#workflow---claude.md",
+    "title": "Why Claude Code",
+    "section": "Workflow - CLAUDE.md",
+    "text": "Workflow - CLAUDE.md\n\nAfter working some time, create the CLAUDE.md using the slash command /init\nReview it. Add things. Adapt things."
+  },
+  {
+    "objectID": "day2/slides.html#workflow---review-refine",
+    "href": "day2/slides.html#workflow---review-refine",
+    "title": "Why Claude Code",
+    "section": "Workflow - Review & Refine",
+    "text": "Workflow - Review & Refine\n\nReview Claude’s work in your IDE (use the diff tool to see changes)\nEdit files yourself as needed\nRun Claude again for improvements\nRun through a file, add TODO: comments for Claude to address and then tell Claude to:\n\nWork on the TODOs that I have outlined for your in @slides.qmd"
+  },
+  {
+    "objectID": "day2/slides.html#workflow---readme.md",
+    "href": "day2/slides.html#workflow---readme.md",
+    "title": "Why Claude Code",
+    "section": "Workflow - README.md",
+    "text": "Workflow - README.md\nIf you:\n\nhave had enough of that project (any time from minutes to hours) and you want to do something else\nthink it’s “finished” and you want to do something else\ndon’t even like it\n\n&gt; create a README.md of this project. do not focus on how to run, install, or deploy the software in here. Provide a high level summary of what I wanted to achieve and what I have done so far. Add the directory tree of the project folder."
+  },
+  {
+    "objectID": "day2/slides.html#tips---slash-commands",
+    "href": "day2/slides.html#tips---slash-commands",
+    "title": "Why Claude Code",
+    "section": "Tips - Slash commands",
+    "text": "Tips - Slash commands\n&gt; /init\nCreates a CLAUDE.md file in your project folder\n\n\nAdd context: Include anything Claude should know about your project\nKeep it updated: Evolve the file as your project grows\nUse templates: Find examples for your specific type of work\nQuick additions: Use # comment to add notes during your session"
+  },
+  {
+    "objectID": "day2/slides.html#tips---plan---create---test---deploy",
+    "href": "day2/slides.html#tips---plan---create---test---deploy",
+    "title": "Why Claude Code",
+    "section": "Tips - PLAN -> CREATE -> TEST -> DEPLOY",
+    "text": "Tips - PLAN -&gt; CREATE -&gt; TEST -&gt; DEPLOY\n\nClaude excels when it can plan first\nAsk to check-in with you, run the plan by you, or use “plan mode”\nTell Claude to “think” “think harder” “ultrathink”\nOnce you are happy with the plan, tell Claude to work on it, either bit by bit, or everything at once"
+  },
+  {
+    "objectID": "day2/slides.html#tips---working-style",
+    "href": "day2/slides.html#tips---working-style",
+    "title": "Why Claude Code",
+    "section": "Tips - Working Style",
+    "text": "Tips - Working Style\n\nClaude doesn’t get tired. Hit Esc if you don’t like what you see and want Claude to stop. Start over.\nTell Claude to revert to a previous commit if you don’t like the current state of your project. That’s why &gt; commit & push is so important after every round of changes Claude has made."
+  },
+  {
+    "objectID": "day2/slides.html#tips---claudes-tools",
+    "href": "day2/slides.html#tips---claudes-tools",
+    "title": "Why Claude Code",
+    "section": "Tips - Claude’s Tools",
+    "text": "Tips - Claude’s Tools\nClaude can use these tools to help you:\n\n\nFile Operations - Read/Write/Edit files - Search with grep/glob - Navigate directories\n\nDevelopment - Run bash commands - Web search & fetch - GitHub integration\n\nClaude will write code scripts (mostly in Python) and can install tools on your behalf."
+  },
+  {
+    "objectID": "day2/slides.html#tips---shift-tab",
+    "href": "day2/slides.html#tips---shift-tab",
+    "title": "Why Claude Code",
+    "section": "Tips - Shift + Tab",
+    "text": "Tips - Shift + Tab\nSwitch between:\n\nauto-accept edits on\nplan mode on"
+  },
+  {
+    "objectID": "day2/slides.html#tips---organization",
+    "href": "day2/slides.html#tips---organization",
+    "title": "Why Claude Code",
+    "section": "Tips - Organization",
+    "text": "Tips - Organization\n&gt; Use best practices for folder organization and \n  clean up this project folder. \nOr\n&gt; Use the practices described in this paper LINK to \n  re-organize the structure in this project folder."
+  },
+  {
+    "objectID": "day2/slides.html#tips---learning",
+    "href": "day2/slides.html#tips---learning",
+    "title": "Why Claude Code",
+    "section": "Tips - Learning",
+    "text": "Tips - Learning\n\nTry and experiment as much as you can.\nKeep some notes of your experiences\nWatch Videos on YouTube about Claude Code"
+  },
+  {
+    "objectID": "day2/slides.html#tips---critical-thinking",
+    "href": "day2/slides.html#tips---critical-thinking",
+    "title": "Why Claude Code",
+    "section": "Tips - Critical Thinking",
+    "text": "Tips - Critical Thinking\n\nBe careful with “Study claims…” statements out there.\n\n\nStudy finds AI code assistants slow developer productivity by 19%\n\n\nSee also: Claus Wilke’s analysis"
+  },
+  {
+    "objectID": "day2/slides.html#tips---trusted-sources",
+    "href": "day2/slides.html#tips---trusted-sources",
+    "title": "Why Claude Code",
+    "section": "Tips - Trusted Sources",
+    "text": "Tips - Trusted Sources\n\nBut read newsletter or organizations and people you trust\n\n\nOpen‑source projects are increasingly cautious about accepting AI-generated code, while new fees on data scraping are pushing teams to reconsider how they build AI workflows. Here’s how your team can adapt, keeping velocity high without compromising security or compliance.\n\n\n— GitPod Newsletter"
+  },
+  {
+    "objectID": "day2/slides.html#tips---ai-claims",
+    "href": "day2/slides.html#tips---ai-claims",
+    "title": "Why Claude Code",
+    "section": "Tips - AI Claims",
+    "text": "Tips - AI Claims\n\nAI companies love to tout that their models are approaching—or have reached—PhD-level intelligence. This is blatant nonsensical marketing geared towards an audience that deeply misunderstands what a PhD is and what it takes to get one. Hearing it makes me cringe. PhD-level intelligence is not a thing.\n\n\n— Claus Wilke\n\n\nPhD-level intelligence, or the graduate student’s lament"
+  },
+  {
+    "objectID": "day2/slides.html#model-context-protcol-mcp-clientsserver",
+    "href": "day2/slides.html#model-context-protcol-mcp-clientsserver",
+    "title": "Why Claude Code",
+    "section": "Model Context Protcol (MCP clients/server)",
+    "text": "Model Context Protcol (MCP clients/server)\nThis is levelling up by integrating other tools into Claude Code.\n\nGoogle Workspace\nZotero\nPerplexity Search\nOpenStreetMap\nAsana\n100s are being developed every day\n\nMy personal favourites so far: https://github.com/stars/larnsce/lists/mcps Awesome-List on GitHub: https://github.com/punkpeye/awesome-mcp-servers\n\n\n\n\n\n\nWant to try Zotero integration?\n\n\nIf you’d like to connect Claude with your Zotero library to search papers, manage references, or extract annotations, let me know and I’ll help you set it up!"
+  },
+  {
+    "objectID": "day2/slides.html#just-in-yesterday-claude-directory",
+    "href": "day2/slides.html#just-in-yesterday-claude-directory",
+    "title": "Why Claude Code",
+    "section": "Just in (yesterday): Claude Directory",
+    "text": "Just in (yesterday): Claude Directory\nClaude Directory - A new way to discover and connect tools to Claude Chat Interface (haven’t learned yet how to do it for Claude Code)\n\n\n\nWhat it is:\n\nCurated collection of MCP servers\nOne-click installation\nNo manual configuration needed\n\n\nBenefits:\n\nConnect tools directly in Claude\nVerified and tested integrations\nGrowing library of connections\n\n\n\n\n\n\n\n\nNote\n\n\nThis simplifies the MCP setup process significantly - browse, click, and connect!"
+  },
+  {
+    "objectID": "day2/slides.html#recommended-videos",
+    "href": "day2/slides.html#recommended-videos",
+    "title": "Why Claude Code",
+    "section": "Recommended Videos",
+    "text": "Recommended Videos\n\n\nGetting Started with Claude Code - Official Anthropic tutorial\nHistory and Concepts of Claude Code - Understanding the why behind Claude Code\nAdvanced Claude Code Workflows - Power user tips and tricks\nBuilding Projects with Claude Code - Real-world project walkthrough"
   },
   {
     "objectID": "prerequisites/index.html",
@@ -1522,19 +1487,5 @@
     "title": "Governance & Decision Making",
     "section": "References",
     "text": "References\n\n\n\n\n\n\n\n\n\nAurora, Valerie, and Mary Gardiner. 2019. How to Respond to Code of Conduct Reports. Version 1.1. Frame Shift Consulting LLC.\n\n\nBrookfield, Stephen D., and Stephen Preskill. 2016. The Discussion Book: 50 Great Ways to Get People Talking. Jossey-Bass.\n\n\nBrooks, Frederick P., Jr. 1995. The Mythical Man-Month: Essays on Software Engineering. Anniversary edition. Addison-Wesley Professional.\n\n\nFreeman, Jo. 1972. “The Tyranny of Structurelessness.” The Second Wave 2 (1).\n\n\nMajumder, Suvodeep, Joymallya Chakraborty, Amritanshu Agrawal, and Tim Menzies. 2019. “Why Software Projects Need Heroes: Lessons Learned from 1100+ Projects.” Arxiv.org abs/1904.09954.\n\n\nPetre, Marian, and Greg Wilson. 2014. “Code Review for and by Scientists.” In Proc.second Workshop on Sustainable Software for Science: Practice and Experience. https://doi.org/arXiv:1407.5648."
-  },
-  {
-    "objectID": "day1/openwashdata/slides.html#activity-2",
-    "href": "day1/openwashdata/slides.html#activity-2",
-    "title": "openwashdata conf 2025",
-    "section": " Activity 2",
-    "text": "Activity 2\n\nPrepare to share your knowledge about:\n\n\n\n Funding\nWhat opportunities exist in your region/sector?\n\n Collaboration\nWho would you partner with?\n\n\n⏱️ Quick transition to prepare them for the second activity - This helps them start thinking before we open the Google Doc"
-  },
-  {
-    "objectID": "day1/openwashdata/slides.html#terminology",
-    "href": "day1/openwashdata/slides.html#terminology",
-    "title": "openwashdata conf 2025",
-    "section": "Terminology",
-    "text": "Terminology\n\n\nA goal/vision is something you want to accomplish\n\n“Make research fairer, more reliable, and more efficient.”\n\nA strategy is a long-term plan to achieve that\n\n“Increase institutional and individual adoption of open science”\n\nA tactic is a specific action that fits into a larger strategic plan\n\n“Give researchers credit in performance reviews for creating open-access data sets”\n\nOver time, people often confuse strategies with goals\n\nOpen science isn’t the goal: fairness, reliability, and efficiency are\n\nTactics may conflict with or contradict each other\n\nGiving researchers credit for sharing data incentivizes salami slicing and the proliferation of useless data sets\n\n\n\n\nTaken from: github.com/gvwilson/change/"
   }
 ]

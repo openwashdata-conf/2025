@@ -21,7 +21,7 @@ editor: source
 
 # Warm-up
 
-## {{< fa users >}} Activity: 1:1 Check-in {.smaller}
+## {{< fa users >}} Activity: 1:1 Check-in {.small}
 
 **Time:** 20 minutes total
 
@@ -159,7 +159,7 @@ https://github.com/ryoppippi/ccusage
 3. Every time, after Claude has created something, you use the command `> commit & push` to save your work
   - the first time you use this command, Claude will ask you to authorize access to your GitHub account
 
-## Workflow - Provide context
+## Workflow - Provide context {.small}
 
 1. Add files to your folder that are relevant for your project or could help Claude learn about your context:
    - `data.csv` downloaded from the web or exported from a Google Sheet on our Drive
@@ -183,18 +183,22 @@ Claude will ask for permission when accessing files:
 :::: {.columns}
 ::: {.column width="33%"}
 **Always allow** 
-- Use for trusted operations
+
 - Speeds up workflow
+- Often my default choice
+- Hard to know trusted operations
 :::
 
 ::: {.column width="33%"}
 **Allow once**
-- Default choice
+
 - Good for testing
+- A more cautious approach
 :::
 
 ::: {.column width="33%"}
 **Deny**
+
 - Stop the operation
 - Reconsider approach
 :::
@@ -215,8 +219,6 @@ Claude will ask for permission when accessing files:
 ```{.text}
 Work on the TODOs that I have outlined for your in @slides.qmd
 ```
-
-**It's all in your hands now!** {.text-center .r-fit-text}
 
 ## Workflow - README.md
 
@@ -340,7 +342,7 @@ See also: [Claus Wilke's analysis](https://substack.com/@clauswilke/note/c-13400
 [PhD-level intelligence, or the graduate student's lament](https://clauswilke.substack.com/p/phd-level-intelligence-or-the-graduate)
 :::
 
-## Model Context Protcol (MCP clients/server)
+## Model Context Protcol (MCP clients/server) {.small}
 
 This is levelling up by integrating other tools into Claude Code.
 
@@ -364,9 +366,12 @@ If you'd like to connect Claude with your Zotero library to search papers, manag
 
 [Claude Directory](https://claude.ai/directory) - A new way to discover and connect tools to Claude Chat Interface (haven't learned yet how to do it for Claude Code)
 
+. . . 
+
 :::: {.columns}
 ::: {.column width="50%"}
 **What it is:**
+
 - Curated collection of MCP servers
 - One-click installation
 - No manual configuration needed
@@ -374,6 +379,7 @@ If you'd like to connect Claude with your Zotero library to search papers, manag
 
 ::: {.column width="50%"}
 **Benefits:**
+
 - Connect tools directly in Claude
 - Verified and tested integrations
 - Growing library of connections
@@ -392,4 +398,5 @@ This simplifies the MCP setup process significantly - browse, click, and connect
 - [**Advanced Claude Code Workflows**](https://www.youtube.com/watch?v=TiNpzxoBPz0&list=LL&index=2&t=4s) - Power user tips and tricks
 - [**Building Projects with Claude Code**](https://www.youtube.com/watch?v=aHTXccrfXC8&t=1223s) - Real-world project walkthrough
 :::
+
 
