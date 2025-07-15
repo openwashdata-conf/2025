@@ -31,22 +31,12 @@ agenda_final <- agenda  |>
 Please ensure you've completed all [prerequisite setup](../prerequisites/index.qmd) before arriving.
 :::
 
-## Schedule Overview
-
-```{r}
-agenda_final |> 
-    filter(day == 2) |> 
-    select(-day, -speaker) |> 
-    rename_with(~stringr::str_to_title(.x), everything()) |> 
-    knitr::kable()
-```
-
 ## Session Details
 
 ```{r}
 agenda_sessions <- agenda_final |> 
   filter(day == 2) |> 
-  select(-day, -speaker) |> 
+  select(-day, -speaker, -affiliation) |> 
   mutate(title = case_when(
     str_detect(title, "Claude Code") ~ "[Why Claude Code - AI-Assisted Creation for GHE](slides/)",
     TRUE ~ title
@@ -54,6 +44,15 @@ agenda_sessions <- agenda_final |>
   rename_with(~stringr::str_to_title(.x), everything())
 
 knitr::kable(agenda_sessions)
+```
+
+
+## {{< fa presentation >}} Slides
+
+[View slides in full screen](slides.qmd) | [Download slides as PDF](https://github.com/openwashdata-conf/2025/raw/main/day2/why-claude-code-slides.pdf)
+
+```{=html}
+<iframe class="slide-deck" src="slides.html" height="420" width="747" style="border: 1px solid #123233;"></iframe>
 ```
 
 ## Resources

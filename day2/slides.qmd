@@ -24,17 +24,19 @@ editor: source
 ## {{< fa users >}} Activity: 1:1 Check-in {.smaller}
 
 **Time:** 20 minutes total
-- 10 minutes: 1:1 discussion with your partner
-- 10 minutes: Share back (4 minutes per person)
+
+- 10 minutes: 1:1 discussion with your partner (3 to 4 minutes each)
+- 10 minutes: Share back (1 to 2 minutes per team)
 
 **Instructions:**
-1. Pair up with someone you haven't worked with yet
+
+1. I will pair up by counting
 2. Discuss the following questions:
    - How has it felt for you so far to use AI tools in your work?
    - What are your expectations for today?
    - What are you most excited about?
    - What are you most nervous about?
-3. Each pair will share **one key insight** with the group
+3. Each pair will share **one or two key insights** with the group
 
 ## AI journey for me
 
@@ -46,6 +48,8 @@ editor: source
 ## And then...
 
 > I built a synthetic data generator last year...Over the last week I rewrote it as a way of exploring some new tools:
+
+. . . 
 
 > The command-line interface to [Claude](https://docs.anthropic.com/en/docs/claude-code/overview). I'm disgusted by the amorality of the AI industry, but am now convinced that the coding tools are here to stay: writing tests and refactoring code with Claude's help was *much* faster than doing it by hand.
 
@@ -71,20 +75,23 @@ Greg Wilson's Blog, 2025-03-29, [Tooling for Snailz](https://third-bit.com/2025/
 
 ## First commands 
 
-::: {.callout-note appearance="simple"}
 The following Monday, I would start teaching the class for University of Colorado, Boulder. I hadn't prepared a single thing yet.
 
 I forked the repository from two years ago for a new website and then...
-:::
 
 ## First commands
 
 ```{.text}
-> replace filename tbl-02-cven5837-ss23-learning-objectives.csv with tbl-02-learning-objectives.csv in all files
+> replace filename tbl-02-cven5837-ss23-learning-objectives.csv 
+  with tbl-02-learning-objectives.csv in all files
 
-> remove all <script defer data-domain="cven5837-ss23.github.io/website" src="https://plausible.io/js/plausible.js"></script>
+> remove all <script defer 
+  data-domain="cven5837-ss23.github.io/website" 
+  src="https://plausible.io/js/plausible.js"></script>
 
-> Add variables to _variables.yml for homework due dates. Make it the Friday of the same week as found and replace the text in weeks material with dynamic variables.
+> Add variables to _variables.yml for homework due dates. 
+  Make it the Friday of the same week as found and replace 
+  the text in weeks material with dynamic variables.
 
 > Update the link to slides.scss for all slides
 ```
@@ -103,17 +110,19 @@ Claude integrates with GitHub. Tell it to `> commit and push to GitHub` and it w
 
 > Hey Lars, your GitHub Organization really needs to be tidied. There are a lot of empty repos. It doesn't look good to an outsider. - Fiona at the retreat
 
-> Hi both!  I'm currently going through the GitHub repos and Jakub Tkaczuk reminded me that we wanted to clean them up a few months ago and then never did as we didn't switch to GitLab.
+. . .
 
+> Hi both!  I'm currently going through the GitHub repos and Jakub Tkaczuk reminded me that we wanted to clean them up a few months ago and then never did as we didn't switch to GitLab. - Colin on Element
 
 ## Use case - GHE GitHub 
 
-![Google Sheet with list of GitHub repos to clean up](images/ghe-github-sheet.png){fig-alt="Screenshot of Google Sheet listing GitHub repositories"}
+![Google Sheet with list of GitHub repos to delete](images/github-delete-sheet.png){fig-alt="Screenshot of Google Sheet listing GitHub repositories"}
 
 ## Use case - GHE GitHub
 
 ```{.text}
-> Work on GitHub organization Global-Health-Engineering. Delete the following repos:
+> Work on GitHub organization Global-Health-Engineering. 
+  Delete the following repos:
 
 [copy & paste list from Google Sheet]
 ```
@@ -124,7 +133,7 @@ DONE
 
 ## ccusage 
 
-![ccusage - Claude Code usage tracking tool](images/ccusage-screenshot.png){fig-alt="Screenshot of ccusage showing token usage statistics"}
+![ccusage - Claude Code usage tracking tool](images/ccusage.png){fig-alt="Screenshot of ccusage showing token usage statistics"}
 
 That's why we pay 100 USD a month instead of using token credits.
 
@@ -132,32 +141,7 @@ That's why we pay 100 USD a month instead of using token credits.
 https://github.com/ryoppippi/ccusage
 :::
 
-## Slash commands
-
-```{.text}
-> /init
-```
-
-Creates a `CLAUDE.md` file in your project folder
-
-::: {.incremental}
-- **Add context**: Include anything Claude should know about your project
-- **Keep it updated**: Evolve the file as your project grows
-- **Use templates**: Find examples for your specific type of work
-- **Quick additions**: Use `# comment` to add notes during your session
-:::
-
-## PLAN -> CREATE -> TEST -> DEPLOY
-
-- Claude excels when it can plan first
-- Ask to check-in with you, run the plan by you, or use "plan mode"
-- Tell Claude to "think" "think harder" "ultrathink"
-- Once you are happy with the plan, tell Claude to work on it, either bit by bit, or everything at once
-
-## Shift + Tab
-
-- auto-completion
-- plan mode
+# Workflow (for today)
 
 ## Workflow - Get started
 
@@ -246,7 +230,31 @@ If you:
 > create a README.md of this project. do not focus on how to run, install, or deploy the software in here. Provide a high level summary of what I wanted to achieve and what I have done so far. Add the directory tree of the project folder.
 ```
 
-## Tips
+# Tips
+
+## Tips  - Slash commands
+
+```{.text}
+> /init
+```
+
+Creates a `CLAUDE.md` file in your project folder
+
+::: {.incremental}
+- **Add context**: Include anything Claude should know about your project
+- **Keep it updated**: Evolve the file as your project grows
+- **Use templates**: Find examples for your specific type of work
+- **Quick additions**: Use `# comment` to add notes during your session
+:::
+
+## Tips - PLAN -> CREATE -> TEST -> DEPLOY
+
+- Claude excels when it can plan first
+- Ask to check-in with you, run the plan by you, or use "plan mode"
+- Tell Claude to "think" "think harder" "ultrathink"
+- Once you are happy with the plan, tell Claude to work on it, either bit by bit, or everything at once
+
+## Tips - Working Style
 
 - Claude doesn't get tired. Hit `Esc` if you don't like what you see and want Claude to stop. Start over.
 - Tell Claude to revert to a previous commit if you don't like the current state of your project. That's why `> commit & push` is so important after every round of changes Claude has made.
@@ -273,25 +281,34 @@ Claude can use these tools to help you:
 
 Claude will write code scripts (mostly in Python) and can install tools on your behalf.
 
-## Tips continued
+## Tips - Shift + Tab
+
+Switch between:
+
+- auto-accept edits on
+- plan mode on
+
+## Tips - Organization
 
 ```{.text}
-> Use best practices for folder organization and clean up this project folder. 
+> Use best practices for folder organization and 
+  clean up this project folder. 
 ```
 
 Or
 
 ```{.text}
-> Use the practices described in this paper LINK to re-organize the structure in this project folder.
+> Use the practices described in this paper LINK to 
+  re-organize the structure in this project folder.
 ```
 
-## Tips continued
+## Tips - Learning
 
 - Try and experiment as much as you can.
 - Keep some notes of your experiences
 - Watch Videos on YouTube about Claude Code
 
-## Tips continued
+## Tips - Critical Thinking
 
 - Be careful with "Study claims..." statements out there.
 
@@ -301,7 +318,7 @@ Or
 See also: [Claus Wilke's analysis](https://substack.com/@clauswilke/note/c-134000253?r=4glcw&utm_medium=ios&utm_source=notes-share-action)
 :::
 
-## Tips continued
+## Tips - Trusted Sources
 
 - But read newsletter or organizations and people you trust
 
@@ -311,7 +328,7 @@ See also: [Claus Wilke's analysis](https://substack.com/@clauswilke/note/c-13400
 --- GitPod Newsletter
 :::
 
-## Tips continued
+## Tips - AI Claims
 
 > AI companies love to tout that their models are approaching—or have reached—PhD-level intelligence. This is blatant nonsensical marketing geared towards an audience that deeply misunderstands what a PhD is and what it takes to get one. Hearing it makes me cringe. PhD-level intelligence is not a thing.
 
@@ -345,7 +362,7 @@ If you'd like to connect Claude with your Zotero library to search papers, manag
 
 ## Just in (yesterday): Claude Directory
 
-[Claude Directory](https://claude.ai/directory) - A new way to discover and connect tools
+[Claude Directory](https://claude.ai/directory) - A new way to discover and connect tools to Claude Chat Interface (haven't learned yet how to do it for Claude Code)
 
 :::: {.columns}
 ::: {.column width="50%"}
