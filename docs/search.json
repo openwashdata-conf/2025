@@ -255,7 +255,7 @@
     "href": "day1/openwashdata/slides.html#strategies",
     "title": "openwashdata conf 2025",
     "section": "Strategies",
-    "text": "Strategies\n\n\nDevelop and maintain a data warehouse on the openwashdata website that provides an overview of published datasets.\nDevelop a guide as a companion to workshops, live coding events, etc. that documents how to participate in the community and publish data following FAIR principles.\nBuild a cohort of students, scientists, practitioners, and civil servants, that are comfortable using R statistical software for exploratory data analysis and Git version control and GitHub for communication and collaboration.\nPrepare all communication material for openwashdata using Quarto publishing framework1 and R statistical software.\nProvide tools and resources to promote the use of open data in the WASH sector\nPublish workshops as open educational material.\nIntroduce people to the concept of “open by default”, as well as the use of open source software, the concept of open science, and benefits of open government (data).\nBuild material always in mind with learner personas3 that were defined for the community.\nCommunication material does not refer to openwashdata as a project, but as a community.\nDesign a common corporate identity using defined color palettes, fonts, etc.\nEnsure that material developed for openwashdata follows best practices for accessibility.\n\n\n\nCheck: openwashdata.org/pages/gallery/vmost/\n\nhttps://quarto.org/"
+    "text": "Strategies\n\n\nDevelop and maintain a data warehouse on the openwashdata website that provides an overview of published datasets.\nDevelop a guide as a companion to workshops, live coding events, etc. that documents how to participate in the community and publish data following FAIR principles.\nBuild a cohort of students, scientists, practitioners, and civil servants, that are comfortable using R statistical software for exploratory data analysis and Git version control and GitHub for communication and collaboration.\nPrepare all communication material for openwashdata using Quarto publishing framework1 and R statistical software.\nProvide tools and resources to promote the use of open data in the WASH sector\nPublish workshops as open educational material.\nIntroduce people to the concept of “open by default”, as well as the use of open source software, the concept of open science, and benefits of open government (data).\nBuild material always in mind with learner personas that were defined for the community.\nCommunication material does not refer to openwashdata as a project, but as a community.\nDesign a common corporate identity using defined color palettes, fonts, etc.\nEnsure that material developed for openwashdata follows best practices for accessibility.\n\n\n\nCheck: openwashdata.org/pages/gallery/vmost/\n\nhttps://quarto.org/"
   },
   {
     "objectID": "day1/openwashdata/slides.html#tactics",
@@ -311,7 +311,7 @@
     "href": "day1/openwashdata/slides.html#ds4owd-002-course-preparation",
     "title": "openwashdata conf 2025",
     "section": "ds4owd-002 course preparation",
-    "text": "ds4owd-002 course preparation\n\n\n🌕 Platform for access to recordings through authentication (Zoom with registration for each session and detailed usage statistics)\n🌗 Prepare quizzes for each module for participants to complete each module (with feedback on whether participants watched recording or joined live module)\n🌗 Share information about course through personal channels, newsletters, etc.\n🌑 Write templates / R function / Claude Code Slash commands for reviewing homework assignments, capstone projects, data packages, etc.\n🌑 Establish mentorship programme"
+    "text": "ds4owd-002 course preparation\n\n\n🌕 Platform for access to recordings through authentication (Zoom with registration for each session and detailed usage statistics)\n🌗 Prepare quizzes for each module for participants to complete each module (with feedback on whether participants watched recording or joined live module) (Thanks, Nicoló)\n🌗 Share information about course through personal channels, newsletters, etc.\n🌑 Write templates / R function / Claude Code Slash commands for reviewing homework assignments, capstone projects, data packages, etc.\n🌑 Establish mentorship programme"
   },
   {
     "objectID": "day1/openwashdata/slides.html#starting-point",
@@ -1522,5 +1522,12 @@
     "title": "Governance & Decision Making",
     "section": "References",
     "text": "References\n\n\n\n\n\n\n\n\n\nAurora, Valerie, and Mary Gardiner. 2019. How to Respond to Code of Conduct Reports. Version 1.1. Frame Shift Consulting LLC.\n\n\nBrookfield, Stephen D., and Stephen Preskill. 2016. The Discussion Book: 50 Great Ways to Get People Talking. Jossey-Bass.\n\n\nBrooks, Frederick P., Jr. 1995. The Mythical Man-Month: Essays on Software Engineering. Anniversary edition. Addison-Wesley Professional.\n\n\nFreeman, Jo. 1972. “The Tyranny of Structurelessness.” The Second Wave 2 (1).\n\n\nMajumder, Suvodeep, Joymallya Chakraborty, Amritanshu Agrawal, and Tim Menzies. 2019. “Why Software Projects Need Heroes: Lessons Learned from 1100+ Projects.” Arxiv.org abs/1904.09954.\n\n\nPetre, Marian, and Greg Wilson. 2014. “Code Review for and by Scientists.” In Proc.second Workshop on Sustainable Software for Science: Practice and Experience. https://doi.org/arXiv:1407.5648."
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#activity-2",
+    "href": "day1/openwashdata/slides.html#activity-2",
+    "title": "openwashdata conf 2025",
+    "section": " Activity 2",
+    "text": "Activity 2\n\nPrepare to share your knowledge about:\n\n\n\n Funding\nWhat opportunities exist in your region/sector?\n\n Collaboration\nWho would you partner with?\n\n\n⏱️ Quick transition to prepare them for the second activity - This helps them start thinking before we open the Google Doc"
   }
 ]
