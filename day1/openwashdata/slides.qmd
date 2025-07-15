@@ -378,6 +378,28 @@ Check: [openwashdata.org/pages/gallery/vmost/](https://openwashdata.org/pages/ga
 
 :::
 
+## Terminology
+
+::: incremental
+
+-   A goal/vision is something you want to accomplish
+    -   "Make research fairer, more reliable, and more efficient."
+-   A strategy is a long-term plan to achieve that
+    -   "Increase institutional and individual adoption of open science"
+-   A tactic is a specific action that fits into a larger strategic plan
+    -   "Give researchers credit in performance reviews for creating open-access data sets"
+-   Over time, people often confuse strategies with goals
+    -   Open science isn't the goal: fairness, reliability, and efficiency are
+-   Tactics may conflict with or contradict each other
+    -   Giving researchers credit for sharing data incentivizes salami slicing
+        and the proliferation of useless data sets
+
+:::
+
+::: footer
+Taken from: [github.com/gvwilson/change/](https://github.com/gvwilson/change/blob/main/03_gst/index.md)
+:::
+
 ## {{< fa hand-paper >}} Get Ready to Share! {background-color="#e8f4f8"}
 
 ::: {style="font-size: 1.5em; text-align: center; margin-top: 2em;"}

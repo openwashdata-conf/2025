@@ -1529,5 +1529,12 @@
     "title": "openwashdata conf 2025",
     "section": " Activity 2",
     "text": "Activity 2\n\nPrepare to share your knowledge about:\n\n\n\n Funding\nWhat opportunities exist in your region/sector?\n\n Collaboration\nWho would you partner with?\n\n\n⏱️ Quick transition to prepare them for the second activity - This helps them start thinking before we open the Google Doc"
+  },
+  {
+    "objectID": "day1/openwashdata/slides.html#terminology",
+    "href": "day1/openwashdata/slides.html#terminology",
+    "title": "openwashdata conf 2025",
+    "section": "Terminology",
+    "text": "Terminology\n\n\nA goal/vision is something you want to accomplish\n\n“Make research fairer, more reliable, and more efficient.”\n\nA strategy is a long-term plan to achieve that\n\n“Increase institutional and individual adoption of open science”\n\nA tactic is a specific action that fits into a larger strategic plan\n\n“Give researchers credit in performance reviews for creating open-access data sets”\n\nOver time, people often confuse strategies with goals\n\nOpen science isn’t the goal: fairness, reliability, and efficiency are\n\nTactics may conflict with or contradict each other\n\nGiving researchers credit for sharing data incentivizes salami slicing and the proliferation of useless data sets\n\n\n\n\nTaken from: github.com/gvwilson/change/"
   }
 ]
