@@ -229,7 +229,7 @@ Reflect on your current project:
 
 ---
 
-## {{< fa presentation >}} Presenting a proposal
+## {{< fa presentation >}} Presenting a proposal {.small}
 
 ::: incremental
 
