@@ -41,14 +41,10 @@ agenda_final |>
     knitr::kable()
 ```
 
-## Tips & Workflow
+## Slides
 
-```{bash}
-
-```
-
-- Work in progress
+TODO: layout this index.qmd to include @day2/slides.qmd the same way as I have done for day1
 
 ## Resources
 
-- https://github.com/VonHoltenCodes/CLAUDECODE_COMPLETE_WINDOWS_INSTALL_GUIDE?tab=readme-ov-file#-quick-start
+TODO: extract the resources that I link to in my slides.qmd
