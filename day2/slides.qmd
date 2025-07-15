@@ -291,6 +291,38 @@ Or
 - Keep some notes of your experiences
 - Watch Videos on YouTube about Claude Code
 
+## Tips continued
+
+- Be careful with "Study claims..." statements out there.
+
+> [Study finds AI code assistants slow developer productivity by 19%](https://www.perplexity.ai/page/study-finds-ai-code-assistants-Xp5HGmOVThunnKZiMExsmg)
+
+::: footer
+See also: [Claus Wilke's analysis](https://substack.com/@clauswilke/note/c-134000253?r=4glcw&utm_medium=ios&utm_source=notes-share-action)
+:::
+
+## Tips continued
+
+- But read newsletter or organizations and people you trust
+
+> Open‑source projects are increasingly cautious about accepting AI-generated code, while new fees on data scraping are pushing teams to reconsider how they build AI workflows. Here's how your team can adapt, keeping velocity high without compromising security or compliance.
+
+::: {.text-right}
+--- GitPod Newsletter
+:::
+
+## Tips continued
+
+> AI companies love to tout that their models are approaching—or have reached—PhD-level intelligence. This is blatant nonsensical marketing geared towards an audience that deeply misunderstands what a PhD is and what it takes to get one. Hearing it makes me cringe. PhD-level intelligence is not a thing.
+
+::: {.text-right}
+--- Claus Wilke
+:::
+
+::: footer
+[PhD-level intelligence, or the graduate student's lament](https://clauswilke.substack.com/p/phd-level-intelligence-or-the-graduate)
+:::
+
 ## Model Context Protcol (MCP clients/server)
 
 This is levelling up by integrating other tools into Claude Code.
