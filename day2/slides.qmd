@@ -1,21 +1,40 @@
 ---
 title: "Why Claude Code"
-subtitle: "AI-Assisted Development for openwashdata"
-format: revealjs
+subtitle: "AI-Assisted Creation for GHE"
+author: 
+  - name: "Lars Schöbitz"
+    url: https://openwashdata.org/about/lars/
+    affiliation: Global Health Engineering, ETH Zurich
+    affiliation_url: https://ghe.ethz.ch/
+date: 2025-07-16
+date-format: long
+format: 
+  revealjs:
+    logo: "../day1/images/OWD-logo-20.png"
+    theme: "../style/slides.scss"
+    transition: fade
+    slide-number: true
+    preview-links: auto
+editor: source
 ---
 
-TODO: turn the YAML into a complete list of fields as in @day1 material
 
 # Warm-up
 
-## 1:1 check-in
+## {{< fa users >}} Activity: 1:1 Check-in {.smaller}
 
-TODO: Make this an Activity. Add timings. 10 minutes 1:1, 4 minutes per person. Then back to plenary. 1 point per group to plenary.
+**Time:** 20 minutes total
+- 10 minutes: 1:1 discussion with your partner
+- 10 minutes: Share back (4 minutes per person)
 
-- How has it felt for you so far to use AI tools in your work?
-- What are your expectations for today?
-- What are you most excited about?
-- What are you most nervous about?
+**Instructions:**
+1. Pair up with someone you haven't worked with yet
+2. Discuss the following questions:
+   - How has it felt for you so far to use AI tools in your work?
+   - What are your expectations for today?
+   - What are you most excited about?
+   - What are you most nervous about?
+3. Each pair will share **one key insight** with the group
 
 ## AI journey for me
 
@@ -28,41 +47,39 @@ TODO: Make this an Activity. Add timings. 10 minutes 1:1, 4 minutes per person. 
 
 > I built a synthetic data generator last year...Over the last week I rewrote it as a way of exploring some new tools:
 
-> The command-line interface to [Claude](https://docs.anthropic.com/en/docs/claude-code/overview). I’m disgusted by the amorality of the AI industry, but am now convinced that the coding tools are here to stay: writing tests and refactoring code with Claude’s help was *much* faster than doing it by hand.
+> The command-line interface to [Claude](https://docs.anthropic.com/en/docs/claude-code/overview). I'm disgusted by the amorality of the AI industry, but am now convinced that the coding tools are here to stay: writing tests and refactoring code with Claude's help was *much* faster than doing it by hand.
 
-- Greg Wilson
-
-TODO make the author appear as the author of the quotes.
+::: {.text-right}
+--- Greg Wilson
+:::
 
 ::: footer
-
-Greg Wilson's Blog, 2025-03-29, [Tooling for Snailz](https://third-bit.com/2025/03/29/tooling-for-snailz/) 
+Greg Wilson's Blog, 2025-03-29, [Tooling for Snailz](https://third-bit.com/2025/03/29/tooling-for-snailz/)
+:::
 
 ## 2025-05-30 - 10:56 am
 
-- TODO screenshot: claude-discovery
+![Claude Discovery Screenshot - First encounter with Claude Code](images/claude-discovery.png){fig-alt="Screenshot showing first discovery of Claude Code"}
 
 ## 2025-05-30 - 11:12 am
 
-- TODO screenshot: claude-lose-mind
+![Claude Mind-blown Screenshot - Realizing the potential](images/claude-lose-mind.png){fig-alt="Screenshot showing excitement about Claude's capabilities"}
 
 ## 2025-05-30 - 14:55 am
 
-- TODO screenshot: claude-ice-cream
+![Claude Ice Cream Screenshot - The reward moment](images/claude-ice-cream.png){fig-alt="Screenshot showing celebratory moment with Claude"}
 
 ## First commands 
 
+::: {.callout-note appearance="simple"}
 The following Monday, I would start teaching the class for University of Colorado, Boulder. I hadn't prepared a single thing yet.
 
 I forked the repository from two years ago for a new website and then...
-
-TODO: Make this look like a statement by me.
+:::
 
 ## First commands
 
-TODO: make this appear like bash terminal code block
-
-```bash
+```{.text}
 > replace filename tbl-02-cven5837-ss23-learning-objectives.csv with tbl-02-learning-objectives.csv in all files
 
 > remove all <script defer data-domain="cven5837-ss23.github.io/website" src="https://plausible.io/js/plausible.js"></script>
@@ -70,7 +87,6 @@ TODO: make this appear like bash terminal code block
 > Add variables to _variables.yml for homework due dates. Make it the Friday of the same week as found and replace the text in weeks material with dynamic variables.
 
 > Update the link to slides.scss for all slides
-
 ```
 
 
@@ -79,7 +95,7 @@ TODO: make this appear like bash terminal code block
 
 Claude integrates with GitHub. Tell it to `> commit and push to GitHub` and it will guide you through the process of authorization. After that, you interact with GitHub using commands:
 
-```bash
+```{.text}
 > commit & push
 > create issue for X problem and prepare a list of todo's
 ```
@@ -92,15 +108,14 @@ Claude integrates with GitHub. Tell it to `> commit and push to GitHub` and it w
 
 ## Use case - GHE GitHub 
 
-- TODO:add screenshot of Google Sheet
+![Google Sheet with list of GitHub repos to clean up](images/ghe-github-sheet.png){fig-alt="Screenshot of Google Sheet listing GitHub repositories"}
 
 ## Use case - GHE GitHub
 
-```
+```{.text}
 > Work on GitHub organization Global-Health-Engineering. Delete the following repos:
 
 [copy & paste list from Google Sheet]
-
 ```
 
 ...30s later
@@ -109,7 +124,7 @@ DONE
 
 ## ccusage 
 
-TODO: add ccusage screenshot
+![ccusage - Claude Code usage tracking tool](images/ccusage-screenshot.png){fig-alt="Screenshot of ccusage showing token usage statistics"}
 
 That's why we pay 100 USD a month instead of using token credits.
 
@@ -119,20 +134,18 @@ https://github.com/ryoppippi/ccusage
 
 ## Slash commands
 
-```bash
-
+```{.text}
 > /init
-
 ```
 
-- prepares a `CLAUDE.md` in your folder
+Creates a `CLAUDE.md` file in your project folder
 
-TODO: write the following as tips 
-
-- you can add anything to that file that Claude should use as context
-- you can update it over time
-- find templates specifically for the type of work that you to
-- use `# and write a line to add something to the file`
+::: {.incremental}
+- **Add context**: Include anything Claude should know about your project
+- **Keep it updated**: Evolve the file as your project grows
+- **Use templates**: Find examples for your specific type of work
+- **Quick additions**: Use `# comment` to add notes during your session
+:::
 
 ## PLAN -> CREATE -> TEST -> DEPLOY
 
@@ -181,18 +194,31 @@ Use @initial-prompt.md and make a plan for this project. Run it by me. Think har
 
 ## Workflow - Accept permission
 
-- Claude will ask you for permissions to do things
-- Accept them with 
+Claude will ask for permission when accessing files:
 
-TODO: List the three options that Claude gives me when first encountering reading files or creating files.
+:::: {.columns}
+::: {.column width="33%"}
+**Always allow** 
+- Use for trusted operations
+- Speeds up workflow
+:::
 
-```bash
+::: {.column width="33%"}
+**Allow once**
+- Default choice
+- Good for testing
+:::
 
-```
+::: {.column width="33%"}
+**Deny**
+- Stop the operation
+- Reconsider approach
+:::
+::::
 
 ## Workflow - CLAUDE.md
 
-1. After working some time, crate the CLAUDE.md using the slash command `/init`
+1. After working some time, create the CLAUDE.md using the slash command `/init`
 2. Review it. Add things. Adapt things.
 
 ## Workflow - Review & Refine
@@ -202,10 +228,11 @@ TODO: List the three options that Claude gives me when first encountering readin
 - Run Claude again for improvements
 - Run through a file, add `TODO: ` comments for Claude to address and then tell Claude to:
 
-```bash
+```{.text}
 Work on the TODOs that I have outlined for your in @slides.qmd
 ```
-It’s all in your hands now! TODO: highlight this sentence
+
+**It's all in your hands now!** {.text-center .r-fit-text}
 
 ## Workflow - README.md
 
@@ -224,21 +251,37 @@ If you:
 - Claude doesn't get tired. Hit `Esc` if you don't like what you see and want Claude to stop. Start over.
 - Tell Claude to revert to a previous commit if you don't like the current state of your project. That's why `> commit & push` is so important after every round of changes Claude has made.
 
-## Tips
+## Tips - Claude's Tools
 
-TODO: Add some tools that Claude can use
+Claude can use these tools to help you:
 
-- Claude will write code scripts (mostly in Python) but can install on tool on your behalf.
+:::: {.columns}
+::: {.column width="50%"}
+**File Operations**
+- Read/Write/Edit files
+- Search with grep/glob
+- Navigate directories
+:::
+
+::: {.column width="50%"}
+**Development**
+- Run bash commands
+- Web search & fetch
+- GitHub integration
+:::
+::::
+
+Claude will write code scripts (mostly in Python) and can install tools on your behalf.
 
 ## Tips continued
 
-```bash
+```{.text}
 > Use best practices for folder organization and clean up this project folder. 
 ```
 
 Or
 
-```bash
+```{.text}
 > Use the practices described in this paper LINK to re-organize the structure in this project folder.
 ```
 
@@ -262,16 +305,18 @@ This is levelling up by integrating other tools into Claude Code.
 My personal favourites so far: https://github.com/stars/larnsce/lists/mcps
 Awesome-List on GitHub: https://github.com/punkpeye/awesome-mcp-servers
 
-TODO: add note
+::: {.callout-tip}
+## Want to try Zotero integration?
 
-If at some point today, you would like to add Zotero as a tool to interact with, let me know.
+If you'd like to connect Claude with your Zotero library to search papers, manage references, or extract annotations, let me know and I'll help you set it up!
+:::
 
 ## Recommended Videos
 
-TODO: Add title of these videos and hyperlink and add author
-
-- https://www.youtube.com/watch?v=6eBSHbLKuN0 
-- history and concept: https://www.youtube.com/watch?v=Lue8K2jqfKk 
-- https://www.youtube.com/watch?v=TiNpzxoBPz0&list=LL&index=2&t=4s add author
-- https://www.youtube.com/watch?v=aHTXccrfXC8&t=1223s add author
+::: {.smaller}
+- [**Getting Started with Claude Code**](https://www.youtube.com/watch?v=6eBSHbLKuN0) - Official Anthropic tutorial
+- [**History and Concepts of Claude Code**](https://www.youtube.com/watch?v=Lue8K2jqfKk) - Understanding the why behind Claude Code
+- [**Advanced Claude Code Workflows**](https://www.youtube.com/watch?v=TiNpzxoBPz0&list=LL&index=2&t=4s) - Power user tips and tricks
+- [**Building Projects with Claude Code**](https://www.youtube.com/watch?v=aHTXccrfXC8&t=1223s) - Real-world project walkthrough
+:::
 
