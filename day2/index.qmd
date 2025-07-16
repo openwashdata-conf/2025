@@ -67,6 +67,10 @@ knitr::kable(agenda_sessions)
 - [PhD-level intelligence, or the graduate student's lament](https://clauswilke.substack.com/p/phd-level-intelligence-or-the-graduate) - Critical perspective on AI claims
 - [Claude Directory](https://claude.ai/directory) - Discover and connect tools to Claude
 
+### Critical Perspectives on AI Development
+- [My AI Skeptic Friends Are All Nuts](https://fly.io/blog/youre-all-nuts/) - On the disconnect between AI skeptics and practitioners
+- [Reddit Discussion: My AI Skeptic Friends Are All Nuts](https://www.reddit.com/r/artificial/comments/1l2138b/my_ai_skeptic_friends_are_all_nuts/) - Community discussion on AI expectations and context loss
+
 ### Tools & Integrations
 - [ccusage](https://github.com/ryoppippi/ccusage) - Track your Claude Code token usage
 - [Awesome MCP servers](https://github.com/punkpeye/awesome-mcp-servers) - Community-curated list of Model Context Protocol integrations

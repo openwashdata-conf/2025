@@ -141,6 +141,28 @@ That's why we pay 100 USD a month instead of using token credits.
 https://github.com/ryoppippi/ccusage
 :::
 
+## My AI Skeptic Friends Are All Nuts {.smaller}
+
+> If you're making requests on a ChatGPT page and then pasting the resulting (broken) code into your editor, you're not doing what the AI boosters are doing. No wonder you're talking past each other.
+
+"but you have no idea what the code is"
+
+> Are you a vibe coding Youtuber? Can you not read code? If so: astute point. Otherwise: what the fuck is wrong with you?
+
+::: footer
+Source: [My AI Skeptic Friends Are All Nuts](https://fly.io/blog/youre-all-nuts/)
+:::
+
+## My AI Skeptic Friends Are All Nuts - Reddit {.smaller}
+
+> Everyone on the team now has a skewed sense of what's normal. People expect things to move faster. They assume every task can be outsourced, every feature should be cheap, and that "we'll just have AI help with it" is a valid estimate.
+
+> And when you rely on "AI" too heavily, you don't just lose time - you lose context. Your own personal context. The deep, slow brain work that happens when you explore a codebase, struggle with naming, try five things that don't work before you find one that does.
+
+::: footer
+Source: [Reddit Discussion](https://www.reddit.com/r/artificial/comments/1l2138b/my_ai_skeptic_friends_are_all_nuts/)
+:::
+
 # Workflow (for today)
 
 ## Workflow - Get started
