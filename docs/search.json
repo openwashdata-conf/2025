@@ -652,7 +652,7 @@
     "href": "day2/index.html#resources",
     "title": "Day 2: Claude Code Hackathon",
     "section": "Resources",
-    "text": "Resources\n\nHackathon Handouts\n\nClaude Code Workflow Cheatsheet - One-page reference guide for the complete workflow\nClaude Code Tips Cheatsheet - Quick reference for tips, tools, and best practices\n\n\n\nDocumentation & Guides\n\nClaude Code Overview - Official documentation\nGreg Wilson’s Blog: Tooling for Snailz - Real-world experience with Claude Code\nPhD-level intelligence, or the graduate student’s lament - Critical perspective on AI claims\nClaude Directory - Discover and connect tools to Claude\n\n\n\nTools & Integrations\n\nccusage - Track your Claude Code token usage\nAwesome MCP servers - Community-curated list of Model Context Protocol integrations\nLars’s favorite MCPs - Curated MCP recommendations\n\n\n\nVideo Tutorials\n\nGetting Started with Claude Code - Official Anthropic tutorial\nHistory and Concepts of Claude Code - Understanding the why behind Claude Code\nAdvanced Claude Code Workflows - Power user tips and tricks\nBuilding Projects with Claude Code - Real-world project walkthrough",
+    "text": "Resources\n\nHackathon Handouts\n\nClaude Code Workflow Cheatsheet - One-page reference guide for the complete workflow\nClaude Code Tips Cheatsheet - Quick reference for tips, tools, and best practices\n\n\n\nDocumentation & Guides\n\nClaude Code Overview - Official documentation\nGreg Wilson’s Blog: Tooling for Snailz - Real-world experience with Claude Code\nPhD-level intelligence, or the graduate student’s lament - Critical perspective on AI claims\nClaude Directory - Discover and connect tools to Claude\n\n\n\nCritical Perspectives on AI Development\n\nMy AI Skeptic Friends Are All Nuts - On the disconnect between AI skeptics and practitioners\nReddit Discussion: My AI Skeptic Friends Are All Nuts - Community discussion on AI expectations and context loss\n\n\n\nTools & Integrations\n\nccusage - Track your Claude Code token usage\nAwesome MCP servers - Community-curated list of Model Context Protocol integrations\nLars’s favorite MCPs - Curated MCP recommendations\n\n\n\nVideo Tutorials\n\nGetting Started with Claude Code - Official Anthropic tutorial\nHistory and Concepts of Claude Code - Understanding the why behind Claude Code\nAdvanced Claude Code Workflows - Power user tips and tricks\nBuilding Projects with Claude Code - Real-world project walkthrough",
     "crumbs": [
       "Day 2 - July 16",
       "Overview"
@@ -792,6 +792,20 @@
     "title": "Why Claude Code",
     "section": "ccusage",
     "text": "ccusage\n\nccusage - Claude Code usage tracking toolThat’s why we pay 100 USD a month instead of using token credits.\n\nhttps://github.com/ryoppippi/ccusage"
+  },
+  {
+    "objectID": "day2/slides.html#my-ai-skeptic-friends-are-all-nuts",
+    "href": "day2/slides.html#my-ai-skeptic-friends-are-all-nuts",
+    "title": "Why Claude Code",
+    "section": "My AI Skeptic Friends Are All Nuts",
+    "text": "My AI Skeptic Friends Are All Nuts\n\nIf you’re making requests on a ChatGPT page and then pasting the resulting (broken) code into your editor, you’re not doing what the AI boosters are doing. No wonder you’re talking past each other.\n\n“but you have no idea what the code is”\n\nAre you a vibe coding Youtuber? Can you not read code? If so: astute point. Otherwise: what the fuck is wrong with you?\n\n\nSource: My AI Skeptic Friends Are All Nuts"
+  },
+  {
+    "objectID": "day2/slides.html#my-ai-skeptic-friends-are-all-nuts---reddit",
+    "href": "day2/slides.html#my-ai-skeptic-friends-are-all-nuts---reddit",
+    "title": "Why Claude Code",
+    "section": "My AI Skeptic Friends Are All Nuts - Reddit",
+    "text": "My AI Skeptic Friends Are All Nuts - Reddit\n\nEveryone on the team now has a skewed sense of what’s normal. People expect things to move faster. They assume every task can be outsourced, every feature should be cheap, and that “we’ll just have AI help with it” is a valid estimate.\n\n\nAnd when you rely on “AI” too heavily, you don’t just lose time - you lose context. Your own personal context. The deep, slow brain work that happens when you explore a codebase, struggle with naming, try five things that don’t work before you find one that does.\n\n\nSource: Reddit Discussion"
   },
   {
     "objectID": "day2/slides.html#workflow---get-started",
